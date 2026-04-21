@@ -36,11 +36,8 @@ jobs:
       - name: Install Python
         run: uv python install
 
-      - name: Install docs dependencies
-        run: uv sync --group docs
-
       - name: Build site
-        run: uv run mkdocs build --strict
+        run: uv run --only-group docs mkdocs build --strict
 
       - uses: actions/configure-pages@v5
 
