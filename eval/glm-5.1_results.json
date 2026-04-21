@@ -1,0 +1,560 @@
+{
+  "model": "glm-5.1",
+  "slug": "z-ai/glm-5.1",
+  "timestamp": "2026-04-21T11:55:25Z",
+  "rubric_version": 5,
+  "dimensions": [
+    "content",
+    "design",
+    "coherence",
+    "visual_craft"
+  ],
+  "aggregate": {
+    "n": 30,
+    "render_rate": 1.0,
+    "mean_over_renderable": {
+      "content": 3.931,
+      "design": 3.103,
+      "coherence": 3.931,
+      "visual_craft": 2.966
+    },
+    "floor_scored_mean": {
+      "content": 3.833,
+      "design": 3.033,
+      "coherence": 3.833,
+      "visual_craft": 2.9
+    }
+  },
+  "per_row": [
+    {
+      "seed_id": "seed_00000",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 4
+      },
+      "rationale": {
+        "content": "The content is exceptionally specific and practitioner-grade, avoiding all blacklisted corporate jargon. It includes concrete data points such as the '3.9 days' lead time (Slide 3), the specific '$180 K' cost for six FTEs (Slide 8), and the '41 % of misses traced to receiving errors at 2 DCs' (Slide 4). It also identifies a specific technical bottleneck with the 'WMS migration' and 'ASN validation gate' (Slide 6), and provides a clear, actionable decision list for leadership (Slide 8).",
+        "design": "The design uses a clean, professional typographic hierarchy and effective use of whitespace. Slide 3 ('Q3 OKR Scorecard') and Slide 5 ('KPI Performance Detail') demonstrate excellent use of tables with status iconography to guide the eye. Slide 6 ('Why Accuracy Missed') uses a clear three-column layout to break up complex root-cause analysis, maintaining a high-end executive feel despite being text-heavy.",
+        "coherence": "The narrative architecture is seamless, following a classic 'Situation-Complication-Resolution' arc. It opens with a high-level headline (Slide 2), moves into the data-backed tension of the accuracy miss (Slides 3-5), performs a deep-dive root cause analysis (Slide 6), and culminates in a high-stakes 'Q4 Decisions' payoff (Slide 8). The 'Bottom Line' (Slide 9) perfectly bookends the presentation by mirroring the opening headline.",
+        "visual_craft": "features: 3 pts (layouts=3, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00006",
+      "rendered": true,
+      "error": null,
+      "n_slides": 7,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The deck provides highly specific, practitioner-level detail that exceeds standard templates. Examples include: 1) A precise creator breakdown with counts and follower tiers (e.g., '2 Hero Creators 100K+', '12 Mid-Tier 10K-50K'). 2) A platform-specific distribution strategy ('70% TikTok • 20% IG Reels'). 3) A detailed launch calendar with specific dates (e.g., 'Sep 9 - Sep 22' for Tease phase). 4) Concrete KPI targets such as '≥ $180K' in attributed revenue and '≤ $22' CPA. 5) Nuanced audience segmentation that includes psychographic behaviors like 'swap products seasonally' and 'trust creator reviews over ads'.",
+        "design": "The design uses a consistent visual system with strong typographic hierarchy and effective use of whitespace. Slide 3 ('Target Audience') and Slide 4 ('Creator Mix') utilize a clean card-based layout with subtle color coding and iconography to organize complex information. Slide 6 ('Content Pillars') demonstrates intentional negative space and a sophisticated 'image-forward' approach as requested, using a masonry-style grid that feels modern and premium.",
+        "coherence": "The narrative architecture is expertly crafted for an internal brief. It follows a logical 'Why-Who-How-What' arc: starting with the strategic 'Big Idea' (Slide 2), defining the 'Target Audience' (Slide 3), detailing the execution through 'Creator Mix' and 'Launch Rhythm' (Slides 4-5), providing creative direction in 'Content Pillars' (Slide 6), and concluding with the accountability of 'KPIs' (Slide 7). The through-line of 'seasonal transition' is maintained from the title slide's quote through to the specific content pillars.",
+        "visual_craft": "features: 2 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00007",
+      "rendered": true,
+      "error": null,
+      "n_slides": 11,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck provides exceptional, practitioner-level detail that goes far beyond generic templates. It includes specific market signals like the 'EU AI Act' and 'US CLOUD Act' (Slide 3), precise quota metrics such as a '0.07 CV of quota / capacity' (Slide 4), granular compensation policy changes like the '90-day clawback' (Slide 5), a detailed 'Early-Warning System' for retention with specific Zendesk and telemetry triggers (Slide 8), and a complete competitive matrix comparing 'Unity API v3' against 'NexusLink' (Slide 9).",
+        "design": "The design utilizes a consistent and professional visual system. It makes excellent use of data-dense tables that remain readable through clean typography and intentional alignment (Slides 2, 4, and 9). Slide 11 demonstrates strong typographic hierarchy and effective use of negative space to emphasize the '$154M' target. The use of callout boxes for 'Talk Tracks' (Slide 6) and 'Non-Negotiables' (Slide 10) creates a clear visual hierarchy for different types of information.",
+        "coherence": "The narrative architecture is a textbook example of a high-stakes sales kickoff. It follows a perfect 'Past-Present-Future' arc: starting with a performance look-back (Slide 2), establishing the 'Why Now' through market shifts (Slide 3), detailing the 'What' via quota and comp (Slides 4-5), providing the 'How' through specific sales plays (Slides 6-8), and closing with the 'Rhythm' for execution (Slide 10). The through-line of 'Land, Expand, Defend' is introduced in the plays and reinforced in the final summary (Slide 11).",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00008",
+      "rendered": true,
+      "error": null,
+      "n_slides": 8,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail and specific metrics that go beyond generic case studies. Examples include: 1) Specific operational volume in 'The Challenge' (12,000+ clients, 4.2 FTEs), 2) Granular implementation phases in 'The Solution' (replacing 14 PDF forms, 38 auto-validation fields), 3) Precise before/after delta in 'Before & After' (NPS jumping from 22 to 71), 4) Internal process metrics in 'Operational Changes' (internal response time falling from 22 hours to 3 hours), and 5) Financial validation in 'Proof Points' (4.2x ROI in year one).",
+        "design": "The design uses a consistent and polished visual system with strong typographic hierarchy. Specific choices include: 1) The use of card-based layouts with subtle shadows and borders to group information logically on slides like 'The Solution' and 'Operational Changes', and 2) The high-contrast data visualization in 'Proof Points' where large blue hero numbers provide immediate scannability.",
+        "coherence": "The narrative architecture is a textbook example of a professional case study arc. The through-line moves from the 'Revenue Leak' tension (Slide 2) to the 'Success Criteria' setup (Slide 3), through the 'Three-Phase' implementation payoff (Slide 4), and concludes with a 'Practical Buying Signal' (Slide 8). The pacing varies effectively between dense data tables (Slide 5) and high-level validation (Slide 7).",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00009",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail that goes far beyond generic templates. It includes specific geographic footprints (MoveIt's 'Northeast & Midwest' vs FastFreight's 'South, West & Texas' on Slide 4), precise financial modeling (1.2x MOIC vs 0.6x standalone on Slide 6), operational metrics (14,600+ merged driver pool on Slide 5), technical performance claims ('7% better density' routing engine on Slide 4), and a nuanced risk assessment including a '$5M legal reserve' for gig-worker classification risks (Slide 8).",
+        "design": "The design utilizes a consistent and professional visual system with strong typographic hierarchy. It avoids 'bullet walls' by using diverse layouts: a 4-column comparison table (Slide 3), a 3-column card layout for the operating model (Slide 5), a split-table financial view (Slide 6), and a phased roadmap (Slide 7). The use of callout boxes at the bottom of slides provides a consistent 'bottom line' anchor for the eye.",
+        "coherence": "The narrative architecture is a textbook example of a strategic proposal. It follows a clear arc: the market 'Imperative' (Slide 2), the 'Why' of the partnership (Slide 3), the 'How' of the mechanics (Slides 4-7), the 'What if' of risks (Slide 8), and a definitive 'Recommendation' and 'Next Steps' (Slides 9-10). The through-line of 'speed and capital efficiency' is introduced on Slide 2 and explicitly closed in the final recommendation on Slide 9.",
+        "visual_craft": "features: 2 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=1, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00010",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The content is exceptionally practitioner-grade, avoiding all blacklisted corporate jargon in favor of precise engineering metrics. It includes non-obvious, specific details such as the 'Velocity variance coefficient: 12.4%' (Slide 3), root causes for CI regressions like 'unquarantined flaky test additions' (Slide 4), a detailed 'Debt Aging Distribution' (Slide 6), and a highly specific H2 plan including a '20/65/15 balance' and 'automated reassignment' for PR SLAs (Slide 9).",
+        "design": "The deck demonstrates a sophisticated use of the Slidev default theme, moving beyond simple bullets to complex data layouts. Specific design successes include the use of metric 'cards' with delta indicators (Slides 2, 5, 8) and the effective use of color-coded status indicators and sidebar annotations to create visual hierarchy and call out insights (Slides 4 and 8).",
+        "coherence": "The narrative architecture is a textbook 'Problem-Diagnosis-Solution' arc. It starts with high-level velocity (Slide 2), diagnoses the friction through tech debt and quality regressions (Slides 6-8), and culminates in a rigorous, multi-phase recommendation (Slide 9). The through-line is the 'implicit velocity drag' caused by under-investment in debt, which is consistently tracked from Slide 6 through to the final H2 rebalancing proposal.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=0, v-click=1, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00011",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck is exceptionally substantive and avoids all blacklisted corporate jargon. It provides specific, non-obvious retail metrics and operational details: 1) 'Wheat hedging locked in Q4' (Slide 3) shows sophisticated supply chain management; 2) '7.8% organic SSS' vs total revenue growth (Slide 3) distinguishes between same-store and expansion growth; 3) Specific site-level failures like 'Stamford, CT' permit delays and 'Columbus, OH' walking from an LOI (Slide 5) demonstrate the requested transparency; 4) Traffic decomposition into 'weekday lunch under pressure' due to 'WFH overhang' (Slide 6) provides deep diagnostic insight; 5) The 'Guardrails' table (Slide 10) sets concrete operational triggers like 'Reduce opening pace to 1 per quarter' if margins dip.",
+        "design": "The design uses a highly consistent visual system with sophisticated typography and excellent use of whitespace. Slide 4 ('Unit Economics') and Slide 8 ('Market-by-Market') manage high data density without becoming unreadable, using clear alignment and subtle horizontal rules. The hierarchy on Slide 2 ('Setting the Frame') uses a callout box effectively to anchor the deck's central question. While it uses a standard theme, the layout of the tables and the 'Why 2 short' section on Slide 5 show intentional typographic rhythm.",
+        "coherence": "The narrative architecture is a perfect 'arc' for a PE audience. It begins by framing a single high-stakes question (Slide 2), moves through the 'tension' of underperforming new units and regional deltas (Slides 4, 5, and 9), and concludes with a 'payoff' of disciplined guardrails (Slide 10). The through-line of 'unit-level proof before portfolio-level scale' is advanced on every slide, particularly Slide 4 which compares new stores against the 'Underwriting Target' to prove or disprove the expansion thesis.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00012",
+      "rendered": true,
+      "error": null,
+      "n_slides": 8,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The content is exceptionally specific and practitioner-grade, avoiding all blacklisted corporate jargon. It provides concrete data points: specific vendor names ('DataSync Corp' vs 'Relay Systems' on slide 3), precise financial figures ('$42K for a specialist contractor' on slide 7), exact dates for contract execution ('05/12'), and clear operational trade-offs (reducing pilot cohort from 12 to 8 clients on slide 7). It addresses every prompt requirement with high-fidelity detail.",
+        "design": "The deck demonstrates strong typographic hierarchy and effective use of whitespace. Slide 4 ('Q3 Pilot: On Track') uses a clean tabular layout with status indicators that provide immediate visual scannability. Slide 5 ('Cross-Functional Dependencies') successfully integrates a Mermaid diagram that is legible and well-integrated into the slide's layout. The use of callout boxes (slides 3, 7) adds a layer of professional polish beyond standard bullet points.",
+        "coherence": "The narrative architecture is a textbook executive briefing arc. It moves from context ('What Changed') to current state ('Pilot Readiness'), identifies the friction ('Dependencies' and 'Risks'), and culminates in a high-stakes 'Decisions Needed' slide that directly links back to the risks identified (e.g., the $42K budget request on slide 7 directly mitigates the 'Data-migration' risk on slide 6). The 'Next Steps' slide provides a logical resolution by mapping the requested decisions onto a timeline.",
+        "visual_craft": "features: 2 pts (layouts=0, shiki=1, mermaid=1, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00013",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 2,
+        "design": 1,
+        "coherence": 2,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The content is severely obscured by technical error overlays on every slide. While some specific data points are visible behind the errors (e.g., '99.2¢' pay equity on slide 4, '4 months' promotion velocity gap on slide 6, and '14 countries' on slide 8), the overall substance is inaccessible and the deck is effectively broken.",
+        "design": "The deck is visually broken. Every single slide contains a large, red-bordered 'Icon not found' error overlay that covers the majority of the content. This violates the global hard cap for broken rendering.",
+        "coherence": "While a logical structure can be glimpsed through the error messages (Metrics -> Progress -> Gaps -> Commitments), the technical failure makes it impossible for a speaker to use this deck or for an audience to follow a narrative arc. It fails the basic requirement of being 'presentation-ready'.",
+        "visual_craft": "features: 2 pts (layouts=2, shiki=0, mermaid=0, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00014",
+      "rendered": true,
+      "error": null,
+      "n_slides": 8,
+      "scores": {
+        "content": 5,
+        "design": 3,
+        "coherence": 5,
+        "visual_craft": 1
+      },
+      "rationale": {
+        "content": "The content is exceptionally specific and tailored to a financial services board. It includes non-obvious industry details such as 'SR 11-7' compliance for model monitoring (Slide 4), 'Basel III.1' regulatory implementation (Slide 5), specific operational metrics like the '47 days avg' pen-test backlog (Slide 4), a concrete '$1.2M supplemental budget' request (Slide 7), and clear ownership roles like 'CAE' and 'CCO' (Slide 6). It avoids all blacklisted buzzwords, maintaining a professional, practitioner-level tone throughout.",
+        "design": "The design is clean and functional but remains within the 'typical plausible' range for a default theme. It uses tables effectively for hierarchy (Slide 3 and 6) and maintains consistent alignment. However, it relies heavily on text and standard bullet points without custom diagrams or advanced typographic styling that would elevate it to a 4 or 5.",
+        "coherence": "The narrative architecture is a textbook example of a board briefing. It follows a perfect arc: 1) Executive Summary/Status (Slide 2), 2) Prioritization of risks (Slide 3), 3) Deep-dive into high-stakes findings (Slides 4-5), 4) Execution roadmap (Slide 6), and 5) The 'Payoff'—specific decisions required to resolve the tension (Slide 7). The through-line of 'materiality and immediate action' is sustained from the title to the final discussion prompt.",
+        "visual_craft": "features: 0 pts (layouts=0, shiki=0, mermaid=0, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00015",
+      "rendered": true,
+      "error": null,
+      "n_slides": 11,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck is exceptionally substantive and practitioner-grade. It avoids generic fluff and provides specific, non-obvious B2B marketing insights: 1) It identifies a 'Meta-Lesson' on Slide 8 that the bottleneck is conversion depth, not volume. 2) Slide 5 calculates a specific 'SQL Rate' (24.2% for LinkedIn) to differentiate lead quality. 3) Slide 7 introduces 'Pipe ROAS' as a scaling metric, showing a stark contrast between Google Search (14.4x) and Outbound SDR (0.6x). 4) Slide 9 proposes concrete tactical shifts like 'adjacent keywords (data governance)' for scaling. 5) Slide 11 includes a 'Decision Required' table with specific budget figures ($565K) and owners (CFO/VP Marketing), fulfilling the 'decision-oriented close' request perfectly.",
+        "design": "The design uses the Slidev default theme effectively with strong typographic hierarchy and intentional use of color for data visualization. Specific choices include: 1) The use of status icons and color-coded variance on Slide 4 ('Beat' vs 'Miss'). 2) The dual-column 'Top Performers' vs 'Underperformers' callout boxes on Slide 5 which use green/red accents to guide the eye. 3) Consistent use of bolding in tables to highlight 'Blended' totals, creating a clear visual anchor for the data-dense content.",
+        "coherence": "The narrative architecture is a textbook 'Review -> Insight -> Action' arc. 1) Setup: Slides 1-3 establish the 'Unlock Your Data' campaign context and targets. 2) Tension/Insight: Slides 4-8 perform a diagnostic deep-dive, revealing that while lead volume is high, SDR and Content Syndication are dragging down efficiency. 3) Payoff: Slides 9-11 translate those insights into a specific Q4 budget reallocation and a list of hard decisions. The through-line is 'scaling through efficiency,' and every slide contributes to justifying the final $116K budget increase request.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00016",
+      "rendered": true,
+      "error": null,
+      "n_slides": 8,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail that goes far beyond generic case study templates. It includes specific operational scale (142 stores, 18,000 SKUs on slide 2), precise financial impacts ($8.6M lost sales vs $4.1M carrying costs on slide 3), a detailed implementation timeline (14 weeks on slide 4), a granular ROI breakdown including a 4.2-month payback period (slide 6), and nuanced 'lessons learned' such as the gap between projected and actual carrying cost reductions due to seasonal markdown reserves (slide 7).",
+        "design": "The design utilizes a clean, professional visual system with strong typographic hierarchy. Slide 5 ('Before & After') uses a well-structured table with clear directional indicators (arrows) for performance changes. Slide 6 ('By the Numbers') breaks the text-heavy pattern with a three-column layout featuring large blue callout metrics that create an immediate focal point. The use of callout boxes for quotes (slide 2) and summaries (slide 8) provides consistent visual anchors throughout the deck.",
+        "coherence": "The narrative architecture is a textbook example of a professional case study arc. It moves from the 'Situation' (slide 2) to 'Pain Points' (slide 3) to establish tension, provides the 'What Changed' (slide 4) as the pivot, delivers the 'Before & After' (slide 5) and 'ROI' (slide 6) as the payoff, and concludes with actionable 'Lessons' (slide 7) and 'Takeaways' (slide 8). The through-line of 'margin recovery' is introduced on slide 2 and explicitly resolved on slide 8, making the argument airtight.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00017",
+      "rendered": true,
+      "error": null,
+      "n_slides": 12,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail tailored to the PM persona. It includes specific technical constraints like embedding dimensions ('768-1536 floats' on Slide 4), concrete algorithm trade-offs ('HNSW', 'IVF', 'PQ' on Slide 7), and realistic latency warnings ('Embedding the query alone takes 10-50ms' on Slide 11). It also offers non-obvious product advice, such as starting with 'pgvector' to avoid infra overhead (Slide 8) and validating the 'keyword gap' before building (Slide 12). The code example on Slide 6 is functional and demystifies the 'indexing vs querying' flow as requested.",
+        "design": "The design uses a consistent visual system with strong typographic hierarchy. It avoids bullet-walls by using diverse layouts: a comparison table on Slide 3, a conceptual mapping on Slide 4, and a multi-column card layout for the landscape on Slide 8. Slide 9 features a custom architectural diagram that effectively visualizes the RAG pipeline. Whitespace is used intentionally to separate 'PM translations' and 'Hot takes' from the main technical content.",
+        "coherence": "The narrative architecture is a textbook example of 'Setup, Tension, Payoff.' It starts by establishing the failure of current systems ('The Problem with Keyword Search'), introduces the technical solution ('What is a Vector Database'), and concludes with high-stakes decision-making frameworks ('When This IS/ISN'T Worth It'). The through-line is the 'DataFlow' context, which is woven into the advice on every major slide, ensuring the deck feels like a cohesive internal briefing rather than a generic tutorial.",
+        "visual_craft": "features: 4 pts (layouts=0, shiki=1, mermaid=1, katex=0, v-click=1, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00018",
+      "rendered": true,
+      "error": null,
+      "n_slides": 13,
+      "scores": {
+        "content": 2,
+        "design": 2,
+        "coherence": 2,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "While the deck contains high-quality, domain-specific content (e.g., 'FHIR R4 interoperability', 'AUC 0.84' for dropout risk, and '317% net revenue retention'), it suffers from a critical failure: two slides (Slide 4 and Slide 12) are broken, displaying only raw Slidev layout code ('layout: center') instead of actual content. Per the global hard caps, any broken or raw markdown content caps all dimensions at 2.",
+        "design": "The design shows promise with good use of cards (Slide 8), a clear comparison table (Slide 10), and a custom process diagram (Slide 6). However, the presence of two completely empty slides containing raw code fences ('layout: center class: text-center') is a major technical failure that triggers a global cap of 2.",
+        "coherence": "The narrative architecture follows a standard, logical VC pitch flow (Problem -> Solution -> Traction -> Team -> Ask). However, the broken slides disrupt the 'story' and pacing significantly. Under the strict rubric, the technical rendering errors on Slides 4 and 12 force a cap of 2 across all dimensions.",
+        "visual_craft": "features: 2 pts (layouts=1, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00019",
+      "rendered": true,
+      "error": null,
+      "n_slides": 13,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail tailored specifically to new hires. Examples of non-obvious, high-value content include: 1) Specific time-boxes for ceremonies on slide 5 (e.g., '2-8 hrs' for Planning); 2) Concrete script examples for standups on slide 10 ('I finished the validation logic...'); 3) Tactical advice for new associates in retros on slide 11 ('newcomer eyes see what veterans overlook'); 4) A highly specific 30-day action plan on slide 12 including tasks like 'bookmark your team's board'; and 5) A clear comparison matrix on slide 8 that distinguishes frameworks by 'Change policy' and 'Key metric'.",
+        "design": "The design uses a consistent and polished visual system that goes beyond standard templates. Slide 5 ('Scrum Ceremonies') uses a custom process diagram combined with a clean data table. Slide 6 ('Kanban') effectively simulates a board UI using styled containers. Slide 10 ('How to Rock Your Standup') uses a three-column layout with distinct color-coding and icon usage to create a strong visual hierarchy. Typography is clean and whitespace is used intentionally to prevent the 'bullet wall' effect.",
+        "coherence": "The narrative architecture is perfectly tuned for an onboarding workshop. It follows a clear 'Why-What-How' through-line: 1) Setup (Slides 1-3) establishes the value proposition; 2) Insight (Slides 4-8) breaks down the technical frameworks and their differences; 3) Payoff (Slides 9-13) translates theory into immediate personal action. The pacing varies from high-level conceptual slides to dense tactical guides, ensuring the audience remains engaged through the transition from learning to doing.",
+        "visual_craft": "features: 2 pts (layouts=0, shiki=1, mermaid=1, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00020",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 2,
+        "design": 2,
+        "coherence": 2,
+        "visual_craft": 4
+      },
+      "rationale": {
+        "content": "While the deck contains relevant recruiting information, it is capped at 2 due to a global hard cap: Slide 9 is broken, displaying raw markdown/YAML code ('layout: center class: text-center') instead of rendered content.",
+        "design": "The design is capped at 2 because Slide 9 is broken/shows raw code. Additionally, several slides (e.g., 'Your Growth Path') suffer from significant dead whitespace in the bottom half, and the typography is basic default styling without intentional polish.",
+        "coherence": "Coherence is capped at 2 due to the broken slide (Slide 9) which disrupts the flow and professional quality of the presentation. The narrative arc from 'Who We Are' to 'Ready to Shape the Future' is standard but undermined by the technical failure.",
+        "visual_craft": "features: 3 pts (layouts=2, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00021",
+      "rendered": true,
+      "error": null,
+      "n_slides": 7,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck provides exceptional, practitioner-level detail that goes far beyond generic templates. It includes specific financial figures (e.g., '$80K under budget' on Slide 2), granular channel performance (e.g., 'CPMs ran 18% above forecast' on Slide 4), and clear strategic trade-offs (e.g., 'redirected $40K to Paid Social' on Slide 4). It explicitly addresses the CFO/CMO audience with decision-oriented data like 'Target ROAS' vs 'Actual ROAS' (Slide 5) and a concrete Q3 proposal including specific commission tier changes from '15% to 12% standard' (Slide 7).",
+        "design": "The design uses a consistent and professional visual system. It employs effective typographic hierarchy and color-coding for financial variance (red/green in Slide 3). The use of icons (checkmarks, warning signs, and arrows on Slide 2) and status indicators (Slide 5) creates a high-density yet scannable layout. Slide 6 ('Q3 Recommended Budget Reallocation') demonstrates excellent use of tabular data with clear emphasis on the 'Proposed' and 'Rationale' columns.",
+        "coherence": "The narrative architecture is perfectly tuned for an executive review. It follows a logical 'Situation-Complication-Resolution' arc: starting with a high-level summary (Slide 2), moving into the 'why' behind the numbers (Slides 3-4), evaluating efficiency (Slide 5), and concluding with a specific, actionable plan and request for approval (Slides 6-7). The through-line of 'misallocation vs savings' introduced on Slide 2 is resolved by the reallocation plan on Slide 6.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00022",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The content is exceptionally specific and practitioner-grade, avoiding generic corporate speak. It includes concrete business metrics (2.4M MAU, $18M ARR growth on slide 2), technical implementation details (CRDTs for real-time infra on slide 10), specific competitive analysis (referencing Notion's enterprise growth on slide 6), precise release dates (e.g., 'Mar 12' for AI Copilot on slide 5), and clear departmental impact statements (hiring 8 engineers, June enablement for sales on slide 10).",
+        "design": "The design uses a sophisticated visual system within the Slidev framework. It features excellent typographic hierarchy and intentional use of color-coded callout boxes for 'Target Release Dates' and 'Why it matters' across slides 5-8. Slide 4 uses a clean tabular layout with custom pill-shaped badges, and slide 10 effectively uses a grid of cards with distinct iconography and color accents to organize complex information.",
+        "coherence": "The narrative architecture is professional and persuasive. It follows a classic 'Past-Present-Future' arc: establishing current momentum (slide 2), defining the strategic vision/North Star (slide 3), providing a high-level roadmap (slide 4), deep-diving into quarterly execution (slides 5-8), and concluding with the human/operational impact (slide 10). The through-line of 'scaling value' is introduced early and reinforced through the specific feature deep-dives.",
+        "visual_craft": "features: 5 pts (layouts=4, shiki=1, mermaid=0, katex=0, v-click=1, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00023",
+      "rendered": true,
+      "error": "judge: JudgeError('judge returned non-JSON: {\\n  \"content\": {\\n    \"score\": 2,\\n    \"rationale\": \"While the content is on-topic and uses specific numbers (e.g., \\'68% cart drop-off\\' on slide 2, \\'14 acquirers\\' on slide 4), the deck is incomplete. The user requested an 11-slide deck, but only 5 slides were provided. It misses major requested sections including the commercial upside, the pilot plan, and the specific decision/call to action. Furthe')",
+      "n_slides": 5,
+      "scores": {},
+      "rationale": {}
+    },
+    {
+      "seed_id": "seed_00024",
+      "rendered": true,
+      "error": null,
+      "n_slides": 14,
+      "scores": {
+        "content": 2,
+        "design": 1,
+        "coherence": 2,
+        "visual_craft": 3
+      },
+      "rationale": {
+        "content": "The deck is on-topic regarding a corporate acquisition, but the vast majority of the content is obscured by technical error overlays. While the title slide and fragments of tables (e.g., 'Strategic Fit' dimensions) are visible, the core analytical requirements—technology moat, valuation, and return scenarios—are largely unreadable due to the rendering failure.",
+        "design": "The rendering is broken. Every slide after the title is obscured by a large red 'plugin:vite:vue' error message indicating missing end tags in the Slidev/Vue code. This makes the deck unusable for a professional audience.",
+        "coherence": "There is a logical sequence visible in the background (Agenda, Strategic Fit, Target Overview, Valuation, Risks), but the structural arc cannot be fully evaluated because the content on each slide is blocked by code error fences. The global cap for broken rendering applies.",
+        "visual_craft": "features: 2 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00025",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 1,
+        "design": 1,
+        "coherence": 1,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The deck is fundamentally broken. Almost every slide (2, 3, 4, 5, 6, 7, 8, 9) is obscured by a massive error overlay ('Language rego not found' or 'Element is missing end tag'), making the content unreadable and non-existent for the viewer.",
+        "design": "The rendering is broken. The presence of raw code fences and compiler error overlays across the majority of the deck violates the global hard cap for broken rendering and unreadable content.",
+        "coherence": "There is no narrative architecture possible when the slides are replaced by error messages. While a title slide exists, the subsequent failure to render any meaningful sequence of information results in a total lack of flow.",
+        "visual_craft": "features: 4 pts (layouts=1, shiki=1, mermaid=1, katex=0, v-click=0, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00026",
+      "rendered": true,
+      "error": null,
+      "n_slides": 14,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 4
+      },
+      "rationale": {
+        "content": "The content is exceptionally practitioner-focused, moving beyond generic sales advice to provide specific, actionable data. It includes concrete financial metrics like the '$4.88M avg. cost of identity breach' (Slide 4), specific pricing tiers such as '+$6/user/month' (Slide 10), and highly targeted discovery questions like 'Who in your org owns the continuous part of Zero Trust?' (Slide 11). It also provides a detailed competitive wedge against specific rivals like Okta and CyberArk (Slide 8) and a realistic 30-day execution plan with measurable goals like 'Identify 10+ qualified targets' (Slide 13).",
+        "design": "The deck demonstrates a strong visual hierarchy and effective use of Slidev's layout capabilities. Slide 3 uses a clear process flow diagram to illustrate the 'Trust Gap,' Slide 7 employs a dark-mode card system for feature highlights, and Slide 14 uses a sophisticated gradient call-to-action box. The typography is clean, and the use of color-coded tiers on Slide 9 ('Tier 1 - NOW' vs 'Tier 3 - NURTURE') provides immediate visual scanning for the audience.",
+        "coherence": "The narrative architecture is a textbook example of a high-stakes sales kickoff. It follows a perfect 'Problem-Solution-Execution' arc: it establishes the 'Trust Gap' tension (Slides 3-4), introduces the 'Continuous Trust' payoff (Slides 5-7), provides the commercial strategy (Slides 8-10), and concludes with tactical field enablement (Slides 11-14). The through-line of the 'Trust Gap' is consistently referenced from the initial problem statement through to the final 'Trust Gap Assessment' call to action on the closing slide.",
+        "visual_craft": "features: 3 pts (layouts=0, shiki=1, mermaid=1, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00027",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 5,
+        "design": 3,
+        "coherence": 5,
+        "visual_craft": 1
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail across all 9 slides. Specific examples include: 1) Quantitative channel mix analysis on Slide 3 (Chat at 19.5% vs 18.0% in Q2); 2) Operational staffing windows on Slide 4 (09:00-14:00 UTC); 3) Root-cause attribution for SLA breaches on Slide 5 (3 P1 incidents requiring tier-3 escalation); 4) Categorized reopen rates on Slide 6 (Incomplete root-cause fix at 38%); and 5) Cross-functional engineering metrics on Slide 7 (11% backlog reduction). It avoids all blacklisted generic phrases.",
+        "design": "The design is clean, professional, and highly readable, but it relies heavily on a single formulaic layout (Title + Table + Bulleted Summary). While it uses icons effectively on Slide 2 and maintains excellent typographic hierarchy, it does not vary the visual system enough to reach a 4. The whitespace is functional but not 'crafted' in a way that suggests high-end keynote design.",
+        "coherence": "The narrative architecture is a textbook executive briefing. It follows a clear arc: 1) The Setup (Slide 2 Executive Summary) identifies the tension between intake speed and resolution efficiency; 2) The Investigation (Slides 3-8) provides the data-driven 'why' behind the slipping metrics; 3) The Payoff (Slide 9) offers concrete, owner-assigned solutions. The through-line regarding 'resolution pressure' is consistently advanced through every slide, making the final recommendations feel earned.",
+        "visual_craft": "features: 0 pts (layouts=0, shiki=0, mermaid=0, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00028",
+      "rendered": true,
+      "error": null,
+      "n_slides": 9,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The content is exceptionally specific and practitioner-grade, avoiding all blacklisted buzzwords. It includes concrete market data (Slide 3: '$47B segment', '11% unaided awareness'), a detailed budget breakdown (Slide 6: '38% Paid Social', '6% Retail Media'), a specific creative campaign (Slide 5: 'Live In It' hero film), precise success metrics (Slide 8: '3.5x ROAS', '12K New Owned Audience'), and a clear financial ask (Slide 9: '$2.4M media budget').",
+        "design": "The deck demonstrates a consistent visual system with a sophisticated color palette (Slide 5: sage, terracotta, oat). It uses varied layouts including a data-heavy table (Slide 6), a grid of KPI cards (Slide 8), and a vertical timeline (Slide 7). Typography is clean with clear hierarchy, though some low-contrast text on grey backgrounds (Slide 5, Slide 9) prevents a 5.",
+        "coherence": "The narrative architecture is professional and persuasive. It follows a logical arc: identifying a market gap (Slide 3), defining the brand's response (Slide 4), detailing the execution across creative and channels (Slides 5-6), and concluding with the 'payoff' of metrics and required decisions (Slides 8-9). The through-line from 'Conscious Commuters' to specific channel tactics like 'TikTok/Pinterest' is seamless.",
+        "visual_craft": "features: 4 pts (layouts=2, shiki=0, mermaid=0, katex=1, v-click=1, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00029",
+      "rendered": true,
+      "error": null,
+      "n_slides": 11,
+      "scores": {
+        "content": 1,
+        "design": 1,
+        "coherence": 1,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck is entirely broken. Every slide displays a Vite/Vue compiler error ('Element is missing end tag') or a generic error message. No substantive content regarding Cornerstone Freight is visible beyond a few lines of raw code in the error stack traces.",
+        "design": "The rendering failed completely. The output consists of technical error overlays and stack traces rather than a designed presentation. This triggers the global hard cap for broken rendering.",
+        "coherence": "There is no narrative flow as the slides are non-functional. The sequence consists of repeated error screens, providing no logical progression or architectural arc.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00031",
+      "rendered": true,
+      "error": null,
+      "n_slides": 7,
+      "scores": {
+        "content": 1,
+        "design": 1,
+        "coherence": 1,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The deck is non-functional. Six out of seven slides are obscured by a 'plugin:vite:vue' error overlay, making the content unreadable and the deck useless for a professional town hall.",
+        "design": "The rendering is broken. The presence of raw code error messages and stack traces across the majority of the slides violates the basic requirement for a visual presentation.",
+        "coherence": "There is no narrative flow possible when the visual output is a series of technical error screens. The deck fails to establish any arc or deliver the requested information.",
+        "visual_craft": "features: 5 pts (layouts=2, shiki=0, mermaid=0, katex=1, v-click=1, notes=0, transitions=1, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00032",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 2,
+        "design": 2,
+        "coherence": 2,
+        "visual_craft": 5
+      },
+      "rationale": {
+        "content": "The deck is technically broken, with 9 out of 10 slides obscured by a Vite/Vue compiler error overlay. While the underlying text is partially visible and suggests specific content (e.g., 'Meridian Energy Group pilot'), the failure to render the content properly triggers the global hard cap for broken/truncated slides.",
+        "design": "The design is severely compromised by a persistent red and black error modal covering the majority of the visual field. Per the global hard caps, any slide that is broken or shows raw code/error fences caps all dimensions at 2.",
+        "coherence": "While a title slide and a logical progression of headers (Market, Joint, Responsibilities, Go-to-market) are visible behind the error, the inability to read the full narrative due to the technical failure prevents a higher score. The deck is effectively unreadable in its current state.",
+        "visual_craft": "features: 4 pts (layouts=0, shiki=1, mermaid=1, katex=1, v-click=1, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00033",
+      "rendered": true,
+      "error": null,
+      "n_slides": 11,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The content is exceptionally practitioner-focused, avoiding legal jargon for practical managerial advice. It includes five highly specific, non-obvious examples/scenarios: 1) the 'narrowest point of the funnel' metaphor for manager roles (Slide 2), 2) the specific 'Gray Area' of reallocating budget to avoid variance explanations (Slide 6), 3) the distinction between 'convenient' and 'fraudulent' misreporting (Slide 6), 4) the '4-Question Decision Framework' which provides a concrete mental model (Slide 7), and 5) the 'Within 24 hours' action checklist that includes protecting against retaliation as a specific manager duty (Slide 10).",
+        "design": "The deck demonstrates a consistent and polished visual system using Slidev's default theme capabilities. Specific design choices include: 1) the use of a two-column layout with a highlighted 'Manager's Move' sidebar in the Gray Area slides (Slides 4-6) to create visual hierarchy, 2) a clean 2x2 grid for the decision framework (Slide 7), and 3) color-coded cards to distinguish escalation channels (Slide 9). Typography is used intentionally to emphasize key phrases like 'The uncomfortable truth' and 'The manager's move'.",
+        "coherence": "The narrative architecture is robust and follows a clear arc: Setup (Managers as the control point, Slides 1-2), Tension (The reality of gray areas and specific scenarios, Slides 3-6), and Payoff (The framework, escalation thresholds, and specific action checklists, Slides 7-11). The through-line—that uncertainty must not lead to silence—is introduced on Slide 3 and resolved with the specific contact info and 'Don't stay silent' call to action on Slide 11.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=0, v-click=1, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00034",
+      "rendered": true,
+      "error": null,
+      "n_slides": 8,
+      "scores": {
+        "content": 1,
+        "design": 1,
+        "coherence": 1,
+        "visual_craft": 1
+      },
+      "rationale": {
+        "content": "The deck is non-functional. Seven out of eight slides are obscured by a critical rendering error ('Element is missing end tag'), making the vast majority of the content unreadable and inaccessible. Per the global hard caps, broken rendering requires a score of 1-2; given the severity, it is a 1.",
+        "design": "The visual presentation is broken. The rendering engine has overlaid a large black and red error modal across slides 2 through 8, completely obstructing the layout, typography, and visual hierarchy. This violates the global hard cap for broken rendering.",
+        "coherence": "While the title slide suggests a logical start, the narrative architecture cannot be evaluated because the subsequent seven slides are blocked by code error fences. There is no visible flow, transition, or payoff.",
+        "visual_craft": "features: 0 pts (layouts=0, shiki=0, mermaid=0, katex=0, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    },
+    {
+      "seed_id": "seed_00035",
+      "rendered": true,
+      "error": null,
+      "n_slides": 10,
+      "scores": {
+        "content": 5,
+        "design": 4,
+        "coherence": 5,
+        "visual_craft": 2
+      },
+      "rationale": {
+        "content": "The deck provides exceptional practitioner-level detail that goes far beyond generic templates. Specific examples include: 1) Detailed project names like 'Polymer Line 4 expansion' and 'ASEAN greenfield' on Slide 4; 2) Precise financial modeling including a 5-year ROIC and EBITDA margin trend (Slide 3); 3) A sophisticated peer benchmarking table featuring specific (albeit fictional) competitors like 'NovaChem Holdings' and 'Triton Advanced Polymers' with three distinct leverage metrics (Slide 5); 4) A nuanced dividend policy assessment comparing 'Progressive' vs 'Range Payout' models with specific EPS volatility (σ = 8.2%) and holder demographics (62% income-oriented) on Slide 7; and 5) A comprehensive sensitivity analysis in the Appendix (Slide 10) mapping EBITDA margin fluctuations to Dividend Coverage.",
+        "design": "The design uses a highly professional, data-dense layout appropriate for a Board of Directors. It avoids the 'bullet wall' trap by using multi-column grid layouts and well-structured tables. Specific successes include: 1) Slide 3's balanced two-column financial summary which uses bolding effectively to highlight 'Free Cash Flow'; 2) Slide 8's 'Integrated Capital Allocation Framework' which uses a clean horizontal comparison of Low/Base/High cases; and 3) Consistent use of whitespace and horizontal rules to create a clear typographic hierarchy across all 10 slides.",
+        "coherence": "The narrative architecture is a textbook example of a decision-oriented business case. It follows a perfect arc: Setup (Slides 1-3: Performance context), Tension/Analysis (Slides 4-7: Deep dives into Capex, Debt, and Dividends), and Payoff (Slides 8-9: Integrated framework and final Board recommendations). The through-line is the transition from FY24 results to FY25 requirements, and the 'Decision Required' column in the Agenda (Slide 2) perfectly anchors the entire deck's purpose.",
+        "visual_craft": "features: 1 pts (layouts=0, shiki=0, mermaid=0, katex=1, v-click=0, notes=0, transitions=0, theme=0)"
+      }
+    }
+  ]
+}

@@ -29,9 +29,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from eval.features import scan as scan_features
 from eval.generate import MODELS, ModelSpec, generate
 from eval.judge import judge_deck
-from eval.rubric import DIMENSIONS
+from eval.rubric import DIMENSIONS, JUDGE_DIMENSIONS
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RENDER_SCRIPT = REPO_ROOT / "renderer" / "render.sh"
@@ -175,7 +176,7 @@ async def eval_row_async(
             _persist(score_path, r)
             return r
 
-    # Judge
+    # Judge (subjective dims only)
     try:
         scores_raw = await asyncio.to_thread(judge_deck, user, pngs)
     except Exception as e:
@@ -189,12 +190,27 @@ async def eval_row_async(
         _persist(score_path, r)
         return r
 
+    # Objective visual_craft via Slidev-feature scan of deck.md
+    features = scan_features(deck_path.read_text())
+
+    scores = {dim: scores_raw[dim]["score"] for dim in JUDGE_DIMENSIONS}
+    scores["visual_craft"] = features.score
+    rationale = {dim: scores_raw[dim]["rationale"] for dim in JUDGE_DIMENSIONS}
+    rationale["visual_craft"] = (
+        f"features: {features.total_points} pts "
+        f"(layouts={features.distinct_non_default_layouts}, "
+        f"shiki={int(features.has_shiki)}, mermaid={int(features.has_mermaid)}, "
+        f"katex={int(features.has_katex)}, v-click={int(features.has_v_click)}, "
+        f"notes={int(features.has_notes)}, transitions={int(features.has_transitions)}, "
+        f"theme={int(features.non_default_theme)})"
+    )
+
     r = RowResult(
         seed_id=seed_id,
         rendered=True,
         n_slides=len(pngs),
-        scores={dim: scores_raw[dim]["score"] for dim in DIMENSIONS},
-        rationale={dim: scores_raw[dim]["rationale"] for dim in DIMENSIONS},
+        scores=scores,
+        rationale=rationale,
     )
     _persist(score_path, r)
     return r
@@ -229,7 +245,7 @@ def aggregate(results: list[RowResult]) -> dict[str, Any]:
     }
 
 
-_DIM_LABEL = {"content": "C", "design": "D", "coherence": "Co", "visual_craft": "V", "prompt_fidelity": "F"}
+_DIM_LABEL = {"content": "C", "design": "D", "coherence": "Co", "visual_craft": "V"}
 
 
 async def run_model(
@@ -288,7 +304,7 @@ def main() -> None:
         "model": spec.name,
         "slug": spec.slug,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "rubric_version": 2,
+        "rubric_version": 5,
         "dimensions": list(DIMENSIONS),
         "aggregate": agg,
         "per_row": [r.__dict__ for r in results],

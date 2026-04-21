@@ -36,6 +36,9 @@ node_modules/
 # eval run artifacts (generations, renders, judge outputs)
 eval/runs/
 
+# slidev render staging files (trap-cleaned; stragglers if process killed)
+renderer/.tmp-deck-*
+
 # local tool state
 .claude/
 .omx/

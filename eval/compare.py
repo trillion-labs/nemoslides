@@ -4,6 +4,8 @@ Reads eval/{model}_results.json for each model found, emits:
   - eval/comparison_table.md (human-readable)
   - eval/comparison.json (machine-readable)
 
+Overall is the weighted composite defined in rubric.WEIGHTS.
+
 Usage:
     uv run python -m eval.compare
 """
@@ -13,7 +15,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from eval.rubric import DIMENSIONS
+from eval.rubric import DIMENSIONS, WEIGHTS
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVAL_DIR = REPO_ROOT / "eval"
@@ -23,7 +25,6 @@ SHORT = {
     "design": "Design",
     "coherence": "Coherence",
     "visual_craft": "VisCraft",
-    "prompt_fidelity": "Fidelity",
 }
 
 
@@ -33,6 +34,17 @@ def _fmt(x: float | None) -> str:
 
 def _fmt_pct(x: float | None) -> str:
     return f"{x * 100:.0f}%" if isinstance(x, (int, float)) else "—"
+
+
+def _weighted_overall(d: dict[str, float | None]) -> float | None:
+    total = 0.0
+    wsum = 0.0
+    for dim, w in WEIGHTS.items():
+        v = d.get(dim)
+        if isinstance(v, (int, float)):
+            total += v * w
+            wsum += w
+    return total / wsum if wsum > 0 else None
 
 
 def main() -> None:
@@ -53,21 +65,20 @@ def main() -> None:
             "fl": agg["floor_scored_mean"],
         })
 
-    # Rank by floor-scored overall (sum across dims), robust to None
-    def rank_key(r):
-        return -sum(v for v in r["fl"].values() if isinstance(v, (int, float)))
-    rows.sort(key=rank_key)
+    rows.sort(key=lambda r: -(_weighted_overall(r["fl"]) or 0))
 
-    def _mean_all(d: dict[str, float | None]) -> float | None:
-        vals = [v for v in d.values() if isinstance(v, (int, float))]
-        return sum(vals) / len(vals) if vals else None
+    weights_str = " + ".join(f"{w:.2f}·{SHORT[d]}" for d, w in WEIGHTS.items())
 
     lines: list[str] = []
     lines.append("# Eval comparison")
     lines.append("")
     lines.append(f"Test set: {rows[0]['n']} rows. Judge: `google/gemini-3-flash-preview` (vision).")
     lines.append("")
-    lines.append("**Rubric v2:** Content / Design / Coherence / Visual Richness / Prompt Fidelity, 1–5 each.")
+    lines.append(
+        "**Rubric v5:** Content / Design / Coherence (judge) + Visual Craft "
+        "(objective Slidev-feature scan). 1–5 each."
+    )
+    lines.append(f"**Weighted Overall:** `{weights_str}`")
     lines.append("**Render-fail accounting:** floor-scored = unrenderable rows count as 1 across all dims.")
     lines.append("")
 
@@ -78,27 +89,26 @@ def main() -> None:
     )
     sep = "|---|---|" + "|".join(["---"] * len(DIMENSIONS)) + "|---|"
 
-    lines.append("## Headline (floor-scored means, ranked by Overall)")
+    lines.append("## Headline (floor-scored, ranked by weighted Overall)")
     lines.append("")
     lines.append(header)
     lines.append(sep)
     for r in rows:
-        vals = " | ".join(_fmt(r["fl"][d]) for d in DIMENSIONS)
-        overall = _mean_all(r["fl"])
+        vals = " | ".join(_fmt(r["fl"].get(d)) for d in DIMENSIONS)
+        overall = _weighted_overall(r["fl"])
         lines.append(
             f"| `{r['model']}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
         )
     lines.append("")
 
-    # Rerank by mean-over-renderable for second table
-    rows_mor = sorted(rows, key=lambda r: -(_mean_all(r["mor"]) or 0))
-    lines.append("## Mean over renderable only (ranked by Overall)")
+    rows_mor = sorted(rows, key=lambda r: -(_weighted_overall(r["mor"]) or 0))
+    lines.append("## Mean over renderable only (ranked by weighted Overall)")
     lines.append("")
     lines.append(header)
     lines.append(sep)
     for r in rows_mor:
-        vals = " | ".join(_fmt(r["mor"][d]) for d in DIMENSIONS)
-        overall = _mean_all(r["mor"])
+        vals = " | ".join(_fmt(r["mor"].get(d)) for d in DIMENSIONS)
+        overall = _weighted_overall(r["mor"])
         lines.append(
             f"| `{r['model']}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
         )

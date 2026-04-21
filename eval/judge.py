@@ -18,7 +18,7 @@ from pipeline.clients import (
     openrouter_client,
 )
 
-from eval.rubric import DIMENSIONS, JUDGE_SYSTEM, format_user_preamble
+from eval.rubric import JUDGE_DIMENSIONS, JUDGE_SYSTEM, format_user_preamble
 
 JUDGE_MODEL = "google/gemini-3-flash-preview"
 
@@ -96,7 +96,7 @@ def _parse_scores(raw: str) -> dict[str, Any]:
         except json.JSONDecodeError as e:
             raise JudgeError(f"judge returned non-JSON: {raw[:400]}") from e
 
-    for dim in DIMENSIONS:
+    for dim in JUDGE_DIMENSIONS:
         if dim not in parsed:
             raise JudgeError(f"judge JSON missing dimension {dim!r}: {parsed}")
         entry = parsed[dim]
