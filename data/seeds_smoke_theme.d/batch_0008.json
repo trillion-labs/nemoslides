@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Ship It: A 5-minute lightning talk manifesto on why waiting for perfection kills projects, urging the DevCon 2024 audience to release their MVPs immediately.",
+    "audience": "Software developers",
+    "style_hints": "Punchy, declarative, challenging",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Stop Managing Your Time: A bold-opinion essay arguing that energy management, not time management, is the sole key to unlocking creative output for independent workers.",
+    "audience": "Freelancers and creators",
+    "style_hints": "Provocative, minimalist, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Water Changes Everything: A rapid-fire ignition talk for the PureWater Initiative, demonstrating the domino effect of clean water access in rural Malawi.",
+    "audience": "Philanthropic donors",
+    "style_hints": "Urgent, high-impact, emotional",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "The Relentless Year: A single-idea closing manifesto for the Apex Systems 2024 kickoff, rallying the entire company around the concept of moving fast and breaking barriers.",
+    "audience": "Company employees",
+    "style_hints": "Inspiring, high-impact, bold",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  }
+]

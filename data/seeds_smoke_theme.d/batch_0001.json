@@ -1,0 +1,72 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A rigorous proof walkthrough of the Prime Number Theorem using complex analysis, presented at the Heidelberg Mathematical Institute's weekly colloquium.",
+    "audience": "Graduate mathematics students and faculty",
+    "style_hints": "Theorem-proof structure, rigorous and formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title slide: The Prime Number Theorem via Complex Analysis",
+      "Historical context and statement of the theorem",
+      "Definition and convergence of the Riemann Zeta Function",
+      "Analytic continuation of Zeta(s) to the critical strip",
+      "The Euler product formula and its implications",
+      "Establishing zero-free regions for Zeta(s)",
+      "The explicit formula linking Zeta zeros to prime counting",
+      "Key lemmas and contour integration setup",
+      "Proof outline: Estimating the Chebyshev function",
+      "Error terms and the Riemann Hypothesis implications",
+      "Consequences for multiplicative number theory",
+      "References and further reading"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Economic impact analysis of the proposed EU carbon border adjustment mechanism on the German manufacturing sector.",
+    "audience": "Federal Ministry for Economic Affairs officials",
+    "style_hints": "Objective, data-driven, highly structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Q3 performance review and macroeconomic outlook for Frankfurter Vorsorge Kasse's European municipal bond fund.",
+    "audience": "Institutional pension fund managers",
+    "style_hints": "Conservative, precise, strictly formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title slide: Frankfurter Vorsorge Kasse Q3 Update",
+      "Executive Summary and NAV Performance",
+      "Macroeconomic Indicators: ECB Monetary Policy",
+      "Yield Curve Evolution and Spreads",
+      "Portfolio Allocation and Duration Metrics",
+      "Credit Quality Distribution of Holdings",
+      "Regional Exposure and Default Provisions",
+      "Forward Guidance and Q4 Hedging Strategy"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The diplomatic framework of the Congress of Vienna and the reorganization of European state boundaries from 1814 to 1815.",
+    "audience": "Undergraduate history majors",
+    "style_hints": "Chronological, authoritative, traditional academic",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  }
+]

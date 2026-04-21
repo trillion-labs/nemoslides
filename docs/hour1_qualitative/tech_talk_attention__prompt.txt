@@ -1,0 +1,1 @@
+A 10-minute conference tech talk titled 'Attention Is All You Need — for Junior Engineers'. Explain the transformer attention mechanism intuitively, covering: motivation, Q/K/V intuition, multi-head attention, why it beat RNNs, and one practical code-level gotcha. Junior-engineer audience, visual-heavy, minimal math notation.

@@ -1,0 +1,678 @@
+[
+  {
+    "domain": "product launch keynote",
+    "topic": "Aura Studio unveils its flagship 'Aura Pro Max' over-ear headphones, highlighting spatial audio, 40-hour battery life, and a redesigned minimalist aesthetic.",
+    "audience": "Tech media and audiophiles",
+    "style_hints": "Ultra-clean, high-contrast imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Introducing Aura Pro Max",
+      "The Vision: Sound Without Boundaries",
+      "Design: Sculpted Silence",
+      "Spatial Audio: A Concert For One",
+      "Battery: 40 Hours of Freedom",
+      "Colors: Midnight, Fog, Terra",
+      "Pricing & Availability",
+      "One More Thing"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Noir Cosmetics reveals the 'Midnight Velvet' lipstick line, featuring 12 deep matte shades formulated with hydrating hyaluronic acid.",
+    "audience": "Beauty editors and influencers",
+    "style_hints": "Dark, moody elegance",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Solara Home's rebranding pitch showcasing their shift from traditional rustic to a contemporary minimalist identity, featuring a new logo and sustainable packaging.",
+    "audience": "Solara executive team",
+    "style_hints": "Whitespace-heavy, refined typography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The Solara Identity Shift",
+      "Current Brand Perception",
+      "Target: The Modern Minimalist",
+      "Logo Evolution: Then vs Now",
+      "Typography: Introducing Solara Sans",
+      "Color Palette: Earth & Air",
+      "Packaging: Unboxing the Quiet",
+      "Digital Presence Mockups",
+      "Implementation Timeline"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "'Taste of Kyoto' premium tea subscription service campaign brief focusing on the Zen ritual of tea brewing and ethically sourced matcha.",
+    "audience": "Internal marketing team",
+    "style_hints": "Calm, heritage meets modern",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Lumina Smart Mirror feature reveal, demonstrating its seamless smart home integration, skin analysis AI, and bezel-less design.",
+    "audience": "Home automation enthusiasts",
+    "style_hints": "Sleek, reflective, futuristic",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Reflection Reimagined",
+      "The Bezel-Less Canvas",
+      "Ambient Lighting Modes",
+      "Skin AI: Your Dermatologist at Home",
+      "Smart Home Hub Integration",
+      "Voice Control: Hands-Free Living",
+      "Privacy by Design",
+      "Installation & Setup",
+      "Pre-order Details",
+      "The Future of the Home"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Ascend' luxury retreat membership pitch, offering curated wellness experiences in exclusive global sanctuaries for high-net-worth individuals.",
+    "audience": "Angel investors",
+    "style_hints": "Aspirational, tranquil, premium",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Prisma Photo App v3.0 'Cinematic Filters' reveal, showing new color grading tools inspired by classic films and a streamlined export workflow.",
+    "audience": "Mobile photographers",
+    "style_hints": "Cinematic, bold typography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Prisma 3.0: Cinematic Vision",
+      "The Problem with Mobile Color Grading",
+      "Introducing: Film Emulation Engine",
+      "Feature: Curves and HSL Controls",
+      "Feature: 4K ProRes Export",
+      "Live Demo: Street to Screen",
+      "Pricing: Pro Tier Intro",
+      "Available Today"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Evoke Aromatherapy Diffuser launch, emphasizing its whisper-quiet operation, handmade ceramic finish, and mood-sync ambient lighting.",
+    "audience": "Wellness retailers",
+    "style_hints": "Soft, muted, organic",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Vantage Ventures 2024 Year in Review, highlighting key investments in sustainable luxury brands and overall portfolio growth.",
+    "audience": "Limited partners",
+    "style_hints": "Data-light, sophisticated",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "2024: A Year of Purposeful Growth",
+      "Letter from the Managing Partner",
+      "Portfolio Overview",
+      "New Investments: Sustainability Focus",
+      "Exits and Liquidity Events",
+      "Fund Performance Metrics",
+      "ESG Impact Report",
+      "Team Expansion",
+      "LP Spotlight: Success Stories",
+      "Looking Ahead to 2025",
+      "Thank You & Q&A"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'Form & Void' retrospective exploring the minimalist architectural works of Tadao Ando and their influence on modern spatial design.",
+    "audience": "Architecture students",
+    "style_hints": "Monochromatic, structural",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Aura x Porsche Design co-branding proposal for a limited-edition luxury audio system, blending automotive engineering with acoustic precision.",
+    "audience": "Porsche Design executives",
+    "style_hints": "Precision, high-contrast, premium",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Synthesis of Speed and Sound",
+      "Why Aura x Porsche Design",
+      "Shared Brand Values: Precision & Prestige",
+      "Product Concept: The 911 Audio System",
+      "Design Language: Aerodynamic Acoustics",
+      "Material: Brushed Aluminum & Alcantara",
+      "Market Opportunity",
+      "Proposed Partnership Terms"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Glass' premium water filtration startup seed deck, presenting a beautifully designed, zero-waste glass carafe that removes 99.9% of contaminants.",
+    "audience": "Seed-stage VCs",
+    "style_hints": "Crystal clear, health-focused",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Capturing Minimalist Interiors: A photography workshop on using natural light and negative space to elevate interior design photography.",
+    "audience": "Amateur photographers",
+    "style_hints": "Bright, airy, instructional",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Power of Negative Space",
+      "Essential Gear for Interiors",
+      "Mastering Natural Light",
+      "Composition: Straight Lines & Curves",
+      "Styling the Frame: Less is More",
+      "Post-Processing: Tonal Consistency",
+      "Assignment: The Empty Room"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Solara Home Q3 growth update focusing on the expansion of the direct-to-consumer channel and new flagship store performance.",
+    "audience": "Solara board members",
+    "style_hints": "Clean, commercial competence",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Noir Cosmetics scaled their e-commerce operations using Vantage CRM, resulting in a 40% increase in customer retention.",
+    "audience": "Prospective Vantage CRM clients",
+    "style_hints": "Narrative-driven, polished",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Noir Cosmetics Challenge",
+      "Before Vantage: Disconnected Data",
+      "The Solution: Unified Customer View",
+      "Implementation Journey",
+      "Results: 40% Retention Boost",
+      "Scaling for Global Launch",
+      "Next Steps Together"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Prisma App Holiday Campaign 'Light in Focus', a visual campaign encouraging users to capture winter moments with cinematic warmth.",
+    "audience": "Prisma marketing team",
+    "style_hints": "Warm, festive minimalism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "2025 Vision for Kepler Audio, aligning the global sales team on the new premium product tier and enterprise B2B strategy.",
+    "audience": "Kepler Audio sales reps",
+    "style_hints": "Motivational, sharp, focused",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Welcome to 2025",
+      "2024 Wins & Lessons",
+      "The Premium Shift: Why Now?",
+      "Introducing the Pro Max Line",
+      "Target Audience: The Audiophile Executive",
+      "B2B Strategy: Boardrooms & Hotels",
+      "Pricing & Margin Structure",
+      "Sales Incentives & Quotas",
+      "Q1 Action Plan"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Solara Home H1 Town Hall, celebrating the launch of the new minimalist collection and outlining the sustainability roadmap.",
+    "audience": "Solara employees",
+    "style_hints": "Inclusive, uplifting, transparent",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The Elegance of Reduction: A tech talk on how removing features from UI design leads to higher user satisfaction and better product metrics.",
+    "audience": "UX designers and developers",
+    "style_hints": "Intellectual, stark, declarative",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Paradox of Choice in UI",
+      "Case Study: Removing the Sidebar",
+      "Metric Improvements: Task Completion",
+      "Designing for the Essential",
+      "Technical Implementation: Hiding Complexity",
+      "Progressive Disclosure Patterns",
+      "Code Demo: Clean Component Structure",
+      "When Reduction Fails",
+      "Principles for Elegant UI",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Kepler Audio Expansion to Asian Markets, detailing the go-to-market strategy for Japan and South Korea's premium audio segment.",
+    "audience": "Kepler Audio board of directors",
+    "style_hints": "Authoritative, data-backed",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "'The Shape of Design' by Frank Chimero discussion guide, exploring the intersection of design, craft, and improvisation.",
+    "audience": "Design professionals book club",
+    "style_hints": "Literary, calm, philosophical",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Welcome & Introductions",
+      "Who is Frank Chimero?",
+      "Core Theme: Improvisation in Design",
+      "Discussion: Craft vs Design",
+      "The Ethics of Whitespace",
+      "Group Activity: Reframing a Common Object",
+      "Closing Thoughts"
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Clean Water Initiative 'Clear Future' gala pitch, showcasing their new solar-powered filtration units for remote communities.",
+    "audience": "Gala attendees and philanthropists",
+    "style_hints": "Impactful, dignified, hopeful",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join Noir Cosmetics Design Team, a recruiting deck highlighting the creative freedom, global impact, and studio culture of Noir.",
+    "audience": "Senior product designers",
+    "style_hints": "Edgy, creative, alluring",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Noir Philosophy",
+      "Design at Scale: 10M+ Users",
+      "Our Design Studio Culture",
+      "The Team You'll Join",
+      "Career Growth & Creative Freedom",
+      "Benefits & Perks",
+      "Apply: Shape the Face of Beauty"
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "The Art of Ikebana: Less is More, an introductory workshop on the Japanese art of flower arrangement and its minimalist principles.",
+    "audience": "Botanical garden members",
+    "style_hints": "Zen, organic, patient",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Plating like a Chef: Minimalist Desserts, a culinary workshop teaching how to use negative space and bold micro-herbs for high-end pastry presentation.",
+    "audience": "Home cooking enthusiasts",
+    "style_hints": "Tasteful, precise, appetizing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Canvas: Choosing the Right Plate",
+      "Negative Space: Why Emptiness Matters",
+      "Color: Three Elements Maximum",
+      "Technique: The Swipe and the Dot",
+      "Micro-herbs and Edible Flowers",
+      "Live Demo: Deconstructed Tart",
+      "Your Turn: Plating Exercise"
+    ]
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "'Zenith' Luxury Wellness Programme, an 8-week mindfulness and movement course set in an exclusive alpine resort.",
+    "audience": "High-net-worth resort guests",
+    "style_hints": "Restorative, premium, calm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "Amalfi Coast: An Aesthetic Journey, a curated itinerary highlighting the architecture, lemons, and linen-clad leisure of Ravello and Positano.",
+    "audience": "Luxury travel agency clients",
+    "style_hints": "Sun-drenched, elegant, breezy",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Welcome to the Amalfi Coast",
+      "The Aesthetic of Positano",
+      "Itinerary Day 1-2: Village Walks & Linen",
+      "Itinerary Day 3-4: The Lemon Groves of Ravello",
+      "Itinerary Day 5-6: Villa Cimbrone & The Sea",
+      "Culinary Focus: Seafood & Simplicity",
+      "Packing List: Coastal Minimalism",
+      "Booking & Travel Details",
+      "Questions"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The Psychology of Whitespace in Branding, an explainer on how cognitive load and visual breathing room affect consumer trust.",
+    "audience": "Brand strategists",
+    "style_hints": "Analytical, immaculate, clean",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The Minimalist Executive, a productivity talk on reducing decision fatigue and structuring a leadership routine around high-impact tasks.",
+    "audience": "C-suite executives",
+    "style_hints": "Direct, sharp, uncompromising",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Cost of Clutter",
+      "Decision Fatigue: The Silent Killer",
+      "Audit: What Can You Drop?",
+      "The 3-Task Daily Framework",
+      "Delegation vs Deletion",
+      "Designing Your Minimalist Routine",
+      "Tools: Less Features, More Focus",
+      "Action Steps for Tomorrow"
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "The Geometry of Formula 1 Racing, a visual breakdown of racing lines, aerodynamics, and precision engineering.",
+    "audience": "F1 fan club",
+    "style_hints": "Technical, fast, sweeping",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Silence in Cinema: The Power of the Unsaid, an analysis of how directors like Kubrick and Tarr use visual silence to build tension.",
+    "audience": "Film school students",
+    "style_hints": "Cinematic, dramatic, sparse",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The loudest sound is nothing",
+      "Kubrick: The Weight of Symmetry",
+      "Tarr: The Long Take of Solitude",
+      "Sound Design: Removing the Score",
+      "The Edit: Holding the Gaze",
+      "Case Study: 2001 A Space Odyssey",
+      "Modern Minimalism: Drive",
+      "Discussion: Visual Restraint",
+      "Questions"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Wabi-Sabi: Embracing Imperfection, an explainer on the Japanese aesthetic philosophy of finding beauty in the flawed and weathered.",
+    "audience": "Interior design community",
+    "style_hints": "Earthy, textured, serene",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Fundamentals of Bauhaus Design, a lesson on the core principles of form follows function and the integration of art, craft, and technology.",
+    "audience": "Art history students",
+    "style_hints": "Grid-based, primary, structured",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "What is Bauhaus?",
+      "Historical Context: 1919 Weimar",
+      "Core Principle: Form Follows Function",
+      "The Bauhaus Color Theory",
+      "Typography: Universal & Sans-Serif",
+      "Geometry: The Circle, Square, Triangle",
+      "Legacy in Modern UI/UX",
+      "Homework Assignment"
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "The High Line Park Extension Review, presenting the landscape architecture plans and native planting strategies for the new northern spur.",
+    "audience": "Local residents and city council",
+    "style_hints": "Civic, green, transparent",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Evolution of the iPhone: A Design History, tracing the reduction of the physical interface and the expansion of the glass canvas.",
+    "audience": "Tech history enthusiasts",
+    "style_hints": "Sleek, chronological",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Pre-iPhone Era",
+      "2007: The Aluminum Original",
+      "iPhone 4: The Glass Sandwich",
+      "iPhone 5: The Two-Tone Antenna",
+      "iPhone X: The Notch & OLED",
+      "Removing the Home Button",
+      "Camera Island Evolution",
+      "The Philosophy of Reduction",
+      "Predicting the Future Interface",
+      "Discussion"
+    ]
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "The Simplified Nursery: Less Clutter, More Calm, a guide for new parents on designing a minimalist, toxin-free, and tranquil baby room.",
+    "audience": "Expecting parents",
+    "style_hints": "Gentle, soothing, reassuring",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "Elena & Julian: A Story in Frames, a visual recap of a couple's journey from meeting in Kyoto to their minimalist wedding in Tuscany.",
+    "audience": "Wedding guests",
+    "style_hints": "Romantic, cinematic, intimate",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6,
+    "outline_hint": [
+      "Elena & Julian",
+      "Chapter 1: Meeting in Kyoto",
+      "Chapter 2: A Flat in London",
+      "Chapter 3: The Proposal in Iceland",
+      "The Wedding: Villa Corsini",
+      "To the Future"
+    ]
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "Elegant Wealth: Minimalist Investing, a primer on low-fee index fund investing and decluttering one's financial portfolio.",
+    "audience": "Young professionals",
+    "style_hints": "Orderly, rational, calm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Zoning for Greener Urban Spaces, a policy briefing advocating for mandatory green roofs and permeable paving in new downtown developments.",
+    "audience": "City planning commission",
+    "style_hints": "Formal, persuasive, clean",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Urban Heat Island Effect",
+      "Current Zoning Limitations",
+      "Proposed Policy: Mandatory Green Roofs",
+      "Cost-Benefit Analysis",
+      "Case Study: Singapore & Copenhagen",
+      "Implementation Timeline",
+      "Community Impact",
+      "Proposal Summary & Vote"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Cognitive Load Theory and Interface Design, presenting research on how visual complexity impacts user decision-making time.",
+    "audience": "HCI researchers",
+    "style_hints": "Academic, structured, lucid",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "'Aether' smart home hub reveal, a levitating sphere that acts as the central voice and climate control for the luxury home.",
+    "audience": "Consumer tech press",
+    "style_hints": "Futuristic, floating, pristine",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Connected Home, Reimagined",
+      "Introducing Aether",
+      "The Levitation Mechanism",
+      "Ambient Climate Control",
+      "Invisible Voice Integration",
+      "Pricing & Availability",
+      "Aether: The Soul of the Home"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "'Eclat' Spring/Summer 2025 Collection reveal, showcasing the shift towards sheer fabrics, fluid tailoring, and a monochrome palette.",
+    "audience": "Fashion buyers and press",
+    "style_hints": "Haute couture, dramatic, airy",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  }
+]

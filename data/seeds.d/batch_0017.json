@@ -1,0 +1,489 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A graduate seminar lecture on CRISPR-Cas9 off-target effects in human hematopoietic stem cells, reviewing findings from the 2023 Zhang lab study and subsequent correction strategies.",
+    "audience": "Molecular biology PhD students",
+    "style_hints": "Rigorous and evidentiary, heavy on mechanism diagrams",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A thesis defense presentation on microplastic accumulation in the Laurentian Great Lakes littoral zones, presenting three years of field sampling data and polymer characterization results.",
+    "audience": "Environmental science faculty committee",
+    "style_hints": "Formal defense structure, data-dense figures",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A conference paper walkthrough of the NeurIPS 2024 paper 'Hierarchical Sparse Attention for Long-Context Reasoning,' covering the architecture, experiments on PG-19, and ablation studies.",
+    "audience": "ML researchers and engineers",
+    "style_hints": "Technical and precise, architecture diagrams prominent",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A literature review talk on the gut-brain axis and its implications for major depressive disorder, synthesizing 18 studies published between 2019 and 2024 on fecal transplant outcomes.",
+    "audience": "Neuroscience department faculty and trainees",
+    "style_hints": "Synthesizing and integrative, citation-heavy",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A weekly lab meeting update on the ongoing Phase II trial of a bispecific antibody (BSA-7401) for relapsed refractory AML, presenting interim safety and efficacy data from three cohorts.",
+    "audience": "Oncology lab members and collaborating clinicians",
+    "style_hints": "Concise and data-forward, clinical tone",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A research-grounded policy briefing on climate-driven migration projections for the Mekong Delta, drawing on USAID-funded hydrological models and displacement surveys from 2020–2024.",
+    "audience": "Southeast Asian regional policy advisors",
+    "style_hints": "Authoritative and measured, map and figure-heavy",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid",
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "An undergraduate lecture introducing quantum error correction codes, covering the Shor code, surface codes, and recent experimental progress from the Google Quantum AI team.",
+    "audience": "Physics juniors and seniors",
+    "style_hints": "Pedagogical and methodical, formal notation",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "A lecture on the scribal traditions of the Carolingian Renaissance, examining the Corbie script and its influence on later minuscule hands across Frankish scriptoria.",
+    "audience": "Medieval studies graduate students",
+    "style_hints": "Scholarly and descriptive, paleographic images",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A thesis defense on urban heat island intensity in the Phoenix metropolitan area, correlating Landsat-derived land surface temperature with redlining legacy maps from the Home Owners' Loan Corporation.",
+    "audience": "Urban planning faculty and city planners",
+    "style_hints": "Analytical and socially conscious, geospatial visuals",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A conference paper presentation on federated learning differential privacy guarantees in the Cross-Device setting, benchmarking DP-FedAvg against non-private baselines on the LEAF benchmark.",
+    "audience": "Privacy-preserving ML researchers",
+    "style_hints": "Formal and theorem-driven, proof sketches included",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A literature review on transgenerational epigenetic inheritance of trauma markers in Holocaust survivor descendants, critically evaluating the Rachel Yehuda 2016 and 2020 cortisol studies.",
+    "audience": "Epigenetics and psychology researchers",
+    "style_hints": "Cautious and critical, balanced presentation of controversies",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lab meeting update on the Torres Lab's CRISPR screen results identifying novel resistance genes in KRAS-mutant pancreatic adenocarcinoma under KRASi treatment.",
+    "audience": "Cancer biology postdocs and graduate students",
+    "style_hints": "Fast-paced and data-centric, volcano plots and heatmaps",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A briefing for the Dutch Ministry of Infrastructure on AI-driven flood risk modeling advances from the Deltares 2024 report, comparing ensemble LSTM approaches to physical hydrodynamic models.",
+    "audience": "Water management policy directors",
+    "style_hints": "Measured and consultative, comparative figures",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on the iconographic program of the mosaics in Hagia Sophia's South Gallery, analyzing the Deesis panel and its theological implications for Palaiologan visual culture.",
+    "audience": "Art history undergraduates",
+    "style_hints": "Descriptive and interpretive, high-resolution mosaic details",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk presenting five-year time-series data on coral bleaching recovery rates in the Mo'orea coral reef long-term ecological research site under thermal stress experiments.",
+    "audience": "Marine ecology conference attendees",
+    "style_hints": "Empirical and longitudinal, time-series plots emphasized",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "A lecture on the monetary systems of the Mongol Yuan dynasty, tracing the transition from paper jiaochao to silver ingots and the resulting hyperinflation under Toghon Temür.",
+    "audience": "Economic history seminar students",
+    "style_hints": "Analytical and narrative, primary source excerpts",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A paper walkthrough on 'Mixture-of-Experts for Code Generation with Low-Latency Routing' from ICSE 2025, detailing the gating network design and evaluation on HumanEval+.",
+    "audience": "Software engineering researchers",
+    "style_hints": "Precise and benchmark-focused, architecture diagrams",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A thesis defense examining the longitudinal association between adolescent Instagram usage intensity and depressive symptom trajectories using the ABCD study dataset (N=11,876).",
+    "audience": "Developmental psychology dissertation committee",
+    "style_hints": "Methodical and multivariate, growth curve visuals",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on workshop on conducting power analysis for mixed-effects models in R using the simr package, with a practical exercise on a repeated-measures psycholinguistic dataset.",
+    "audience": "Quantitative psychology graduate students",
+    "style_hints": "Pedagogical and stepped, live code demonstrations",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on Modern Monetary Theory and its critique of the household analogy in macroeconomic policy discourse, drawing on Wray (2022) and Kelton's deficit spending arguments.",
+    "audience": "Economics undergraduate students",
+    "style_hints": "Argumentative and pedagogical, balance-sheet diagrams",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A structured discussion of Thomas Kuhn's 'The Structure of Scientific Revolutions,' focusing on the concept of paradigm shifts and its misappropriation in popular science writing.",
+    "audience": "Philosophy of science reading group",
+    "style_hints": "Interpretive and dialogic, text-quote emphasis",
+    "theme_hint": "academic",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk on zebra mussel (Dreissena polymorpha) invasion dynamics in the Hudson River estuary, presenting a 30-year dataset on benthic community composition shifts post-colonization.",
+    "audience": "Invasion ecology researchers",
+    "style_hints": "Longitudinal and comparative, community ecology plots",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "A lecture on Confucian legal philosophy and its influence on restorative justice practices in the South Korean criminal justice reform of 2007–2012, comparing with Western retributive models.",
+    "audience": "Comparative law graduate students",
+    "style_hints": "Comparative and analytical, dual-tradition framing",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on black hole thermodynamics and the Bekenstein-Hawking entropy formula, deriving the First Law for Kerr-Newman black holes and discussing the information paradox.",
+    "audience": "Theoretical physics advanced undergraduates",
+    "style_hints": "Derivation-heavy and formal, Penrose diagrams",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A briefing on opioid overdose fatality trends in rural Appalachia for the West Virginia House Committee on Health, presenting findings from the WVU Injury Control Research Center's 2024 surveillance report.",
+    "audience": "State legislators and public health officials",
+    "style_hints": "Urgent but evidence-based, epidemiological figures",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A paper presentation on neuromorphic computing with Intel's Loihi 2 processor, demonstrating online spike-timing-dependent plasticity learning on a gesture recognition task from the DVS128 dataset.",
+    "audience": "Neuromorphic engineering researchers",
+    "style_hints": "Hardware-software hybrid focus, spike raster visuals",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A thesis defense on the effect of inclusionary zoning policies on racial residential segregation in Portland, Oregon, using a difference-in-differences design with 2010–2023 ACS data.",
+    "audience": "Public policy dissertation committee",
+    "style_hints": "Causal inference emphasis, clean identification tables",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A literature review on circadian rhythm disruption and metabolic syndrome risk in shift workers, synthesizing cohort data from the Nurses' Health Study and the UK Biobank.",
+    "audience": "Chronobiology and endocrinology researchers",
+    "style_hints": "Integrative and meta-analytic, forest plot emphasis",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on structuralism in Lévi-Strauss's 'The Raw and the Cooked,' examining the culinary triangle and its critics in the context of 1960s French anthropological theory.",
+    "audience": "Anthropology graduate students",
+    "style_hints": "Theoretical and dialectical, kinship-diagram style",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk on permafrost carbon-climate feedback amplification under RCP 8.5, presenting Coupled Model Intercomparison Project Phase 6 (CMIP6) ensemble simulations from the Permafrost Carbon Network.",
+    "audience": "Climate science conference attendees",
+    "style_hints": "Quantitative and ensemble-focused, global maps",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "An AP Biology lesson on the electron transport chain and oxidative phosphorylation, walking through Complexes I–IV and ATP synthase with structural models from the RCSB PDB.",
+    "audience": "High school AP Biology students",
+    "style_hints": "Pedagogical and sequential, molecular diagrams",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A tutorial on Bayesian hierarchical modeling with Stan for educational assessment data, covering prior specification, MCMC diagnostics, and leave-one-out cross-validation with the loo package.",
+    "audience": "Quantitative methodology doctoral students",
+    "style_hints": "Hands-on and diagnostic-focused, code interleaved",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "An analysis of NBA shot selection evolution from 2000–2024 using tracking data from Second Spectrum, quantifying the mid-range decline and the rise of the corner three with expected points per shot models.",
+    "audience": "MIT Sloan Sports Analytics Conference attendees",
+    "style_hints": "Quantitative and visual, shot chart heatmaps",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An explainer on the LIGO-Virgo detection of gravitational waves from binary black hole mergers, walking through the matched-filter pipeline and parameter estimation from GW150914.",
+    "audience": "Physics-adjacent professionals and enthusiasts",
+    "style_hints": "Expository but rigorous, waveform visualizations",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "A research-grounded fundraising presentation for the Malaria Vaccine Initiative at PATH, reporting Phase III efficacy data for the R21/Matrix-M vaccine in Burkina Faso and outlining next-stage funding needs.",
+    "audience": "Global health philanthropic donors",
+    "style_hints": "Evidence-first and urgency-framed, trial data prominent",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk on phonological acquisition in Spanish-Basque bilingual children aged 2–4, presenting acoustic analysis of stop voicing contrasts from the BIPOSL longitudinal corpus.",
+    "audience": "Language acquisition researchers",
+    "style_hints": "Empirical and acoustic-detail-oriented, spectrogram images",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "A quarterly review of patient enrollment and retention metrics for the BioPharm-X Oncology Division's ongoing multi-site Phase III melanoma trial (BPX-4487), presented to the Chief Medical Officer.",
+    "audience": "Clinical operations leadership",
+    "style_hints": "Dashboard-style, KPI and milestone focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on the hard problem of consciousness and David Chalmers's zombie argument, examining responses from Dennett, Churchland, and the phenomenal concept strategy.",
+    "audience": "Philosophy of mind graduate seminar",
+    "style_hints": "Argument-analytic and dialectical, logical form emphasis",
+    "theme_hint": "academic",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A conference paper on solid-state battery lithium garnet (Li7La3Zr2O12) electrolyte interface stability, presenting impedance spectroscopy data and interfacial resistance modeling from the Goodenough Lab.",
+    "audience": "Materials science and electrochemistry researchers",
+    "style_hints": "Experimental and materials-characterization heavy",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A briefing for the UK Department for Business and Trade on research findings regarding gig economy worker misclassification, drawing on the 2024 Oxford Internet Institute's Fairwork report and comparative EU case law.",
+    "audience": "UK civil servants and labour policy advisors",
+    "style_hints": "Comparative and regulatory, table-heavy precedent review",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A thesis defense on Roman hydraulic engineering in North Africa, presenting GIS reconstructions of the aqueduct system at Dougga and comparative flow-rate calculations with Vitruvian design principles.",
+    "audience": "Classical archaeology dissertation committee",
+    "style_hints": "Technical and reconstructive, plan and elevation focus",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on the statistical mechanics of spin glasses and the Parisi overlap distribution, deriving the replica symmetry breaking ansatz and its implications for optimization landscapes in NP-hard problems.",
+    "audience": "Condensed matter physics doctoral students",
+    "style_hints": "Derivation-intensive and formal, replica calculation notation",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  }
+]

@@ -1,0 +1,637 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "A lightning talk manifesto for 'ZeroGit', a version control system that only stores diffs, promising infinite storage and zero cloning time.",
+    "audience": "VC investors",
+    "style_hints": "bold, declarative, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Storage Crisis",
+      "10 TB Repositories",
+      "Git is Broken",
+      "Enter ZeroGit",
+      "Only Diffs. Nothing Else.",
+      "Infinite History",
+      "The Future of Code"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'Stop Using REST' - a bold opinion essay on why GraphQL is the only viable future for API design in modern web architecture.",
+    "audience": "Backend developers",
+    "style_hints": "punchy, oversized type",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unveiling the 'Lumina' smart-glasses optimized for a single feature: instant visual translation of any sign or menu in the world.",
+    "audience": "Tech journalists",
+    "style_hints": "extreme minimalism, one-idea-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Language is a Wall",
+      "The Dream: Universal Understanding",
+      "Existing Tech Fails",
+      "Introducing Lumina",
+      "One Glass. One Feature.",
+      "40 Languages. 0.2s Latency.",
+      "See the World"
+    ]
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "'Kill Your To-Do List' - a motivational manifesto on why task lists create anxiety and must be replaced by strict time-blocking.",
+    "audience": "Freelance creatives",
+    "style_hints": "punchy, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "'Water is a Right' - a lightning talk to fund well-drilling in the Sahel region, emphasizing that clean water solves 80% of local disease.",
+    "audience": "Philanthropists",
+    "style_hints": "high-impact, single-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Water is Life",
+      "But Not for Everyone",
+      "The Sahel Crisis",
+      "Drilling Changes Everything",
+      "One Well = 1,000 Lives",
+      "The Ask: $50,000",
+      "Make It Rain"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Year-end closer: 'We Survived, We Thrived' - a fast-paced recap of the 3 most pivotal turnaround moments for Apex Corp.",
+    "audience": "Company employees",
+    "style_hints": "celebratory, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "'The universe is a hologram' - a 10-minute ignition talk on the holographic principle and what it means for the fabric of reality.",
+    "audience": "Physics undergraduates",
+    "style_hints": "extreme minimalism, mind-bending",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "What is Reality?",
+      "Black Holes Hold Secrets",
+      "Information Paradox",
+      "The Holographic Principle",
+      "3D Volume = 2D Surface",
+      "The Universe is a Projection",
+      "Rethink Everything"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "'Git Rebase in 5 Minutes' - a lightning tutorial on when and how to rebase feature branches, ignoring all advanced flags.",
+    "audience": "Junior developers",
+    "style_hints": "step-by-step oversized text",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Merge Commits are Ugly",
+      "The Rebase Alternative",
+      "Rebase Rewrites History",
+      "Rule: Never Rebase Public Branches",
+      "Rule: Rebase Your Feature Branches",
+      "A Clean Git Log",
+      "Rebase > Merge"
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "'One Metric: ARR' - a bold-opinion essay focusing the entire global sales force on Annual Recurring Revenue above all other vanity metrics.",
+    "audience": "Enterprise sales team",
+    "style_hints": "declarative, single-minded",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "'Bold, Not Bland' - an ignition talk for the new 'Sizzle' hot sauce brand campaign, demanding visually chaotic and provocative assets.",
+    "audience": "Creative agency partners",
+    "style_hints": "punchy, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Hot Sauce is Boring",
+      "Red Bottle. Green Cap.",
+      "We Need Chaos",
+      "Introducing Sizzle",
+      "Taste the Burn",
+      "Campaign: Burn It Down",
+      "Sizzle: Not for the Weak"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "'Whitespace is Not Empty' - a manifesto on minimalist UI principles for the 'Zenith' meditation app redesign.",
+    "audience": "Product design team",
+    "style_hints": "extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "'The Defenestration of Prague' - a lightning talk arguing that a single thrown body out a window started the Thirty Years' War.",
+    "audience": "History enthusiasts",
+    "style_hints": "oversized type, narrative punch",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "1618. Prague.",
+      "Catholics vs Protestants",
+      "The Bohemian Revolt",
+      "They Threw Them Out the Window",
+      "Defenestration!",
+      "Survived the Fall?",
+      "Started a 30-Year War"
+    ]
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "'Sleep More, Do More' - a motivational manifesto rejecting hustle culture's glorification of 4-hour sleep cycles.",
+    "audience": "Tech professionals",
+    "style_hints": "declarative, anti-hustle",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "'Build the Future at NovaTech' - a lightning pitch to recruit top-tier AI researchers by promising one thing: unrestricted compute access.",
+    "audience": "PhD candidates",
+    "style_hints": "high-impact, bold promise",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The AI Talent War",
+      "You Want Impact",
+      "Stale Corporate Labs",
+      "Why NovaTech?",
+      "1 Problem, 10,000 GPUs",
+      "Build the Future",
+      "Join Us"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "'How CorpX saved 1,000 hours' - a single-metric lightning talk on how automation reduced manual QA overhead for a mid-size SaaS.",
+    "audience": "Prospective enterprise clients",
+    "style_hints": "minimalist, bold numbers",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "'Profit Over Growth' - a bold pivot manifesto for Q3 strategy at 'Bloom Inc', announcing the end of growth-at-all-costs.",
+    "audience": "Executive board",
+    "style_hints": "punchy, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Growth at All Costs = Death",
+      "Q2 Burn Rate: $4M",
+      "The Pivot",
+      "Profit is Not a Dirty Word",
+      "Firing Bad Customers",
+      "Q3: Cash Flow Positive",
+      "New Rule: Margins Matter"
+    ]
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "'Why The Wire is a Novel' - a single-idea argument that the HBO show's literary structure supersedes its cinematic qualities.",
+    "audience": "Film students",
+    "style_hints": "oversized type, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'Black Square' - a 5-minute ignition talk on why Kazimir Malevich's Black Square is the most terrifying and brilliant painting of the 20th century.",
+    "audience": "Museum visitors",
+    "style_hints": "extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "1915. Petrograd.",
+      "Art Was Imitating Life",
+      "Malevich's Shock",
+      "The Black Square",
+      "Zero Forms",
+      "Pure Feeling",
+      "It's Not Empty. It's Everything."
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "'CRDTs: The End of Merge Conflicts' - a bold opinion essay stating that decentralized data is the only path forward for offline-first apps.",
+    "audience": "Distributed systems engineers",
+    "style_hints": "punchy, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "'Lift Heavy, Go Home' - a minimalist manifesto for the 'IronPump' gym's new strength program, rejecting complicated split routines.",
+    "audience": "Gym members",
+    "style_hints": "bold, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Fitness is Confusing",
+      "Cardio Won't Change Your Body",
+      "The Answer: Iron",
+      "Squats, Deadlifts, Presses",
+      "5 Reps. 3 Sets.",
+      "Go Home.",
+      "Lift Heavy. Go Home."
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "'Ikigai is Not a Venn Diagram' - a bold-opinion essay correcting Western misinterpretations of the Japanese concept of Ikigai.",
+    "audience": "Language learners",
+    "style_hints": "declarative, corrective",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "local community project update",
+    "topic": "'Plant 10,000 Trees' - a lightning talk rallying the town of Oakhaven to replace lost canopy after the recent suburban expansion.",
+    "audience": "Town residents",
+    "style_hints": "punchy, inspirational",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Oakhaven is Concrete",
+      "We Lost Our Shade",
+      "The Goal: 10,000 Trees",
+      "1 Tree = $10",
+      "Carbon, Shade, Beauty",
+      "Volunteer This Saturday",
+      "Plant the Future"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "'The Periodic Table is a Liar' - a manifesto on why teaching elements as isolated boxes destroys the wonder of chemical reactions.",
+    "audience": "High school chemistry class",
+    "style_hints": "oversized type, bold",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "'Salt is the Only Spice You Need' - a minimalist cooking philosophy for the 'SaltBae' masterclass, focusing purely on salinity timing.",
+    "audience": "Home cooks",
+    "style_hints": "single-idea, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Too Many Spices",
+      "Spice Racks are Lies",
+      "The Only Essential",
+      "Salt Enhances Everything",
+      "Season in Layers",
+      "Finish with Flaky Salt",
+      "Salt is King"
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "'The Three-Point Revolution' - a bold-opinion essay on why the mid-range jump shot is officially dead in modern basketball.",
+    "audience": "Basketball fans",
+    "style_hints": "punchy, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "'One API, Infinite Scale' - a lightning pitch to integrate 'PayFlow' payment gateway into the Shopify app ecosystem.",
+    "audience": "Shopify partnership team",
+    "style_hints": "declarative, minimalist",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Checkout Friction",
+      "Cart Abandonment at 70%",
+      "One-Click is Not Enough",
+      "One API. Infinite Scale.",
+      "PayFlow + Shopify",
+      "Seamless Integration",
+      "Let's Build Together"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "'Brewing Profit: 5 Years of BeanCounter Coffee' - a minimal, bold-number summary showing the path from 1 cafe to 12 profitable locations.",
+    "audience": "Angel investors",
+    "style_hints": "oversized type, financial pride",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "'Housing First' - a single-idea manifesto on why providing unconditional housing is the only proven solution to chronic homelessness in Seattle.",
+    "audience": "City council members",
+    "style_hints": "high-impact, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Homelessness is a Crisis",
+      "Shelters Don't Work",
+      "The Housing First Model",
+      "Give Them Homes",
+      "Stability Enables Recovery",
+      "Salt Lake City Proved It",
+      "Housing is a Human Right"
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "'Chord Over Melody' - a minimalist manifesto for beginner guitar players, arguing that rhythm coaching matters more than soloing.",
+    "audience": "Guitar students",
+    "style_hints": "punchy, one-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "'Fatality of Fate: The Judge in Blood Meridian' - a bold-opinion essay arguing that the character is the literal embodiment of war, not a man.",
+    "audience": "Literature book club members",
+    "style_hints": "oversized type, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Blood Meridian isn't a Western",
+      "The Judge",
+      "A Lion in the Desert",
+      "War is God",
+      "Fate vs Free Will",
+      "The Judge Never Sleeps",
+      "He is the Universe"
+    ]
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "'To Alex and Sam: A Team of Two' - a minimalist, high-impact toast to the newlyweds focusing on their shared resilience during hardship.",
+    "audience": "Wedding guests",
+    "style_hints": "extreme minimalism, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "'500,000 Trees Saved' - a single-metric visual manifesto for 'GreenPrint' software's annual impact on reducing paper waste.",
+    "audience": "Eco-conscious consumers",
+    "style_hints": "oversized type, single-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Printing Destroys Forests",
+      "Our Mission: Digital First",
+      "One Year of GreenPrint",
+      "500,000 Trees Saved",
+      "How We Did It",
+      "Every Page Counts",
+      "Join the Digital Shift"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "'Acquire or Be Acquired' - a bold strategy manifesto for 'MediTech' to buy out its only regional competitor before the market consolidates.",
+    "audience": "Board of directors",
+    "style_hints": "declarative, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "'Die With Zero' - a lightning talk manifesto on maximizing life experiences and time buckets while young, rather than hoarding wealth for an uncertain old age.",
+    "audience": "Young professionals",
+    "style_hints": "bold, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Save, Save, Save",
+      "But You Can't Take It With You",
+      "The Problem: End-of-Life Regret",
+      "Bill Perkins' Manifesto",
+      "Experiences over Bank Accounts",
+      "Time Bucketing",
+      "Die With Zero"
+    ]
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "'Kyoto: The Art of Stillness' - a minimalist approach to traveling Kyoto, emphasizing 3 lesser-known temples over jam-packed itineraries.",
+    "audience": "Solo travelers",
+    "style_hints": "extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "'Yes is Better Than No' - a bold-opinion essay encouraging parents to say 'yes' to their kids' chaotic ideas to foster creativity.",
+    "audience": "Parents of toddlers",
+    "style_hints": "declarative, inspirational",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "No is Easy",
+      "No is Safe",
+      "But No Kills Imagination",
+      "Can I Paint the Dog?",
+      "Yes.",
+      "Can We Build a Fort?",
+      "Yes!",
+      "Say Yes More"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'Rust is the Future, C++ is the Past' - a lightning talk manifesto on why all new systems programming must default to memory safety.",
+    "audience": "Game engine developers",
+    "style_hints": "punchy, oversized type",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "'The 4-Day Work Week at BaseNode' - an ignition talk revealing the company's shift to a 32-hour week with zero pay cuts.",
+    "audience": "SaaS industry peers",
+    "style_hints": "bold-opinion, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "5 Days is Archaic",
+      "Work Expands to Fill Time",
+      "The Hypothesis",
+      "BaseNode's Experiment",
+      "100% Pay, 80% Time",
+      "Productivity Went UP",
+      "The Future is 4 Days"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Farm to Table in 30 Minutes' - a lightning pitch for 'FreshDrop' hyper-local grocery delivery targeting urban apartment dwellers.",
+    "audience": "Seed stage VCs",
+    "style_hints": "declarative, one-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "'Plate Tectonics: One Continent' - a 5-minute ignition talk on Pangea, demonstrating that Earth's current geography is a temporary glitch.",
+    "audience": "Middle school science class",
+    "style_hints": "oversized type, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Earth is a Puzzle",
+      "Continents Move",
+      "Pangea: One Landmass",
+      "The Breakup",
+      "Tectonic Plates",
+      "Earthquakes & Volcanoes",
+      "A Dynamic Planet"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "'Zero Downtime: The AquaTech Migration' - a single-metric lightning talk on how moving to the cloud yielded 99.999% uptime for a water utility.",
+    "audience": "Cloud computing prospects",
+    "style_hints": "punchy, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "'Deep Work Requires Boredom' - a manifesto on why deleting social media is the only way to reclaim the ability to focus intensely.",
+    "audience": "Knowledge workers",
+    "style_hints": "declarative, extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Distraction is Default",
+      "The Cost of Context Switching",
+      "Cal Newport's Law",
+      "Deep Work is Rare",
+      "Deep Work is Valuable",
+      "Delete Social Media",
+      "Embrace Boredom"
+    ]
+  }
+]

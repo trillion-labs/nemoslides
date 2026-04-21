@@ -1,0 +1,503 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "A deep dive into building custom syntax highlighters using Tree-sitter, focusing on creating a grammar for the fictional language GloomScript.",
+    "audience": "Compiler engineers and tooling developers",
+    "style_hints": "code-heavy, parser-nerd humor",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Step-by-step guide to configuring Neovim with Lua for a seamless, dark-mode-first Rust development environment using the RabidVim distro.",
+    "audience": "Rust developers transitioning to Neovim",
+    "style_hints": "config-tweaking, terminal-aesthetic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch for NightOwlDB, a new serverless NoSQL database optimized for low-light developer dashboards and dark-mode web apps.",
+    "audience": "Venture capitalists and angel investors",
+    "style_hints": "slick, high-contrast, data-driven",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Creating retro chiptune music using the terminal-based tracker MilkyTracker, covering basic sampling and loop creation in a CLI environment.",
+    "audience": "Musicians and retro computing enthusiasts",
+    "style_hints": "nostalgic, technical, lo-fi",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An explainer on WebAssembly's WAT text format, demonstrating how to write raw assembly to build a fictional VampireLang compiler target.",
+    "audience": "Web developers and language enthusiasts",
+    "style_hints": "brain-teasing, hacker-aesthetic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Review of the dark-mode UI redesign for ShadowGit, a popular Git client, showing before-and-after contrast ratios and accessibility scores.",
+    "audience": "Product designers and frontend engineers",
+    "style_hints": "detail-oriented, accessibility-focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Engineering team update on the migration from a monolithic architecture to microservices using the internal Gotham framework.",
+    "audience": "Software engineers and engineering managers",
+    "style_hints": "transparent, team-centric, roadmap-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting pitch for Crypt Studios, highlighting the company's custom C++ game engine, dark-mode IDE mandates, and remote-first culture.",
+    "audience": "Senior game engine developers",
+    "style_hints": "edgy, perks-focused, insider-jargon",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Taming the terminal: Advanced tmux workflows for managing multiple cloud environments using the Batsignal CLI wrapper.",
+    "audience": "DevOps engineers and sysadmins",
+    "style_hints": "power-user, shortcut-heavy, witty",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a secure, dark-themed authentication flow in SvelteKit using Lucia auth and Tailwind's dark mode classes.",
+    "audience": "Frontend developers and web security novices",
+    "style_hints": "step-by-step, practical, cautious",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of distributed consensus algorithms in Raft, using the Coq proof assistant to ensure fault tolerance.",
+    "audience": "Graduate students in computer science",
+    "style_hints": "rigorous, logical, academic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Optimizing developer focus: Time-blocking strategies and CLI tools like FocusMode to minimize context switching in a noisy Slack culture.",
+    "audience": "Software developers experiencing burnout",
+    "style_hints": "empathetic, practical, zen-like",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Hacking the rendering pipeline: Writing custom Vulkan shaders to simulate atmospheric fog and gothic lighting in real-time.",
+    "audience": "Graphics programmers and game developers",
+    "style_hints": "deeply technical, visual, math-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Automating home lab backups with Bash and Cron: A beginner's guide to securing your digital life using the CryptKeep script.",
+    "audience": "Self-hosting hobbyists and Linux tinkerers",
+    "style_hints": "DIY ethos, comforting, practical",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launching MidnightCLI: The new open-source task runner that makes monorepo builds feel instantaneous with smart caching.",
+    "audience": "Open-source maintainers and JavaScript developers",
+    "style_hints": "hype-building, demonstrative, fast-paced",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Demystifying eBPF: How the PhantomProbe tool uses kernel-level tracing to debug microservices without code changes.",
+    "audience": "Cloud native developers and SREs",
+    "style_hints": "illuminating, systems-level, deep-dive",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "A linguistic analysis of the Whitespace esoteric programming language and its place in the history of code golfing.",
+    "audience": "Programming language historians and code golfers",
+    "style_hints": "quirky, analytical, minimalist",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Visualizing baseball spin rates using Python and Plotly: How the PitchDark model predicts curveball effectiveness.",
+    "audience": "Sabermetricians and data-driven sports fans",
+    "style_hints": "stat-heavy, graphical, modern",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The anatomy of a movie hacker: Analyzing the terminal sequences and Unix commands shown in the film Sneakers and The Matrix.",
+    "audience": "Film buffs and cybersecurity professionals",
+    "style_hints": "analytical, pop-culture-savvy, forensic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch deck for Vault, a developer secrets manager that injects environment variables directly into local Docker containers via a dark-themed CLI.",
+    "audience": "Seed-stage tech investors",
+    "style_hints": "problem-focused, secure, cryptographic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hackathon prep: Building a real-time WebSocket chat app with Socket.io and a custom Dracula-themed UI kit in under an hour.",
+    "audience": "Student developers and hackathon newcomers",
+    "style_hints": "encouraging, rapid-prototyping, interactive",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 DevOps Metrics Review: Analyzing deployment frequencies, Mean Time to Recovery, and CI pipeline durations for the Nosferatu release.",
+    "audience": "VP of Engineering and DevOps leads",
+    "style_hints": "data-centric, objective, process-driven",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Type-safety in the dark: Leveraging TypeScript's template literal types to build the GothRouter API layer.",
+    "audience": "Advanced TypeScript developers",
+    "style_hints": "type-wizardry, clever, syntax-focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Predicting timestamp anomalies in distributed ledgers: A stochastic modeling approach using the CrimsonChain dataset.",
+    "audience": "Cryptography researchers and data scientists",
+    "style_hints": "methodical, mathematical, peer-focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introduction to Recursion: Visualizing the call stack using the Vampire Bite metaphor in a high school AP Computer Science class.",
+    "audience": "High school AP CS students",
+    "style_hints": "metaphorical, engaging, educational",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinTech startup BloodBank reduced API latency by 40% by migrating to the NightRider edge computing platform.",
+    "audience": "Prospective enterprise clients and CTOs",
+    "style_hints": "results-oriented, narrative, professional",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing a cross-platform dark-mode UI component library between ShadowUI and GothamJS developer ecosystems.",
+    "audience": "Open-source foundation leaders and core maintainers",
+    "style_hints": "collaborative, visionary, structured",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Dockerizing legacy PHP applications: A hands-on lab using the Sarcophagus baseline image for secure, isolated hosting.",
+    "audience": "Backend developers maintaining legacy code",
+    "style_hints": "pragmatic, stepwise, tidy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Coding generative art with Processing: Creating infinite, dark-themed looping visuals for live music backgrounds.",
+    "audience": "Creative coders and VJs",
+    "style_hints": "artistic, expressive, algorithmic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The forgotten art of AWK: Processing gigabyte-sized NGINX logs with the GraveDigger AWK extension.",
+    "audience": "Systems programmers and data engineers",
+    "style_hints": "unix-philosophy, vintage-tech, performant",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding garbage collection in V8: A visual breakdown of the Orinoco garbage collector's concurrent sweeping phase.",
+    "audience": "JavaScript developers interested in engine internals",
+    "style_hints": "low-level, visual, demystifying",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Hex: A pitch for a collaborative, terminal-based spreadsheet tool designed specifically for quantitative analysts who live in the CLI.",
+    "audience": "Fintech angel investors",
+    "style_hints": "disruptive, niche-focused, pragmatic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Vim to the Core: Restructuring your life editing habits using modal editing principles applied to daily task management.",
+    "audience": "Vim enthusiasts and productivity hackers",
+    "style_hints": "philosophical, keyboard-driven, clever",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Escaping callback hell in Rust: Implementing the Baton async runtime for high-concurrency network programming.",
+    "audience": "Systems programmers and Rustaceans",
+    "style_hints": "zero-cost-abstraction, deep-dive, technical",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Annual security review: Defending against the Bite zero-day vulnerability and introducing the new internal Bug Bounty program.",
+    "audience": "Global engineering and security teams",
+    "style_hints": "urgent, transparent, empowering",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Critique of the Eclipse API documentation site redesign, focusing on dark mode scroll behavior and code snippet contrast.",
+    "audience": "Documentation writers and UX designers",
+    "style_hints": "critical, constructive, pixel-perfect",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Evaluating the memory safety of the Casket allocator: A comparative study on memory fragmentation in constrained IoT devices.",
+    "audience": "Embedded systems researchers",
+    "style_hints": "empirical, thorough, precise",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building real-time MIDI controllers with Raspberry Pi Pico and Rust: The CryptSynth hardware project.",
+    "audience": "Hardware hackers and audio programmers",
+    "style_hints": "maker-spirit, hands-on, low-latency",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Progress report on the DarkNet community mesh network: Deploying LoRa nodes across the downtown tech district.",
+    "audience": "Local hackerspace members and city tech officials",
+    "style_hints": "community-driven, civic-hacking, grassroots",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing GhoulDB v2.0: Time-traveling queries and built-in dark-mode dashboard for graph databases.",
+    "audience": "Database administrators and full-stack developers",
+    "style_hints": "feature-dropping, visionary, celebratory",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Data linting at scale: How Stripe uses the Impaler linting framework to catch PII leaks in massive data pipelines.",
+    "audience": "Data engineers and security compliance officers",
+    "style_hints": "pragmatic, scale-focused, cautious",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Hacking the typing experience: Writing a custom keymap for ZMK firmware to optimize the Sanguine split keyboard for Vim users.",
+    "audience": "Mechanical keyboard enthusiasts and embedded devs",
+    "style_hints": "ergonomic, obsessive, custom-hardware",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  }
+]

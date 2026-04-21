@@ -1,0 +1,466 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Pinia 3.0 deep dive: exploring the new devtools integration and plugin architecture for Vue 3.5+ state management",
+    "audience": "VueConf attendees",
+    "style_hints": "technical but friendly, demo-driven",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Build your first Nuxt 4 app: a step-by-step lab creating a server-rendered recipe hub with Nitro caching",
+    "audience": "frontend bootcamp students",
+    "style_hints": "encouraging, step-by-step clarity",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing FrostUI 2.0: a warmer, more accessible Vue 3 component library with 60+ new primitives and design tokens",
+    "audience": "OSS community and prospective users",
+    "style_hints": "celebratory and polished",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hackathon recap",
+    "topic": "48 Hours of Code: how Team Glacier built a real-time collaborative SVG editor at PolarHack 2025",
+    "audience": "hackathon participants and sponsors",
+    "style_hints": "high-energy storytelling",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Redesigning the Tundra Design System: evaluating gradient accessibility, token migration, and component variant expansion",
+    "audience": "product design and engineering leads",
+    "style_hints": "visual and analytical",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "community workshop kickoff",
+    "topic": "VueJax Meetup #30 kickoff: welcoming new members and previewing tonight's lightning talk lineup on Vue transitions",
+    "audience": "local Vue meetup community",
+    "style_hints": "warm and inviting",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Driftcode: seed-round pitch for an AI-assisted code-review tool purpose-built for Vue and Nuxt monorepos",
+    "audience": "early-stage tech investors",
+    "style_hints": "confident and modern",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Aurora Retail migrated a 200-page marketing site to Nuxt 3 and cut LCP by 62% using hybrid rendering",
+    "audience": "prospective Nuxt enterprise customers",
+    "style_hints": "data-backed, narrative flow",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Why Vue 3 reactivity is faster: an illustrated breakdown of proxy-based tracking versus the Vue 2 dep model",
+    "audience": "curious intermediate JS developers",
+    "style_hints": "educational and visual",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Motion in Vue: a hands-on lab building micro-interactions with @vueuse/motion and CSS spring curves",
+    "audience": "frontend developers at a creative-coding meetup",
+    "style_hints": "playful and exploratory",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Snowflake DevTools Q2 all-hands: shipping the Vite plugin v2 and celebrating 10K GitHub stars",
+    "audience": "entire company",
+    "style_hints": "upbeat and inclusive",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Server components in Vue: experiments with Vue SSR streams and the upcoming server-component RFC",
+    "audience": "advanced Vue developers",
+    "style_hints": "technical deep-dive, forward-looking",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unveiling Slidev v50: new presenter mode, AI-assisted layouts, and native Shiki twoslash integration",
+    "audience": "Slidev user community",
+    "style_hints": "excited and demo-heavy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join Fjord Engineering: a recruiting deck showcasing the Vue ecosystem stack and remote-first culture",
+    "audience": "senior frontend engineers",
+    "style_hints": "friendly, culture-forward",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Platform UI team Q3 review: component adoption metrics, accessibility audit results, and the Q4 roadmap",
+    "audience": "VP of Engineering and cross-functional leads",
+    "style_hints": "structured and metric-driven",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Type-safe Vue: a lab on integrating Vue 3.5 with tRPC and Zod for end-to-end type safety",
+    "audience": "full-stack TypeScript developers",
+    "style_hints": "precise and methodical",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The anatomy of a great Vue composable: patterns from 30 open-source libraries",
+    "audience": "VueConf Europe attendees",
+    "style_hints": "analytical, pattern-rich",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing a certified Vue learning path with VueSchool: proposal for a sponsored joint curriculum",
+    "audience": "VueSchool leadership team",
+    "style_hints": "collaborative and professional",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "OpenFront 2025: progress on the community-built Vue-powered civic budget dashboard for Anchorage",
+    "audience": "local civic-tech volunteers",
+    "style_hints": "community-minded, transparent",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Measuring bundle-budget regressions in SPAs: a case study across 40 Vue 3 production apps",
+    "audience": "software engineering researchers",
+    "style_hints": "rigorous, data-rich",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Shifting the Iceberg palette: proposing expanded dark-mode tokens and warm gradient accents for the Penguin UI kit",
+    "audience": "design-system maintainers",
+    "style_hints": "visual, opinionated but open",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Vite under the hood: how esbuild and Rollup work together in Vite 6 to power Vue and beyond",
+    "audience": "tooling-curious web developers",
+    "style_hints": "clear, diagram-friendly",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hackathon recap",
+    "topic": "From blank canvas to plugin store: 3 teams share their Vite plugin prototypes from Midnight Hack 2024",
+    "audience": "developer community and judges",
+    "style_hints": "fast-paced, celebratory",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Empowering the AE team: playbook for selling Aurora CMS to frontend-first enterprises using Vue",
+    "audience": "account executives",
+    "style_hints": "motivational, structured",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Testing Vue apps with Vitest and Vue Test Utils: a guided lab from unit tests to component snapshot diffs",
+    "audience": "junior-to-mid Vue developers",
+    "style_hints": "patient, example-heavy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Edge-first Vue: deploying Nuxt to Cloudflare Workers with zero-cold-start rendering strategies",
+    "audience": "infrastructure-minded frontend engineers",
+    "style_hints": "technical and performance-focused",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Launching Vue Summit 2026: campaign brief for the early-bird push targeting European JS meetup organizers",
+    "audience": "marketing and community teams",
+    "style_hints": "punchy, brand-aligned",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Accessibility in component libraries: how FrostUI audits WCAG 2.2 compliance across 120 components",
+    "audience": "accessibility advocates and library authors",
+    "style_hints": "empathetic, detail-oriented",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Presenting Tabula: a drag-and-drop Vue form builder with conditional logic and real-time validation",
+    "audience": "SaaS product managers and developers",
+    "style_hints": "sleek and demo-centric",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Permafrost Inc. board briefing: strategic shift from React consulting to Vue-platform product line",
+    "audience": "board of directors",
+    "style_hints": "executive, strategic",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "community workshop kickoff",
+    "topic": "Vue Saturdays Nairobi season 4 launch: schedule reveal, mentor introductions, and a live-coding warm-up",
+    "audience": "Nairobi developer community",
+    "style_hints": "energizing and inclusive",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a real-time dashboard with Vue 3, WebSocket, and D3: a code-along lab for data-viz enthusiasts",
+    "audience": "data-viz curious frontend devs",
+    "style_hints": "creative and immersive",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Glacial Logistics unified five legacy portals into a single Nuxt-layered intranet in 90 days",
+    "audience": "enterprise IT decision-makers",
+    "style_hints": "professional, results-oriented",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Intro to reactivity: a CS101 lesson on declarative UI using Vue 3 Composition API and a live sandbox",
+    "audience": "first-year computer science students",
+    "style_hints": "approachable, scaffolded",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The developer advocate playbook: habits and workflows for producing consistent Vue ecosystem content",
+    "audience": "developer relations professionals",
+    "style_hints": "practical, encouraging",
+    "theme_hint": "penguin",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Micro-frontends with Vite module federation: lessons from scaling a Vue design-system across eight teams",
+    "audience": "architects and tech leads",
+    "style_hints": "systems-thinking, experience-based",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Aurora Metrics: seed pitch for a Vue-native analytics dashboard SDK that auto-tracks component renders",
+    "audience": "angel investors in dev-tools",
+    "style_hints": "punchy, credible, vision-driven",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "PenguinStack 1.0 launch: a batteries-included Vue 3 + Vite + Supabase starter with auth and billing wired up",
+    "audience": "indie hackers and agency teams",
+    "style_hints": "enthusiastic, demo-heavy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Pixel art with Vue: a creative-coding tutorial building a sprite editor using Canvas and Vue reactivity",
+    "audience": "creative coders and hobbyists",
+    "style_hints": "fun, experimental",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Code the North: funding request to expand free Vue and web-dev workshops across rural Alaskan communities",
+    "audience": "tech-industry philanthropic donors",
+    "style_hints": "heartfelt, mission-driven",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Suspense, async setup, and streaming SSR in Vue 3.5: patterns for graceful loading states",
+    "audience": "mid-to-senior Vue developers",
+    "style_hints": "calm authority, demo-rich",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Storybook 9 with Vue 3: a hands-on workshop documenting components, writing interaction tests, and publishing",
+    "audience": "design-system contributors",
+    "style_hints": "methodical, collaborative",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  }
+]

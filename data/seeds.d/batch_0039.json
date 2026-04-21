@@ -1,0 +1,489 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "FlashDeploy: a zero-config edge deployment platform for Rust microservices targeting Series A venture capital.",
+    "audience": "Series A VC firms",
+    "style_hints": "monospace-heavy, terminal-green accents, crisp tech stacks",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scaling WebSockets to 1M concurrent connections using the Nexus-RT distributed broker architecture.",
+    "audience": "Backend engineers at NodeConf",
+    "style_hints": "confident systems-architecture tone, dark mode code",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing Vault-cli v2: a local-first, end-to-end encrypted secrets manager designed to replace dotenv files in modern CI/CD.",
+    "audience": "DevOps community and livestream viewers",
+    "style_hints": "developer-product energy, dramatic unveilings",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of distributed consensus algorithms in the Manticore protocol using Coq and TLA+.",
+    "audience": "CS graduate students and distributed systems researchers",
+    "style_hints": "clinical precision, math-forward, rigorous logic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 engineering org review: showcasing the 40% reduction in P95 latency across the DataPipeline product.",
+    "audience": "Engineering managers and VP of Eng",
+    "style_hints": "crisp data visibility, metric-driven clarity",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a serverless CRUD API with the StackFlow framework and DynamoDB single-table design.",
+    "audience": "Junior cloud developers",
+    "style_hints": "step-by-step concise, live-coding feel",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How GitOps principles enable continuous compliance and automated drift detection in the KiteCI platform.",
+    "audience": "Platform engineers and SREs",
+    "style_hints": "confident infra-explainer, architectural diagrams",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic expansion into European edge compute markets for AetherCloud's sovereign data infrastructure.",
+    "audience": "Board of directors of AetherCloud",
+    "style_hints": "high-level executive crispness, decisive phrasing",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "H2 2024 roadmap: detailing the open-source release of SynthQL and the resulting team restructuring plans.",
+    "audience": "Entire engineering and product company",
+    "style_hints": "transparent, unified-vision tone",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Launching the DevVelocity benchmark report: outlining the content strategy and developer persona targeting for Q4.",
+    "audience": "Developer relations and content marketing team",
+    "style_hints": "analytical dev-marketing, persona-driven",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Selling ObserveStack to enterprise CISOs: mapping pain points to the unified telemetry pitch framework.",
+    "audience": "B2B SaaS sales team",
+    "style_hints": "confident, strategic, pain-to-value mapping",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinTech unicorn LedgerX migrated from legacy PostgreSQL monoliths to StreamDB for real-time event sourcing.",
+    "audience": "Prospective StreamDB enterprise customers",
+    "style_hints": "crisp case-study narrative, outcome-focused",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing VS Code extensions: proposing the deep integration of LintPro's AST engine into CoreIntellisense.",
+    "audience": "Product leads at CoreIntellisense",
+    "style_hints": "mutual-value proposition, collaborative tech tone",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Why build the future of InfraClient SDKs with our DX team: highlighting the open-source impact and remote-first culture.",
+    "audience": "Senior OSS contributors and frontend engineers",
+    "style_hints": "direct, mission-driven, technical appeal",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Redesigning the ChronoLog observability dashboard for better cognitive load and query builder accessibility.",
+    "audience": "UX researchers and infra product managers",
+    "style_hints": "Vercel-clean UI critique, component-focused",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introduction to memory allocation in C: building a custom slab allocator step-by-step with the MemCraft library.",
+    "audience": "Undergraduate CS students",
+    "style_hints": "educational monospace, step-by-step logical",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Automating the boring parts: a developer's guide to configuring CI/CD flow states for deep work preservation.",
+    "audience": "Indie hackers and remote solo makers",
+    "style_hints": "practical, systems-thinking, crisp advice",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "CompilerAI: seeking seed funding for an LLM-assisted boilerplate generation tool specifically tuned for Kubernetes manifests.",
+    "audience": "Seed-stage infrastructure investors",
+    "style_hints": "demo-forward, AI-meets-infra energy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zero-downtime database schema migrations at scale utilizing the shadow-table architecture of PgShift.",
+    "audience": "Senior database engineers at PgConf",
+    "style_hints": "deep technical walkthrough, authoritative",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unveiling EdgeAuth: a lightweight, edge-deployed JWT validation service built for Vercel and Cloudflare workers.",
+    "audience": "Security engineers and web architects",
+    "style_hints": "disruptive infra-launch, edge-native framing",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Implementing distributed rate-limiting with Redis and the GateKeeper Go middleware for high-traffic APIs.",
+    "audience": "API developers and backend coders",
+    "style_hints": "hands-on, code-centric, iterative building",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The architectural internals of ZephyrSearch: explaining the inverted index and real-time distributed consensus engine.",
+    "audience": "Search relevance engineers",
+    "style_hints": "system-deconstruction, algorithmic clarity",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q4 SaaS metrics review: analyzing the CodeSync enterprise tier conversion rates and seat expansion data.",
+    "audience": "Finance and product leadership",
+    "style_hints": "metric-dense, growth-focused crispness",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Accelerating CI/CD pipeline execution by 40% at OmniRetail using RunFast's dedicated Turso runners.",
+    "audience": "DevOps leads evaluating CI tools",
+    "style_hints": "performance-metric narrative, before-and-after",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Joint API integration proposal: embedding PayStack's direct billing endpoints into AppForge's low-code platform.",
+    "audience": "VP of Partnerships at AppForge",
+    "style_hints": "strategic API-synergy, business-tech alignment",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Joining the CryptoVault core team: pitching the challenge of building zero-knowledge proof infrastructure for DeFi.",
+    "audience": "Cryptography researchers and ZK engineers",
+    "style_hints": "cutting-edge technical challenge, cryptic-clean",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Wireframes and user flow for the FluxState developer portal: optimizing API reference navigation and playground layout.",
+    "audience": "Technical writers and platform design team",
+    "style_hints": "DX-focused, Vercel-aesthetic UX review",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "MeshNet: decentralized RPC routing networks designed to eliminate single-point-of-failure risks for Web3 infrastructure.",
+    "audience": "Crypto-native venture funds",
+    "style_hints": "decentralized ethos, infra-crispness",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Optimizing Rust WASM module sizes for browser-side ComputeWeave execution pipelines without runtime bloat.",
+    "audience": "Rust and WebAssembly community members",
+    "style_hints": "performance-obsessed, binary-level precision",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launch of MetricFlow: an auto-discovering distributed tracing topology tool built on OpenTelemetry standards.",
+    "audience": "Observability community at KubeCon",
+    "style_hints": "tech-forward keynote, infrastructure unveil",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Evaluating Byzantine fault tolerance thresholds in StarkNet's rollup consensus mechanisms via formal modeling.",
+    "audience": "Blockchain researchers at ETH Zurich",
+    "style_hints": "rigorous math and theory, structured diagrams",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing custom Terraform providers for CloudTamer to automate internal multi-cloud provisioning workflows.",
+    "audience": "Infrastructure automation engineers",
+    "style_hints": "practical infra-coding, monospace-dominant",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding the CAP theorem trade-offs in NovaDB's multi-region active-active cluster deployments.",
+    "audience": "Backend architects evaluating NovaDB",
+    "style_hints": "systems-architecture explainer, crisp logic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "2025 Horizons: detailing the DevStream acquisition integration and our unified platform vision for the developer ecosystem.",
+    "audience": "Combined DevStream and acquirer employees",
+    "style_hints": "visionary yet structured, calming technical leadership",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Promoting the OpenPipeline hackathon: strategizing developer engagement, sponsorships, and OSS community growth.",
+    "audience": "Developer advocates and OSS community managers",
+    "style_hints": "community-focused, developer-product marketing",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Breaking into the FinServe vertical: positioning SecureNode's on-prem compliance nodes for banking procurement cycles.",
+    "audience": "Enterprise account executives",
+    "style_hints": "strategic B2D sales, compliance-heavy framing",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "QueryFlow: a visual SQL query builder and optimizer aimed at empowering non-technical data analysts in SaaS companies.",
+    "audience": "SaaS-focused seed investors",
+    "style_hints": "product-led growth narrative, clean UI-forward",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Profiling eBPF programs for kernel-level network filtering using the FilterNet observability toolkit.",
+    "audience": "Linux kernel and systems engineers",
+    "style_hints": "low-level systems expertise, data-dense profiling",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "TCP/IP stack fundamentals: simulating packet routing and congestion control via the NetSimLab CLI environment.",
+    "audience": "High school AP CS students",
+    "style_hints": "educational, terminal-visual, structured logic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The FocusCode methodology: establishing deep work rituals and context-recovery strategies for remote software engineers.",
+    "audience": "Remote engineering teams",
+    "style_hints": "distraction-free design, methodical and crisp",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Year in review: detailing BranchHQ platform reliability metrics, commit-to-deploy times, and SLO achievements.",
+    "audience": "Engineering and product org at BranchHQ",
+    "style_hints": "metric-transparent, operational excellence",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "System design proposal for CacheLayer: evaluating distributed Redis cluster sharding strategies versus Memcached pools.",
+    "audience": "Principal engineers and SREs",
+    "style_hints": "decision-driven, architecture-heavy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  }
+]

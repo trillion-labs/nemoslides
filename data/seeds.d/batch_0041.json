@@ -1,0 +1,730 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Efficacy of bacteriophage cocktail therapy against multidrug-resistant Pseudomonas aeruginosa in cystic fibrosis patients: results from the PhageCF Phase II trial.",
+    "audience": "Infectious disease researchers and clinicians",
+    "style_hints": "Formal, evidence-driven, clinical tone",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "GEM-MPNN: an edge-conditioned graph neural network for predicting molecular properties on the MoleculeNet benchmark, outperforming ChemBERTa on regression tasks.",
+    "audience": "Machine learning researchers at NeurIPS",
+    "style_hints": "Technical, precise, architecture-focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: GEM-MPNN — Graph Neural Networks for Molecular Property Prediction",
+      "Motivation: why molecular property prediction matters for drug discovery and materials science",
+      "Graph representation of molecules: atoms as nodes, bonds as edges; SMILES encoding overview",
+      "Message passing framework: mathematical formulation of neighborhood aggregation",
+      "Architecture: proposed GEM-MPNN with edge-conditioned convolutional layers",
+      "Training setup: MoleculeNet benchmark splits, loss functions, hyperparameter search",
+      "Results — classification: ROC-AUC on HIV, BBBP, and Tox21 datasets",
+      "Results — regression: RMSE on QM9 quantum chemistry targets",
+      "Ablation study: impact of edge features, residual connections, and pooling strategy",
+      "Comparison with transformers: ChemBERTa vs. GEM-MPNN on shared benchmarks",
+      "Limitations and future work: scalability to large proteins, interpretability of learned representations",
+      "Conclusion and code release: GitHub repository link and reproducibility checklist"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Evidence synthesis on microplastic contamination in North American freshwater systems for the EPA's upcoming drinking water regulatory review.",
+    "audience": "EPA senior policy analysts and regulators",
+    "style_hints": "Formal, policy-oriented, data-grounded",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Hanseatic League's role in shaping Northern European maritime trade law from 1350 to 1450, focusing on the Laws of Wisby and the Lübeck hegemony.",
+    "audience": "Undergraduate medieval history seminar",
+    "style_hints": "Narrative, source-driven, chronological",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: The Hanseatic League — Commerce and Law in the Baltic, 1350–1450",
+      "Historical context: Baltic trade routes before the Hanseatic League",
+      "Key cities and Kontors: Lübeck, Bergen, London Steelyard, Novgorod",
+      "Governance structure: Hansetag assemblies and the Lübeck hegemony",
+      "Maritime law innovations: the Laws of Wisby and Schiffahrtsrecht",
+      "Conflict and diplomacy: the Danish-Hanseatic War (1361–1370)",
+      "Economic transformation: standardized weights, coinage, and trade privileges",
+      "Legacy: the Hansa's influence on modern international commercial law"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introductory calculus lesson on limits and continuity, using the epsilon-delta definition with worked examples from Stewart's Calculus (9th ed.).",
+    "audience": "First-year undergraduate calculus students",
+    "style_hints": "Pedagogical, step-by-step, rigorously structured",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on Bayesian hierarchical modeling with PyMC 5 for estimating Iberian lynx occupancy probability in Doñana National Park.",
+    "audience": "Ecology graduate students and postdocs",
+    "style_hints": "Practical, code-along, diagnostic-focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: Bayesian Inference with PyMC for Ecological Modeling",
+      "Why Bayesian? Parameter uncertainty, prior knowledge, and small-sample advantages",
+      "PyMC 5 overview: model specification, sampling backends, and ArviZ diagnostics",
+      "Data introduction: occupancy survey of the Iberian lynx in Doñana",
+      "Model specification: defining the hierarchical occupancy model in PyMC",
+      "Prior predictive checks: choosing and visualizing informative priors",
+      "Running the sampler: NUTS configuration, target_accept, and chain settings",
+      "Convergence diagnostics: R-hat, effective sample size, and trace plots",
+      "Posterior inference: species occupancy probability with credible intervals",
+      "Model comparison: WAIC and LOO-CV for model selection",
+      "Posterior predictive checks: comparing predicted vs. observed detection histories",
+      "Takeaways and resources: recommended reading and PyMC community links"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Quantum error correction with surface codes: how stabilizer measurements protect logical qubits from bit-flip and phase-flip errors.",
+    "audience": "Software engineers curious about quantum computing",
+    "style_hints": "Conceptual, diagram-heavy, minimally jargon-laden",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Doctoral thesis defense: shifts in the coral holobiont microbiome under simulated ocean acidification (800 ppm pCO₂) at the Puerto Morelos reef system.",
+    "audience": "Thesis committee and marine biology faculty",
+    "style_hints": "Formal defense structure, evidentiary, methodical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 14,
+    "outline_hint": [
+      "Title: Microbiome Shifts in Caribbean Coral Reefs Under Ocean Acidification",
+      "Background: coral holobiont concept and the role of Symbiodiniaceae",
+      "Research gap: effects of OA on non-symbiotic microbial associates",
+      "Study site: reef transects along a natural pH gradient in Puerto Morelos, Mexico",
+      "Experimental design: in situ incubation chambers with manipulated pCO₂",
+      "16S rRNA amplicon sequencing: bioinformatics pipeline (QIIME 2 + DADA2)",
+      "Alpha diversity response: Shannon index decline at 800+ ppm scenarios",
+      "Beta diversity: PERMANOVA showing community turnover under acidification",
+      "Indicator taxa analysis: enrichment of Vibrio and Endozoicomonas under low pH",
+      "Metagenome-assembled genomes: functional annotation of stress-response pathways",
+      "Coral health outcomes: bleaching scores and tissue loss correlation with microbiome state",
+      "Implications: microbial community as early warning indicator for reef decline",
+      "Limitations and future directions: metatranscriptomics and temporal monitoring",
+      "Acknowledgments and references"
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Longitudinal outcomes of community health worker programs in rural Guatemala: five-year follow-up data from the Primeros Pasos initiative showing sustained maternal health improvements.",
+    "audience": "Global health foundation grant reviewers",
+    "style_hints": "Formal, impact-evidence driven, emotionally anchored",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The sociolinguistics of keigo (Japanese honorifics): analyzing overuse of sonkeigo by younger speakers — the 'hyperpoliteness' phenomenon — in the Tokyo Workplace Discourse Corpus.",
+    "audience": "Linguistics graduate students and Japan studies scholars",
+    "style_hints": "Analytical, corpus-driven, nuance-oriented",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: The Sociolinguistics of Keigo — Politeness and Social Structure in Japanese",
+      "Defining keigo: sonkeigo, kenjōgo, and teineigo — three dimensions of honorification",
+      "Historical origins: honorifics in Classical Japanese and the Heian court",
+      "Social deixis: how keigo indexes speaker-hearer power and solidarity",
+      "Data and methodology: Tokyo workplace discourse corpus (200 recorded interactions)",
+      "Finding 1: overuse of sonkeigo by younger speakers — the hyperpoliteness phenomenon",
+      "Finding 2: kenjōgo attrition in email vs. face-to-face communication",
+      "Gender and keigo: women's language ideologies and prescribed honorific use",
+      "Pedagogical implications: teaching keigo to L2 learners of Japanese"
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Predictive modeling of soft-tissue injury risk in Premier League football using GPS-derived acute-to-chronic workload ratios and Catapult sensor data from the 2022–23 season.",
+    "audience": "Sports science practitioners and club performance analysts",
+    "style_hints": "Quantitative, applied, visually data-rich",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Structural analysis of narrative unreliability in Kazuo Ishiguro's 'The Remains of the Day': Stevens as defective narrator, the idiom of professionalism, and dramatic irony.",
+    "audience": "University English literature reading group",
+    "style_hints": "Close-reading focused, interpretive, seminar-style",
+    "theme_hint": "academic",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: Narrative Unreliability in Kazuo Ishiguro's 'The Remains of the Day'",
+      "Introduction: unreliable narration as a literary device — Wayne Booth and Ansgar Nünning",
+      "Stevens as defective narrator: memory gaps, emotional deflection, self-deception",
+      "The butler's idiom: language of professionalism as a screen for intimacy",
+      "Key passage analysis: the evening at the inn — significance of 'the English landscape'",
+      "Dramatic irony and the reader's reconstruction: what Stevens cannot say",
+      "Closing discussion: how unreliability shapes our understanding of dignity and regret"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Brutalist architecture in post-war Britain (1955–1975): social housing ideals and the New Brutalism movement, from the Smithsons' Hunstanton School to Trellick Tower.",
+    "audience": "Architecture history graduate students",
+    "style_hints": "Visual-essay style, archival, critical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Spatial semiotics in Andrei Tarkovsky's 'Stalker' (1979): the Zone as ontological boundary, analyzed through Yuri Lotman's semiosphere framework.",
+    "audience": "Film studies scholars and cultural semioticians",
+    "style_hints": "Theoretical, image-driven, interpretive",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Spatial Semiotics in Andrei Tarkovsky's 'Stalker' (1979)",
+      "Introduction: the Zone as cinematic space — between ruin and revelation",
+      "Theoretical framework: Yuri Lotman's semiosphere and cinematic spatiality",
+      "Entering the Zone: threshold crossing and the dissolution of diegetic boundaries",
+      "Color and texture: sepia-to-color transitions as ontological markers",
+      "The Room: desire, absence, and the unrepresentable",
+      "Sound and silence: the diegetic hum of the Zone vs. the outside world",
+      "The Porcupine allegory: second-order desire and the trap of wish-fulfillment",
+      "Ecocritical reading: the Zone as Chernobyl prefiguration and post-industrial nature",
+      "Conclusion: the Zone as semiotic model of the unknowable"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Peer review of a CRISPR-Cas9 knock-in construct designed for the Exon 51 skipping therapy in the Duchenne muscular dystrophy Xenopus model, assessing off-target predictions from CRISPOR.",
+    "audience": "Molecular biology lab team and collaborators",
+    "style_hints": "Technical, construct-focused, critique-oriented",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Literature review of brain-computer interface signal processing advances from 2018–2024: preprocessing pipelines, Riemannian geometry features, and transformer-based decoders.",
+    "audience": "Neuroengineering research group",
+    "style_hints": "Survey-style, comprehensive, comparative",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: BCI Signal Processing — A Literature Review, 2018–2024",
+      "Scope and methods: search strategy, inclusion criteria, PRISMA flow diagram",
+      "BCI paradigms: motor imagery, P300, SSVEP — prevalence in the literature",
+      "Preprocessing pipelines: CSP, ICA artifact removal, and filter bank approaches",
+      "Feature extraction: time-frequency representations and Riemannian geometry",
+      "Deep learning in BCI: EEGNet, ConvNets, and transformer architectures",
+      "Transfer learning and domain adaptation: cross-subject generalization strategies",
+      "Online and real-time systems: implementation challenges and latency benchmarks",
+      "Clinical applications: locked-in syndrome, stroke rehabilitation, neuroprosthetics",
+      "Open challenges: non-stationarity, small sample sizes, reproducibility",
+      "Summary and annotated bibliography of 20 key papers"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "FedRad: a federated learning framework for privacy-preserving chest X-ray diagnostics across 14 hospitals, using split-learning architectures and differential privacy guarantees.",
+    "audience": "ML and healthcare informatics researchers at MICCAI",
+    "style_hints": "Technical, privacy-math-forward, systems-aware",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Meta-analysis of carbon pricing mechanisms across 28 jurisdictions for the UK Climate Advisory Committee: comparing ETS, carbon taxes, and hybrid price-floor models.",
+    "audience": "UK Climate Advisory Committee members",
+    "style_hints": "Policy-rigorous, comparative, evidence-first",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Carbon Pricing Effectiveness — A Meta-Analysis for the UK Climate Advisory Committee",
+      "Policy context: the UK's net-zero 2050 target and the role of carbon pricing",
+      "Review scope: emissions trading systems and carbon taxes in 28 jurisdictions",
+      "Methodology: meta-regression model for price elasticity of emissions",
+      "ETS findings: EU ETS phases I–III, price floor mechanisms, observed reductions",
+      "Carbon tax findings: British Columbia, Sweden, and Switzerland case comparisons",
+      "Revenue recycling: impact of revenue use on public acceptance and equity",
+      "Co-benefits: air quality improvements and health externalities",
+      "Key risk: carbon leakage and border adjustment mechanisms",
+      "Policy recommendations: hybrid price-floor model for the UK ETS"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Organic chemistry lesson: SN1 vs. SN2 nucleophilic substitution mechanisms, comparing kinetic profiles, stereochemical outcomes, and solvent effects with worked examples.",
+    "audience": "Second-year undergraduate organic chemistry students",
+    "style_hints": "Pedagogical, mechanism-focused, stepwise",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Reproducible research workflows with Quarto and Git: authoring, versioning, and auto-publishing scientific documents from a single .qmd source.",
+    "audience": "Early-career researchers at a library methods workshop",
+    "style_hints": "Hands-on, practical, tool-focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Reproducible Research Workflows with Quarto and Git",
+      "The reproducibility crisis: motivation and imperatives for transparent science",
+      "Quarto basics: document types, YAML header, and cross-referencing",
+      "Integrating code chunks: R and Python execution in .qmd documents",
+      "Version control essentials: git init, commit, diff, and log",
+      "Branching and collaboration: feature branches, pull requests, and code review",
+      "Project structure: the Cookiecutter Data Science template adapted for Quarto",
+      "CI/CD for manuscripts: GitHub Actions to auto-render on push",
+      "Publishing outputs: HTML, PDF, and DOCX generation from a single source",
+      "Live demo: cloning, editing, and rendering a mini-project"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A geometric perspective on transformer self-attention: interpreting QKV projections as bilinear forms over learned manifold embeddings.",
+    "audience": "Math-literate software engineers and ML practitioners",
+    "style_hints": "Geometric, formal, conceptually rigorous",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Lab meeting update: pilot data from chronic subdiaphragmatic vagus nerve stimulation in C57BL/6 mice — effects on gut microbiome composition and forced swim test behavior.",
+    "audience": "Neurogastroenterology lab members",
+    "style_hints": "Informal-lab-tone, data-forward, discussion-oriented",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Pilot Data — VNS and Gut Microbiome Composition in C57BL/6 Mice",
+      "Study rationale: the vagus nerve as a bidirectional gut-brain signaling pathway",
+      "Animal protocol: chronic subdiaphragmatic VNS implantation, sham controls (n=12/group)",
+      "Microbiome profiling: 16S rRNA sequencing of fecal samples at days 0, 14, 28",
+      "Behavioral outcomes: forced swim test and open field test results",
+      "Microbiome alpha diversity: no significant change (Shannon, p=0.34) — power concerns",
+      "Beta diversity: modest separation on PCoA1 (adonis R²=0.08, p=0.04)",
+      "Taxonomic shifts: increased Lactobacillus relative abundance in VNS group",
+      "Next steps: expanding to n=30, adding metabolomics, pre-registering the protocol"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Bandung Conference of 1955 and the origins of the Non-Aligned Movement: decolonization, Afro-Asian solidarity, and the Nehru-Nasser-Tito diplomatic axis.",
+    "audience": "Undergraduate international history class",
+    "style_hints": "Narrative, primary-source-rich, contextual",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Expected Goals (xG) model calibration across five European football leagues (2022–23): identifying systematic over- and under-prediction by shot type and defensive context.",
+    "audience": "Football analytics community at the Opta Pro Forum",
+    "style_hints": "Quantitative, benchmark-oriented, visually data-rich",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: xG Model Calibration Across Five European Football Leagues",
+      "Introduction: the xG metric — definition, uses, and limitations",
+      "Data sources: Opta event data for EPL, La Liga, Bundesliga, Serie A, Ligue 1 (2022–23)",
+      "Model architecture: gradient boosted trees with spatial and contextual features",
+      "Calibration methodology: reliability diagrams and Brier score decomposition",
+      "League-level calibration: underprediction in La Liga, overprediction in the Bundesliga",
+      "Shot-type stratification: penalties, headers, and open-play finishes",
+      "Temporal drift: model performance degradation over a single season",
+      "Defensive context: impact of shot pressure and goalkeeper positioning",
+      "Recommendations: league-specific recalibration and Bayesian updating"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Diglossia in Arabic-speaking communities: functional differentiation between Modern Standard Arabic and colloquial varieties (Egyptian, Levantine, Moroccan) in education and media.",
+    "audience": "Sociolinguistics class and Arabic language educators",
+    "style_hints": "Comparative, structural, descriptive",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Results from a cluster-randomized controlled trial of community-managed deep tubewells with iron-removal filters (BRIC project) in 120 villages of Rampal Upazila, Bangladesh.",
+    "audience": "WaterAid and bilateral development donors",
+    "style_hints": "Impact-evidence-first, cost-effectiveness framed",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Clean Water Infrastructure and Child Health — RCT Evidence from Rural Bangladesh",
+      "The problem: diarrheal disease burden and arsenic contamination in the Bengal Delta",
+      "Intervention: community-managed deep tubewells with iron-removal filters (BRIC project)",
+      "Study design: cluster-randomized controlled trial across 120 villages, Rampal Upazila",
+      "Primary outcome: child diarrheal prevalence — 27% reduction (95% CI: 14–38%)",
+      "Secondary outcome: water quality — arsenic below WHO guidelines in 94% of intervention households",
+      "Cost-effectiveness: $23 per DALY averted — highly cost-effective by WHO thresholds",
+      "Community ownership: maintenance rates and water committee governance at 18 months",
+      "Scale-up: partnerships with BRAC and the Ministry of Local Government"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Conference paper walkthrough: DenseSLAM — a real-time dense neural SLAM system for edge devices, demonstrating 30 FPS reconstruction on NVIDIA Jetson Orin.",
+    "audience": "Computer vision researchers at 3DV conference",
+    "style_hints": "Architecture-deep, demo-laden, benchmark-heavy",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 research output review for the Max Planck Institute for Intelligent Systems, Tübingen: publications, grant acquisitions, PhD completions, and infrastructure updates.",
+    "audience": "Institute directors and department heads",
+    "style_hints": "Institutional, metrics-driven, forward-looking",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Q3 Research Output Review — MPI-IS Tübingen",
+      "Overview: publications, preprints, and patent filings — Q3 vs. Q2 comparison",
+      "Empirical Inference Department: 14 papers at NeurIPS/ICML, 3 oral presentations",
+      "Perceiving Systems Department: CVPR best-paper nominee, EU project milestones",
+      "Haptic Intelligence Department: new DFG grant, Nature Machine Intelligence paper",
+      "Cross-department collaborations: joint seminars, shared compute utilization",
+      "PhD completions and recruitment: 5 defenses, 8 new doctoral candidates",
+      "Infrastructure and budget: GPU cluster expansion, FY budget utilization at 73%",
+      "Priorities for Q4: EMNLP submissions, hiring 2 W2 positions, open-house event"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic roadmap for the National Institute on Aging's neurodegeneration research portfolio: reallocating $42M toward tau-focused clinical trials and longitudinal biomarker studies.",
+    "audience": "NIA National Advisory Council on Aging",
+    "style_hints": "Strategic, fiscal-impact-aware, portfolio-framed",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Statistical hypothesis testing: p-values, confidence intervals, and six common misinterpretations, with a decision flowchart for responsible reporting.",
+    "audience": "Second-year statistics students in a research methods course",
+    "style_hints": "Pedagogical, misconception-focused, practice-oriented",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: Statistical Hypothesis Testing — p-Values, CIs, and Common Misinterpretations",
+      "Why hypothesis testing? The logic of falsification and inductive inference",
+      "Null and alternative hypotheses: one-tailed vs. two-tailed formulations",
+      "The p-value defined: what it is and what it is not",
+      "Misinterpretation 1: p=0.03 does not mean 3% chance the null is true",
+      "Misinterpretation 2: non-significant does not mean no effect",
+      "Confidence intervals: definition, construction, and relation to hypothesis tests",
+      "Misinterpretation of CIs: 95% CI does not mean 95% probability the true value is inside",
+      "Effect sizes and practical significance: Cohen's d and why p is not enough",
+      "Multiple comparisons: Bonferroni correction and false discovery rate",
+      "Summary: a decision flowchart for responsible statistical reporting"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Annotation and inter-rater reliability for qualitative coding in NVivo: calculating Cohen's kappa and resolving discrepancies in a thematic analysis of patient interview transcripts.",
+    "audience": "Qualitative research methods graduate students",
+    "style_hints": "Hands-on, process-focused, discussion-friendly",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The Navier-Stokes existence and smoothness problem: what is known, what remains open, and why it matters for turbulence theory and computational fluid dynamics.",
+    "audience": "Mathematically literate general audience at a public lecture series",
+    "style_hints": "Accessible yet rigorous, historically contextualized",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: The Navier-Stokes Existence and Smoothness Problem — Current Landscape",
+      "Statement of the problem: the Clay Millennium Prize formulation",
+      "The Navier-Stokes equations: derivation from conservation laws and incompressibility",
+      "What existence and smoothness requires: a priori estimates and energy bounds",
+      "Known results in 2D: global existence via Ladyzhenskaya's inequality",
+      "Partial results in 3D: weak solutions (Leray), mild solutions, conditional regularity",
+      "Obstructions: blow-up criteria and the role of the pressure term",
+      "Related open problems: Euler equations regularity and the Beale-Kato-Majda criterion",
+      "Why it matters: implications for turbulence theory and computational fluid dynamics"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Doctoral thesis defense: paleoclimate reconstruction from speleothem oxygen isotope ratios in Carlsbad Caverns, New Mexico — a 250,000-year record of monsoonal variability.",
+    "audience": "Thesis committee and paleoclimatology faculty",
+    "style_hints": "Formal defense, geochemistry-dense, chronological",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Differentiable rendering for inverse graphics: theory, approximate gradient computation through the rendering equation, and applications in 3D shape and material estimation.",
+    "audience": "Computer graphics researchers at SIGGRAPH",
+    "style_hints": "Theory-heavy, framework-comparative, application-rich",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: Differentiable Rendering for Inverse Graphics — Theory and Applications",
+      "Introduction: the inverse graphics problem — recovering scene parameters from images",
+      "Background: rasterization vs. ray tracing — why standard rendering is non-differentiable",
+      "Core technique: approximate gradient computation through the rendering equation",
+      "Frameworks: OpenDR, Neural 3D Mesh Renderer, and Kaolin",
+      "Silhouette-based gradients: handling visibility discontinuities with edge sampling",
+      "Application 1: 3D shape estimation from single-view images",
+      "Application 2: material and lighting estimation from multi-view captures",
+      "Application 3: text-to-3D generation using score distillation and differentiable rendering",
+      "Benchmarks: ShapeNet reconstruction metrics and comparison with neural implicit methods",
+      "Limitations: convergence traps, multi-modality, and computational cost"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Systematic review of harm reduction strategies for the Canadian Centre on Substance Use and Addiction: supervised consumption sites, naloxone distribution, and opioid agonist therapy efficacy.",
+    "audience": "Canadian federal health policy advisors",
+    "style_hints": "Evidence-synthesis tone, harm-reduction framed, actionable",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Columbian Exchange: biological consequences of 1492 for indigenous populations — pathogen transfer, crop diffusion, and the demographic collapse question (the '54 million' estimate).",
+    "audience": "AP World History students and instructor",
+    "style_hints": "Narrative, big-picture, historiographically aware",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: The Columbian Exchange — Biological Consequences of 1492",
+      "Framing the exchange: Crosby's thesis and the concept of ecological imperialism",
+      "Pathogen transfer: smallpox, measles, influenza — estimated 90% population decline",
+      "Crop diffusion eastward: maize, potatoes, cassava transforming Old World diets",
+      "Crop diffusion westward: wheat, sugar, citrus — imposed agricultural systems",
+      "Livestock introduction: feral horses, pigs, and cattle as ecosystem engineers",
+      "The labor consequence: encomienda, forced migration, and the transatlantic slave trade",
+      "Demographic reconstruction: estimating pre-contact populations (the 54 million question)",
+      "Legacy: the Columbian Exchange as origin of today's globalized biosphere"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Dada and the readymade: Marcel Duchamp's 'Fountain' (1917) and its legacy in contemporary institutional critique, from Broodthaers to Hirst.",
+    "audience": "Modern art history seminar students",
+    "style_hints": "Critical, image-centered, philosophical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Literature review of large language model alignment techniques and safety benchmarks (2022–2024): RLHF, Constitutional AI, Direct Preference Optimization, and the sycophancy problem.",
+    "audience": "AI safety research group",
+    "style_hints": "Survey-style, technically precise, critical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: LLM Alignment — Techniques and Safety Benchmarks, A Literature Review",
+      "Scope and definitions: what is alignment — the RLHF paradigm and beyond",
+      "RLHF: reward modeling, PPO, KL penalties, and reward hacking risks",
+      "Constitutional AI: self-critique and principle-guided training (Anthropic approach)",
+      "Direct Preference Optimization: simplified RL-free alignment — theory and trade-offs",
+      "Red-teaming and adversarial evaluation: prompt injection, jailbreaks, harmful completions",
+      "Safety benchmarks: HELM, TruthfulQA, and the AI Safety Evaluation Framework",
+      "Over-optimization and sycophancy: the alignment tax and reward hacking",
+      "Multilingual and cross-cultural alignment: coverage gaps in non-English settings",
+      "Open problems: scalable oversight, corrigibility, and deceptive alignment",
+      "Annotated reading list: 15 essential papers (2022–2024)"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Structural equation modeling in lavaan for psychology researchers: specifying, estimating, and interpreting a mediation model with latent variables using the Holmes-Rahe stress inventory dataset.",
+    "audience": "Psychology postdocs and advanced doctoral students",
+    "style_hints": "Step-by-step, code-along, interpretation-focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Wearable IMU-based gait asymmetry analysis for return-to-play assessment after ACL reconstruction: a random forest classifier achieving 89% accuracy on 45 post-ACLR patients.",
+    "audience": "Sports medicine physicians and biomechanics researchers",
+    "style_hints": "Clinical-applied, sensor-data-heavy, outcome-focused",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Wearable IMU Gait Analysis for Return-to-Play After ACL Reconstruction",
+      "Clinical motivation: re-injury rates and the need for objective return-to-play criteria",
+      "Sensor setup: 6 IMUs on bilateral lower limbs — sacrum, thighs, shanks — 100 Hz",
+      "Data collection: 45 post-ACLR patients and 30 matched controls, treadmill protocol",
+      "Feature extraction: stride time, knee flexion range, ground reaction force proxies",
+      "Asymmetry index: computing inter-limb gait symmetry ratios",
+      "Machine learning pipeline: random forest classifier for full-return vs. not-ready",
+      "Classification results: 89% accuracy, 0.91 AUC on held-out test set",
+      "Feature importance: knee flexion symmetry and stride time variability as top predictors",
+      "Clinical integration: decision support dashboard for sports medicine physicians"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Tone sandhi in Mandarin Chinese: phonological rules and psycholinguistic evidence for Tone 3 sandhi, half-sandhi, and the interaction with prosodic boundary strength.",
+    "audience": "Phonology class and Chinese language researchers",
+    "style_hints": "Formal-phonological, rule-based, experimental-evidence anchored",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "image-forward",
+      "KaTeX"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introduction to Kierkegaard's existentialism: 'Fear and Trembling' and the teleological suspension of the ethical — Abraham's trial as a problem for Hegelian universalism.",
+    "audience": "Philosophy undergraduates in an existentialism survey course",
+    "style_hints": "Socratic, text-close, discussion-prompting",
+    "theme_hint": "academic",
+    "feature_hints": [],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Kierkegaard's 'Fear and Trembling' and the Teleological Suspension of the Ethical",
+      "Context: Kierkegaard's Copenhagen — Hegelianism, institutional Christianity, the individual",
+      "Pseudonymous authorship: Johannes de Silentio and indirect communication",
+      "The Abraham narrative: Genesis 22 — faith as epistemological and ethical problem",
+      "The teleological suspension of the ethical: defining Kierkegaard's central claim",
+      "Knight of faith vs. knight of infinite resignation: two modes of existential commitment",
+      "The ethical universal (Hegel) vs. the individual before God — the problem of mediation",
+      "Relevance: Kierkegaard's influence on existentialism, Levinas, and Derrida",
+      "Discussion questions: is Abraham a hero or a fanatic? Can faith be justified?"
+    ]
+  }
+]

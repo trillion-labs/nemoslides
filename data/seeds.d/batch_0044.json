@@ -1,0 +1,756 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Séminaire on advancements in hyperbolic 3-manifold knot theory, focusing on recent proofs of the volume conjecture.",
+    "audience": "graduate mathematics students and faculty",
+    "style_hints": "rigorous, theorem-proof structure, old-school academic",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title & Seminar Series Acknowledgements",
+      "Introduction to Hyperbolic 3-Manifolds",
+      "Defining the Volume Conjecture",
+      "Historical Context & Prior Partial Proofs",
+      "Key Lemma: Asymptotic Expansion of Kashaev's Invariant",
+      "Main Theorem Statement",
+      "Proof Sketch: Step 1 - Quantum Dilogarithm Identities",
+      "Proof Sketch: Step 2 - State Sum Integrals",
+      "Geometric Interpretation of the Result",
+      "Corollaries & Open Questions",
+      "References",
+      "Next Seminar Topic & Q&A"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Seminar on mechanism design for matching markets, analyzing the stability and efficiency of the Gale-Shapley algorithm in medical residency placements.",
+    "audience": "economics doctoral candidates",
+    "style_hints": "structured, formal, analytical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Colloquium on recent experimental observations of topological Kondo insulators, specifically focusing on SmB6 surface state transport measurements.",
+    "audience": "university physics department faculty and postdocs",
+    "style_hints": "formal, beamer-style, structured derivation",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14,
+    "outline_hint": [
+      "Colloquium Title & Speaker Affiliation",
+      "Motivation: Topological Insulators vs Kondo Insulators",
+      "Theoretical Background: SmB6 Bulk Insulating Gap",
+      "Predicted Topological Surface States",
+      "Experimental Setup: Transport Measurement Configuration",
+      "Data: Temperature-dependent Resistivity Plateaus",
+      "Data: Quantum Oscillation Observations",
+      "Analysis: Surface Dirac Fermion Formulation",
+      "Comparison with Alternative Theories",
+      "Implications for Quantum Computing Materials",
+      "Future Experimental Directions",
+      "Acknowledgements & Funding Sources",
+      "Key References",
+      "Questions & Discussion"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Comprehensive impact assessment of proposed carbon border adjustment mechanisms on domestic manufacturing and export competitiveness.",
+    "audience": "senior trade ministry officials",
+    "style_hints": "authoritative, structured, policy-facing",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The administrative and fiscal reforms of the Byzantine Empire under the Komnenian dynasty, 1081-1185.",
+    "audience": "undergraduate history majors",
+    "style_hints": "formal, archival, structured narrative",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title & Komnenian Dynasty Timeline",
+      "Context: Empire post-1071 Manzikert",
+      "Alexios I: The Pronoia System Origins",
+      "Fiscal Policy: Chrysobull Exemptions & Trade",
+      "John II: Military Financing & Provincial Administration",
+      "Manuel I: Western Economic Integration",
+      "The Decline: Over-extension & Monetary Debasement",
+      "Komnenian Legacy in Byzantine Statecraft",
+      "Discussion & Primary Source Recommendations"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "AP Calculus AB unit review on limits and continuity, covering epsilon-delta definitions and intermediate value theorem applications.",
+    "audience": "high school AP Calculus students",
+    "style_hints": "structured, pedagogical, formal academic",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on econometrics lab on estimating fixed-effects panel data models using R's plm package, focusing on trade policy elasticity.",
+    "audience": "graduate economics researchers",
+    "style_hints": "instructional, methodical, formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Workshop Title & Prerequisites",
+      "Panel Data Structure: Conceptual Overview",
+      "Mathematical Model: Fixed Effects Specification",
+      "R Setup: Installing and Loading `plm`",
+      "Data Inspection: Importing the Trade Policy Dataset",
+      "Estimation Step 1: OLS Pooled Baseline",
+      "Estimation Step 2: Within-Transform Fixed Effects",
+      "Interpreting Output: Coefficients and Significance",
+      "Robustness Checks: Heteroskedasticity & Serial Correlation",
+      "Exporting Tables to LaTeX",
+      "Common Pitfalls & Best Practices",
+      "Exercise Assignment & Resources"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Quarterly financial and operational review for Frankfurt Steel Works GmbH, focusing on Q3 yield improvements and European market hedging.",
+    "audience": "institutional investors and board members",
+    "style_hints": "formal, corporate, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Mathematical foundations of elliptic curve cryptography (ECC) and its advantages over RSA in securing IoT device communications.",
+    "audience": "embedded systems engineers",
+    "style_hints": "formal, technical, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title & Motivation: IoT Security Constraints",
+      "Group Theory Primer: Finite Fields",
+      "Defining Elliptic Curves over F_p",
+      "Point Addition & Scalar Multiplication",
+      "The Elliptic Curve Discrete Logarithm Problem (ECDLP)",
+      "Key Generation in ECC",
+      "Comparison: ECC vs RSA Key Sizes",
+      "Domain Parameters & Standard Curves (secp256k1)",
+      "Protocol Integration: ECDH & ECDSA",
+      "Side-Channel Attack Mitigations",
+      "Conclusion & Recommended Implementation Specs"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Formal verification methodologies for Byzantine fault-tolerant distributed consensus protocols, specifically analyzing PBFT state machine replication.",
+    "audience": "distributed systems researchers",
+    "style_hints": "rigorous, formal methods, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic 5-year asset allocation review for the State University Endowment Fund, evaluating fixed-income vs. alternative investment shifts.",
+    "audience": "university board of trustees",
+    "style_hints": "formal, fiduciary, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Endowment Strategy Briefing Title",
+      "Current Portfolio Snapshot & Market Value",
+      "Macro-Economic Outlook: Interest Rate Projections",
+      "Current Allocation: Fixed Income Heavy Limitations",
+      "Proposed Allocation: Increasing Private Equity Exposure",
+      "Risk-Return Modeling: Efficient Frontier Shift",
+      "Alternative Investments: Venture & Real Estate",
+      "Spending Policy Impact: 4.5% Payout Analysis",
+      "Implementation Roadmap & Rebalancing Timeline",
+      "Appendix: Detailed Asset Class Projections"
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Major donor formal proposal for the Historic Frankfurt Archive Foundation, seeking endowment funds for 19th-century manuscript conservation.",
+    "audience": "heritage preservation philanthropists",
+    "style_hints": "traditional, formal, heritage-focused",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Annual macroeconomic and financial stability report for the European Central Bank, summarizing 2023 monetary policy transmission mechanisms.",
+    "audience": "European parliament finance committee",
+    "style_hints": "institutional, formal, data-centric",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 14,
+    "outline_hint": [
+      "ECB Annual Report Title & Executive Summary",
+      "Macro Overview: HICP Inflation Trajectory",
+      "Monetary Policy Decisions: Key Rate Adjustments",
+      "Transmission Mechanism: Bank Lending Survey Data",
+      "Labour Market & Wage Dynamics",
+      "Fiscal Policy Outlook & Sovereign Debt",
+      "Financial Stability Assessment",
+      "Asset Purchase Programme Wind-Down",
+      "Market Expectations & Forward Guidance",
+      "International Economy & Exchange Rate Impacts",
+      "Summary of Policy Achievements",
+      "Appendix: Statistical Methodology Notes",
+      "Appendix: Detailed Data Tables",
+      "Closing Remarks & Publication Details"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Lecture on the application of optimal transport theory to generative adversarial networks (GANs), specifically the Wasserstein distance metric.",
+    "audience": "advanced machine learning mathematics researchers",
+    "style_hints": "rigorous, theorem-heavy, formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Formal grant proposal pitch for BioStruct Analytics, a novel computational biophysics platform for protein folding prediction, requesting NIH Phase I funding.",
+    "audience": "NIH grant review committee",
+    "style_hints": "formal, structured, scientific",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Grant Proposal Title & PI Biographies",
+      "Significance: Unmet Need in Protein Folding",
+      "Innovation: Lattice Boltzmann + Optimal Transport",
+      "Approach: Phase I Research Aims",
+      "Aim 1: Algorithmic Kernel Design",
+      "Aim 2: Validation on CASP14 Dataset",
+      "Aim 3: Thermodynamic Consistency Checks",
+      "Preliminary Data: Alpha-Helix Prediction Success",
+      "Team & Institutional Resources",
+      "Budget Overview & Timeline",
+      "Future Directions & Phase II Transition"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Graduate seminar on formal logic proof systems, specifically structural induction over simply-typed lambda calculus terms.",
+    "audience": "computer science theory graduate students",
+    "style_hints": "analytical, formal, derivation-heavy",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Stochastic calculus lecture on Itô's lemma derivation and its application to continuous-time hedging strategies in the Black-Scholes model.",
+    "audience": "quantitative finance graduate students",
+    "style_hints": "mathematical, formal, step-by-step",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "Lecture Title & Reading Assignments",
+      "Review: Brownian Motion & Filtrations",
+      "Defining the Itô Integral",
+      "Properties of the Itô Integral: Martingales",
+      "Quadratic Variation of Brownian Motion",
+      "Statement of Itô's Lemma (1-Dimension)",
+      "Proof Sketch of Itô's Lemma",
+      "Applying Itô's Lemma to Geometric Brownian Motion",
+      "The Black-Scholes SDE",
+      "Deriving the Black-Scholes PDE via Hedging",
+      "Delta-Hedging Strategy Formulation",
+      "Solving the Black-Scholes PDE",
+      "Summary & Next Lecture: Jump Processes"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Seminar on historical linguistics: reconstructing Proto-Indo-European phonological systems via comparative method and regular sound laws.",
+    "audience": "linguistics graduate students",
+    "style_hints": "structural, formal, methodological",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Economics seminar on the identification of causal effects in observational data, specifically focusing on regression discontinuity design boundary conditions.",
+    "audience": "empirical microeconomics faculty",
+    "style_hints": "formal, methodological, rigorous",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Seminar Title & Author Affiliation",
+      "The Fundamental Problem of Causal Inference",
+      "Overview of Regression Discontinuity (RD)",
+      "Sharp vs Fuzzy RD Designs",
+      "Identification Assumption: Continuity of Potential Outcomes",
+      "Estimation: Local Linear Regression",
+      "Bandwidth Selection: Optimal MSE Minimization",
+      "Validity Checks: Density Tests & Covariate Balance",
+      "Application: Effect of Class Size on Test Scores",
+      "Robustness & External Validity Discussion"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Formal proposal for a cross-institutional research consortium between Heidelberg University and ETH Zurich on quantum materials synthesis.",
+    "audience": "university provosts and research directors",
+    "style_hints": "formal, institutional, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Sabermetrics formal analysis lecture: deriving the Pythagorean expectation formula for win-loss projections in European football leagues.",
+    "audience": "sports data science conference attendees",
+    "style_hints": "quantitative, formal, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Lecture Title & Sabermetrics Origins",
+      "The Pythagorean Expectation Formula",
+      "Derivation: Run/Goal Ratio to Win Ratio",
+      "Statistical Fit: Football vs Baseball Variance",
+      "Data: EPL 2010-2023 Season Validation",
+      "Extensions: The Pythagenport Adjustment",
+      "Application: Mid-season Forecasting",
+      "Limitations: Game State & Luck Metrics",
+      "Questions & References"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "AP Physics C unit on electromagnetism: deriving Maxwell's equations from Gauss's, Ampère's, and Faraday's laws.",
+    "audience": "high school AP Physics students",
+    "style_hints": "pedagogical, formal, derivation-centric",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Formal seminar on the Zettelkasten method for structured academic knowledge management and long-term research synthesis.",
+    "audience": "research doctoral candidates",
+    "style_hints": "methodological, structured, academic",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title & Seminar Objectives",
+      "The Problem of Academic Knowledge Fragmentation",
+      "Historical Roots: Luhmann's Zettelkasten",
+      "Core Principles: Atomicity & Interlinking",
+      "Creating Literature Notes vs Permanent Notes",
+      "The Hub Structure: Indexing & Entry Points",
+      "Workflow: Reading → Extracting → Linking → Writing",
+      "Implementation: Obsidian / Logseq Setup"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Physics colloquium on the interferometry data analysis methods used in LIGO's detection of binary black hole mergers, focusing on matched filtering.",
+    "audience": "astrophysics and signal processing faculty",
+    "style_hints": "formal, data-centric, rigorous",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Formal annual general meeting presentation for Rhine Valley Vineyards AG, detailing vintage yield statistics, export market share, and capital expenditure.",
+    "audience": "shareholders and agricultural investors",
+    "style_hints": "traditional, formal, financial",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "AGM Title & Chairman Welcome",
+      "FY2023 Financial Highlights",
+      "Vintage Report: Yield Per Hectare Data",
+      "Revenue Analysis: Domestic vs Export Sales",
+      "Cost Breakdown: Production & Logistics",
+      "Capital Expenditure: New Pressing Facility",
+      "Balance Sheet & Debt Position",
+      "Dividend Proposal for Shareholders",
+      "Market Outlook: 2024 Climate Forecasts",
+      "Closing & Formal Q&A Session"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Formal explainer on the mathematical modeling of queuing theory for server load balancing, focusing on M/M/c queue distributions.",
+    "audience": "backend infrastructure architects",
+    "style_hints": "structural, mathematical, formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Lecture on the fiscal and military strategies of the Roman Empire during the Crisis of the Third Century (235–284 AD).",
+    "audience": "classical history graduate students",
+    "style_hints": "formal, analytical, historical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Lecture Title & Period Parameters",
+      "Context: The Severan Dynasty Collapse",
+      "Military Crisis: Barbarian Incursions & Sassanid Wars",
+      "Economic Collapse: Debasement of the Antoninianus",
+      "Political Fragmentation: Gallic & Palmyrene Empires",
+      "Aurelian's Restorations: Monetary & Military",
+      "Diocletian: The Edict on Maximum Prices",
+      "Diocletian: Tetrarchy & Provincial Reorganization",
+      "Constantine: Solidus & Military Restructuring",
+      "Long-term Consequences for Late Antiquity",
+      "Discussion & Suggested Secondary Sources"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Formal architectural and structural design review for the new University Library Archives extension, focusing on climate control systems.",
+    "audience": "university facilities board and conservation specialists",
+    "style_hints": "formal, technical, institutional",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Structured seminar discussion guide for Keynes's 'The General Theory of Employment, Interest and Money', focusing on Chapter 12's long-term expectations.",
+    "audience": "economic policy graduate reading group",
+    "style_hints": "formal, analytical, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title & Reading Scope: Ch 12",
+      "Keynes's Critique of Classical Loanable Funds",
+      "The Role of Uncertainty vs Risk",
+      "Long-Term Expectation & Animal Spirits",
+      "The Marginal Efficiency of Capital Definition",
+      "Investment Dynamics: Speculation vs Enterprise",
+      "Discussion Prompts & Modern Behavioral Echoes"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Lecture on the structural macroeconomic modeling of sovereign debt crises, using the Eaton-Gersovitz model of default with strategic renegotiation.",
+    "audience": "macroeconomics PhD candidates",
+    "style_hints": "formal, mathematical, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Formal deployment case study of SAP S/4HANA migration for a multi-national manufacturing firm, focusing on financial accounting standardization.",
+    "audience": "enterprise ERP implementation leads",
+    "style_hints": "formal, structured, corporate-case-study",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Case Study Title & Client Profile",
+      "Challenge: Legacy Fragmented Financial Systems",
+      "Objective: Standardized Group Reporting",
+      "Migration Approach: Brownfield vs Greenfield Decision",
+      "Data Migration: Chart of Accounts Harmonization",
+      "Custom Code Adaptation & Integration",
+      "Post-Go-Live: Close Time Reduction Metrics",
+      "Lessons Learned: Governance & Change Management",
+      "Appendix: Performance Benchmarks"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Formal research presentation on the formal specification and verification of distributed smart contract automata using TLA+.",
+    "audience": "formal methods software engineers",
+    "style_hints": "rigorous, specification-heavy, formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Functional analysis seminar on Sobolev space embeddings and their applications to solving non-linear elliptic PDE boundary value problems.",
+    "audience": "pure and applied mathematics postdocs",
+    "style_hints": "formal, mathematical, pure-research",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Seminar Title & Speaker",
+      "Motivation: Elliptic PDE Boundary Problems",
+      "Preliminaries: Lebesgue Spaces Refresher",
+      "Defining Sobolev Spaces W^{k,p}",
+      "Weak Derivatives & Distribution Theory",
+      "Key Theorem: Sobolev Embedding Theorem",
+      "Proof Outline: Gagliardo-Nirenberg-Sobolev",
+      "Application: Existence of Weak Solutions",
+      "Energy Estimates & Regularity Lift",
+      "Open Problems: Critical Exponents",
+      "References & Q&A"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposal for joint degree framework in Econometrics between Copenhagen Business School and the London School of Economics.",
+    "audience": "university academic committees",
+    "style_hints": "institutional, formal, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "IB History HL standard level lesson on the Versailles Treaty's economic ramifications for the Weimar Republic, 1919-1923.",
+    "audience": "high school IB History students",
+    "style_hints": "structured, formal, pedagogical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Lesson Title & Learning Objectives",
+      "Context: The Paris Peace Conference",
+      "The Versailles Treaty: Key Economic Clauses",
+      "Reparations: The London Ultimatum Figures",
+      "Hyperinflation Mechanism: Money Supply vs Output",
+      "The Ruhr Crisis & Passive Resistance",
+      "Social Impact: Wage Indexation Failure",
+      "Stabilization: The Rentenmark Introduction",
+      "Essay Prompt & Source Analysis Exercise"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "LaTeX academic publishing workshop: structuring complex mathematical documents with custom theorem environments and BibTeX management.",
+    "audience": "early-career academic researchers",
+    "style_hints": "instructional, formal, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Seminar on the renormalization group flow in quantum field theory, specifically calculating beta functions for phi^4 theory in 4 dimensions.",
+    "audience": "theoretical physics graduate students",
+    "style_hints": "formal, calculation-heavy, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Seminar Title & RG Concept Intro",
+      "Classical vs quantum scaling dimensions",
+      "Perturbative expansion in phi^4 coupling",
+      "Feynman diagrams: 1-loop corrections",
+      "Regularization: dimensional reg scheme",
+      "Counterterms and renormalized Lagrangian",
+      "Deriving the beta function",
+      "Fixed point analysis: trivial vs non-trivial",
+      "Relevance of operators near fixed points",
+      "Homework problems & key references"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Formal demographic and economic impact assessment of proposed EU enlargement on Central European labor mobility and welfare systems.",
+    "audience": "senior interior ministry policy analysts",
+    "style_hints": "authoritative, data-centric, policy-formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Formal annual academic and financial report for the Max Planck Institute for Mathematics, detailing fellowships, publications, and budget allocation.",
+    "audience": "scientific advisory board and funding agencies",
+    "style_hints": "formal, institutional, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "MPI Annual Report Title",
+      "Director's Executive Summary",
+      "Scientific Output: Publications by Category",
+      "Visitor & Fellowship Statistics",
+      "Research Groups: Active Projects Breakdown",
+      "Key Research Highlight 1: Arithmetic Geometry",
+      "Key Research Highlight 2: Dynamical Systems",
+      "Budget Overview: Expenditure vs Allocations",
+      "Third-Party Funding Acquired",
+      "Infrastructure & Library Developments",
+      "Upcoming Year Goals & Priorities",
+      "Appendix: Detailed Financial Tables"
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Formal municipal briefing on the structural engineering progress and budget status of the Altstadt Riverbank Restoration project.",
+    "audience": "city council members and municipal engineers",
+    "style_hints": "formal, civic, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Seminar on the Cournot and Bertrand models of oligopoly, analyzing the existence and stability of Nash equilibria under incomplete information.",
+    "audience": "microeconomics undergraduate honors students",
+    "style_hints": "structured, formal, game-theory-centric",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Seminar Title & Oligopoly Context",
+      "Cournot Model: Quantity Competition Setup",
+      "Cournot Best Response Functions",
+      "Cournot Nash Equilibrium Derivation",
+      "Bertrand Model: Price Competition Paradox",
+      "Bertrand Equilibrium under Capacity Constraints",
+      "Incomplete Information: Bayesian Nash Equilibria",
+      "Summary & Comparative Table"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Research conference presentation on the Knuth-Bendix completion algorithm for term rewriting systems and its application to automated theorem proving.",
+    "audience": "theoretical computer science researchers",
+    "style_hints": "formal, rigorous, logic-heavy",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  }
+]

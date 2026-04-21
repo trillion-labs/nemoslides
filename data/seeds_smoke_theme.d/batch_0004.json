@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Introducing 'Drift', a daily markdown note-taking method that uses atomic files and timestamped linking to capture fleeting thoughts before they vanish.",
+    "audience": "Writers and journal keepers",
+    "style_hints": "quiet, focused, introspective",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on lab on building a minimalist, text-first personal wiki using the fictional 'ProseDB' engine and plain-text workflows.",
+    "audience": "Hobbyist developers and technical writers",
+    "style_hints": "instructional, unadorned, systematic",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A manifesto on restructuring the fictional 'Vortex API' documentation to prioritize writerly clarity and reading flow over exhaustive specification.",
+    "audience": "Developer experience engineers and technical writers",
+    "style_hints": "precise, persuasive, editorial",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "A guide to creating, printing, and distributing a single-sheet zine using the fictional 'FoldPrint' method, emphasizing minimal design and maximal words.",
+    "audience": "DIY creators and indie writers",
+    "style_hints": "gritty, authentic, makerly",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  }
+]

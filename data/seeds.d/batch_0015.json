@@ -1,0 +1,471 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "Palisade — a zero-trust secrets rotation platform for Kubernetes-native teams that auto-detects leaked env vars and rotates credentials in under 60 seconds.",
+    "audience": "Seed-stage SaaS investors",
+    "style_hints": "sharp, metric-forward, monospace data callouts",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building a JIT-compiled WASM runtime for edge AI inference — a deep dive into the instruction-selection pass of the fictional 'NebulVM' project.",
+    "audience": "Systems engineers at WASMConf",
+    "style_hints": "technically dense, diagram-heavy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unveiling FluxDeploy 2.0 — a GitOps-native continuous delivery platform with built-in drift detection and rollback visualisation for multi-cluster environments.",
+    "audience": "DevOps and platform engineers",
+    "style_hints": "cinematic build-ups, live-demo screenshots",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on with BoltCLI — building a production-grade CLI tool in Rust from 'cargo init' to published crate, using the BoltCLI framework pattern.",
+    "audience": "Rust-curious backend developers",
+    "style_hints": "step-by-step, code-first, minimal prose",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 FY2025 engineering review for CloudVox — covering platform uptime (99.97%), new region rollouts, API latency improvements, and the upcoming observability migration.",
+    "audience": "CloudVox leadership and engineering org",
+    "style_hints": "data-dense, no-fluff, metric callouts",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How CRDTs actually work — a conceptual and mathematical walkthrough of conflict-free replicated data types, grounded in the Automerge library's implementation.",
+    "audience": "Software architects exploring offline-first",
+    "style_hints": "calm pedagogical, notation-precise",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "SpectraQL — an open-source GraphQL gateway that auto-generates type-safe resolvers from your Prisma schema and enforces row-level security at the edge.",
+    "audience": "Series A venture capitalists",
+    "style_hints": "confident, demo-screenshot driven",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The architecture behind Multicast — how the fictional real-time multiplayer whiteboard 'Multicast' handles 10k concurrent cursors using CRDTs and WebTransport.",
+    "audience": "Frontend engineers at RealtimeConf",
+    "style_hints": "architecture-diagram focused, war-story tone",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinCore migrated 200+ microservices from legacy config management to HawkConfig's dynamic feature-flag platform, cutting deploy-to-production time by 74%.",
+    "audience": "VP Engineering prospects evaluating HawkConfig",
+    "style_hints": "metric-highlighted, narrative arc",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposed deep integration between AuthMesh (OAuth 2.0 orchestrator) and NeonServerless — enabling zero-config row-level auth for serverless Postgres tenants.",
+    "audience": "NeonServerless partnership team",
+    "style_hints": "mutual-value framing, architecture mock-ups",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join VoltAgent — the AI-native DevOps startup building autonomous incident responders, and help ship the v1 agent framework as a founding engineer.",
+    "audience": "Senior distributed-systems engineers",
+    "style_hints": "mission-driven but technical, culture code snippets",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "ReplicateHQ H2 2025 all-hands — new 'Diamond' compute tier launch, engineering re-org into platform vs. product squads, and Q4 OKR kick-off.",
+    "audience": "All ReplicateHQ employees",
+    "style_hints": "transparent, crisp, milestone-celebratory",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "FY2025 enterprise sales playbook for GateShield API security — positioning against Salt Security, new SOC 2 Type II badge, and the updated MEDDPICC qualification flow.",
+    "audience": "GateShield AE and SDR teams",
+    "style_hints": "competitive-sharp, playbook-structured",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of Raft consensus via model checking — presenting a proof sketch using the TLA+ specification of the 'RaftLite' implementation.",
+    "audience": "Graduate students in distributed systems",
+    "style_hints": "rigorous, notation-forward, proof-sketched",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing VectorForge inPipe — a managed vector-ingest pipeline that auto-chunks, embeds, and syncs embeddings to Pinecone, Weaviate, or Qdrant with zero glue code.",
+    "audience": "AI/ML engineers and data-platform leads",
+    "style_hints": "splashy architecture reveals, concise value props",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding eBPF for network observability — a practical walkthrough of how eBPF programs attach to kernel hooks to trace TCP retransmits without modifying application code.",
+    "audience": "SREs and network engineers",
+    "style_hints": "kernel-level detail, diagram-anchored",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "TideStack — a programmable edge gateway that compiles your TypeScript middleware to WASM for sub-millisecond request routing at 50k rps per instance.",
+    "audience": "Infrastructure-focused angel investors",
+    "style_hints": "benchmark-heavy, architecture-proud",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Deploying containerized workloads to Arcadia — a fictional serverless container platform — from Dockerfile to auto-scaling production URL in 45 minutes.",
+    "audience": "Full-stack developers new to serverless containers",
+    "style_hints": "hands-on, terminal-demo aesthetic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Reactive state at scale — lessons learned rewriting the fictional 'WaveState' reactive store from RxJS to native Signals, benchmarking 40k component updates.",
+    "audience": "Frontend framework authors at ViteConf",
+    "style_hints": "benchmark-table heavy, opinionated but evidence-based",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic options for SentinelOps' expansion into APAC — build-vs-partner analysis for regional log-ingestion infrastructure and the proposed acquisition of WatchNode Pty Ltd.",
+    "audience": "SentinelOps board of directors",
+    "style_hints": "strategic, options-framed, financially rigorous",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "DevRel Pro launch campaign — targeting developer advocates with a 6-week 'Build in Public' content sprint, hackathon sponsorship, and open-sourced starter templates.",
+    "audience": "DevRel Pro marketing and community team",
+    "style_hints": "campaign-timeline structured, audience-persona crisp",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "SpecHound — automated contract testing for event-driven architectures that generates pact-like specs from your Kafka topic schemas and CI pipeline.",
+    "audience": "Pre-seed angel investors in dev-tooling",
+    "style_hints": "problem-agonising, solution-elegant, demo-snippet",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zero-downtime schema migrations at PlanetaryDB — how the fictional planet-scale database company does online DDL without locking using a two-phase shadow-table approach.",
+    "audience": "Database engineers at PGCon",
+    "style_hints": "internals-focused, sequence-diagram driven",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Meridian CLI 1.0 — an open-source infrastructure-as-code tool that compiles TypeScript resource definitions directly into Terraform JSON with type-safe provider bindings.",
+    "audience": "Infrastructure engineers and IaC practitioners",
+    "style_hints": "developer-joy framing, code-demo spotlight",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Program synthesis via large language models — presenting 'SynthKit', a benchmark suite evaluating LLM-generated code patches against formal specifications in Dafny.",
+    "audience": "PL researchers and AI safety scholars",
+    "style_hints": "rigorous but accessible, benchmark-table centric",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How RideStack adopted Luminate's observability platform to trace 2M+ rideshare goroutines, cutting P99 latency from 1.8 s to 340 ms across three geographic regions.",
+    "audience": "Prospective Luminate enterprise buyers",
+    "style_hints": "metric-hero slides, before-after arc",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-launch proposal: StreamForge real-time video pipeline + CloudNile edge compute — a bundled offering for live-streaming platforms with sub-200 ms glass-to-glass latency.",
+    "audience": "StreamForge BD and product leadership",
+    "style_hints": "joint-value proposition, integration mock-ups",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Come build Cloudbreak — the serverless GPU orchestration layer — and own the scheduler runtime as founding infra engineer #3.",
+    "audience": "Ex-Kubernetes and distributed-systems engineers",
+    "style_hints": "technical-vision-first, culture-condensed",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "TerraNode Q2 2025 all-hands — celebrating SOC 2 Type II certification, previewing the 'Horizon' multi-cloud control plane, and announcing the Dublin office expansion.",
+    "audience": "All TerraNode employees",
+    "style_hints": "celebratory-but-crisp, roadmap-forward",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "H1 FY2025 SaaS metrics review for HexaBuild — net revenue retention at 128%, new ARR by product line, and the land-and-expand motion analysis for the Platform tier.",
+    "audience": "HexaBuild exec team and board observers",
+    "style_hints": "SaaS-metric fluent, financially precise",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How DNS-based service discovery works — from SRV records to Consul's DNS interface, explained for platform engineers designing internal developer platforms.",
+    "audience": "Platform and infra engineers building IDPs",
+    "style_hints": "layered-explanation, protocol-diagram anchored",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "CacheForge — an AI-tuned Redis-compatible cache that predicts hot keys from query traces and pre-warms them, reducing p99 tail latency by 5× for e-commerce workloads.",
+    "audience": "Series B infrastructure investors",
+    "style_hints": "benchmark-table proud, technical credibility signal",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building a distributed counter with Calyin — how the fictional 'Calyin' CRDT library implements PN-Counters over DynamoDB global tables with single-digit-ms convergence.",
+    "audience": "Serverless and data-engineering practitioners at re:Invent",
+    "style_hints": "deep-implementation focus, pseudocode-rich",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing your first Terraform provider with the 'Coral' SDK — a 90-minute lab covering resource schema, CRUD functions, and acceptance testing for a fictional 'QueueR' message-bus service.",
+    "audience": "DevOps engineers extending Terraform",
+    "style_hints": "lab-manual style, code-collection layout",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing GhostTrace 3.0 — an open-telemetry-native distributed tracer with automatic span-linking for async workloads and a new 'Trace Diff' comparison view.",
+    "audience": "Observability engineers and SREs",
+    "style_hints": "splash-grafana aesthetic, feature-demo punchy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The Terminal-Native Developer — restructuring your workflow around CLI tools, tmux sessions, and keyboard-driven editors for 2× context-switch reduction.",
+    "audience": "Developers seeking workflow optimization",
+    "style_hints": "pragmatic, tip-list structured, mono-accented",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "FY2025 mid-year momentum deck for DataPipe — new 'Flink' connector catalog, updated competitive battlecards against Confluent, and the expanded SLED incentive structure.",
+    "audience": "DataPipe sales and solutions engineering teams",
+    "style_hints": "competitive-sharp, incentive-clarifying",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "VaultLine — a compliance-as-code platform that auto-generates SOC 2 evidence from your CI/CD logs and IaC diffs, replacing manual audit spreadsheets.",
+    "audience": "Compliance-weary CTOs and pre-seed VCs",
+    "style_hints": "pain-point vivid, solution-clean",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "How we scaled the 'Kappa' event bus to 4M events/sec — architectural decisions, partitioning strategy, and the backpressure mechanism powering the fictional Kappa platform.",
+    "audience": "Distributed-systems engineers at Kafka Summit",
+    "style_hints": "war-story narration, architecture-diagram rich",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "What is a capability-secure runtime? — explaining WebAssembly component model security boundaries, capability-based permissions, and how Wasmtime enforces them for plugin systems.",
+    "audience": "Platform engineers evaluating WASM plugins",
+    "style_hints": "conceptual clarity, boundary-diagram anchored",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Build a full-stack SaaS auth flow — from sign-up to MFA enforcement — using AuthForge's SDK, Next.js, and the new Orgs API in a 45-minute guided lab.",
+    "audience": "Full-stack developers integrating auth",
+    "style_hints": "spoiler-free step reveal, copy-paste friendly",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  }
+]

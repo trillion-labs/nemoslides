@@ -1,0 +1,701 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Epistemology of Testimony in Early Modern Philosophy: Analyzing the works of John Locke and David Hume on the trustworthiness of reported knowledge.",
+    "audience": "Philosophy graduate students",
+    "style_hints": "rigorous analytical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Hanseatic League's Impact on Northern European Trade Routes from the 13th to 15th centuries, focusing on the shift from overland to maritime dominance.",
+    "audience": "Undergraduate history seminar",
+    "style_hints": "illuminating historical context",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title slide: The Hanseatic League - Commerce and Control",
+      "Origins of the Hanse: Lübeck and the German Merchants",
+      "The Kontor Network: Trading Posts from London to Novgorod",
+      "Maritime Dominance: The Cog Ship and Naval Power",
+      "Economic Impact: Monopolizing the Salt and Herring Trade",
+      "Political Clout: The League vs. Scandinavian Kingdoms",
+      "Decline and Legacy: The Rise of Nation-States",
+      "Discussion Questions"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Tolstoy's 'War and Peace': The Search for Meaning in the Napoleonic Era, focusing on Pierre Bezukhov's philosophical journey.",
+    "audience": "University literary society",
+    "style_hints": "reflective conversational",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Evolution of the French Subjunctive Mood in Literary Texts: A philological review from the 17th to the 20th century.",
+    "audience": "Romance Languages department faculty",
+    "style_hints": "philological precision",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: The Subjunctive Through Time",
+      "Defining the French Subjunctive Mood",
+      "Golden Age: The Subjunctive in 17th-Century Prose",
+      "Corneille and Racine: Subjunctive as Rhetoric",
+      "The Shift: 19th-Century Realism (Balzac, Flaubert)",
+      "Modern Usage: From Proust to Contemporary Literature",
+      "Syntactic Evolution: Triggers and Governed Verbs",
+      "Comparison: Literary vs. Spoken Subjunctive",
+      "Map of Usage Decline (regional variations)",
+      "Conclusion: The Mood as Cultural Artifact"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Neoclassicism and the Architecture of the British Museum: How Greek revivalism shaped 19th-century British institutional identity.",
+    "audience": "Art history undergraduates",
+    "style_hints": "formal and aesthetic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introduction to Latin Declensions for First-Year Students: Charting the cases and functioning of noun morphology.",
+    "audience": "High school classics students",
+    "style_hints": "patient pedagogical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 14,
+    "outline_hint": [
+      "Title: Intro to Latin Declensions",
+      "What is a Declension? Noun Adjective Agreement",
+      "First Declension: -a stems and feminine nouns",
+      "First Declension Exceptions: Agricultural and Masculine",
+      "Second Declension: -us and -um stems (Masc/Neut)",
+      "Second Declension: -er and -ir nouns (e.g., puer, vir)",
+      "Third Declension: Consonant and I-stems",
+      "Third Declension: Distinguishing I-stems",
+      "Fourth Declension: -us and -u stems",
+      "Fifth Declension: -es stems (res, dies)",
+      "Declension Comparison Chart: Side-by-Side Endings",
+      "Translation Practice: The Gallic Wars Excerpt",
+      "Common Pitfalls: Ablative vs Dative",
+      "Summary & Next Lecture Preview"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Water Imagery in the Poetry of Sylvia Plath: A psychoanalytic reading of submersion and purification motifs.",
+    "audience": "English literature postgraduates",
+    "style_hints": "rich interpretive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Role of the Peloponnesian War in Shaping Greek Identity: From Pan-Hellenism to deep-rooted factionalism.",
+    "audience": "Alumni lecture attendees",
+    "style_hints": "narrative-driven and engaging",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title Slide: The Peloponnesian War & Greek Identity",
+      "Background: The Delian League vs. The Peloponnesian League",
+      "Case Study: The Plague of Athens (Thucydides)",
+      "Case Study: The Sicilian Expedition",
+      "The Shift from Pan-Hellenism to Factionalism",
+      "Reconstructing Identity: Sparta's Brief Hegemony",
+      "The Macedonian Aftermath: Loss of Autonomy",
+      "Key Takeaways"
+    ]
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Eisenstein's Theory of Montage in 'Battleship Potemkin': How dialectical collision creates cinematic meaning.",
+    "audience": "Film studies majors",
+    "style_hints": "analytical visual",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Kant's Categorical Imperative and Modern Ethics: Re-evaluating universalizability in the context of 21st-century dilemmas.",
+    "audience": "Philosophy department colloquium",
+    "style_hints": "logical structured",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title Slide: Kant's Categorical Imperative",
+      "The Problem with Moral Relativism",
+      "The Good Will: The Only Unconditional Good",
+      "Formulation 1: Universal Law",
+      "Formulation 2: Humanity as an End",
+      "Formulation 3: Kingdom of Ends",
+      "Case Study: Lying to a Murderer",
+      "Modern Applications: AI and Autonomous Vehicles",
+      "Critiques of Kantian Ethics (Hegel, Mill)",
+      "Conclusion and Q&A"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Influence of Arabic on Medieval Spanish Vocabulary: Tracing linguistic borrowings from Al-Andalus to the Reconquista.",
+    "audience": "Linguistics undergraduates",
+    "style_hints": "etymological focus",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Dostoevsky's 'The Brothers Karamazov': Faith vs. Reason, exploring the tension between Ivan's rebellion and Zosima's devotion.",
+    "audience": "Divinity school reading group",
+    "style_hints": "philosophical theological",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Faith vs. Reason in 'The Brothers Karamazov'",
+      "Introduction to Dostoevsky's Late Masterpiece",
+      "The Grand Inquisitor: Ivan's Rational Rebellion",
+      "Zosima's Teachings: Active Love and Faith",
+      "The Brothers as Archetypes: Ivan, Dmitri, Alyosha, Smerdyakov",
+      "Suffering as a Path to Redemption",
+      "Open Discussion: Is Reconciliation Possible?",
+      "Recommended Secondary Readings"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Mapping the Archives: A Digital Humanities Approach to 18th-Century Letters, visualizing the Republic of Letters network.",
+    "audience": "Digital Humanities conference attendees",
+    "style_hints": "tech-academic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Silk Road's Cultural Exchange between the Tang Dynasty and the Abbasid Caliphate: The flow of paper, poetry, and technology.",
+    "audience": "Museum lecture series attendees",
+    "style_hints": "erudite cross-cultural",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title Slide: Tang-Abbasid Cultural Exchange",
+      "The Geography of the Silk Road (Central Asian hubs)",
+      "The Battle of Talas: A Pivot Point?",
+      "Papermaking: From Samarkand to Baghdad",
+      "Scientific Exchange: Astronomy and Medicine",
+      "Artistic Motifs: The Flow of Ceramics and Textiles",
+      "Religious Tolerance: Manichaeism, Nestorianism, Islam",
+      "The Decline of Overland Trade (Maritime Shift)",
+      "Summary: Symbiosis and Innovation"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Bronze Age Collapse: Evaluating the systemic causes and consequences of the 12th-century BCE Mediterranean societal failure.",
+    "audience": "First-year archaeology students",
+    "style_hints": "systematic historical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Wittgenstein's Language Games and the Limits of Expression: From the Tractatus to the Philosophical Investigations.",
+    "audience": "Senior philosophy majors",
+    "style_hints": "dense and contemplative",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "Title: Wittgenstein's Language Games",
+      "The Tractatus and the Picture Theory",
+      "The Shift: From Logic to Ordinary Language",
+      "Meaning as Use: The Core Principle",
+      "Forms of Life: The Foundation of Language",
+      "Private Language Argument",
+      "Rule-Following Paradox",
+      "Implications for Philosophy of Mind",
+      "Critiques: Chomsky and Quine",
+      "Conclusion: The End of Philosophy?"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The Pre-Raphaelite Brotherhood and the Revolt Against Academic Art: Medieval nostalgia in Victorian England.",
+    "audience": "Local art museum members",
+    "style_hints": "romantic critical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Rhetoric of Cicero in the Context of the Late Roman Republic: Using persuasive speech to delay institutional collapse.",
+    "audience": "Classical studies faculty",
+    "style_hints": "oratorical formal",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: Cicero's Rhetoric in the Late Republic",
+      "Context: The Decline of the Roman Republic",
+      "De Oratore: The Ideal Statesman",
+      "The Catiline Orations: Rhetoric in Action",
+      "Philippics Against Mark Antony",
+      "Analysis: Ethos, Pathos, and Logos in Cicero",
+      "The Failure of Rhetoric: The Rise of Autocracy",
+      "Cicero's Legacy in the Medieval Rhetorical Tradition",
+      "Conclusion: The Limits of Eloquence"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Joan of Arc and the Creation of French National Mythology: How a peasant visionary became a symbol of the Third Republic.",
+    "audience": "High school AP European History class",
+    "style_hints": "storytelling and analytical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Syntax of Sanskrit in the Paninian Tradition: Mapping the generative grammar rules of the Ashtadhyayi.",
+    "audience": "Linguistics graduate students",
+    "style_hints": "formalized structural",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: The Syntax of Sanskrit (Paninian Tradition)",
+      "Who was Panini? The Ashtadhyayi",
+      "The Shiva Sutras: Phonological Mapping",
+      "Karakas: Thematic Roles vs. Morphological Cases",
+      "Samjna: Technical Definitions",
+      "Paribhasha: Meta-rules of Interpretation",
+      "Derivation Example: From Roots to Surface Forms",
+      "Parsing Vedic Texts Automatically",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Foucault's 'Discipline and Punish' and the Carceral System: The transition from sovereign power to disciplinary power.",
+    "audience": "Critical theory seminar",
+    "style_hints": "structuralist critique",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Herman Melville's 'Moby-Dick': Allegory and Obsession, examining Captain Ahab's monomaniacal pursuit as a critique of American ambition.",
+    "audience": "Adult community book club",
+    "style_hints": "thematic exploratory",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: Allegory & Obsession in Moby-Dick",
+      "Melville's Background and the Literary Context",
+      "The Whale as Allegory: Multiple Interpretations",
+      "Ahab's Monomania: The Anti-Transcendentalist Hero",
+      "Ishmael's Observational Detachment",
+      "The Ship of State: The Pequod as Microcosm",
+      "Open Floor: Passages that Resonated",
+      "Next Month's Pick Announcement"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Ancient Egyptian Funerary Practices and the Book of the Dead: The journey of the Ka through the Duat.",
+    "audience": "Middle school history class",
+    "style_hints": "mystical educational",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Simone de Beauvoir's 'The Second Sex' and Existential Feminism: The concept of the Other and the social construction of woman.",
+    "audience": "Gender studies undergraduates",
+    "style_hints": "existential and liberatory",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: The Second Sex & Existential Feminism",
+      "Beauvoir's Context: Post-War French Intellectualism",
+      "The Concept of 'Otherness'",
+      "Myths of Femininity: Biology, Psychoanalysis, History",
+      "Lived Experience: The Narcissist, The Woman in Love, The Mystic",
+      "The Case for Emancipation: Authentic Existence",
+      "Critiques: Intersectionality and Post-Colonialism",
+      "Conclusion: The Ongoing Relevance"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Magna Carta and the Evolution of Constitutional Law: From feudal grievance to universal symbol of liberty.",
+    "audience": "Pre-law society members",
+    "style_hints": "legal-historical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The Representation of Classical Antiquity in 'Gladiator': Comparing the film's aesthetics and politics to the historical reality of the Nerva-Antonine dynasty.",
+    "audience": "Classical reception studies scholars",
+    "style_hints": "critical cinematic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Classical Antiquity in 'Gladiator'",
+      "The Visual Language of the Film: Colors and Architecture",
+      "Commodus: Historical Truth vs. Cinematic Villainy",
+      "The Gladiator as Spartacus: Republican Ideals",
+      "The Senate and the Mob: Political Dynamics",
+      "Commodus and the Cult of Hercules (Historical)",
+      "Ridley Scott's Rome: Authenticity vs. Spectacle",
+      "Conclusion: Modern Mythmaking"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Preservation of Indigenous Languages in Mesoamerican Codices: Deciphering the Mixton War through pictographic manuscripts.",
+    "audience": "Anthropology postgraduates",
+    "style_hints": "reverent analytical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Quantum Mechanics and the Philosophy of Scientific Realism: How the measurement problem challenges ontological commitments.",
+    "audience": "History and Philosophy of Science department",
+    "style_hints": "interdisciplinary rigor",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "Title: Quantum Mechanics & Philosophy of Science",
+      "The Measurement Problem: Is the Wavefunction Real?",
+      "Copenhagen Interpretation (Bohr)",
+      "Many-Worlds Interpretation (Everett)",
+      "Bohmian Mechanics",
+      "Underdetermination of Theory by Data",
+      "Structural Realism: Worrall and the Electromagnetic Case",
+      "Ideological Commitments in Physics",
+      "Concluding Remarks"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Fall of Constantinople and the Flight of Greek Scholars to Italy: Re-evaluating the trigger of the Italian Renaissance.",
+    "audience": "Renaissance studies workshop",
+    "style_hints": "causal and migratory",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Virginia Woolf's 'To the Lighthouse': Stream of Consciousness and the subjective nature of time in the modernist novel.",
+    "audience": "Modernist literature reading group",
+    "style_hints": "lyrical and introspective",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: Stream of Consciousness in 'To the Lighthouse'",
+      "Introduction to Modernist Form",
+      "The Ramsay Family: Interiority over Plot",
+      "\"The Window\": Perception and Perspective",
+      "\"Time Passes\": Decay and the Inevitable",
+      "\"The Lighthouse\": Resolution and Artistic Vision",
+      "Open Discussion: Lilly Briscoe's Painting"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Social Construction of Gender in Ancient Mesopotamia: Re-reading the Epic of Gilgamesh beyond the patriarchal lens.",
+    "audience": "Ancient history PhD candidates",
+    "style_hints": "revisionist academic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Structure of a Shakespearean Sonnet: Understanding iambic pentameter, volta, and the heroic couplet.",
+    "audience": "High school English literature class",
+    "style_hints": "poetic structural",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Structure of a Shakespearean Sonnet",
+      "What is a Sonnet? The 14-Line Form",
+      "The English (Shakespearean) Rhyme Scheme (ABAB CDCD EFEF GG)",
+      "Iambic Pentameter: The Heartbeat of the Verse",
+      "The Quatrains: Developing an Idea or Image",
+      "The Volta (Turn): Shift in Tone (Usually Line 9 or 13)",
+      "The Couplet: Summary or Twist",
+      "Case Study Analysis: Sonnet 18 (\"Shall I compare thee...\")",
+      "Writing Exercise: Drafting Your Own Sonnet"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Goya's 'Black Paintings' and the Critique of Spanish Society: Unpacking the pessimism and political allegory of the Quinta del Sordo frescoes.",
+    "audience": "Art gallery docents",
+    "style_hints": "dark and interpretive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Viking Age: Trade, Raiding, and Settlement in the North Atlantic, from Lindisfarne to L'Anse aux Meadows.",
+    "audience": "Elder learning community",
+    "style_hints": "adventurous historical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: The Viking Age in the North Atlantic",
+      "From Raiders to Traders: The Viking Evolution",
+      "Longships: The Technology of Expansion",
+      "Settlement in Iceland: The Althing and Sagas",
+      "Greenland: Eric the Red and the Eastern Settlement",
+      "Vinland: The Norse Discovery of America",
+      "Decline: Climate Change and the Little Ice Age",
+      "Archaeological Evidence: L'Anse aux Meadows",
+      "The Viking Legacy in Modern Culture"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Hegel's Dialectic and the Philosophy of History: Understanding the master-slave dynamic and the progression of Geist.",
+    "audience": "Philosophy society members",
+    "style_hints": "dialectical systematic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Role of Calligraphy in Classical Chinese Literature: How visual brushwork shapes poetic meaning and literati identity.",
+    "audience": "East Asian studies majors",
+    "style_hints": "aesthetic erudite",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Calligraphy in Classical Chinese Literature",
+      "The Unity of Poetry, Calligraphy, and Painting",
+      "Materials: The Four Treasures of the Study",
+      "Script Types: Seal, Clerical, Regular, Running, Cursive",
+      "Su Shi: The Poet-Calligrapher Aesthetics",
+      "Semantics of the Stroke: Meaning in the Ink",
+      "Preservation and Digitization of Classical Scrolls",
+      "Conclusion"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Homer's 'Odyssey': Hospitality and Identity in the Ancient Mediterranean, exploring the cultural codes of xenia.",
+    "audience": "Classical literature enthusiasts",
+    "style_hints": "epic and thematic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Neuroethics and the Philosophy of Free Will: What the Libet experiments mean for moral and legal responsibility.",
+    "audience": "Cognitive science conference attendees",
+    "style_hints": "empirical philosophical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: Neuroethics and Free Will",
+      "The Libet Experiments: Readiness Potential",
+      "Interpreting the Data: Unconscious Initiation?",
+      "Philosophical Implications: Is Determinism True?",
+      "Compatibilism: A Philosophical Lifeline?",
+      "Veto Power: \"Free Won't\" vs. \"Free Will\"",
+      "Legal Implications: Responsibility and the Brain",
+      "The Hard Problem of Consciousness",
+      "Open Floor Discussion"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Renaissance Medici Patronage System and Florentine Art: How banking wealth engineered the cultural dominance of Florence.",
+    "audience": "Summer school art history students",
+    "style_hints": "opulent academic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Greek Tragic Structure: Mapping the plot of Oedipus Rex from prologue to exodus.",
+    "audience": "Sophomore classics students",
+    "style_hints": "dramatic structural",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Structure of Greek Tragedy: Oedipus Rex",
+      "Origins of Tragedy: Festival of Dionysus",
+      "Aristotle's Poetics: Mimesis, Catharsis, Anagnorisis",
+      "Prologue and Parodos: Setting the Scene",
+      "Episodes and Stasima: The Rhythm of Revelation",
+      "The Chorus: Voice of Theban Society",
+      "Oedipus as Tragic Hero: Hamartia and Hubris",
+      "The Exodos: Blindness and Exile",
+      "Legacy: Influence on Modern Drama"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Post-Colonial Theory and the Writings of Edward Said: Orientalism's impact on 21st-century geopolitical narratives.",
+    "audience": "Cultural studies department faculty",
+    "style_hints": "critical field-defining",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The Art Deco Movement and the Visualization of Modernity: Intersecting industrial materials with ancient Egyptian motifs in 1920s Paris.",
+    "audience": "Design history symposium attendees",
+    "style_hints": "geometric modernist",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Art Deco and the Visualization of Modernity",
+      "The Birth of Art Deco: 1925 Paris Exhibition",
+      "Aesthetic Principles: Geometry, Symmetry, Linearity",
+      "Materials of the Future: Chrome, Glass, Bakelite",
+      "Architecture: The Chrysler Building and Rockefeller Center",
+      "Decorative Arts: The Luxury of the Jazz Age",
+      "Global Reach: Art Deco in Mumbai and Shanghai",
+      "Decline and Resurgence in the Postmodern Era",
+      "Open Q&A"
+    ]
+  }
+]

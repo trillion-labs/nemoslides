@@ -1,0 +1,699 @@
+[
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 2024 financial and operational status report for the East Central division of Apex Logistics.",
+    "audience": "Division leadership team",
+    "style_hints": "formal, data-centric, objective",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "End-of-year company all-hands for Meridian Software, covering CEO vision, 2024 milestones, and 2025 outlook.",
+    "audience": "All employees",
+    "style_hints": "inclusive, upbeat, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposed strategic partnership between HealthBridge Networks and MedTech Solutions to co-develop telehealth infrastructure.",
+    "audience": "MedTech Solutions executive committee",
+    "style_hints": "persuasive, structured, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "H1 2024 investor update for GreenHarvest Agri-coop, detailing crop yields, supply chain adjustments, and revenue forecasts.",
+    "audience": "Angel investors and cooperative members",
+    "style_hints": "straightforward, conservative, factual",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "FY2025 strategic roadmap briefing for the Board of Directors of Crestview Financial, focusing on market expansion into Southeast Asia.",
+    "audience": "Board of Directors",
+    "style_hints": "high-level, authoritative, restrained",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Q4 2024 multi-channel campaign brief for the 'Refresh Your Space' line by Homestyle Furniture.",
+    "audience": "Marketing and creative agencies",
+    "style_hints": "clear, brief, brand-aligned",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "2024 regional sales kickoff for the North American commercial team at Vanguard Solutions, presenting new pricing tiers and quota structure.",
+    "audience": "North America sales team",
+    "style_hints": "motivational, direct, metric-driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Customer success story detailing how Apex Manufacturing reduced downtime by 22% using PredictaFlow's predictive maintenance platform.",
+    "audience": "Prospective manufacturing clients",
+    "style_hints": "narrative, evidence-based, neutral",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Overview of macroeconomic supply-chain bottlenecks for third-year economics students at State University.",
+    "audience": "Undergraduate economics students",
+    "style_hints": "didactic, structured, neutral",
+    "theme_hint": "default",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Explainer on zero-trust network architecture and its implementation in mid-sized enterprise environments.",
+    "audience": "IT infrastructure managers",
+    "style_hints": "informative, clear, logical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scalable microservices architecture patterns presented at the 2024 CloudSummit DevOps track by senior engineer Maya Chen.",
+    "audience": "Software engineers and architects",
+    "style_hints": "technical, precise, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Briefing for the City Council of Riverbend on the proposed zoning adjustments for the downtown commercial revitalization project.",
+    "audience": "City council members",
+    "style_hints": "formal, objective, policy-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting presentation for newly graduated data analysts at OmniCore Analytics, covering culture, growth paths, and benefits.",
+    "audience": "University seniors and recent graduates",
+    "style_hints": "welcoming, professional, organized",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "2023 annual report visual summary for Pinnacle Insurance Group, highlighting financial health, claims processed, and community impact.",
+    "audience": "Shareholders and regulatory bodies",
+    "style_hints": "formal, clean, data-rich",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Mid-project design review for the Oakville Public Library renovation, presented by the architecture firm Lennox & Partners.",
+    "audience": "Library board of trustees and city planners",
+    "style_hints": "visual, formal, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Fundraising pitch for 'Read to Lead', a nonprofit youth literacy program, seeking $500k to expand to three new school districts.",
+    "audience": "Regional philanthropists and grant committees",
+    "style_hints": "earnest, factual, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Seed round pitch for EcoStream, a sustainable packaging logistics startup, seeking $2M to scale operations across the Pacific Northwest.",
+    "audience": "Seed-stage venture capital partners",
+    "style_hints": "concise, persuasive, clean",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Internal product launch presentation for ClientPulse, a new CRM integration module by TechCorp, aimed at onboarding the account management team.",
+    "audience": "Account management team",
+    "style_hints": "straightforward, feature-focused, corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Interactive workshop on effective OKR writing for middle managers at GlobalTech.",
+    "audience": "Middle managers across departments",
+    "style_hints": "instructional, guided, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Quarterly progress update for the Riverside Community Garden initiative, detailing plot assignments, irrigation upgrades, and volunteer hours.",
+    "audience": "Local residents and municipal sponsors",
+    "style_hints": "community-focused, clear, organized",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "High school business studies lesson on the fundamentals of supply and demand, featuring market equilibrium curves.",
+    "audience": "11th-grade business students",
+    "style_hints": "educational, clear, engaging",
+    "theme_hint": "default",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q2 2024 engineering department status report for DataSync, covering headcount, deliverable progress, and tech debt metrics.",
+    "audience": "VP of Engineering and C-suite",
+    "style_hints": "direct, objective, data-driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Q2 2024 Engineering Status",
+      "Company & Department Objectives: Alignment of engineering work with H1 goals",
+      "Headcount & Hiring Update: 12 net new hires, 3 open roles",
+      "Deliverable Tracker: 85% on-time delivery for sprint goals",
+      "Tech Debt Reduction: 15% reduction in legacy codebase",
+      "Budget Review: R&D spend vs. allocation",
+      "Key Risks & Blockers: Cloud cost overruns, vendor delays",
+      "Q3 Priorities & Next Steps"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Q1 2024 all-hands meeting for Orbital Media, covering CEO state-of-the-union, diversity & inclusion updates, and product roadmap.",
+    "audience": "All full-time employees",
+    "style_hints": "transparent, encouraging, corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Welcome & Agenda",
+      "CEO State of the Union: 2024 Vision",
+      "Financial Snapshot: Beating Q1 targets",
+      "Product Roadmap: Launching Orbital 3.0",
+      "Diversity & Inclusion Update: ERG initiatives",
+      "Customer Spotlight: Success story from Acme Corp",
+      "Operational Excellence: IT & Facilities updates",
+      "Q&A Session",
+      "Closing & Upcoming Events",
+      "Appendix"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-marketing partnership proposal between Velocity Apparel and Alpine Outdoors to target the adventure travel demographic.",
+    "audience": "Alpine Outdoors marketing director",
+    "style_hints": "professional, opportunity-focused, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Executive Summary: Why Velocity & Alpine",
+      "Market Opportunity: The $50B adventure travel sector",
+      "Target Audience Overlap: Millennial and Gen Z outdoors enthusiasts",
+      "Proposed Campaign: 'Gear Up, Get Out' co-branded capsule",
+      "Velocity Apparel Capabilities: Omni-channel distribution",
+      "Mutual Value & ROI Projections",
+      "Implementation Timeline: Q3-Q4 roll-out",
+      "Next Steps & Contact Info"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Annual investor update for Riverdale Logistics, showing fleet expansion, margin improvements, and regional growth.",
+    "audience": "Institutional investors and private equity sponsors",
+    "style_hints": "conservative, straightforward, corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Riverdale Logistics 2023-2024 Update",
+      "Financial Highlights: 8% YoY revenue growth",
+      "Fleet Expansion: 50 new Class-8 trucks deployed",
+      "Regional Growth: Entering the Southwest corridor",
+      "Margin Improvement: Fuel efficiency and route optimization",
+      "Customer Retention: 94% renewal rate",
+      "Capital Expenditure Review",
+      "Outlook for 2024-2025",
+      "Appendix: Detailed Financials"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic risk and compliance report for the Board of Directors at CivicTrust Bank, relating to new federal lending regulations.",
+    "audience": "Board of Directors",
+    "style_hints": "serious, formal, strategic",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title & Objective: Regulatory landscape overview",
+      "Current Compliance Posture: Audit results",
+      "Impact of New Regulations: Stress testing & capital reserves",
+      "Risk Assessment: Lending portfolio vulnerabilities",
+      "Proposed Strategic Adjustments",
+      "Implementation & Timeline",
+      "Recommendation & Approval Request"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Launch campaign brief for 'Zenith', a new premium executive sedan by Aurora Motors, targeting high-net-worth professionals.",
+    "audience": "Aurora Motors marketing and PR teams",
+    "style_hints": "sophisticated, polished, brand-aligned",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Campaign Overview: 'Drive Your Legacy' launch",
+      "Target Persona: Executive decision-makers 35-55",
+      "Positioning & Key Messages: Performance meets prestige",
+      "Creative Strategy: Print, digital, and experiential",
+      "Media Plan & Channel Mix",
+      "Budget Allocation: $12M campaign spend",
+      "KPIs & Measurement Framework",
+      "Execution Timeline: Q3-Q4",
+      "Creative Examples & Next Steps"
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "APAC region 2025 sales kickoff for Nexus Solutions, detailing the new partner tier system and updated comp plans.",
+    "audience": "APAC sales representatives",
+    "style_hints": "energetic, structured, motivating",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Welcome & 2024 Wins",
+      "APAC Market Landscape",
+      "2025 Revenue Targets by Quarter",
+      "Product Updates: Nexus Platform v4.2",
+      "New Partner Tier System: Gold, Silver, Bronze",
+      "Updated Compensation Plan Structure",
+      "Sales Playbook: Competing against disruptors",
+      "CRM & Pipeline Hygiene",
+      "Training & Enablement Schedule",
+      "Recognition & Awards",
+      "Closing Rally & Q&A"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Case study on how retail chain UrbanThread reduced returns by 18% using FitMetrics' AI sizing recommendation engine.",
+    "audience": "E-commerce directors",
+    "style_hints": "factual, results-oriented, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Client Profile: UrbanThread overview",
+      "The Challenge: High return rates and customer dissatisfaction",
+      "The Solution: FitMetrics API integration",
+      "Implementation Timeline: 8 weeks to full deployment",
+      "Results: 18% return reduction, +4.2 NPS jump",
+      "Customer Testimonial: Quote from UrbanThread VP",
+      "Call to Action: Schedule a FitMetrics demo"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Introduction to corporate ESG reporting metrics for MBA students at Kellogg School of Management.",
+    "audience": "MBA candidates",
+    "style_hints": "academic, structured, informative",
+    "theme_hint": "default",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Lecture Introduction: What is ESG?",
+      "The Rise of Stakeholder Capitalism",
+      "Environmental Metrics: Carbon footprint & resource usage",
+      "Social Metrics: Diversity, labor practices, community impact",
+      "Governance Metrics: Board composition & executive compensation",
+      "ESG Rating Agencies: MSCI, Sustainalytics methodology",
+      "Case Study: Patagonia vs. Fast Fashion",
+      "Regulatory Landscape: SEC proposed rules",
+      "Group Discussion Prompts",
+      "Further Reading & Assignment"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Explaining containerization and Kubernetes orchestration best practices for legacy enterprise migration.",
+    "audience": "Enterprise IT directors",
+    "style_hints": "clear, authoritative, methodical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Modernizing Legacy Apps with Kubernetes",
+      "The Legacy Monolith Problem",
+      "Containerization Basics: What is a container?",
+      "Kubernetes 101: Pods, Deployments, Services",
+      "Migration Strategy: Strangler Fig Pattern",
+      "CI/CD Pipelines for Containerized Apps",
+      "Security Best Practices: Scanning & RBAC",
+      "Case Study: Migrating a banking core system",
+      "Summary & Recommended Next Steps"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'Scaling Event-Driven Architecture at FinPay', a talk for the QCon Pacifica 2024 software architecture track.",
+    "audience": "Software architects and senior engineers",
+    "style_hints": "deep-technical, narrative, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "Speaker Intro & FinPay Context",
+      "The Limitations of Request-Driven Models",
+      "Event-Driven Architecture Principles",
+      "Choosing the Right Message Broker: Kafka vs. RabbitMQ",
+      "Designing for Idempotency & Event Ordering",
+      "The Outbox Pattern for Reliable Publishing",
+      "Scaling Consumers: Partitioning & Consumer Groups",
+      "Observability: Tracing Distributed Events",
+      "Handling Schema Evolution",
+      "Failover & Disaster Recovery Walkthrough",
+      "Performance Results: 10x throughput improvement",
+      "Lessons Learned & Anti-patterns",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Water conservation policy briefing for the state senate's Natural Resources Committee regarding the ongoing drought in the Central Valley.",
+    "audience": "State senators and committee staff",
+    "style_hints": "objective, grave, data-driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Briefing Title & Objectives",
+      "Current Drought Conditions: Snowpack & reservoir levels",
+      "Agricultural Impact: Crop reduction estimates",
+      "Urban Water Usage Statistics",
+      "Proposed Policy Measures: Tiered pricing & restrictions",
+      "Economic Impact Analysis",
+      "Comparison: 2014 vs. 2024 drought responses",
+      "Recommended Next Actions for Committee"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Engineering recruiting pitch for Photon Dynamics, highlighting lab facilities, project variety, and flexible work arrangements.",
+    "audience": "Senior hardware engineers",
+    "style_hints": "professional, appealing, direct",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Welcome to Photon Dynamics",
+      "Our Mission: Advancing lidar technology",
+      "Engineering Culture: Autonomy & ownership",
+      "Project Spotlight: Autonomous navigation systems",
+      "Lab & Facilities Tour",
+      "Work-Life Balance & Flex Policies",
+      "Compensation & Benefits Overview",
+      "Career Progression Framework",
+      "How to Apply & Open Roles"
+    ]
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Visual executive summary of the 2024 Global Impact Report for the Worldwide Healthcare Foundation.",
+    "audience": "Major donors and institutional partners",
+    "style_hints": "formal, empathetic, clean",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "2024 Year in Review",
+      "Mission & Reach: 12 countries served",
+      "Financial Summary: Revenue, expenses, and overhead ratio",
+      "Program Highlights: Maternal health & vaccination",
+      "Beneficiary Spotlight: Story from a clinic in rural Kenya",
+      "Funding Efficiency Breakdown",
+      "Leadership & Governance",
+      "Looking Ahead: 2025 Strategic Goals"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "UX/UI design review for the new internal employee portal 'Insite' at Megacorp, presented to the HR steering committee.",
+    "audience": "HR steering committee and IT leadership",
+    "style_hints": "polished, rationale-driven, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Project Overview: Insite Employee Portal",
+      "Design Principles: Simplicity, accessibility, speed",
+      "User Research Findings: Employee pain points",
+      "Information Architecture & Navigation",
+      "Dashboard Design: Personalized home screen",
+      "Self-Service Actions: Payroll, PTO, benefits",
+      "Mobile Experience & Responsive Layout",
+      "Accessibility Compliance: WCAG 2.1",
+      "Development Timeline & QA",
+      "Feedback & Approval Request"
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Capital campaign update for 'HomeFront', a nonprofit building transitional housing for veterans in the Pacific Northwest.",
+    "audience": "Major donors and corporate sponsors",
+    "style_hints": "earnest, professional, progress-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Campaign Title & Goal: $10M for Veterans Housing",
+      "The Problem: Veteran homelessness statistics in the PNW",
+      "Our Solution: Transitional housing + support services",
+      "Construction Progress & Timeline",
+      "Fundraising To-Date: $6.2M raised",
+      "Naming Opportunities & Sponsor Tiers",
+      "Call to Action: Pledge commitment cards"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Series A pitch for LogiRoute, a last-mile delivery optimization platform, seeking $6M to expand into three new metro areas.",
+    "audience": "Series A venture capital firms",
+    "style_hints": "confident, data-rich, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: LogiRoute Series A",
+      "The Last-Mile Problem: Costs & inefficiencies",
+      "Our Solution: AI-powered route optimization",
+      "Product Demo: Platform walkthrough",
+      "Traction: 250+ active delivery fleets",
+      "Business Model: SaaS per-vehicle pricing",
+      "Market Size: $12B TAM",
+      "Go-To-Market Strategy: Metro-by-metro expansion",
+      "The Ask: $6M for 3 new metros",
+      "Team: Founders with Amazon & FedEx logistics background",
+      "Appendix: Detailed financials"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Internal release presentation for DataVault 2.0, the flagship enterprise backup solution by Continuum Systems, presented to the global sales team.",
+    "audience": "Global sales and solutions engineering teams",
+    "style_hints": "polished, feature-focused, authoritative",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Welcome & Product Vision",
+      "DataVault 1.0 Retrospective: What we learned",
+      "Introducing DataVault 2.0: Key pillars",
+      "Feature Deep-Dive: Immutable backups & ransomware recovery",
+      "Feature Deep-Dive: Cloud-tiering integration",
+      "Competitive Landscape: How we compare",
+      "Pricing & Packaging Updates",
+      "Sales Enablement: New demo scripts & battlecards",
+      "Q&A and Close"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A 90-minute workshop on structured problem-solving using the A3 methodology for operations managers at Pristine Manufacturing.",
+    "audience": "Operations and plant managers",
+    "style_hints": "instructional, practical, neutral",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Workshop Title & Objectives",
+      "What is A3 Problem Solving?",
+      "The A3 Process: Step 1 - Background",
+      "The A3 Process: Step 2 - Current Condition",
+      "The A3 Process: Step 3 - Goal Setting",
+      "The A3 Process: Step 4 - Root Cause Analysis",
+      "The A3 Process: Step 5 - Countermeasures",
+      "The A3 Process: Step 6 - Implementation Plan",
+      "Group Exercise: Filling out an A3",
+      "Review & Next Steps"
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Semi-annual update for the 'Bayside Trail Restoration' project, presented by the municipal parks department to the city council.",
+    "audience": "City council members and parks commission",
+    "style_hints": "civic, factual, organized",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Project Overview: Scope of the Bayside Trail restoration",
+      "Phase 1 Completion: Access road & clearing",
+      "Phase 2 Progress: Bridge repairs & trail grading",
+      "Budget & Expenditures: Current vs. projected",
+      "Ecological Impact & Conservation Measures",
+      "Volunteer & Community Engagement Summary",
+      "Upcoming Milestones & Schedule",
+      "Questions & Council Feedback"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Lesson on understanding corporate structures and liability for senior business law students at Eastview High.",
+    "audience": "12th-grade business law students",
+    "style_hints": "clear, educational, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Corporate Structures 101",
+      "Why Business Structure Matters",
+      "Sole Proprietorship: Pros and Cons",
+      "Partnerships: General vs. Limited",
+      "LLC: The Hybrid Approach",
+      "Corporation: C-Corp vs. S-Corp",
+      "Liability & Taxation Comparison Matrix",
+      "Summary & Review Questions"
+    ]
+  }
+]

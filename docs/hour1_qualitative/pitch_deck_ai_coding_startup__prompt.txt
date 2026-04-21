@@ -1,0 +1,1 @@
+A $2M seed-round pitch deck for 'Corvid' — an AI coding assistant that uses agentic RL-fine-tuned models to autonomously fix production bugs. Audience: tier-1 Silicon Valley VCs. Cover problem, solution, demo results, market size, team, traction, ask.

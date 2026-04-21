@@ -1,0 +1,711 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Migrating the FluxDB time-series database from bare-metal servers to Kubernetes, focusing on custom operator design and stateful workload management.",
+    "audience": "Platform engineers and DevOps practitioners",
+    "style_hints": "Calm, infrastructure-focused, and methodical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Intro & The Migration Imperative",
+      "FluxDB Architecture on Bare Metal",
+      "Why Kubernetes? The Strategic Shift",
+      "Designing the FluxDB Custom Operator",
+      "Handling Persistent Volumes and StatefulSets",
+      "Data Migration & Zero-Downtime Cutover",
+      "Rollback Strategies and Disaster Recovery",
+      "Observability with Prometheus & Q&A"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on guide to writing your first eBPF program for network observability using Go, covering the user-space and kernel-space interaction.",
+    "audience": "Systems programmers and SREs",
+    "style_hints": "Technical, step-by-step, and pragmatic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A formal verification analysis of distributed consensus algorithms implemented in Rust, proving safety and liveness properties under network partitions.",
+    "audience": "Graduate students and distributed systems researchers",
+    "style_hints": "Rigorous, analytical, and precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Context: Consensus in Unreliable Networks",
+      "Defining Safety and Liveness Properties",
+      "Modeling the Algorithm in TLA+",
+      "State Space Exploration & Exhaustion",
+      "Formal Safety Proofs",
+      "Liveness Under Partial Synchrony",
+      "Translating Models to Rust Implementations",
+      "Open Questions & Future Work",
+      "Summary and References"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architectural review of a new observability pipeline designed to route high-volume Kafka streams into a ClickHouse data warehouse for real-time analytics.",
+    "audience": "Data engineering team and architects",
+    "style_hints": "Polished, structured, and detail-oriented",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Acme Corp reduced their Mean Time To Resolution (MTTR) by 40% by implementing distributed tracing across their microservices architecture using TraceForge.",
+    "audience": "Prospective SRE clients and engineering directors",
+    "style_hints": "Data-driven, professional, and confident",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Acme Corp's Infrastructure Challenges",
+      "Why Distributed Tracing? The Selection Process",
+      "TraceForge Implementation Architecture",
+      "Performance Baselines vs. Post-Deployment",
+      "Measuring the 40% MTTR Reduction",
+      "Developer Workflow & Feedback",
+      "Next Steps and Strategic Roadmap"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 infrastructure cost optimization review detailing the migration to ARM64 spot instances and the resulting compute savings across global AWS regions.",
+    "audience": "Engineering leadership and finance stakeholders",
+    "style_hints": "Objective, metric-heavy, and straightforward",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "A joint solution proposal for integrating the Vector log aggregator natively with Datadog agents to provide seamless, low-overhead telemetry pipelines.",
+    "audience": "Datadog partner engineering team",
+    "style_hints": "Professional, collaborative, and persuasive",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Telemetry Pipeline Challenge",
+      "Vector Overview & Core Capabilities",
+      "Gaps in Current Datadog Agent Log Collection",
+      "Proposed Integration Architecture",
+      "Data Transformation & Enrichment Mapping",
+      "Log Routing via Custom Tags",
+      "Performance & Resource Overhead Benchmarks",
+      "Joint Go-To-Market & Support Model"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Demystifying the QUIC protocol for backend engineers, explaining how HTTP/3 handles multiplexing and packet loss differently from TCP-based HTTP/2.",
+    "audience": "Backend and network engineers",
+    "style_hints": "Accessible, clear, and technically engaging",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A deep walkthrough of memory allocation in Zig, focusing on implementing a custom arena allocator to replace the general-purpose allocator for system efficiency.",
+    "audience": "C/C++ and Rust developers exploring Zig",
+    "style_hints": "Understated, exact, and educational",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Memory Management Philosophies",
+      "Zig's Stance on Allocators",
+      "The General Purpose Allocator (GPA)",
+      "Introduction to Arena Allocator Concepts",
+      "Arena Initialization and Life Cycle",
+      "Allocation Strategies within the Arena",
+      "Reset vs. Free: Resource Management",
+      "Detecting Memory Leaks in Zig",
+      "Performance Constraints & Pooling",
+      "Conclusion & Best Practices"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a robust CI/CD pipeline from scratch using Dagger and GitHub Actions to enable portable, containerized build steps for a Go monorepo.",
+    "audience": "DevOps engineers and release managers",
+    "style_hints": "Practical, focused, and methodical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "CloudShell AI: An autonomous cloud remediation platform that uses LLMs to diagnose and fix AWS infrastructure drift in real-time for SRE teams.",
+    "audience": "Seed-stage venture capital investors",
+    "style_hints": "Crisp, visionary, and problem-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The True Cost of Infrastructure Drift",
+      "The Manual Remediation Bottleneck",
+      "Introducing CloudShell AI",
+      "How It Works: Diagnose, Plan, Execute",
+      "ML Model Architecture & Safety Guardrails",
+      "Traction & Business Model",
+      "The Ask & Team"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing Pulse, a next-generation distributed tracing tool designed for high-cardinality microservices with native OpenTelemetry support.",
+    "audience": "DevOps community and tech media",
+    "style_hints": "Polished, energetic but technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Joining the Kernel: Why systems programmers should consider IronCore Labs to work on zero-trust encrypted compute and Rust-based cryptography.",
+    "audience": "Senior systems engineers on the job market",
+    "style_hints": "Calm, authentic, and technically deep",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The State of Data-in-Use Encryption",
+      "IronCore's Technical Mission",
+      "Our Tech Stack & Infrastructure",
+      "Open Source Projects We Maintain",
+      "A Day in the Life: Deep Work Philosophy",
+      "Engineering Challenges We Are Solving",
+      "Perks, Benefits & Remote Culture",
+      "Open Roles & Interview Process"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Exploring the theoretical limits of CRDTs (Conflict-free Replicated Data Types) in globally distributed databases under extreme network partition scenarios.",
+    "audience": "Database researchers and distributed systems engineers",
+    "style_hints": "Scholarly, measured, and analytical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q4 SLO review for the API Gateway tier, analyzing latency percentiles, error budget burn rates, and proposed architectural tweaks for global load balancing.",
+    "audience": "SRE leadership and product VPs",
+    "style_hints": "Factual, alert, and action-driven",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Q4 SLO Overview: API Gateway Tier",
+      "Availability & Latency SLO Targets",
+      "Error Budget Burn Down Chart",
+      "P99 Latency Outlier Analysis",
+      "Root Cause: Regional Load Balancing",
+      "Action Items & Config Changes for Q1",
+      "New Alerting Thresholds & Tools",
+      "Team Shoutouts & Key Wins",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Simplifying the service mesh by migrating from Istio sidecars to Cilium eBPF-based networking to reduce pod resource overhead and latency.",
+    "audience": "Cloud platform engineering team",
+    "style_hints": "Evaluative, comparative, and concise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "An in-depth comparison of Linux I/O schedulers (cfq, deadline, mq-deadline) and their impact on database write performance on NVMe drives.",
+    "audience": "Database administrators and kernel enthusiasts",
+    "style_hints": "Deeply technical, systematic, and empirical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Role of the I/O Scheduler",
+      "Evolution: From CFQ to Deadline",
+      "The Rise of MQ-Deadline & Multi-Queue",
+      "NVMe Hardware Considerations",
+      "Tuning Kernel Parameters for DB Workloads",
+      "Benchmarking Setup & Methodology",
+      "Performance Results: Latency vs. Throughput",
+      "Key Takeaways for Production DBs"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The Postgres logical replication playbook: A guide to achieving zero-downtime migrations and schema changes for large-scale relational databases.",
+    "audience": "Data engineers and backend developers",
+    "style_hints": "Instructional, cautious, and precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Terraform at Scale: Strategies for refactoring monolithic state files into modular, team-owned architectures using Workspaces and remote backends.",
+    "audience": "Infrastructure engineers and DevOps leads",
+    "style_hints": "Pragmatic, structured, and systematic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Monolithic State File Problem",
+      "Module Architecture Design",
+      "Refactoring Step 1: Extracting Providers",
+      "Refactoring Step 2: State Moving Commands",
+      "Implementing Terraform Workspaces",
+      "Remote Backend Configuration (S3 + DynamoDB)",
+      "CI/CD Validation Pipelines",
+      "Local Testing Workflows",
+      "Handling Drift and Rollback Procedures",
+      "Summary & Further Reading"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Optimizing Cloudflare Workers and WebAssembly modules for AdTech Inc., achieving sub-millisecond edge compute latency for real-time bidding pipelines.",
+    "audience": "Edge computing engineers and tech executives",
+    "style_hints": "Results-oriented, technical, and polished",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Secrets management in the enterprise: Transitioning from a monolithic HashiCorp Vault setup to a GitOps-driven SOPS workflow for Kubernetes deployments.",
+    "audience": "Security engineers and platform operators",
+    "style_hints": "Cautious, authoritative, and procedural",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Vault Overhead & Operational Pain",
+      "Introducing SOPS & Age Encryption",
+      "AWS KMS Integration Strategy",
+      "GitOps Flow: Encrypting in CI",
+      "ArgoCD Integration: Decrypting in Cluster",
+      "Key Rotation Policies & Automation",
+      "Auditing & Compliance Considerations",
+      "Developer Experience & Feedback"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Modeling network topology resilience using graph theory to predict cascade failures in hyper-scale data center fabrics.",
+    "audience": "Network architecture researchers and PhD students",
+    "style_hints": "Academic, logical, and thorough",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Platform Engineering metrics deep-dive: Tracking developer velocity, cycle time, and deployment frequency in the new internal developer portal.",
+    "audience": "Engineering managers and platform leads",
+    "style_hints": "Metric-focused, reflective, and forward-looking",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Platform Engineering Vision & Goals",
+      "DORA Metrics Overview",
+      "Cycle Time Analysis: Q1 vs Q2",
+      "Lead Time for Changes Breakdown",
+      "Deployment Frequency Stats",
+      "Change Failure Rate & MTTR",
+      "Internal Developer Survey Results",
+      "Roadmap for Q3 Portal Improvements",
+      "Tooling Spotlight & Q&A"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing a joint bare-metal cloud solution with Equinix Metal to provide dedicated low-latency infrastructure for high-frequency trading workloads.",
+    "audience": "Equinix Metal solution architects",
+    "style_hints": "Strategic, precise, and collaborative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Memory leak hunting in Go: A practical guide to using pprof, execution traces, and custom labels to find elusive runtime leaks in production systems.",
+    "audience": "Go developers and SREs",
+    "style_hints": "Investigative, practical, and developer-centric",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Understanding the Go Memory Model",
+      "Profiling Setup in Kubernetes Pods",
+      "Navigating the pprof UI",
+      "Heap Profile Analysis: Finding the Leak",
+      "Goroutine Leaks & Channel Blockages",
+      "Digging into Execution Traces",
+      "Using pprof Labels for Custom Tracking",
+      "Case Study: The Phantom Cache Leak",
+      "Summary of Debugging Flow"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Implementing a custom Kubernetes scheduler in Python to bin-pack GPU workloads efficiently across a heterogeneous node pool.",
+    "audience": "ML engineers and Kubernetes operators",
+    "style_hints": "Hands-on, instructional, and clear",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Transitioning the event-driven order processing system from RabbitMQ to AWS EventBridge for better schema validation and native SaaS integrations.",
+    "audience": "Cloud architects and backend developers",
+    "style_hints": "Deliberate, architectural, and comparative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Order Flow V1: The RabbitMQ Setup",
+      "RabbitMQ Pain Points at Scale",
+      "AWS EventBridge Architecture Overview",
+      "Schema Registry & Validation Rules",
+      "Event Routing & Transformations",
+      "Handling Dead Letter Queues",
+      "Fanout Strategies & Multi-Consumer Patterns",
+      "Cost Comparison: RabbitMQ vs EventBridge",
+      "Phased Migration Plan",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "TCP BBR Congestion Control: How Google's algorithm improves CDN throughput and why it sometimes causes packet loss on shared network bottlenecks.",
+    "audience": "Network engineers and infrastructure enthusiasts",
+    "style_hints": "Explanatory, balanced, and technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Unpacking OCI Container Images: A deep look at image layers, runtimes (runc, gVisor), and the evolving landscape of container security scanning.",
+    "audience": "Container security engineers and maintainers",
+    "style_hints": "Low-level, meticulous, and analytical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Brief History of Container Formats",
+      "OCI Image Specification Overview",
+      "Layer Architecture & Merkle Trees",
+      "Container Runtimes: runc vs gVisor vs Kata",
+      "The Distribution Spec & Registry V2",
+      "Security Scanning Methodologies",
+      "SBOMs (Software Bill of Materials) Integration",
+      "The Future of OCI & Wasm"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Vortex CLI: Launching a new open-source terminal tool designed to supercharge Git workflows and repo management for massive monorepos.",
+    "audience": "Open-source community and developer tool users",
+    "style_hints": "Engaging, dev-friendly, and crisp",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Observability Stack ROI: Evaluating the transition from an ELK stack to Grafana Loki, focusing on log volume reduction and storage cost savings.",
+    "audience": "Finance team and VP of Engineering",
+    "style_hints": "Numbers-driven, crisp, and objective",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The ELK Stack Cost Crisis",
+      "Grafana Loki Architecture Basics",
+      "Label Design Best Practices for LogQL",
+      "Writing Efficient LogQL Queries",
+      "Migration Scripting & Pipeline Updates",
+      "Q1 Cost Savings Data & Projections",
+      "Dashboard Migration Progress",
+      "Summary & Next Steps"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Profiling C++ applications in production using Linux perf and generating flamegraphs to identify CPU bottlenecks in high-frequency trading loops.",
+    "audience": "C++ developers and performance engineers",
+    "style_hints": "Methodical, deep, and observant",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A formal analysis of the Raft consensus protocol: Proving leader election safety and log replication properties using TLA+ model checking.",
+    "audience": "Distributed systems researchers and formal methods students",
+    "style_hints": "Rigorous, theoretical, and detailed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Introduction to Distributed Consensus",
+      "Raft Protocol Overview: Leader Election",
+      "Log Replication Mechanism",
+      "Formalizing Safety in TLA+",
+      "Safety Proof Sketch: Leader Completeness",
+      "Committing Entries & Log Matching",
+      "Dynamic Membership Changes",
+      "Proving Linearizability",
+      "Client Interaction Protocols",
+      "Conclusion & Limitations"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Build the Future of Observability: Pitching senior backend engineers to join TelemetryHQ to build next-gen log aggregation infrastructure in Rust.",
+    "audience": "Senior software engineers",
+    "style_hints": "Technical, mission-driven, and sincere",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Advanced Git internals: Exploring packfile structures, deltification algorithms, and the commit-graph feature for faster repository clones.",
+    "audience": "Developer tooling engineers and VCS enthusiasts",
+    "style_hints": "In-depth, systematic, and low-level",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Git Object Model Abstractions",
+      "Loose Objects vs. Packfiles",
+      "Packfile Structure & Index Formats",
+      "The Deltification Algorithm",
+      "Thin Packs & Network Transfer",
+      "Commit-Graph Data Structure",
+      "Multi-Pack-Index (MIDX) Benefits",
+      "Bloom Filters for Path Filtering",
+      "Performance Benchmarks & Takeaways"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Scaling real-time bidding infrastructure at AdTech Inc. using a custom Kafka Streams topology to handle 2M events/sec without data loss.",
+    "audience": "Data platform engineers",
+    "style_hints": "Metric-centric, composed, and authoritative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Multi-cluster service mesh federation: Designing a global API gateway architecture to route traffic securely across independent Kubernetes clusters.",
+    "audience": "Staff engineers and cloud security architects",
+    "style_hints": "Architectural, thorough, and cautious",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Global API Routing Requirements",
+      "Service Mesh Concepts: East-West vs North-South",
+      "Federation Architecture Overview",
+      "Cross-cluster Service Discovery",
+      "Traffic Splitting & Weighted Routing",
+      "Failover Policies & Health Checking",
+      "Observability Across Cluster Boundaries",
+      "Security & mTLS Trust Domains",
+      "Phased Implementation Steps",
+      "Summary & Open Issues"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing native OpenTelemetry exporters for SAP S/4HANA to provide enterprise customers with out-of-the-box cloud observability.",
+    "audience": "SAP partner engineering leads",
+    "style_hints": "Corporate, technical, and strategic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Compiling Rust to WebAssembly for edge network proxies: Overcoming memory allocation hurdles and lacking networking APIs in the WASI standard.",
+    "audience": "Rust developers and edge computing engineers",
+    "style_hints": "Cutting-edge, pragmatic, and systems-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Edge Computing & Proxy Requirements",
+      "Rust to Wasm Toolchain Setup (wasm-pack)",
+      "Proxy Logic & HTTP Filter Abstractions",
+      "Overcoming Wasm Networking API Gaps",
+      "WASI Integration & Current Limitations",
+      "Custom Memory Allocation Strategies",
+      "Build & Deploy Pipeline to Envoy",
+      "Latency & Memory Footprint Benchmarks",
+      "Future of Wasm & Next Steps"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An SRE's guide to Incident Command System (ICS) protocols: Adapting firefighter communication structures to manage major cloud outages effectively.",
+    "audience": "SREs, on-call engineers, and engineering managers",
+    "style_hints": "Clear, procedural, and sober",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building serverless data pipelines with AWS CDK and TypeScript: Ingesting, transforming, and loading real-time IoT sensor data into a data lake.",
+    "audience": "Cloud data engineers and developers",
+    "style_hints": "Hands-on, structured, and iterative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Serverless Data Lake Architecture",
+      "Setting up AWS CDK in TypeScript",
+      "Defining the S3 Data Lake Buckets",
+      "Provisioning Kinesis Data Streams",
+      "Lambda Transformation Functions",
+      "Step Functions State Machine Orchestration",
+      "Glue Crawler & Catalog Setup",
+      "Deploying & Testing the Pipeline",
+      "Cost & Performance Considerations"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "H1 Security Posture Review: Tracking vulnerability management metrics, SBOM adoption, and zero-trust network segmentation rollouts across the org.",
+    "audience": "CISO and engineering directors",
+    "style_hints": "Serious, factual, and executive",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  }
+]

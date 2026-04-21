@@ -1,0 +1,484 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A graduate-level lecture on the Martingale Convergence Theorem, covering discrete-time stopping times and the Doob Optional Stopping Theorem with applications to stochastic optimization at the Weierstrass Institute.",
+    "audience": "first-year mathematics doctoral students",
+    "style_hints": "theorem-proof cadence, measured pacing",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "An invited seminar on recent advances in Homotopy Type Theory, presenting a univalent foundation model developed jointly with collaborators at the Hausdorff Center for Mathematics.",
+    "audience": "logic and topology faculty",
+    "style_hints": "formal and precise, definition-heavy",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk presenting new bounds on the chromatic number of distance graphs in Euclidean space, extending the Hadwiger-Nelson problem with constructions from the Erdős Discrete Geometry Workshop.",
+    "audience": "combinatorics researchers",
+    "style_hints": "structured, result-oriented",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on the Atiyah-Singer Index Theorem for elliptic operators on compact manifolds, walking through the heat-kernel proof strategy with concrete examples from spin geometry.",
+    "audience": "advanced graduate students in geometry",
+    "style_hints": "classical lecture style, whiteboard-to-slide feel",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A formal presentation on verified compiler passes in the CompCert project, detailing the translation from Cminor to RTL and describing the Coq proof architecture used at INRIA Saclay.",
+    "audience": "programming languages researchers",
+    "style_hints": "rigorous and methodical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A talk on the numerical stability of implicit Runge-Kutta methods for stiff ODEs, benchmarking DIRK schemes against BDF methods on chemical kinetics problems from the BZ reaction.",
+    "audience": "computational mathematics conference attendees",
+    "style_hints": "data-driven, precise",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A presentation on lattice-based cryptography in post-quantum TLS handshakes, analyzing the CRYSTALS-Kyber key exchange under side-channel attack models developed at ETH Zürich.",
+    "audience": "cryptographers and security engineers",
+    "style_hints": "technical and thorough",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A physics colloquium on the Kibble-Zurek mechanism in quenched superfluid helium-3, presenting defect density measurements from the Lancaster ultra-low temperature laboratory.",
+    "audience": "condensed matter physicists",
+    "style_hints": "scholarly, diagram-heavy",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A seminar on neutrino mass ordering constraints from the JUNO detector, comparing normal versus inverted hierarchy sensitivities with Monte Carlo simulation outputs from the IHEP collaboration.",
+    "audience": "particle physics faculty and postdocs",
+    "style_hints": "data-centric, formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on topological quantum error correction with surface codes, explaining threshold theorems and logical qubit lifetimes measured in the Google Quantum AI Sycamore processor.",
+    "audience": "quantum information graduate students",
+    "style_hints": "theorem-and-evidence balanced",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "An economics seminar on the identification of causal effects in staggered adoption designs, critiquing two-way fixed effects estimators and presenting the Callaway-Sant'Anna diD approach using France's labor reform data.",
+    "audience": "econometrics faculty",
+    "style_hints": "methodological, critically structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A seminar on Dynamic Stochastic General Equilibrium models for small open economies, calibrating a New Keynesian framework to Chilean macro data from the Central Bank of Chile.",
+    "audience": "macroeconomics doctoral cohort",
+    "style_hints": "model-driven, formal notation",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on mechanism design for spectrum auctions, comparing the incentives and revenue properties of simultaneous multiple-round auctions versus combinatorial clock auctions used in the FCC 700 MHz band.",
+    "audience": "microeconomic theory researchers",
+    "style_hints": "formal, proof-plus-example",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "A quarterly review of the Hapag-Lloyd container shipping fleet, presenting freight rate trajectories, fleet utilization ratios, and EEXI compliance timelines for the Asia-Europe trade lane.",
+    "audience": "institutional shareholders",
+    "style_hints": "sober, figure-first",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "A strategic briefing for the Governing Board of the European Southern Observatory on旗舰 ELT construction milestones, budget variance against the €1.2B envelope, and first-light instrument commissioning schedules.",
+    "audience": "ESO council delegates",
+    "style_hints": "concise, accountability-oriented",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "A briefing for the University of Heidelberg Senate on the Excellence Cluster renewal strategy, detailing planned hires in quantum materials and the collaborative framework with the Max Planck Institute for Medical Research.",
+    "audience": "university senate members",
+    "style_hints": "institutional, measured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A briefing to the Bundestag Digital Committee on post-quantum migration timelines for federal IT infrastructure, surveying NIST PQC standards and migration cost estimates from the BSI national roadmap.",
+    "audience": "federal parliament committee members",
+    "style_hints": "authoritative, action-oriented",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "A policy analysis for the OECD Economic Directorate on fiscal consolidation paths for Southern European members, comparing debt sustainability scenarios under baseline and adverse interest-rate shocks.",
+    "audience": "senior policy economists",
+    "style_hints": "analytical, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "A grant proposal presentation to the Volkswagen Foundation for the 'Algebraic Structures in Data Science' initiative, outlining a three-year research programme bridging category theory and machine learning at TU Dresden.",
+    "audience": "foundation grant reviewers",
+    "style_hints": "persuasive yet formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "A funding proposal to the Sloan Foundation for the Open Logic Project, presenting the case for a free, open-source formal logic textbook covering soundness, completeness, and incompleteness theorems for undergraduate curricula.",
+    "audience": "Sloan Foundation program officers",
+    "style_hints": "mission-driven, scholarly",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on tutorial on solving elliptic PDEs with the FEniCS finite element platform, discretizing the Poisson equation on the unit disk with Dirichlet boundary conditions for a DEMO fusion reactor divertor model.",
+    "audience": "computational engineering PhD students",
+    "style_hints": "step-by-step, methodical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A tutorial on Bayesian hierarchical models in Stan, fitting a partial-pooling model to radon measurement data across Minnesota counties as part of the Columbia Statistics Workshop.",
+    "audience": "applied statisticians",
+    "style_hints": "practical yet rigorous",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A practical lab on automated theorem proving in Lean 4, proving the infinitude of primes and constructing the natural numbers game, delivered at the Formal Methods in Mathematics summer school at CMU.",
+    "audience": "mathematics students new to proof assistants",
+    "style_hints": "didactic, incremental",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An explainer on the Riemann Hypothesis for an educated lay audience at the Heidelberg Laureate Forum, covering the zeta function, nontrivial zeros, and the connection to prime counting from Euler to the present.",
+    "audience": "mathematically inclined public",
+    "style_hints": "accessible yet uncompromising",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A lecture-demonstration on LIGO's gravitational-wave detections, walking through the interferometer principle, the 2015 GW150914 event, and parameter estimation pipelines for a Science Café audience at DESY Hamburg.",
+    "audience": "science-attentive general public",
+    "style_hints": "clear, authoritative",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "An upper-secondary lesson on proof by mathematical induction, building from the domino analogy to rigorous proofs of sum formulae, including the sum of squares identity, for a Gymnasium class in Bavaria.",
+    "audience": "year-11 Gymnasium students",
+    "style_hints": "pedagogical, incremental",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "An AP Physics C lesson on Gauss's Law for electrostatics, deriving the electric field of an infinite plane and a spherical shell with symmetric charge distributions for a class at Phillips Exeter Academy.",
+    "audience": "AP Physics C students",
+    "style_hints": "derivation-focused, methodical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "A mini-lecture on the Erlangen Programme of Felix Klein, tracing how the classification of geometries by their symmetry groups reshaped 19th-century mathematics and influenced the later development of gauge theory.",
+    "audience": "undergraduate math history seminar",
+    "style_hints": "narrative with formal interludes",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "A lecture on the South Sea Bubble and the birth of modern financial regulation, analysing the 1720 crisis, the subsequent Bubble Act, and its parallels to modern securities law at the LSE Economic History seminar.",
+    "audience": "economic history graduate students",
+    "style_hints": "analytical, archival",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "The 2024 annual report of the Clay Mathematics Institute, summarising the Millennium Prize Problems programme status, workshop proceedings at Oxford, and the successor to the CMI enhancement award.",
+    "audience": "donors and advisory board",
+    "style_hints": "dignified, summary-oriented",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "The 2024 performance report of the DFG Priority Programme on Quantum Geometry, cataloguing funded projects, publication counts, and collaboration networks across 22 German universities.",
+    "audience": "DFG review panel",
+    "style_hints": "institutional, comprehensive",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "A Sabermetrics seminar on expected goals (xG) model calibration in the Bundesliga, comparing Poisson regression and gradient-boosted tree approaches using tracking data from the 2023-24 season at the DFB Analytics Summit.",
+    "audience": "sports analytics professionals",
+    "style_hints": "quantitative, even-handed",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "A talk on Markov-chain models for tennis match prediction, fitting transition probabilities to 15 years of ATP tour data and validating against Elo baselines at the MIT Sloan Sports Analytics Conference.",
+    "audience": "analytics researchers and team strategists",
+    "style_hints": "model-driven, statistical",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk on persistent homology for shape classification in materials science, applying the Vietoris-Rips complex to nanopore structures from STEM images at the MPI für Eisenforschung.",
+    "audience": "applied topologists and materials scientists",
+    "style_hints": "interdisciplinary, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A seminar on optimal transport and the Wasserstein metric in generative modelling, presenting theoretical convergence guarantees for WGANs with Lipschitz regularization on the Cifar-10 benchmark at the UPC Barcelona seminar.",
+    "audience": "machine learning theorists",
+    "style_hints": "theoretically rigorous",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "A quarterly review of the Deutsches Elektronen-Synchrotron (DESY) photon science division, presenting beamtime allocation statistics, user proposal acceptance rates, and PETRA III upgrade milestones.",
+    "audience": "DESY directorate and division heads",
+    "style_hints": "concise, milestone-oriented",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "A proposal from the University of Bonn to the Simons Foundation for a joint 'Geometry and Quantum Field Theory' visitor programme, detailing the planned exchange framework, senior mentor roster, and five-year budget at the Simons Center for Geometry and Physics.",
+    "audience": "Simons Foundation programme directors",
+    "style_hints": "collegial, formally structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "An academic lecture on the Sapir-Whorf hypothesis and its formal investigation through semantic typology, presenting colour-term experiments from the World Colour Survey and Kay-Maffi classification at the MPI for Psycholinguistics.",
+    "audience": "linguistics researchers and cognitive scientists",
+    "style_hints": "empirical, theory-grounded",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A lecture on central limit theorems for dependent random variables, covering martingale difference arrays and mixing conditions with applications to MCMC convergence diagnostics from the M\"oller Lab at Aarhus University.",
+    "audience": "probability theory postgraduate students",
+    "style_hints": "theorem-proof alternation",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A seminar on the Navier-Stokes regularity problem in three dimensions, surveying partial regularity results of Caffarelli-Kohn-Nirenberg and open questions for the Clay Millennium Prize at the Institut Henri Poincaré.",
+    "audience": "PDE and fluid dynamics researchers",
+    "style_hints": "major-survey, deeply formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A presentation on formal verification of distributed consensus protocols in Isabelle/HOL, mechanising the safety proof for the Raft algorithm with case-split strategies from the Cambridge Automated Reasoning Group.",
+    "audience": "formal methods engineers and researchers",
+    "style_hints": "proof-engineering detail, structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  }
+]

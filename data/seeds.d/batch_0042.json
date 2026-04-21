@@ -1,0 +1,696 @@
+[
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Vue 3 Composition API crash course for React developers transitioning to the Vue ecosystem, covering ref, reactive, computed, and lifecycle hooks with live-coding examples.",
+    "audience": "React devs curious about Vue",
+    "style_hints": "friendly对比parallel structure, code-heavy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Welcome & why Vue 3 for React devs",
+      "Setup: Vite + Vue starter template",
+      "ref() vs useState — mental model shift",
+      "reactive() and deep reactivity",
+      "computed() vs useMemo parallels",
+      "Watchers: watch vs watchEffect",
+      "Lifecycle hooks: onMounted & friends",
+      "Composables as custom hooks",
+      "Live-coding: building a tiny dashboard widget",
+      "Resources & next steps"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Announcing ViteBarn, a new open-source Vite plugin ecosystem for rural broadband cooperatives deploying offline-first Vue apps to community centers.",
+    "audience": "Open-source JS community",
+    "style_hints": "enthusiastic, community-focused",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launch keynote for FeatherUI 2.0, a Vue 3 component library with 60+ accessible primitives, dark-mode tokens, and built-in Storybook integration.",
+    "audience": "Frontend teams evaluating component libs",
+    "style_hints": "bold reveal moments, polished visuals",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Opening: the vision behind FeatherUI",
+      "State of Vue component libs in 2025",
+      "FeatherUI 2.0 feature map overview",
+      "Accessibility first: ARIA audit results",
+      "Dark mode & design tokens deep-dive",
+      "Storybook 8 integration walkthrough",
+      "Live demo: building a settings page in 5 min",
+      "Migration guide from 1.x → 2.0",
+      "Pricing & team plans",
+      "OSS community & contribution guide",
+      "What's next: FeatherUI Labs roadmap",
+      "Thank-you & Q&A"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Design review for the new Harmony Design System tokens v3 being adopted across six Vue SPA products at MidStream Media.",
+    "audience": "Design + engineering leads",
+    "style_hints": "structured, detail-oriented but warm",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Pinia state management patterns for medium-scale Vue apps: store composition, plugin architecture, and testing strategies with real project examples from ShopCart Pro.",
+    "audience": "Vue devs with basic Pinia experience",
+    "style_hints": "hands-on, practical, encouraging",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Why Pinia over Vuex for 2025",
+      "Store anatomy: defineStore options vs setup",
+      "Composing stores: cross-store references",
+      "Plugins: persisting & syncing state",
+      "ShopCart Pro project context",
+      "Pattern 1: feature-sliced stores",
+      "Pattern 2: domain-driven stores",
+      "Testing stores with Vitest",
+      "Devtools & debugging tips",
+      "Anti-patterns to avoid",
+      "Exercise: refactor a sample app"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "How the Vue Amsterdam meetup organiser team grew from 40 to 400 attendees in two years: community strategy, sponsorship, and event format experiments.",
+    "audience": "Meetup organisers & community leaders",
+    "style_hints": "story-driven, warm, celebratory",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting pitch for senior Vue engineers at WaveStack, a fintech startup building a real-time portfolio dashboard with Vue 3 + TypeScript.",
+    "audience": "Senior frontend engineers on the market",
+    "style_hints": "confident, modern, perks-forward",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "WaveStack at a glance",
+      "Our product: real-time portfolio dashboard",
+      "The frontend stack: Vue 3 + TS + Vite",
+      "Engineering culture & principles",
+      "Compensation, benefits & growth paths",
+      "Open roles & hiring process",
+      "Apply & contact"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Keynote introducing VuePilot DX, an AI-assisted developer-experience toolchain that scaffolds Vue projects, enforces conventions, and generates composables from specs.",
+    "audience": "Developer tool adopters at VueConf",
+    "style_hints": "visionary, demo-heavy, punchy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Intro to Vue 3 for university students in a summer coding bootcamp at Brighton Digital Campus, covering SFC structure, template syntax, and props/events by building a weather widget.",
+    "audience": "University coding bootcamp students",
+    "style_hints": "step-by-step, welcoming, playful",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Welcome to Brighton Digital Campus",
+      "What is Vue? Big-picture context",
+      "Setting up with Vite",
+      "SFC anatomy: template / script / style",
+      "Template syntax: bindings & directives",
+      "Props: passing data down",
+      "Events: sending data up",
+      "Building: weather widget step 1 — layout",
+      "Building: weather widget step 2 — API call",
+      "Building: weather widget step 3 — styling",
+      "Where to go next: docs & courses",
+      "Show & tell — share your widget"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "CSS-in-Vue 2025 showdown: comparing scoped styles, Tailwind integration, UnoCSS, and Panda CSS when used inside Vue 3 SFCs with benchmarks from the BenchUI reference app.",
+    "audience": "Frontend architects choosing styling strategies",
+    "style_hints": "analytical, balanced, data-informed",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Accessibility audit results and remediation plan for the SkyLine travel-booking Vue SPA, covering WCAG 2.2 AA gaps in calendar, form, and modal components.",
+    "audience": "Product + design + accessibility team",
+    "style_hints": "clear, responsible, action-oriented",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Audit scope & methodology",
+      "WCAG 2.2 AA compliance baseline",
+      "Calendar component: keyboard & screen-reader gaps",
+      "Form validation: errorannounce patterns",
+      "Modal focus-trap violations",
+      "Remediation priority matrix",
+      "Timeline & owner assignments",
+      "Ongoing a11y testing workflow"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Frontend platform quarterly update at NovaSoft: Vue 3 migration progress, new shared component inventory, and the upcoming Vite 6 rollout across 12 product teams.",
+    "audience": "NovaSoft engineering org",
+    "style_hints": "transparent, encouraging, org-aware",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Vue + WebGL creative coding workshop at ArtHack Berlin: rendering shader-driven generative art inside Vue components using TresJS and reactive uniforms.",
+    "audience": "Creative coders & visual artists",
+    "style_hints": "experimental, aesthetic, playful",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "ArtHack Berlin intro",
+      "Why Vue for creative coding?",
+      "TresJS overview: Vue wrapper for Three.js",
+      "Shader basics in a Vue SFC",
+      "Reactive uniforms: driving shaders with ref()",
+      "Exercise 1: pulsating circle",
+      "Exercise 2: noise-based terrain",
+      "Composing scenes: multiple shader components",
+      "Performance: offscreen canvas & lazy mounting",
+      "Gallery share & next inspirations"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Open-source Vue contribution guide: demystifying the process for first-time contributors to the Vue core repo, from finding good-first-issues to passing CI checks.",
+    "audience": "Aspiring Vue OSS contributors",
+    "style_hints": "encouraging, insider-knowledgeable, warm",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Seed pitch for ComponentForge, a SaaS platform that auto-generates Vue component libraries from Figma files with design-token syncing and CI-tested outputs.",
+    "audience": "Seed-stage VC investors",
+    "style_hints": "sharp, problem-solution clarity, modern",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The problem: hand-coding components from Figma",
+      "The solution: ComponentForge auto-generation",
+      "How it works: Figma → tokens → Vue SFC pipeline",
+      "Market size: design-to-code tooling TAM",
+      "Competitive landscape differentiation",
+      "Traction: 12 pilot teams, 800 generated components",
+      "Business model & pricing",
+      "The ask & team"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Vue 3 enterprise migration playbook: strategies for incrementally migrating a large AngularJS monolith to Vue at InsuranceHub, including route-by-route replacement and shared state bridges.",
+    "audience": "Enterprise frontend leads planning migrations",
+    "style_hints": "methodical, experienced, pragmatic",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Reactive forms in Vue: modeling complex multi-step workflows with dynamic validation, conditional fields, and cross-step dependencies using VeeValidate + Zod at ClaimFlow Insurance.",
+    "audience": "Vue devs building complex form UIs",
+    "style_hints": "deep-dive, empathetic to form pain",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launch demo of SlideUp, a browser-based presentation builder powered by Vue 3 + Slidev that lets developer advocates compose talk decks in Markdown with live Vue component previews.",
+    "audience": "Developer advocates & tech speakers",
+    "style_hints": "demo-centric, energetic, meta (slides about slides)",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Why we built SlideUp",
+      "Slidev fundamentals quick recap",
+      "SlideUp editor walkthrough",
+      "Live Vue components inside slides",
+      "Markdown-driven content flow",
+      "Theme system & custom layouts",
+      "Export: PDF, SPA, and speaker mode",
+      "Collaboration: real-time multiplayer editing",
+      "Roadmap: animations & AI assist",
+      "Try SlideUp today"
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "VueJam hackathon results showcase: six winning projects from Vienna's 48-hour Vue hackathon, including a local-event finder, an accessible chart widget, and a kids' coding-game app.",
+    "audience": "Vienna Vue community & sponsors",
+    "style_hints": "celebratory, community-warm, demo-light",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "VueJam Vienna recap",
+      "Project 1: EventRadar — local-event finder",
+      "Project 2: ChartA11y — accessible chart widget",
+      "Project 3: CodeKids — kids' coding-game app",
+      "Project 4: GrocerVue — sustainable shopping tracker",
+      "Project 5: TunePenguin — music discovery mashup",
+      "Project 6: VueWalk — neighborhood walking guide",
+      "Sponsors, organisers & next event"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Testing Vue apps with Vitest: from unit tests for composables to component tests with Vue Test Utils and E2E smoke tests with Playwright, using the CoffeeOrder reference app.",
+    "audience": "Vue devs wanting reliable test coverage",
+    "style_hints": "practical, reassuring, systematic",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Vue directive deep dives: building custom v-focus-trap, v-permit, and v-stream directives for accessibility, permission gating, and real-time WebSocket updates in production at HealthLink.",
+    "audience": "Advanced Vue devs exploring directives",
+    "style_hints": "expert-level but approachable, use-case driven",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Component API design principles: how the Vue ecosystem's best libraries (Vuetify, Quasar, Radix Vue) decide between props, slots, emits, and provide/inject — patterns.trade-offs.catalog.",
+    "audience": "Library authors & advanced Vue devs",
+    "style_hints": "principled, comparative, nuanced",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Why API design matters for libs",
+      "Props: explicit & declarative",
+      "Slots: flexible composition",
+      "Emits: data flowing up",
+      "Provide/inject: implicit context",
+      "Pattern catalog with trade-off matrix",
+      "Case study: Radix Vue tooltip API",
+      "Decision flowchart: choosing the right channel",
+      "Summary checklist for new components"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Seed pitch for StateFlow, a reactive state-orchestration library for Vue that extends Pinia with saga-like workflows, time-travel debugging, and cross-tab sync.",
+    "audience": "Developer-tooling VCs",
+    "style_hints": "technical credibility + commercial sharpness",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "VueConf speaker prep workshop: how to structure a 25-minute tech talk, design Slidev decks with the penguin theme, and rehearse for stage confidence—led by organiser Marta Chen.",
+    "audience": "Prospective VueConf speakers",
+    "style_hints": "mentoring, practical, supportive",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Welcome & speaker prep overview",
+      "Structuring a 25-min talk: narrative arc",
+      "Slidev basics & the penguin theme",
+      "Designing code slides that audiences read",
+      "Visual aids: diagrams vs screenshots",
+      "Rehearsal protocol & timing drills",
+      "Q&A handling tips & final checklist"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Custom Vite configs for Vue monorepos: sharing aliases, environment variables, and plugin sets across 8 sub-apps in the TradeDesk financial platform monorepo.",
+    "audience": "Platform engineers managing Vue monorepos",
+    "style_hints": "infrastructure-minded, systematic",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Front-end platform Q1 update at ClearView Analytics: Vue 3 upgrade completion stats, component-library adoption dashboard, and Vite build-time reduction metrics.",
+    "audience": "ClearView engineering leadership",
+    "style_hints": "data-forward, concise, milestone-oriented",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Quarterly headline achievements",
+      "Vue 3 upgrade completion: 100% of products",
+      "Component library adoption by team",
+      "Vite build-time benchmark improvements",
+      "Lighthouse performance score trends",
+      "Developer satisfaction survey highlights",
+      "Q2 priorities & risk register",
+      "Open floor & next actions"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building a Vue design system at scale: lessons from shipping 180 components across 14 product teams at BrightPath EdTech, including governance, versioning, and visual regression CI.",
+    "audience": "Design-system leads at large orgs",
+    "style_hints": "war-story, reflective, practical",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Keynote for DashPond 3.0, a Vue-powered real-time analytics dashboard builder launching with 30 new chart primitives, drag-and-drop layout editing, and WebSocket live-data feeds.",
+    "audience": "Data-team leads & product managers",
+    "style_hints": "exciting reveal, visually rich, demo-centric",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "image-forward",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Vue + D3 data-visualization patterns: wrapping D3 charts as Vue components, reactive data binding, and animation orchestration, demonstrated with the GlacierWatch climate dashboard.",
+    "audience": "Data-visualization engineers",
+    "style_hints": "visual, technical, diagram-friendly",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Design tokens pipeline review at PixelCraft Studio: how Figma variables are exported via StyleDictionary into CSS custom properties consumed by Vue components in three brand themes.",
+    "audience": "Design-system engineers & token owners",
+    "style_hints": "process-focused, clear diagrams, warm",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Context: PixelCraft's three brand themes",
+      "Figma variables → token JSON export",
+      "StyleDictionary transforms pipeline",
+      "CSS custom-property output structure",
+      "Vue component consumption patterns",
+      "Theme-switching mechanism demo",
+      "Open issues: font & spacing token drift",
+      "Next: motion tokens & dark-mode automation"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Hiring pitch for Vue-focused frontend engineers at GreenLoop, a sustainability-tech startup building citizen-facing carbon-tracking dashboards with Vue 3 + MapLibre.",
+    "audience": "Mission-driven frontend engineers",
+    "style_hints": "purpose-infused, modern, warm",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Storybook 8 + Vue 3 integration deep-dive: configuring stories for composables, testing interactions with the play function, and publishing a component catalogue for FeatherUI.",
+    "audience": "Component-library maintainers",
+    "style_hints": "tutorial-paced, thorough, friendly",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Frontend tooling survey 2025: results from 1,800 Vue developers on preferred bundlers, test runners, CSS strategies, and IDE setups, presented by VueMaintainers collective.",
+    "audience": "Vue ecosystem tooling enthusiasts",
+    "style_hints": "data-rich, engaging, community voice",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Survey methodology & demographics",
+      "Bundler preferences: Vite dominance & edge cases",
+      "Test runners: Vitest vs Jest vs others",
+      "CSS strategy distribution",
+      "IDE & editor setup trends",
+      "State management adoption: Pinia vs alternatives",
+      "TypeScript usage among Vue devs",
+      "Satisfaction scores & pain points",
+      "Year-over-year changes from 2024 survey",
+      "Implications for ecosystem roadmap"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Intro to web development for 14-year-olds at CodeCamp Lisbon: HTML basics, CSS styling, and a first Vue component that reacts to button clicks — building a colour-mixing toy.",
+    "audience": "Secondary-school code-camp students",
+    "style_hints": "playful, very beginner-friendly, game-like",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Welcome to CodeCamp Lisbon",
+      "What is the web? Browser → HTML → CSS → JS",
+      "HTML: your first page structure",
+      "CSS: making it colourful",
+      "Enter Vue: what is a component?",
+      "Your first Vue app: colour buttons",
+      "How Vue reacts: clicking changes the box",
+      "Exercise: mix two colours together",
+      "Show your creation to the class",
+      "Resources to keep coding at home"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Vue middleware patterns: implementing auth guards, rate-limit interceptors, and analytics telemetry as composable middleware layers in Vue Router at TravelNest booking platform.",
+    "audience": "Vue Router power users & platform devs",
+    "style_hints": "pattern-heavy, clear flow, practical",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Keynote introducing FrostGrid, a Vue 3 data-grid component with virtual scrolling, inline editing, and server-side pagination designed for high-density enterprise tables.",
+    "audience": "Enterprise frontend teams needing data grids",
+    "style_hints": "performance-focused, polished, demo-rich",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Vue + Supabase real-time workshop at ReactLondon crossover event: building a live-collaborative Kanban board with Vue 3 composables, Supabase realtime channels, and Tailwind styling.",
+    "audience": "Full-stack JS devs exploring Vue + backend",
+    "style_hints": "hands-on, fast-paced, collaborative",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Server Components for Vue: an early look at Nuxt 4's async component islands, streaming SSR strategies, and hydration boundary control for hybrid rendering at ScaleUp Commerce.",
+    "audience": "Vue/Nuxt architecture enthusiasts",
+    "style_hints": "forward-looking, technical, thoughtful",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "mermaid",
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Tailwind CSS for Vue developers: configuring the Tailwind Vite plugin, resolving class-ordering with @vue-terrain/tailwind-lint, and building a responsive card catalogue for LibraryVue.",
+    "audience": "Vue devs adding Tailwind to existing apps",
+    "style_hints": "practical, incremental, supportive",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Vue Copenhagen community project update: the new open-source Copenhagen Bike Finder Vue app, contributor stats, and the upcoming mentorship programme pairing juniors with seniors.",
+    "audience": "Vue Copenhagen meetup members",
+    "style_hints": "community-warm, inclusive, celebratory",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Vue Copenhagen 2025 overview",
+      "Copenhagen Bike Finder: project goals",
+      "Tech stack: Vue 3 + MapLibre + Supabase",
+      "Contributor stats & sprint outcomes",
+      "Mentorship programme design",
+      "Upcoming events & call for mentors",
+      "Get involved links"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Animation orchestration in Vue: sequencing transitions with VueTransitionGroup, GSAP timelines, and the new @vue-motion/orchestrate package for staggered reveals in the StreamFlow video app.",
+    "audience": "Motion-design-interested Vue devs",
+    "style_hints": "kinetic, visual, demo-heavy",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "LumosTech all-hands: celebrating the Vue 3 launch of the Glow note-taking app, sharing user growth stats, and previewing the dev-experience roadmap for 2025.",
+    "audience": "LumosTech entire company",
+    "style_hints": "celebratory, cross-functional, warm",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  }
+]

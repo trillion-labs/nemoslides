@@ -1,0 +1,71 @@
+[
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "A close reading of long takes and landscapes in Terrence Malick's 'The Tree of Life' and 'Days of Heaven,' exploring how visual patience became a moral stance in American cinema.",
+    "audience": "Graduate film studies seminar",
+    "style_hints": "meditative, image-driven, contemplative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title slide — 'The Patience of Light: Long Takes in Malick'",
+      "Why patience matters — the moral weight of looking longer",
+      "Days of Heaven — the golden hour as cinematic ethics",
+      "The harvest sequence — a close reading of one 4-minute take",
+      "The Tree of Life — cosmic scope and domestic intimacy",
+      "The creation sequence — beauty as theology",
+      "Stillness vs. silence — what the camera does when nothing happens",
+      "Influences: Ozu, Bresson, Tarkovsky — a brief comparative lens",
+      "The legacy — how Malick reshaped independent American cinema",
+      "Discussion prompt: Is slowness a privilege? Who gets to be patient?",
+      "Closing still + recommended reading list"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A thematic dissection of 'The Remains of the Day' by Kazuo Ishiguro — the architecture of emotional repression, the unreliability of memory, and what Stevens the butler cannot say.",
+    "audience": "Public library book club members",
+    "style_hints": "reflective, gently probing, literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The wartime correspondence between Simone Weil and Albert Camus (1942–1947) — two moral philosophers who never met in person but shaped each other's final thinking on suffering, solidarity, and the duty to act.",
+    "audience": "Undergraduate philosophy and history students",
+    "style_hints": "narrative-driven, scholarly, humanistic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide — 'Letters Across the Abyss'",
+      "Who was Simone Weil? — a brief biographical sketch",
+      "Who was Albert Camus? — a brief biographical sketch",
+      "How the correspondence began — Camus publishes Weil posthumously",
+      "On suffering — where they agreed",
+      "On the duty to act — where they diverged",
+      "Weil's concept of 'attention' vs. Camus's concept of 'revolt'",
+      "Timeline of their parallel lives — visual chronology",
+      "What each philosopher took from the other",
+      "Why their exchange still matters — moral philosophy in a fractured age"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'On the Loom' — a curatorial walk-through of Anni Albers's textile experiments at Black Mountain College, tracing how one weaver's refusal to separate craft from art changed American modernism.",
+    "audience": "Museum members and patrons",
+    "style_hints": "reverent, tactile, visually unhurried",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 OKR readout for the Apex customer success platform at Lumenex Software — covering acquisition targets, net revenue retention, and support SLA improvements across EMEA and APAC regions",
+    "audience": "Lumenex leadership and department heads",
+    "style_hints": "data-driven, direct, no-nonsense corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposed strategic partnership between Corvus Freight and EcoRoute EV to co-develop a carbon-neutral last-mile delivery network across the Pacific Northwest, including fleet sizing, revenue sharing, and pilot timeline",
+    "audience": "Corvus Freight executive team and board",
+    "style_hints": "persuasive yet measured, opportunity-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Meridian Health Systems Q3 all-hands — CEO Sarah Chen reviews year-to-date patient outcomes, announces the new Community Care Initiative for rural clinics, and shares updated open-enrollment benefits details",
+    "audience": "All Meridian Health Systems employees",
+    "style_hints": "warm but professional, transparency-forward",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Cross-functional status update for Project Orca — the migration of Bayshore Financial's legacy trading platform to a cloud-native architecture, covering API integration milestones, security audit results, and revised go-live timeline",
+    "audience": "Bayshore Financial engineering, compliance, and operations leads",
+    "style_hints": "structured, progress-oriented, flagging risks clearly",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  }
+]

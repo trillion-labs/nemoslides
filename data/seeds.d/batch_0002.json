@@ -1,0 +1,715 @@
+[
+  {
+    "domain": "product launch keynote",
+    "topic": "Aura Sound introduces the Arc Pro — a flagship wireless over-ear headphone featuring adaptive spatial audio, 40-hour battery, and a new ceramic-white finish, unveiled at the company's annual product showcase.",
+    "audience": "tech press and lifestyle media",
+    "style_hints": "cinematic builds, hero product shots, whisper-quiet confidence",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Arc Pro — meet the future of sound",
+      "What we heard: the problem with today's premium headphones",
+      "Adaptive Spatial Audio — how it works",
+      "40 hours. One charge.",
+      "Ceramic White — a new finish story",
+      "Comfort re-engineered — weight, clamp, cushion",
+      "Seamless switching across devices",
+      "Pricing and availability",
+      "Arc Pro vs Arc — comparison at a glance",
+      "One more thing: Arc Pro Mini teaser"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Velour Luxe debuts its Midnight Botanics skincare line — four serums rooted in rare botanical extracts, positioned at the ultra-premium tier of the beauty market.",
+    "audience": "beauty editors and retail buyers",
+    "style_hints": "warm muted palette, ingredient close-ups, aspirational minimal",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Internal design review of the Miro Home app v3.0 interface — showcasing the new navigation paradigm, onboarding flow, and widget system before engineering handoff.",
+    "audience": "product and engineering leads",
+    "style_hints": "clean wireframes, generous whitespace, quiet authority",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Miro Home v3.0 — design review",
+      "Project goals and design principles",
+      "Old navigation vs new: side-by-side audit",
+      "New tab architecture — four pillars",
+      "Onboarding flow: screen-by-screen walkthrough",
+      "Widget system — personalization framework",
+      "Typography and color system updates",
+      "Accessibility audit highlights",
+      "Motion and transition language",
+      "Open questions for engineering",
+      "Next steps and timeline"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Solstice Parfums launches its holiday campaign 'Quiet Midnight' — a digital-first, story-driven campaign for the signature Solstice Noir Eau de Parfum across social, email, and in-store.",
+    "audience": "creative agency and brand team",
+    "style_hints": "moody elegance, restrained drama",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Zenith Meditation App raises its Series A — an AI-personalized meditation platform with 2M downloads, a 68% 30-day retention rate, and a freemium-to-premium conversion story.",
+    "audience": "Series A venture investors",
+    "style_hints": "confident brevity, statement typography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Zenith — calm, personalized",
+      "The mental wellness market is loud — we make it quiet",
+      "How Zenith works: AI-personalized sessions",
+      "Traction: 2M downloads, 68% D30 retention",
+      "Unit economics and conversion funnel",
+      "Competitive landscape",
+      "Go-to-market: content partnerships",
+      "Team",
+      "The ask: $12M Series A",
+      "Use of funds",
+      "Vision: the calm operating system",
+      "Thank you"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Nova Devices presents its custom spatial-audio chipset — the N7 Audio Engine — and explains how on-device ML enables zero-latency adaptive sound for consumer earbuds.",
+    "audience": "hardware engineers and audio professionals",
+    "style_hints": "technical clarity with visual restraint",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "N7 Audio Engine — spatial audio, zero latency",
+      "Why on-device ML matters for audio",
+      "Chipset architecture overview",
+      "ML inference pipeline — block diagram",
+      "Latency benchmarks: N7 vs competitors",
+      "Adaptive EQ: how it learns your ear",
+      "Power budget and thermal constraints",
+      "Developer API — code sample",
+      "Shipping roadmap",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Atelier Fashion Group's 2024 annual highlights — €420M revenue, expansion into Seoul and Austin, and a new sustainability commitment to 90% traceable materials by 2027.",
+    "audience": "shareholders and board members",
+    "style_hints": "editorial minimalism, statement numbers",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Atelier — 2024 at a glance",
+      "Revenue: €420M and the growth story",
+      "Regional performance table",
+      "New stores: Seoul and Austin openings",
+      "Sustainability — 90% traceable by 2027",
+      "Brand portfolio performance",
+      "Digital and DTC channel growth",
+      "Leadership and governance changes",
+      "Looking ahead — 2025 priorities",
+      "Closing statement from the CEO"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Crystal Springs, a premium mineral water brand, presents its Q3 investor update — on-premise partnerships with 40 new Michelin-starred restaurants and a 22% DTC subscription lift.",
+    "audience": "private equity backers",
+    "style_hints": "understated elegance, crisp data",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "A retrospective on Isamu Noguchi's lamp designs — tracing the Akari series from its 1951 Gifu origins to its status as a global design icon, for a museum exhibition opening.",
+    "audience": "museum patrons and design enthusiasts",
+    "style_hints": "sculptural stillness, warm paper tones",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Akari — the light of Noguchi",
+      "Gifu, 1951 — the bamboo-and-washi origin",
+      "Form follows poetry — the design philosophy",
+      "The first ten: catalogue raisonné highlights",
+      "Akari in architecture — iconic installations",
+      "The art vs. craft debate",
+      "Noguchi's own words — letters and sketches",
+      "Legacy: Akari in contemporary interiors",
+      "Exhibition guide and programming"
+    ]
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "A curated 5-day Kyoto winter itinerary — focusing on moss gardens in frost, private temple teas, and kaiseki dining, designed for a luxury travel advisory's top-tier clients.",
+    "audience": "high-net-worth travelers",
+    "style_hints": "contemplative pacing, full-bleed photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Claire Dunham introduces the Focus Flow method — a structured deep-work framework built around 90-minute cycles, environment design, and weekly review rituals, drawn from her coaching practice.",
+    "audience": "creative professionals and founders",
+    "style_hints": "calm authority, typographic rhythm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Focus Flow — deep work, designed",
+      "Why willpower fails and systems succeed",
+      "The 90-minute cycle — science and practice",
+      "Environment design: light, sound, space",
+      "The weekly review ritual",
+      "Digital minimalism: phone and desktop",
+      "Case study: a founder's before and after",
+      "Common pitfalls and how to adjust",
+      "Building your first Focus Flow week",
+      "Resources and next steps"
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Analog Film Lab's beginner workshop on 35mm film photography — covering camera selection, metering without automation, and home-developing C-41 color negatives.",
+    "audience": "photography hobbyists and creative beginners",
+    "style_hints": "grainy warmth, hands-on simplicity",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Lumina proposes a co-branded home fragrance capsule with Muji — three seasonal scents in Muji's iconic minimalist vessels, blending Lumina's perfumery craft with Muji's design language.",
+    "audience": "Muji partnership and product teams",
+    "style_hints": "quiet persuasion, side-by-side brand alignment",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Lumina × Muji — a natural alignment",
+      "Why this partnership, why now",
+      "Lumina brand story and perfumery credentials",
+      "Muji design philosophy — shared values",
+      "The capsule: three seasonal scents",
+      "Product spec and vessel design",
+      "Brand voice and visual guidelines",
+      "Go-to-market: launch timeline",
+      "Retail and digital distribution plan",
+      "Proposed terms and next steps"
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Velo E-Bikes kicks off Q3 sales with the release of the Velo Apex — a lightweight urban e-bike with a swappable battery system, targeting direct-to-consumer and boutique retail channels.",
+    "audience": "Velo sales and partnership team",
+    "style_hints": "energetic but polished, hero product framing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Aura Pro headphones became the standard issue for Arctos Capital's 400-person trading floor — noise cancellation, compliance integration, and a 30% reduction in audio-related IT tickets.",
+    "audience": "enterprise prospects and IT decision-makers",
+    "style_hints": "clean proof-point storytelling",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Arctos Capital × Aura Pro",
+      "The challenge: 400 traders, 400 headsets, constant noise",
+      "Why Arctos chose Aura Pro",
+      "Deployment: IT integration and compliance",
+      "Before vs after — noise and ticket data",
+      "Trader feedback — three voices",
+      "Rollout timeline",
+      "Results and ROI summary"
+    ]
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Nordish Kitchen's immersive workshop on New Nordic home cooking — three seasonal recipes built around foraged ingredients, fermented staples, and minimal-waste techniques.",
+    "audience": "home cooks and food enthusiasts",
+    "style_hints": "earthy minimalism, ingredient-focused imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Maison Rouge presents its Autumn-Winter haute couture collection at Paris Fashion Week — twelve silhouettes exploring the tension between armor and drape, all in monochrome reds.",
+    "audience": "fashion press and haute couture clients",
+    "style_hints": "dramatic restraint, full-bleed look photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Maison Rouge — Autumn-Winter Collection",
+      "Inspiration: armor and drape",
+      "Fabric story — wool, organza, latex",
+      "Look 1–3: the soldier",
+      "Look 4–6: the ceremonial",
+      "Look 7–9: the unburdened",
+      "Look 10–12: the revenant",
+      "Atelier process — construction detail",
+      "Closing — collection name reveal"
+    ]
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Serene Studio launches its 8-week Reset programme — a yoga and breathwork curriculum for burned-out executives, combining studio sessions, guided home practice, and biometric tracking.",
+    "audience": "corporate wellness program directors",
+    "style_hints": "soft confidence, breathing-room layout",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Nova Devices' lead designer presents the design language of the Nova Watch Ultra — a deep dive into the font system, micro-interactions, and ambient display philosophy behind the face collection.",
+    "audience": "design systems practitioners and UX designers",
+    "style_hints": "pixel-precise, generous whitespace",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Helix introduces its flagship electric toothbrush — the Helix Pro — with sonic cleaning, a brushed-aluminum body, app-connected coaching, and a subscription brush-head model.",
+    "audience": "consumer press and retail buyers",
+    "style_hints": "playful precision, tactile product close-ups",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Helix Pro — brush, reimagined",
+      "Why your toothbrush deserves better",
+      "Brushed aluminum — material story",
+      "Sonic cleaning — the science",
+      "App-connected coaching — your brushing report",
+      "Subscription heads — always fresh",
+      "Helix Pro vs the market",
+      "Pricing and launch details",
+      "Available today"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Bloom, a fertility-tracking app, presents its v2.0 visual identity refresh — new illustration style, warmer color system, and inclusive photography guidelines before brand roll-out.",
+    "audience": "brand and marketing leadership",
+    "style_hints": "soft authority, warm palettes",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Coastline Surf Co.'s 'First Light' summer campaign — a surf-lifestyle film series and influencer program for the new Coastline Boardshort Collection, targeting Gen-Z coastal communities.",
+    "audience": "brand and social media team",
+    "style_hints": "sun-bleached energy, cinematic stills",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "First Light — Coastline Summer '25",
+      "Campaign insight: 5AM as a mindset",
+      "Hero film: 'First Light' — storyboard",
+      "Influencer roster — 12 coastal voices",
+      "Social distribution: Instagram, TikTok, YouTube",
+      "Boardshort collection — product tie-in",
+      "In-store: visual merchandising guide",
+      "Budget and timeline",
+      "KPIs and measurement plan"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Verre raises seed funding for its DTC hand-blown crystal wine glass brand — combining century-old Bohemian glassmaking with a modern subscription model and compostable packaging.",
+    "audience": "angel investors and luxury-sector VCs",
+    "style_hints": "artisanal confidence, translucent visual language",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Lumina Design Studio's H1 all-hands — celebrating the launch of three new product lines, welcoming 12 new team members, and previewing the Amsterdam studio opening.",
+    "audience": "full Lumina team",
+    "style_hints": "warm confidence, team-first typography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "H1 at Lumina — together",
+      "Three launches, three wins",
+      "Arc Pro — by the numbers",
+      "Lumina Candles — a new category",
+      "Lumina Home — first 90 days",
+      "Welcome to 12 new Lumina team members",
+      "Amsterdam studio — opening September",
+      "Culture spotlight: design values in action",
+      "H2 priorities and goals",
+      "Open Q&A"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A discussion guide for 'The Art of Less' by Maren Vogt — exploring the book's thesis that strategic reduction in work and life leads to higher output and deeper satisfaction.",
+    "audience": "book club members and curious readers",
+    "style_hints": "thoughtful spaciousness, quotable pull-quotes",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "An explainer on wabi-sabi aesthetics — tracing the concept from its roots in Japanese tea ceremony to its influence on contemporary architecture, product design, and daily practice.",
+    "audience": "design students and cultural enthusiasts",
+    "style_hints": "meditative pacing, textured minimalism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Wabi-Sabi — beauty in imperfection",
+      "Etymology and early tea-ceremony origins",
+      "Sen no Rikyū and the roji garden",
+      "Core principles: impermanence, incompleteness, authenticity",
+      "Wabi-sabi in architecture — Terunobu Fujimori",
+      "Wabi-sabi in product — artisan ceramics",
+      "Wabi-sabi in daily life — the practices",
+      "Misconceptions — what it is not",
+      "Further reading and resources"
+    ]
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "A 10th-anniversary celebration deck for Maya and Daniel — a visual retelling of their decade together through key moments, travels, and the founding of their bakery, Farine.",
+    "audience": "family and close friends at the celebration",
+    "style_hints": "intimate warmth, photo-led storytelling",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "City Arts Foundation seeks $2M to expand its free art-education programme to 15 new public schools — serving 8,000 students annually with studio classes, mentorship, and exhibition opportunities.",
+    "audience": "philanthropic donors and civic leaders",
+    "style_hints": "dignified simplicity, student artwork as visual anchor",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Ember Coffee's board briefing on its Pacific Northwest expansion — 6 new cafés, a wholesale roasting partnership with Blue Star, and a rebrand from Ember to Ember Coffee Co.",
+    "audience": "Ember board of directors",
+    "style_hints": "measured confidence, strategic clarity",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Ember Coffee Co. — board briefing",
+      "A note on the name: Ember → Ember Coffee Co.",
+      "Pacific Northwest expansion — 6-site plan",
+      "Site selection and lease terms",
+      "Blue Star wholesale roasting partnership",
+      "Rebrand rollout — timeline and costs",
+      "P&L projection — 24-month model",
+      "Risk factors and mitigations",
+      "Requested approvals and next steps"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Prisma launches its 4K home security camera — featuring a matte-white cylindrical body, on-device AI person detection, and a privacy shutter, designed to disappear into living spaces.",
+    "audience": "smart-home media and consumers",
+    "style_hints": "assured calm, product-as-object photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Halo Smart Home previews its second-generation thermostat — a flush-mounted glass panel with ambient temperature glow, haptic dial, and Matter protocol integration before final design sign-off.",
+    "audience": "cross-functional product team",
+    "style_hints": "refined precision, material and light focus",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Halo Thermostat Gen 2 — design review",
+      "Design brief recap",
+      "Form factor: flush-mount glass evolution",
+      "Ambient glow — color language and intensity",
+      "Haptic dial — interaction refinement",
+      "Display system — at-a-glance UI",
+      "Matter integration — setup flow",
+      "Material and finish options",
+      "Cost and manufacturing flags",
+      "Decision points — final sign-off items"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Aura's Spring '25 global campaign 'Breathe' — a multi-channel brand campaign for the Arc headphone line built around ambient film, OOH in 8 metros, and a Spotify meditation integration.",
+    "audience": "global marketing and media teams",
+    "style_hints": "expansive calm, ambient visuals",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Dr. Lena PVK delivers a visual lecture on the history of minimalism in industrial design — from Dieter Rams' Braun to Jonathan Ive's Apple, examining shared principles and cultural divergence.",
+    "audience": "design history students at RISD",
+    "style_hints": "scholarly restraint, iconic product imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Vantage Boutique Hotels presents its mid-year update — three new properties opened in Lisbon, Tulum, and Naoshima, with an average 84% occupancy and ADR up 18% year-over-year.",
+    "audience": "institutional investors",
+    "style_hints": "understated luxury, location-led photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Vantage — mid-year 2025",
+      "Portfolio overview — 12 properties",
+      "New openings: Lisbon, Tulum, Naoshima",
+      "Occupancy and ADR performance table",
+      "Guest satisfaction — NPS and review scores",
+      "F&B and experiential revenue",
+      "Pipeline: Marrakech and Kyoto",
+      "Capital allocation and returns",
+      "Outlook for H2"
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "A Riso printing workshop by Ink & Grain — covering machine basics, ink layering, registration, and how to prepare artwork for vibrant two-color prints on uncoated paper.",
+    "audience": "printmaking beginners and illustration students",
+    "style_hints": "playful clarity, bold flat color",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Forma Fitness proposes a co-developed recovery space with Equinox — merging Forma's cold-plunge and infrared tech with Equinox's club footprint for a premium recovery lounge concept.",
+    "audience": "Equinox partnerships and real estate teams",
+    "style_hints": "sleek conviction, architectural renders",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Forma × Equinox — reimagining recovery",
+      "The recovery market opportunity",
+      "Forma technology: cold plunge and infrared",
+      "The lounge concept — design renders",
+      "Member experience — the journey",
+      "Equinox club integration plan",
+      "Pilot: two flagship locations",
+      "Revenue model and unit economics",
+      "Brand alignment and PR potential",
+      "Proposed pilot terms"
+    ]
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "A high-school design lesson on Bauhaus principles — form follows function, the micro-to-macro design journey, and a hands-on exercise to design a poster using only three geometric shapes.",
+    "audience": "high-school art and design students",
+    "style_hints": "pedagogical clarity, primary-color geometry",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "A visual essay on Wes Anderson's symmetrical compositions — analyzing 15 iconic frames from The Grand Budapest Hotel, The Royal Tenenbaums, and Asteroid City for their color, geometry, and narrative function.",
+    "audience": "cinephiles and film-studies students",
+    "style_hints": "centered symmetry, pastel precision",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Greenway Conservancy presents the transformation of the Riverside Rail Trail — 2.4 miles of disused rail corridor converted into a protected pedestrian and cyclist greenway with native planting.",
+    "audience": "city council and neighborhood association",
+    "style_hints": "civic optimism, before-and-after imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Riverside Rail Trail — project update",
+      "Vision: from rail corridor to greenway",
+      "Before: the disused line — photo survey",
+      "Design: trail width, surfaces, crossings",
+      "Native planting plan — 40 species",
+      "Safety: lighting, sightlines, emergency call points",
+      "Usage data — first 3 months",
+      "Community feedback summary",
+      "Phase 2: extension and connectivity"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Néva introduces its organic home-cleaning line — three products (surface, glass, floor) in refillable frosted-glass bottles, with plant-derived formulas and a subscription refill model.",
+    "audience": "sustainable-living media and consumers",
+    "style_hints": "pure and honest, translucent material palette",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Néva — clean, honestly",
+      "The problem with cleaning products today",
+      "Our philosophy: few ingredients, full transparency",
+      "Surface — the everyday hero",
+      "Glass — streak-free, plant-powered",
+      "Floor — safe for every surface",
+      "The frosted-glass bottle and refill system",
+      "Available now — pricing and subscription"
+    ]
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "Montessori at Home practical guide — five room-by-room adjustments parents can make to foster independence in toddlers, from accessible shelving to child-sized tools in the kitchen.",
+    "audience": "parents of children aged 18 months to 4 years",
+    "style_hints": "gentle authority, warm interior photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Montessori at Home — independence by design",
+      "What Montessori at home really means",
+      "Principle: everything within reach",
+      "The bedroom — low bed, accessible shelving",
+      "The kitchen — helper tower, child-sized tools",
+      "The bathroom — step stool and self-care station",
+      "The play area — open shelving, rotation system",
+      "The entryway — shoes and coats at their height",
+      "Getting started — three changes this weekend"
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "A visual exploration of aerodynamic beauty in Formula 1 — tracing the evolution of front-wing design from 2009 to 2025 and how regulation shapes form.",
+    "audience": "F1 fans and design enthusiasts",
+    "style_hints": "technical elegance, side-profile imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Silhouette Eyewear launches the Titan Minimal Art X — the lightest prescription frame in the company's history at 1.8 grams, with a new hingeless temple and 12 colorways.",
+    "audience": "optometry professionals and fashion press",
+    "style_hints": "weightless precision, macro material photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  }
+]

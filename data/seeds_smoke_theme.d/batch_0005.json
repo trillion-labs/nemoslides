@@ -1,0 +1,49 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Migrating the StreamStack platform's Kubernetes CNI from iptables to Cilium eBPF filters to reduce pod-to-pod tail latency by 40%.",
+    "audience": "Cloud-native networking engineers and KubeCon attendees",
+    "style_hints": "understated, data-driven, highly technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building custom Neovim plugins in Lua to parse, filter, and highlight structured JSON logs directly in the terminal.",
+    "audience": "Backend developers and terminal tooling enthusiasts",
+    "style_hints": "calm, hands-on, focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architectural review of the AuroraDB multi-region active-active replication strategy using CRDTs for conflict resolution.",
+    "audience": "Principal engineers and infrastructure architects",
+    "style_hints": "polished, precise, systems-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A deep-dive into the W3C Trace Context propagation standard and how OpenTelemetry handles distributed trace correlation across asynchronous message queues.",
+    "audience": "SREs and observability practitioners",
+    "style_hints": "cool, methodical, clarifying",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  }
+]

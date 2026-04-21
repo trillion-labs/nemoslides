@@ -1,0 +1,464 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "Kill the Standup: Why 'SyncApp' replaces daily meetings with asynchronous audio bursts.",
+    "audience": "Startup founders",
+    "style_hints": "Punchy and declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The Tyranny of the Microservice: Why we rewrote 'CloudNine' back into a monolith.",
+    "audience": "Senior engineers",
+    "style_hints": "Bold-opinion essay",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unplanner: The anti-productivity app that schedules your free time and blocks out work.",
+    "audience": "Digital creatives",
+    "style_hints": "High-impact manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "P-Hacking is destroying science: A defense of pre-registration and null results.",
+    "audience": "Graduate students",
+    "style_hints": "Declarative and urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 at Zenith Corp: How firing our worst 10% of clients doubled our profit.",
+    "audience": "Company leadership",
+    "style_hints": "Bold-opinion and unapologetic",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Delete Your Code: Writing 10x less inside the 'BareMetal' minimalist framework.",
+    "audience": "Junior developers",
+    "style_hints": "Extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "GitOps is a scam: Why direct pushes and 'ShipIt' are the future of deployment.",
+    "audience": "DevOps engineers",
+    "style_hints": "Single-idea manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Bread & Butter Bakery: Slow growth, high margins, and absolute zero venture debt.",
+    "audience": "Angel investors",
+    "style_hints": "Punchy and unforgiving",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "One Metric That Matters: Focusing solely on Daily Active Users at Vortex Media.",
+    "audience": "Board members",
+    "style_hints": "High-impact and singular",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "We are not a family: Why 'GreenLeaf Inc.' treats employees like professional adults.",
+    "audience": "Company employees",
+    "style_hints": "Bold-opinion and direct",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Stop selling features: The 'PureSkin' anti-aging emotion-first campaign strategy.",
+    "audience": "Marketing team",
+    "style_hints": "Declarative and emotional",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "No more discounts: Selling 'ThermaHeat' furnaces on absolute value, not price.",
+    "audience": "Sales reps",
+    "style_hints": "Punchy and motivating",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How 'Apex Logistics' cut churn by firing bad customers and doubling down on good ones.",
+    "audience": "CS managers",
+    "style_hints": "Single-idea manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Merge or die: Why 'EcoShip' and 'GreenFleet' must consolidate to survive Amazon.",
+    "audience": "Potential partners",
+    "style_hints": "High-impact and urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Year of the Pivot: How 'OrbitTech' abandoned hardware for pure SaaS revenue.",
+    "audience": "Stakeholders",
+    "style_hints": "Punchy retrospective",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Water is a right: Drilling 100 deep wells in the Rift Valley by 2025.",
+    "audience": "Philanthropists",
+    "style_hints": "Inspirational and declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Housing isn't speculative: Why Austin must ban corporate ownership of single-family homes.",
+    "audience": "City council",
+    "style_hints": "Bold-opinion essay",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Whitespace is not wasted: The 'Zenith OS' ultra-minimalist interface philosophy.",
+    "audience": "Design team",
+    "style_hints": "Extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Work hard, go home: Why 'Basecamp Builders' strictly forbids overtime.",
+    "audience": "Engineering candidates",
+    "style_hints": "Declarative and counter-cultural",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "Debt is the enemy: The 'Cash-Only' manifesto for millennial wealth building.",
+    "audience": "Young professionals",
+    "style_hints": "Single-idea manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "Slow travel: Why staying a full month in Oaxaca beats ten days rushing across Europe.",
+    "audience": "Remote workers",
+    "style_hints": "High-impact and persuasive",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Three ingredients, infinite meals: The 'Olive Oil, Salt, Flour' cooking method.",
+    "audience": "Beginner cooks",
+    "style_hints": "Punchy and extreme",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Lift heavy, eat well, sleep deep: The 'IronLife' anti-cardio philosophy.",
+    "audience": "Gym members",
+    "style_hints": "Declarative and uncompromising",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The fall of Rome: A lesson in imperial overexpansion for modern empires.",
+    "audience": "History buffs",
+    "style_hints": "Bold-opinion essay",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Meditations: Read it, live it. Applying Marcus Aurelius to the modern burnout epidemic.",
+    "audience": "Book club members",
+    "style_hints": "Inspirational and singular",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Less is more: The 'BauhausRedux' exhibit opening and the return to functional art.",
+    "audience": "Art students",
+    "style_hints": "Extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "To us: A lifetime of simple joys for Sarah and John.",
+    "audience": "Wedding guests",
+    "style_hints": "High-impact and emotional",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "Boredom is good: Raising 'FreeRange' kids without screens or schedules.",
+    "audience": "New parents",
+    "style_hints": "Single-idea manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "One camera, one lens: The '50mm Challenge' for mastering street photography.",
+    "audience": "Amateur photographers",
+    "style_hints": "Extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "The park is ours: Reclaiming 'Elm Street Commons' from urban neglect.",
+    "audience": "Neighborhood residents",
+    "style_hints": "Inspirational and rallying",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Why learn history? A defense of the 'HumanStory' curriculum against STEM-only education.",
+    "audience": "High schoolers",
+    "style_hints": "Bold-opinion and direct",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The untranslatable word: Finding your 'Ikigai' in a culture of burnout.",
+    "audience": "Language learners",
+    "style_hints": "Declarative and philosophical",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Why the villain is the hero: Deconstructing 'The Dark Knight' as a tragedy of order.",
+    "audience": "Film fans",
+    "style_hints": "Bold-opinion essay",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Defense wins championships: The 'PaintProtect' NBA strategy that beats three-pointers.",
+    "audience": "Basketball fans",
+    "style_hints": "Punchy and contrarian",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Do less, achieve more: The 'Essentialism' daily planner approach to life.",
+    "audience": "Productivity enthusiasts",
+    "style_hints": "High-impact manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Monoliths are not the enemy: Shattering 'FalseIdol' microservices at ScaleCon.",
+    "audience": "Tech conference attendees",
+    "style_hints": "Bold-opinion and contrarian",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "The subscription model is dead: 'PayOnce' offers perpetual SaaS software licenses.",
+    "audience": "Retail investors",
+    "style_hints": "Single-idea manifesto",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "RIP Open Floor Plan: How 'QuietCorp' embraced async communication and remote work.",
+    "audience": "Remote-first companies",
+    "style_hints": "Declarative and bold",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Education cannot wait: The 'BuildASchool' pledge for rural Haiti.",
+    "audience": "Charity gala attendees",
+    "style_hints": "Inspirational and urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Build your career, not your resume: The 'DeepWork' agency ethos on shipping over titles.",
+    "audience": "College seniors",
+    "style_hints": "Punchy and motivating",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Color is a distraction: The 'PureBlack' interface manifesto for high-concentration apps.",
+    "audience": "Brand designers",
+    "style_hints": "Extreme minimalism",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Stretching is a waste of time: The 'LiftHeavy' mobility thesis for functional strength.",
+    "audience": "Crossfitters",
+    "style_hints": "Bold-opinion essay",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  }
+]

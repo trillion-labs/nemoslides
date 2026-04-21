@@ -1,0 +1,800 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "NextBuild, a CI/CD platform purpose-built for edge-deployment workflows, seeking Series A to expand its runner network and enterprise features.",
+    "audience": "VC partners focused on dev infrastructure",
+    "style_hints": "sharp problem-solution arc, minimal text, big metrics",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — NextBuild: Ship to the Edge, Faster",
+      "The Problem — CI/CD pipelines weren't designed for edge; 40% of deploys fail on cold starts",
+      "Current Traction — 1,200 teams, 3M builds/mo, 99.97% uptime",
+      "Product Demo — parallelized build graph reordering in action",
+      "How It Works — architecture diagram: runner orchestration across 28 PoPs",
+      "Competitive Landscape — vs GitHub Actions, CircleCI, Buildkite",
+      "Business Model — per-seat + overage; $4.2M ARR, 18% MoM growth",
+      "The Ask — $12M Series A, 18-month runway, hire 14 engineers",
+      "Team — ex-Vercel, ex-Cloudflare founding crew",
+      "Contact & Next Steps"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "How WebAssembly components are enabling true polyglot server-side rendering — a deep dive with live benchmarks comparing Wasm-based SSR vs Node.js in production.",
+    "audience": "Backend and platform engineers",
+    "style_hints": "technical depth, benchmark tables, live-code energy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "CacheFlow launches its intelligent CDN routing layer that reduces TTFB by 60% using real-time ML-driven origin selection.",
+    "audience": "Web performance engineers and CTOs",
+    "style_hints": "bold claim, visual proof, crisp reveals",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — Introducing CacheFlow",
+      "The Latency Problem — why static routing fails at scale",
+      "How CacheFlow Works — real-time origin scoring model",
+      "Architecture — edge collector → ML router → PoP cache",
+      "Before/After — TTFB comparison across 4 regions",
+      "Developer Experience — one config file, zero code changes",
+      "Pricing & Availability",
+      "Call to Action — sign up for early access"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Heap Analytics Q3 engineering review: platform reliability hit 99.99%, but onboarding funnel velocity declined 12% — root cause analysis and Q4 correction plan.",
+    "audience": "Heap Analytics leadership and cross-functional leads",
+    "style_hints": "data-forward, honest, action-oriented",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building real-time collaborative apps with Phoenix LiveView and PubSub — a 90-minute hands-on lab building a shared kanban board from scratch.",
+    "audience": "Elixir-curious full-stack developers",
+    "style_hints": "step-by-step, code-first, encouraging",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 14,
+    "outline_hint": [
+      "Title — Real-Time Apps with LiveView",
+      "What We're Building — live demo of the kanban board",
+      "Prerequisites & Setup — mix phx.new, deps",
+      "LiveView Basics — mount, render, handle_event",
+      "Adding PubSub — broadcasting card moves across sessions",
+      "Step 1 — Scaffold the project",
+      "Step 2 — Build the board component",
+      "Step 3 — Wire up drag-and-drop events",
+      "Step 4 — Add PubSub for multi-user sync",
+      "Step 5 — Handle presence tracking",
+      "Bonus — Optimistic updates and conflict resolution",
+      "Common Pitfalls — process isolation, socket reconnects",
+      "Resources & Next Steps",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How V8's TurboFan compiler optimizes JavaScript: a walkthrough of the speculative optimization pipeline from bytecode to machine code, with real flame graphs.",
+    "audience": "Performance-minded JavaScript developers",
+    "style_hints": "diagram-heavy, conceptually clear, no fluff",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "StackLine's Q2 investor update: ARR grew 34% but gross margin compressed 5 points due to cloud cost overages — mitigation plan included.",
+    "audience": "StackLine angel and seed investors",
+    "style_hints": "transparent, metrics-dense, forward-looking",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title — StackLine Q2 Update",
+      "Headline Numbers — ARR, churn, NRR",
+      "Revenue Deep-Dive — segment breakdown table",
+      "Margin Pressure — cloud cost trend and root cause",
+      "Mitigation Plan — three levers: reserved instances, query optimization, tier gating",
+      "Hiring & Cash — 14 months runway at current burn",
+      "Q3 Outlook & Ask"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Fuse.io proposes expanding into the enterprise API-management market with a new self-serve tier — competitive analysis, pricing model, and 18-month rollout plan.",
+    "audience": "Fuse.io board of directors",
+    "style_hints": "strategic, numbered options, crisp asks",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Finix migrated 240 microservices from ECS to Kubernetes in 11 weeks using Scaffold's automated migration tooling — with 30% infra cost reduction.",
+    "audience": "Prospective Scaffold enterprise customers",
+    "style_hints": "narrative arc, proof through data, relatable pain",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — Finix × Scaffold: 240 Services, 11 Weeks",
+      "Finix's Challenge — sprawl, manual deploys, no observability",
+      "Why Scaffold — evaluation criteria and alternatives considered",
+      "Migration Approach — phased cutover pattern",
+      "Week-by-Week Timeline",
+      "Results — 30% cost reduction, 4× deploy frequency, 99.95% availability",
+      "What Finix's CTO Says — pull quote",
+      "Explore Scaffold for Your Team"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposed technical integration between Turso's edge database and Vercel's serverless functions — co-marketing plan and shared SDK roadmap.",
+    "audience": "Vercel developer-relations and partnerships leads",
+    "style_hints": "mutual-value framing, roadmap-oriented, collaborative",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Why build at Convex: a recruiting pitch showcasing the real-time backend platform, engineering culture, and the hardest open problems the team is tackling.",
+    "audience": "Senior distributed-systems engineers exploring roles",
+    "style_hints": "aspirational but technically grounded",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — Build the Backend That Builds Itself",
+      "What Convex Does — reactive state platform in 30 seconds",
+      "The Hard Problems — conflict resolution, optimistic UX, query planner",
+      "How We Work — small teams, RFC-driven, async-first",
+      "Open Roles — query engine, DX tools, infra reliability",
+      "Engineering Stack — Rust core, TypeScript DX, WASM plugins",
+      "From the Team — 3 short quotes from engineers",
+      "Apply / Let's Talk"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of consensus protocols in distributed edge systems — presenting a TLA+ model of Raft variants adapted for geo-distributed clusters with high churn.",
+    "audience": "Distributed-systems researchers and PhD students",
+    "style_hints": "rigorous, notation-comfortable, structured argument",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "LaunchSaaS 2024 enterprise sales playbook: new pricing tiers, updated competitive battlecards against Pulumi and Crossplane, and revised qualification criteria.",
+    "audience": "LaunchSaaS AEs and SDRs",
+    "style_hints": " мотивационный, tactical, competitive swagger",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — 2024 Sales Kickoff: Own the Platform Layer",
+      "State of the Market — IaC adoption, TAM growth",
+      "Product Updates — new tiers, GitOps integration, SSO",
+      "Pricing Deep-Dive — starter / growth / enterprise matrices",
+      "Competitive Battlecard: Pulumi — where we win, where we don't",
+      "Competitive Battlecard: Crossplane — positioning against OSS",
+      "Updated ICP & Qualification Scoring",
+      "Win Stories — 3 recent deals deconstructed",
+      "Q1 Quota & SPIFs",
+      "Let's Go — closing rally"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Railway's 'Ship Faster' campaign targeting junior-to-mid developers: concept, key messages, content calendar, and landing-page wireframes for a 6-week launch sprint.",
+    "audience": "Railway marketing and content team",
+    "style_hints": "creative-yet-structured, channel-specific",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "EdgeProxy launches its zero-config reverse proxy that auto-discovers origins and applies intelligent retry logic — live demo of a global failover scenario.",
+    "audience": "DevOps and platform engineers at DevOpsDays",
+    "style_hints": "demo-driven, show-don't-tell, confident",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title — EdgeProxy: Zero Config. Global Resilience.",
+      "The Problem — configuring reverse proxies is error-prone and manual",
+      "Introducing EdgeProxy — auto-discovery + smart retries",
+      "How Auto-Discovery Works — DNS scanning + health checks",
+      "Live Demo — simulated us-east-1 outage, automatic failover to eu-west-1",
+      "Performance — sub-50ms redirect, zero packet loss",
+      "Pricing — free tier to 100K req, then $0.04/GB",
+      "Open Source Core — Apache 2, contributions welcome",
+      "Get Started — one CLI command"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "React Server Components deep dive: the wire format, streaming protocol, and how Next.js 14's App Router actually orchestrates client/server boundaries at runtime.",
+    "audience": "Experienced React developers at ReactConf",
+    "style_hints": "deep-technical, annotated diagrams, opinionated",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Layershift raises pre-seed for its infrastructure-as-code platform that translates Terraform into Pulumi — bridging the migration gap for 200K+ existing HCL codebases.",
+    "audience": "Pre-seed investors in developer tools",
+    "style_hints": "contrarian framing, market-size emphasis, technical cred",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on with Deno Deploy: building and deploying a serverless JSON API in 45 minutes — from `deno init` to a live global endpoint with KV-backed persistence.",
+    "audience": "JavaScript developers new to Deno",
+    "style_hints": "paced, copy-paste-friendly, celebratory at each milestone",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — Serverless in 45 Minutes with Deno Deploy",
+      "What is Deno Deploy? — quick overview, global edge",
+      "Environment Setup — install, init, link to repo",
+      "Step 1 — Hello World endpoint",
+      "Step 2 — Add routing with Oak-style handlers",
+      "Step 3 — Connect Deno KV for persistence",
+      "Step 4 — Add input validation",
+      "Step 5 — Deploy and test globally",
+      "Debugging Tips — logs, errors, cold starts",
+      "Resources & Community"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "BoltDB's 2024 all-hands: celebrating 50K MAU milestone, announcing the hosted offering, and sharing the updated company values with 85-person team.",
+    "audience": "BoltDB entire company",
+    "style_hints": " celebratory, transparent, community-feel",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding eBPF for network observability: what runs in the kernel, how it attaches to socket filters, and why it lets you see every TCP retransmit without application changes.",
+    "audience": "SREs and networking engineers",
+    "style_hints": "layer-by-layer reveal, kernel-space respect",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "DevOps tooling team Q4 metrics: deployment frequency up 3× but P95 change-failure rate rose from 2% to 7% — incident analysis and reliability roadmap for Q1.",
+    "audience": "VP Engineering and peer tech leads",
+    "style_hints": "blunt, metric-heavy, improvement-focused",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title — DevOps Tooling Q4 Review",
+      "Headline Metrics — deploy freq, lead time, CFRR, MTTR",
+      "Wins — 3× deploy frequency, autoscaling MVP shipped",
+      "Failures — P95 change failure rate spike",
+      "Incident Deep-Dive — 4 incidents, root cause clustering",
+      "Reliability Roadmap — canary automation, progressive rollout",
+      "Team Health — velocity trend, on-call burden",
+      "Q1 OKRs — draft targets",
+      "Open Discussion"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How MedStack migrated from Heroku to Fly.io in 3 weeks using automated PaaS extraction scripts — zero-downtime cutover for a HIPAA-compliant patient intake system.",
+    "audience": "Healthtech CTOs evaluating infrastructure modernization",
+    "style_hints": "compliance-forward, stepwise proof",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Cloudflare + Supabase joint proposal: a turnkey edge-auth integration using Cloudflare Access as the identity layer for Supabase Row-Level Security policies.",
+    "audience": "Supabase partnerships and product leads",
+    "style_hints": "strategic, architecture-first, co-benefit framing",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — Cloudflare × Supabase: Edge-Auth Integration",
+      "The Opportunity — 22% of Supabase users also use Cloudflare",
+      "Proposed Architecture — Access JWT → Supabase RLS mapping",
+      "Integration Spec — SDK surface, token format, refresh flow",
+      "Shared Roadmap — 6-month milestones",
+      "Go-to-Market Plan — co-authored blog, joint demo at Full Stack Conf",
+      "Resource Ask — 2 engineers from each side, Q3 kickoff",
+      "Next Steps & Decision Timeline"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Resend's Series B investor update: email delivery volume hit 2B/month, NDR dropped to 0.3%, and the new batch API drove 18% of new MRR.",
+    "audience": "Series A and B investors in Resend",
+    "style_hints": "sharp metrics, milestone-focused, no jargon",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "GhostDB launches its serverless caching layer with automatic cache invalidation via change-data-capture streams — compatible with Redis clients, zero code changes.",
+    "audience": "Backend architects at KubeCon",
+    "style_hints": "declarative claims, compatibility emphasis, crisp demo",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — GhostDB: The Cache That Invalidates Itself",
+      "The Cache Invalidation Problem — it's still hard",
+      "Introducing GhostDB — drop-in Redis layer + CDC watcher",
+      "How It Works — WAL tailing → key eviction logic",
+      "Compatibility — redis-cli, ioredis, go-redis all work",
+      "Benchmarks — vs Memcached, vs ElastiCache, vs local caches",
+      "Pricing — free for 100MB, then $0.02/GB-hour",
+      "Launch — GA today, docs live now"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Bun.js under the hood: how the Bun team leveraged JavaScriptCore's optimizer, bypassed libuv, and built a native module resolver that starts 4× faster than Node.",
+    "audience": "Runtime-curious developers at JSConf",
+    "style_hints": "performance-obsessed, architecture diagrams, provocative",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Ternary raises seed funding for its feature-flag management platform that supports gradual rollouts with statistical significance calculations built into the dashboard.",
+    "audience": "Seed-stage investors in developer tools",
+    "style_hints": "clear problem, elegant demo, data-backed ask",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "TypeScript generics masterclass: from identity functions to conditional mapped types — progressing through 8 increasingly complex exercises with live solving.",
+    "audience": "Intermediate TypeScript developers",
+    "style_hints": "progressive difficulty, annotated code, calm instructor energy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title — TypeScript Generals: Master the Type System",
+      "Why Generics Matter — type safety without repetition",
+      "Exercise 1 — identity and generic functions",
+      "Exercise 2 — constraining with extends",
+      "Exercise 3 — generic interfaces and classes",
+      "Exercise 4 — mapped types",
+      "Exercise 5 — conditional types",
+      "Exercise 6 — infer keyword",
+      "Exercise 7 — template literal types",
+      "Exercise 8 — building a typed router",
+      "Common Mistakes & Debugging Tips",
+      "Resources & Practice Repo"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "PlanetScale's pricing model revision briefing: moving from row-based to capacity-unit pricing — revenue modeling, customer-impact analysis, and migration timeline.",
+    "audience": "PlanetScale board members",
+    "style_hints": "financial rigor, scenario modeling, decision-clarifying",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Come build at Fly.io: a pitch deck for senior infrastructure engineers highlighting the global Anycast network, Firecracker-based VMs, and remote-first culture.",
+    "audience": "Senior infra/SRE engineers evaluating offers",
+    "style_hints": "technical-sincere, purpose-driven, anti-corporate warmth",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Verifying linearizability of concurrent data structures in Rust using Loomie — presenting a novel proof technique and benchmarks against Miri-based symbolic execution.",
+    "audience": "PL researchers and Rust ecosystem contributors",
+    "style_hints": "notation-precise, proof-sketch oriented, results-first",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title — Linearizability Proofs for Rust Concurrency",
+      "Motivation — why verifying concurrent Rust is hard",
+      "Background — linearizability definitions",
+      "Loomie Overview — tool architecture",
+      "Proof Technique — inductive invariant sketch",
+      "Case Study 1 — Treiber stack",
+      "Case Study 2 — Chase-Lev deque",
+      "Comparison — Loomie vs Miri symbolic runs",
+      "Benchmarks — verification time, lines of proof",
+      "Limitations & Future Work",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Grafana Cloud enterprise sales 2024 playbook: new observability bundles, updated Grafana-vs-Datadog battlecards, and partner co-sell motion launch.",
+    "audience": "Grafana Cloud enterprise AEs",
+    "style_hints": "competitive-fire, structured, quota-urgent",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Render's 'Zero to Production in 60 Seconds' campaign: concept brief, hero video storyboard, developer-influencer outreach plan, and 4-week launch calendar.",
+    "audience": "Render marketing and brand team",
+    "style_hints": "conceptual-yet-actionable, visual reference-heavy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "API platform team semi-annual review: 99.97% SLA achieved, gateway latency reduced 40%, but versioning adoption stalled at 18% — new developer-advocacy push planned.",
+    "audience": "CTO and product leadership",
+    "style_hints": "metrics-first, honest gaps, forward momentum",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Taskflow launches its distributed job queue for Node.js with automatic retry, dead-letter queuing, and a real-time dashboard — targeting teams outgrowing BullMQ.",
+    "audience": "Node.js developers at NodeConf",
+    "style_hints": "runtime-comparison energy, developer-joy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title — Taskflow: Distributed Jobs for Grown-Up Node Apps",
+      "The BullMQ Ceiling — where it breaks at scale",
+      "Introducing Taskflow — architecture overview",
+      "Core Features — retry policies, DLQ, priority queues",
+      "Dashboard Demo — real-time job inspection",
+      "Migration Guide — 3-line code swap from BullMQ",
+      "Benchmarks — 5× throughput at 10K concurrent jobs",
+      "Pricing & Self-Hosted Option",
+      "Get Started — npm install @taskflow/sdk"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The architecture behind PlanetScale's Vitess fork: how Online DDL, shadow tables, and reversible migrations make schema changes safe at 100K QPS without locking.",
+    "audience": "Database engineers and DBAs at Percona Live",
+    "style_hints": "database-deep, sequence diagrams, authoritative",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "ReplicateML raises Series A for its model-serving platform that eliminates MLOps — deploy any model with one API call, auto-scale to zero, no Kubernetes required.",
+    "audience": "Series A investors in AI infrastructure",
+    "style_hints": "bold simplicity, anti-complexity thesis, traction-first",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building CLI tools with Rust and Clap: a 75-minute lab creating a file-renaming utility with argument parsing, error handling, and colored output from scratch.",
+    "audience": "Rust-beginner developers with some systems experience",
+    "style_hints": "progressive-build, compile-run-verify loops",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title — Rust CLIs from Scratch",
+      "What We're Building — 'rename' tool demo",
+      "Project Setup — cargo init, Clap v4 dependency",
+      "Step 1 — Define CLI arguments with derive macros",
+      "Step 2 — Read and validate paths",
+      "Step 3 — Implement rename logic with error handling",
+      "Step 4 — Add dry-run mode",
+      "Step 5 — Colored output with owo-colors",
+      "Step 6 — Add config file support with serde",
+      "Testing CLI Tools — integration test patterns",
+      "Publishing — cargo release flow"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How CRDTs resolve conflicts in distributed databases: a walkthrough of operation-based vs state-based CRDTs with merge examples from Automerge and Yjs.",
+    "audience": "Developers building real-time collaborative features",
+    "style_hints": "concept-to-code bridge, merge-diagram clarity",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Notion scaled their API gateway from 5K to 120K RPS using Kong's rate-limiting and caching plugins — with zero regressions during the 6-month rollout.",
+    "audience": "API platform teams evaluating Kong Enterprise",
+    "style_hints": "scale-focused, before/after contrast, engineering-credible",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Stripe + Astro integration proposal: a pre-built payments SDK for Astro storefronts with automatic checkout-session generation and webhook signature verification.",
+    "audience": "Stripe developer-platform partnerships team",
+    "style_hints": "developer-experience focus, joint-value stack",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title — Stripe × Astro: Payments at the Edge",
+      "The Opportunity — Astro's growing e-commerce segment",
+      "Proposed SDK — usage example in 5 lines",
+      "Architecture — Astro server endpoint → Stripe Checkout → webhook handler",
+      "Developer Experience — type-safe, auto-generated types",
+      "Go-to-Market — co-tutorial, Astro integration showcase",
+      "Resource & Timeline — 8 weeks to beta, 2 engineers each",
+      "Ask — partnership agreement + co-marketing commitment"
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Docker's 2024 developer-experience all-hands: announcing Dev Environments GA, the new Docker Scout pricing, and the 3-year open-source sustainability pledge.",
+    "audience": "Docker global employees (430 people)",
+    "style_hints": " community-minded, transparency, openness",
+    "theme_hint": "geist",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Bytebase seeks Series B for its database CI/CD platform — 900 enterprise customers, 4× NRR, and the plan to become the GitLab of database operations.",
+    "audience": "Growth-stage VCs in enterprise dev tools",
+    "style_hints": "market-ownership thesis, enterprise proof, commanding",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Edge-native authentication patterns: comparing JWT, Paseto, and Macaroons for stateless API auth at the CDN edge with no database round-trips.",
+    "audience": "Security-conscious platform engineers",
+    "style_hints": "balanced, trade-off-aware, implementation-real",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Observability with OpenTelemetry in Go: instrumenting a microservice with traces, metrics, and logs — shipping to Grafana Cloud in a 60-minute guided lab.",
+    "audience": "Go developers with production services they want to observe",
+    "style_hints": "hands-on, three-pillar structure, verify-as-you-go",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "Title — OTel + Go: Observe Everything",
+      "The Three Pillars — traces, metrics, logs overview",
+      "Prerequisites — Go 1.22, Docker, Grafana Cloud account",
+      "Step 1 — Add OTEL SDK deps",
+      "Step 2 — Instrument HTTP handler with traces",
+      "Step 3 — Add custom span attributes",
+      "Step 4 — Record metrics with the OTel Go metrics SDK",
+      "Step 5 — Structured logging with slog + OTel bridge",
+      "Step 6 — Configure OTLP exporter to Grafana Cloud",
+      "Step 7 — Run, generate traffic, verify in Grafana",
+      "Correlation — linking trace IDs across signals",
+      "Common Pitfalls — context propagation, baggage limits",
+      "Resources & Further Reading"
+    ]
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Neon's serverless Postgres expansion briefing: evaluating a move from consumption-only pricing to commitment-tier contracts — financial model, churn risk, and competitive response to Supabase.",
+    "audience": "Neon board and lead investors",
+    "style_hints": "financially precise, options-framed, decisive",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join the Platform team at Temporal: a recruiting deck showing how Temporal's workflow engine works, the durability guarantees, and the distributed-systems challenges waiting for the right engineer.",
+    "audience": "Staff-level distributed-systems engineers",
+    "style_hints": "honest-about-complexity, intellectually inviting",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Stellio launches its API-design IDE with real-time mocking, spec linting, and one-click hosted documentation — the presenter shows a full API designed and deployed in 5 minutes.",
+    "audience": "API product managers and tech leads at APIWorld",
+    "style_hints": "speed-driven demo, wow-factor visuals, developer-delight",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title — Stellio: Design, Mock, Ship — in Minutes",
+      "The PAIN — designing APIs across five disconnected tools",
+      "Introducing Stellio — live demo: OpenAPI spec from scratch",
+      "Smart Mocking — auto-generated responses from schemas",
+      "Spec Linting — style guide enforcement built in",
+      "One-Click Docs — hosted, branded, always current",
+      "Get Started — free for teams of 5"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scaling WebSocket connections to 2M concurrent users at Ably: the evolution from plain Node.js to a custom Rust-based connection broker with per-shard backpressure.",
+    "audience": "Real-time-infrastructure engineers",
+    "style_hints": "war-story rhythm, backpressure emphasis, humble-confidence",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Cedar pre-seed pitch: an authorization-as-a-service platform that lets developers define fine-grained permissions in a declarative policy language instead of scattering if/else checks across codebases.",
+    "audience": "Pre-seed angel investors and hacker-founder VCs",
+    "style_hints": "developer-empathy hook, live-policy-demo confidence, lean ask",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Loft Labs investor update: managed virtual clusters product crossed $2.5M ARR, enterprise pipeline quadrupled, and the team opened a second engineering hub in Berlin.",
+    "audience": "Loft Labs seed and Series A investors",
+    "style_hints": "milestone-positive, pipeline-transparent, understated",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  }
+]

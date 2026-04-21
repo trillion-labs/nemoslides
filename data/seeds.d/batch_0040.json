@@ -1,0 +1,422 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Iconography of Power in Carolingian Manuscripts: A Codicological Analysis of the Lothar Psalter",
+    "audience": "Graduate students in medieval studies",
+    "style_hints": "Meticulous, footnote-aware, visually contemplative",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Congress of Vienna and the Reordering of Europe: Talleyrand's Diplomatic Strategy Revisited",
+    "audience": "Undergraduate history majors",
+    "style_hints": "Narrative-driven, reflective, richly contextual",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Herman Melville's Moby-Dick: Ahab's Monomania and the Theodicy of the White Whale",
+    "audience": "University literature society members",
+    "style_hints": "Interpretive, conversational yet rigorous",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "philosophy talk (styled as academic lecture / research talk)",
+    "topic": "Heidegger's Concept of Geworfenheit: Thrownness and the Possibility of Authenticity in Being and Time",
+    "audience": "Philosophy faculty and advanced undergraduates",
+    "style_hints": "Dialectical, precise, conceptually layered",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Evolution of Honorific Speech in Heian-Era Japanese: Burning the Boundaries of Keigo in The Tale of Genji",
+    "audience": "East Asian studies scholars",
+    "style_hints": "Linguistically precise, culturally immersive",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Pre-Raphaelite Rebellions: Millais, Hunt, and the Rejection of Academic Convention in 1848–1853",
+    "audience": "Art history seminar attendees",
+    "style_hints": "Visually rich, argumentative, historically grounded",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Athenian Democracy: Citizen Participation and Exclusion in the 5th Century BCE Polis",
+    "audience": "AP Classics high school students",
+    "style_hints": "Pedagogically clear, Socratic questioning tone",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Numismatic Evidence for Trade Networks in the Late Roman Eastern Provinces: The Homs Hoard Reappraisal",
+    "audience": "Classical archaeology conference attendees",
+    "style_hints": "Evidence-heavy, methodical, restrained enthusiasm",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Introduction to Latin Palaeography: Transcribing Caroline Minuscule from 9th-Century Charters",
+    "audience": "Archival studies trainees",
+    "style_hints": "Instructional, patient, detail-oriented",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Silk Road's Fading: How the Decline of Overland Caravan Routes Reshaped the Timurid Economy",
+    "audience": "World history enthusiasts at a public lecture series",
+    "style_hints": "Broad-strokes narrative, evocative, accessible erudition",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Preserving the Vercelli Book: Securing Conservation and Digital Access for Anglo-Saxon Manuscript Heritage",
+    "audience": "Philanthropic donors and heritage trustees",
+    "style_hints": "Urgent yet dignified, cause-driven with scholarly weight",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Bergman's The Seventh Seal and the Medieval Dance of Death Tradition: Cinematic Theology Re-examined",
+    "audience": "Film studies and humanities graduate students",
+    "style_hints": "Analytical, meditative, cross-disciplinary",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Cultural Heritage Repatriation Policy: The British Museum and the Parthenon Sculptures — Options for Resolution",
+    "audience": "Parliamentary committee members",
+    "style_hints": "Objective, balanced, legally and historically informed",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Mimetic Theory and Tragic Catharsis: René Girard's Reading of Oedipus Rex in the Shadow of Freud",
+    "audience": "Comparative literature faculty colloquium",
+    "style_hints": "Intellectually ambitious, theory-dense, dialogic",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Virginia Woolf's To the Lighthouse: The Temporal Structure of 'Time Passes' and the Philosophy of Duration",
+    "audience": "Liberal arts college reading group",
+    "style_hints": "Intimate, reflective, philosophically inflected",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Søren Kierkegaard's Three Stages of Existence: Aesthetic, Ethical, and Religious in Either/Or",
+    "audience": "Philosophy undergraduates in a survey course",
+    "style_hints": "Expository, structured, inviting existential reflection",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Hokusai's Thirty-Six Views of Mount Fuji: Woodblock Technique and the Aesthetics of Ukiyo-e Landscape",
+    "audience": "Museum docents and docents-in-training",
+    "style_hints": "Appreciative, technically illuminating, culturally sensitive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Black Death in Florence: Boccaccio's Decameron as Social History and Epidemiological Record",
+    "audience": "Renaissance studies workshop participants",
+    "style_hints": "Interdisciplinary, source-centered, vividly descriptive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Diglossia in the Arab World: Classical Arabic vs. Ammiya in Literary Production and Education",
+    "audience": "Linguistics graduate students",
+    "style_hints": "Technically rigorous, sociolinguistically aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Thesis Defense: Women Scribes in 12th-Century German Convents — Reassessing the Scriptae of Hohenburg Abbey",
+    "audience": "Dissertation committee and medieval studies faculty",
+    "style_hints": "Defended argument, structured evidence, poised formality",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Plato's Allegory of the Cave: Illusion, Education, and the Philosopher's Return",
+    "audience": "First-year philosophy undergraduates",
+    "style_hints": "Guided inquiry, accessible, gently provocative",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Nag Hammadi Library and the Gnostic Reinterpretation of Genesis: Authority and Apocrypha in Early Christianity",
+    "audience": "Theological seminary students and religious studies faculty",
+    "style_hints": "Reverent curiosity, textually grounded, historically circumspect",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a Critical Edition: Textual Apparatus and Stemmatic Analysis Using the Lachmann Method",
+    "audience": "Doctoral researchers in classical philology",
+    "style_hints": "Procedural, meticulous, example-driven",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Meiji Restoration and the Abolition of the Samurai Class: Cultural Upheaval in Late 19th-Century Japan",
+    "audience": "East Asian history undergraduates",
+    "style_hints": "Dramatic arc, cause-effect clarity, empathetic portraiture",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Hannah Arendt on Natality and Action: New Beginnings in The Human Condition",
+    "audience": "Political theory graduate seminar",
+    "style_hints": "Conceptually exacting, argument-forward, philosophically engaged",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Fyodor Dostoevsky's The Brothers Karamazov: The Grand Inquisitor Parable and the Problem of Freedom",
+    "audience": "Theology and literature reading circle",
+    "style_hints": "Tone of moral seriousness, open-ended questioning",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The Bayeux Tapestry as Visual Propaganda: Narrating Conquest in 11th-Century Textile",
+    "audience": "Medieval art history symposium attendees",
+    "style_hints": "Analytical scrutiny, image-centric, politically astute",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Caste and Sanskritization: M.N. Srinivas's Concept and Its Afterlife in South Asian Sociology",
+    "audience": "Anthropology and sociology upper-level undergraduates",
+    "style_hints": "Clarity on complexity, culturally nuanced, fieldwork-informed",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Oxford University Press Annual Divisional Review: Humanities Monograph Publishing Performance FY2024",
+    "audience": "OUP board delegates and university syndics",
+    "style_hints": "Institutionally formal, data-anchored, quietly confident",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Haitian Revolution and the Question of Universal Rights: Abbé Grégoire and the Abolitionist Debate in Paris",
+    "audience": "Atlantic history conference panel audience",
+    "style_hints": "Morally engaged, transnational framing, revisionist posture",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Semiotics of the Archive: Jacques Derrida's Archive Fever and the Politics of Memory",
+    "audience": "Information science and critical theory researchers",
+    "style_hints": "Deconstructive nuance, theoretically demanding, recursive",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Trial of Socrates: Civic Duty, Piety, and the Conflict with Athenian Democracy",
+    "audience": "High school classical civilizations students",
+    "style_hints": "Dramatic framing, discussion-prompting, age-appropriate depth",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The Gaeltacht and Language Revitalization: Irish Gaelic Policy from the Conradh na Gaeilge to the EU",
+    "audience": "Celtic studies and language policy researchers",
+    "style_hints": "Policy-literate, historically layered, culturally sympathetic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Goya's Los Caprichos: Satire, Superstition, and the Enlightenment Critical Eye in Late 18th-Century Spain",
+    "audience": "European art history undergraduates",
+    "style_hints": "Visually analytical, darkly attuned, historically precise",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Merleau-Ponty's Phenomenology of Perception: Embodiment and the Critique of Cartesian Dualism",
+    "audience": "Continental philosophy research group",
+    "style_hints": "Phenomenologically textured, conceptually careful, embodied examples",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Library of Alexandria: Myth, Reality, and the Politics of Knowledge in the Hellenistic World",
+    "audience": "General humanities faculty at a college colloquium",
+    "style_hints": "Myth-busting, source-skeptical, engagingly speculative",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "The Vergil Project: Funding Digital Philology and Open Access for the Aeneid's Critical Apparatus",
+    "audience": "Classical studies foundation grant committee",
+    "style_hints": "Visionary with scholarly credibility, persuasive restraint",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Toni Morrison's Beloved: Haunting, Memory, and the Ethics of Historical Recovery",
+    "audience": "American literature and African American studies reading collective",
+    "style_hints": "Emotionally literate, ethically attentive, close-reading driven",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Reading Ottoman Tahrir Defterleri: Tax Registers as Sources for 16th-Century Demographic History",
+    "audience": "Ottoman history doctoral candidates",
+    "style_hints": "Hands-on, source-centric, palaeographically patient",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Wittgenstein's Language-Games: Meaning, Use, and the Dissolution of Philosophical Problems in the Philosophical Investigations",
+    "audience": "Analytic philosophy postgraduate seminar",
+    "style_hints": "Lucid exegesis, argument by example, therapeutic philosophical tone",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The English Civil War and the Levellers: Radical Political Thought and the Putney Debates of 1647",
+    "audience": "Early modern history undergraduates",
+    "style_hints": "Ideas-in-conflict framing, rhetorical vividness, primary-source rooted",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  }
+]

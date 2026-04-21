@@ -1,0 +1,493 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Deep dive into WebAssembly performance in Rust: compiling, optimizing, and shipping Wasm modules to the browser.",
+    "audience": "backend developers",
+    "style_hints": "systems-level, hard-tech",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Build a custom Vim plugin from scratch using Lua, covering async operations and Tree-sitter integration.",
+    "audience": "vim enthusiasts",
+    "style_hints": "step-by-step, config-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitching 'Ghost': a CLI tool for managing ephemeral Kubernetes environments to speed up developer testing loops.",
+    "audience": "DevOps leads",
+    "style_hints": "punchy, hacker-vibe",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How DNS resolution works under the hood: tracing a request from the browser resolver to the root server.",
+    "audience": "junior engineers",
+    "style_hints": "architectural, deep-dive",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Why you should join our Backend Infrastructure team: scaling a monolith to 10M RPS without losing sanity.",
+    "audience": "senior backend devs",
+    "style_hints": "insider-technical, bold claims",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Graph neural networks for static analysis of C++ code: detecting memory leaks before runtime.",
+    "audience": "AI researchers",
+    "style_hints": "math-and-code dense",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing 'Zed-CLI': the ultimate terminal task runner for complex monorepos and polyglot workspaces.",
+    "audience": "open-source community",
+    "style_hints": "fast-paced, demo-ready",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Refactoring our microservices architecture from synchronous REST to event-driven streaming with Kafka.",
+    "audience": "staff engineers",
+    "style_hints": "system-design focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Mastering Git rebasing and interactive conflict resolution to maintain a pristine commit history.",
+    "audience": "software developers",
+    "style_hints": "practical, terminal-first",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 Engineering Velocity and DevSecOps metrics: tracking deployment frequency and mean time to recovery.",
+    "audience": "engineering org",
+    "style_hints": "data-driven, dark-mode charts",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "A pixel-by-pixel breakdown of the Zig programming language's memory model and comptime evaluation.",
+    "audience": "systems programmers",
+    "style_hints": "low-level, code-centric",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Writing chiptune music live-coding with Sonic Pi and Ruby, turning your terminal into a synthesizer.",
+    "audience": "creative coders",
+    "style_hints": "playful, creative-hacker",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Intro to runtime complexity: Big O notation, linked lists, and binary search for first-year CS students.",
+    "audience": "CS freshmen",
+    "style_hints": "pedagogical, classic-CS",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Analyzing Formula 1 telemetry data using Python, Pandas, and the FastF1 library to find optimal tire strategies.",
+    "audience": "sports data nerds",
+    "style_hints": "data-nerd, terminal-powered",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The evolution of hacker tropes and UI design in cinema: from 'Tron' to 'The Matrix' to 'Mr. Robot'.",
+    "audience": "movie buffs who code",
+    "style_hints": "retrospective, pop-culture-meets-tech",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Q4 All-Hands: Shipping the new developer portal, reflecting on Q3, and sharing the 2025 open-source roadmap.",
+    "audience": "the whole dev team",
+    "style_hints": "upbeat, terminal-aesthetic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Integrating our API observability platform with GitHub Actions CI/CD pipelines for zero-config tracing.",
+    "audience": "DevRel teams",
+    "style_hints": "workflow-centric, code-forward",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Acme Corp reduced CI pipeline build times by 40% by switching to our distributed CLI caching tool.",
+    "audience": "CTOs and lead devs",
+    "style_hints": "results-focused, metric-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Empowering Account Execs to sell our terminal-based database client without relying on GUI demos.",
+    "audience": "dev tool sales team",
+    "style_hints": "insider-tips, practical",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Project Vamp: Auto-scaling dark-launch environments for safe feature flagging in production.",
+    "audience": "seed investors",
+    "style_hints": "moody, technical-vision",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Launching the 'Dev After Dark' campaign: a night-mode-first survey targeting nocturnal open-source contributors.",
+    "audience": "developer marketing",
+    "style_hints": "community-driven, night-owl",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zero-downtime database migrations in Go: a schema evolution story using clever locking and dual-writes.",
+    "audience": "backend devs",
+    "style_hints": "war-story, code-first",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on: Setting up Neovim as a complete IDE from init.lua to LSP configuration and debugger adapters.",
+    "audience": "vim newcomers",
+    "style_hints": "step-by-step, config-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding Linux file permissions: demystifying chmod, chown, octal notation, and ACLs for the terminal.",
+    "audience": "junior sysadmins",
+    "style_hints": "foundational, terminal-loving",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of distributed consensus algorithms using TLA+ to prove system liveness and safety.",
+    "audience": "distributed systems researchers",
+    "style_hints": "logic-heavy, structured",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing Dracula-Pro: The official premium VS Code and JetBrains theme for enterprise developer experience.",
+    "audience": "dracula theme fans",
+    "style_hints": "community-insider, aesthetic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "UX audit of our CLI onboarding flow: reducing time-to-first-command by improving help menus and prompts.",
+    "audience": "product engineers",
+    "style_hints": "user-journey focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Automating your dotfiles across multiple Linux machines with Chezmoi, GNU Stow, and GitHub.",
+    "audience": "terminal obsessives",
+    "style_hints": "workflow-obsessed, config-driven",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q4 Cloud Infrastructure Spend and Optimization: tracking AWS costs, reserved instances, and spot usage.",
+    "audience": "cloud finance & SRE",
+    "style_hints": "metric-dense, cost-focused",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Idiomatic Rust: Ownership, Borrowing, and Lifetimes explained visually for C++ developers transitioning over.",
+    "audience": "Rustaceans",
+    "style_hints": "deep-dive, memory-centric",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Generative art in the browser: creating glitch aesthetics and dark palettes using WebGL shaders and p5.js.",
+    "audience": "creative technologists",
+    "style_hints": "visual-code mashup, dark aesthetic",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Data Structures 101: Binary Trees, Traversals, and calculating their Big-O time complexity.",
+    "audience": "CS students",
+    "style_hints": "classic-CS, terminal-vibe",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Building a real-time NBA shot-chart scraper and data pipeline in Node.js and Redis.",
+    "audience": "basketball nerds",
+    "style_hints": "data-heavy, code-up",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Decoding the terminal interfaces and hacking tools of 'Mr. Robot': what the show gets right and wrong.",
+    "audience": "hacker culture fans",
+    "style_hints": "detail-obsessed, visual breakdown",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Q1 Kickoff: The Year of Platform Engineering, consolidating internal CLI tools, and open-sourcing our framework.",
+    "audience": "engineering org",
+    "style_hints": "rallying, tech-vision",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing an OpenTelemetry integration for our CLI tool to provide distributed tracing out of the box.",
+    "audience": "open-source maintainers",
+    "style_hints": "technical RFC style",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Migrating a legacy Node monolith to serverless without the meltdown using our custom migration CLI.",
+    "audience": "solutions architects",
+    "style_hints": "strategic, terminal-powered",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Targeting CTOs with our new Infrastructure-as-Code platform: demoing the core CLI workflow.",
+    "audience": "enterprise AEs",
+    "style_hints": "strategic but tech-fluent",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Unlocking SIMD parallelism in modern browsers: writing high-performance WebAssembly by hand.",
+    "audience": "performance engineers",
+    "style_hints": "browser-hacker, low-level",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Debugging memory leaks in React applications using Chrome DevTools, Heap Snapshots, and the terminal.",
+    "audience": "frontend devs",
+    "style_hints": "browser-detective, dark mode",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "What is eBPF and why is it transforming Linux networking, security, and observability at the kernel level?",
+    "audience": "sysadmins & devs",
+    "style_hints": "kernel-diving, explanatory",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The history of Unix: from Multics and BSD to Linux, tracing the evolution of the terminal interface.",
+    "audience": "developer history buffs",
+    "style_hints": "retro-computing, narrative",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  }
+]

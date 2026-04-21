@@ -1,0 +1,645 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "Ship Before You're Ready: The Kindling MVP Method — a 5-minute manifesto on why waiting for perfection kills more startups than bad code ever did.",
+    "audience": "early-stage founders at a startup weekend",
+    "style_hints": "aggressive, declaration-heavy, punchy rhythm",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Ship Before You're Ready",
+      "Perfection Is the Enemy of Shipped",
+      "The Kindling Method: Define the Smallest Flame",
+      "Your First 10 Users Don't Want Perfect — They Want Honest",
+      "Three Startups That Launched Too Late (And Died)",
+      "The 48-Hour MVP Challenge",
+      "Ship It. Learn. Ship Again.",
+      "The Only Metric That Matters: Did It Reach a Human?"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The Monolith Must Die (And Other Lies We Tell Ourselves) — a lightning talk challenging the reflexive push toward microservices for teams under 20.",
+    "audience": "backend engineers at a regional dev conference",
+    "style_hints": "contrarian, declarative, myth-busting",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Helio: The World's First Zero-Config Calendar — a 7-slide ignition-style launch for a smart calendar that schedules itself based on email intent parsing.",
+    "audience": "productivity app enthusiasts and tech press",
+    "style_hints": "reveal-style, one bold claim per slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "You Don't Need Another Calendar",
+      "You Need a Calendar That Works Without You",
+      "Introducing Helio",
+      "Zero Config: It Reads. It Suggests. You Approve.",
+      "One Inbox. Five Seconds. Fully Booked.",
+      "Available Today. Free for Individuals.",
+      "Your Time Has a New Guardian."
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Your Brain on Scrolling: The Cognitive Cost of the Infinite Feed — a bold-opinion essay based on Dr. Lena Vasquez's 2024 attention-span study at MIT Media Lab.",
+    "audience": "cognitive science graduate students",
+    "style_hints": "urgent, evidence-backed, one-fact-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 at Vantagepoint: One Metric. One Decision. — an ultra-minimal update for the analytics SaaS division showing only net retention rate and the resulting strategic pivot.",
+    "audience": "Vantagepoint executive team",
+    "style_hints": "radically minimal, data-as-punctuation",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6,
+    "outline_hint": [
+      "Q3. One Number.",
+      "113%. Net Retention.",
+      "What It Means: We're Expanding, Not Churning",
+      "The Decision: Double Down on Enterprise",
+      "One Metric. One Pivot.",
+      "Q4: Execute."
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Kill Your Darlings: A 90-Minute Editing Blitz — a hands-on writing workshop where participants learn to cut 50% of their draft in one ruthless pass.",
+    "audience": "content writers and bloggers",
+    "style_hints": "provocative, instructional, one-rule-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Rust Is the Future. The Future Is Now. — a lightning talk arguing that memory-safe systems languages are no longer optional for infrastructure teams, using the CISA 2024 report as evidence.",
+    "audience": "systems engineers and CTOs",
+    "style_hints": "declarative, demand-driven, urgency",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Memory Bugs Cost $2.1 Billion Last Year",
+      "CISA Said It. We Ignore It.",
+      "Rust: Zero-Cost Safety",
+      "Borrow Checker Is Not Your Enemy",
+      "Three Infra Teams That Switched. Zero Regrets.",
+      "Figma's Migration Story",
+      "Dropbox's Storage Layer Rewrite",
+      "Cloudflare's Ping-Off",
+      "The Question Isn't Why Rust. It's Why Not Yet.",
+      "Start Monday.",
+      "The Future Doesn't Buffer."
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Bloom & Co: Cash Flow Positive in Month 9 — a single-idea investor update for a boutique floral wholesale business highlighting the cash-flow milestone and path to profitability.",
+    "audience": "angel investors in Bloom & Co",
+    "style_hints": "confident, clean, milestone-driven",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Pacific Rim or Go Home: Our 2025 Bet — a strategy briefing for Maridian Logistics making the case that Asian expansion is the only defensible growth path.",
+    "audience": "Maridian Logistics board of directors",
+    "style_hints": "stark, decisive, one-argument-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "2025: One Question",
+      "The Pacific Rim Is the World's Fastest Trade Corridor",
+      "Our Competitors Are Already There",
+      "First-Mover Window: 18 Months",
+      "The Plan: Singapore Hub → Osaka → Busan",
+      "Capital Required. Payback Timeline.",
+      "Pacific Rim or Go Home.",
+      "Vote Yes."
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "This Quarter We Choose Bold — a motivational closer for Canopy Inc.'s Q4 all-hands rallying 340 employees around a single product moonshot: CanopyAI.",
+    "audience": "Canopy Inc. full company",
+    "style_hints": "inspirational, rally-cry, single-word refrains",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "No Filters: The Raw Beauty Initiative for Solara Skincare — a manifesto-style campaign brief arguing that unretouched skin is the only authentic brand position left in the beauty industry.",
+    "audience": "Solara creative and brand team",
+    "style_hints": "bold, manifesto-like, visual-first thinking",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Every Beauty Brand Says 'Real'",
+      "They All Use Filters",
+      "We Mean It",
+      "No Filters. No Touch-Ups. No Exceptions.",
+      "The Campaign: Unretouched Portraits, Real Women",
+      "Distribution: Billboard + Instagram, Same Unedited Image",
+      "One Rule: If It's Retouched, It's Rejected",
+      "Solara = Skin As It Is",
+      "Raw Beauty Wins."
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "The Question That Closes Every Deal — a motivational sales kickoff presentation arguing that discovering the prospect's real pain point—not pitching features—is the only close that matters.",
+    "audience": "enterprise sales team at Ridgeware",
+    "style_hints": "punchy, provocative, one-liners",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Freshboard Cut Onboarding Time from 14 Days to 2 — a single-story case study showing the before/after of adopting RelayCRM, told in bold declarative statements.",
+    "audience": "SaaS decision-makers evaluating CRM tools",
+    "style_hints": "before/after contrast, numeric emphasis",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "14 Days to Onboard a Client. Unacceptable.",
+      "Freshboard Knew Something Had to Change",
+      "Before RelayCRM: Spreadsheets, Email Chains, Chaos",
+      "After RelayCRM: Automated Sequences, One Dashboard, Calm",
+      "14 Days → 2 Days",
+      "Result: 40% More Clients Onboarded Per Quarter",
+      "Two Days. That's the Relay Difference."
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Atlas Cartography + Wayline Aviation: Mapping the Future Together — a bold proposal for a joint venture combining Atlas's real-time map data with Wayline's drone fleet for live terrain intelligence.",
+    "audience": "Wayline Aviation executive team",
+    "style_hints": "visionary, two-worlds-colliding, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Thrive Labs 2024: Revenue Up, Burn Down — a minimalist annual summary highlighting only three numbers: revenue growth, burn rate reduction, and team size, with a one-word-per-slide cadence.",
+    "audience": "Thrive Labs investors and advisors",
+    "style_hints": "ruthlessly minimal, number-focused",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "2024.",
+      "Revenue: $12M (+64%)",
+      "Burn: Down 31%",
+      "Team: 42 People. Zero Layoffs.",
+      "We Did More With Less.",
+      "2025: The Same Playbook. Bigger Field.",
+      "Thrive."
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "A Roof Over Ruby: Building Detroit's Youth Shelter — an ignition-style talk raising funds to convert the abandoned Ruby Theatre into a 60-bed youth shelter by winter 2025.",
+    "audience": "Detroit-area philanthropists and civic leaders",
+    "style_hints": "urgent, emotional, one-image-per-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Screen-Free Classrooms: The Finland Model — a brief arguing that banning screens for children under 12 in schools, modeled on Finland's 2023 EdTech policy, dramatically improves literacy outcomes.",
+    "audience": "state education committee members",
+    "style_hints": "assertive, evidence-punchy, one-stat-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Our Children Can't Read",
+      "Screen Time in Classrooms Has Tripled Since 2019",
+      "Finland Did the Opposite",
+      "In 2023: Screens Banned for Ages 6–12",
+      "Result: Literacy Rates Rose 14% in Two Years",
+      "The Finland Model: Analog First, Digital Later",
+      "What This Looks Like in Our State",
+      "Objection: 'We Need Digital Skills' — Reply: 'After Age 12, Yes'",
+      "The Bill Is Drafted. We Need Your Vote.",
+      "Screen-Free. Literacy-First."
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Why We Killed the Sidebar — a design decision retrospective for the Pluto app redesign, defending the removal of navigation in favor of a gesture-based flow with exactly one action per screen.",
+    "audience": "Pluto product and engineering team",
+    "style_hints": "provocative, rationale-driven, one-reason-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join Nuvola: Where Remote Means Freedom, Not Surveillance — a recruiting manifesto arguing that Nuvola's no-monitoring, async-first culture attracts the best talent in the world.",
+    "audience": "senior distributed systems engineers",
+    "style_hints": "declarative, culture-first, one-value-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "We Don't Track Your Mouse",
+      "We Don't Count Your Hours",
+      "We Count Your Impact",
+      "Async-First: Your Schedule, Your Rhythm",
+      "No Standups. No Status Reports. No Surveillance.",
+      "38 People. 12 Countries. One Culture: Trust.",
+      "We're Hiring Three Senior Engineers",
+      "Join Nuvola. Work Like an Adult."
+    ]
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "Pay Yourself First. Always. — a manifesto-style primer teaching freelancers that automating savings before any other expense is the single behavior that separates financial stability from chaos.",
+    "audience": "self-employed creatives and freelancers",
+    "style_hints": "directive, one-rule, rhythmic",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "Marrakech: Lose the Itinerary — a travel philosophy talk arguing that the best 72 hours in Marrakech come from wandering, not planning, with three neighborhoods as anchors.",
+    "audience": "curious travelers planning a Morocco trip",
+    "style_hints": "evocative, rule-breaking, sensory",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Don't Plan Marrakech",
+      "The Riad Rules: Stay Inside the Medina",
+      "Anchor One: Djemaa el-Fna at Dusk",
+      "Anchor Two: The Souk Before 9 AM",
+      "Anchor Three: Jardin Majorelle on Wednesday",
+      "Eat Where the Taxi Drivers Eat",
+      "Get Lost. That's the Whole Point.",
+      "72 Hours. Zero Regrets.",
+      "Marrakech Finds You."
+    ]
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Salt, Fat, Acid: The Only Rules That Matter — a culinary manifesto workshop inspired by Samin Nosrat, teaching home cooks that mastering three elements beats memorizing a thousand recipes.",
+    "audience": "home cooks at a community kitchen class",
+    "style_hints": "bold, instructional, one-concept-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Lift Heavy. Walk Lots. Sleep Deep. — a wellness programme overview for the Catalyst Gym 8-week reset, arguing that complexity is the enemy of consistency in fitness.",
+    "audience": "Catalyst Gym new members",
+    "style_hints": "blunt, encouraging, three-word-rhythm",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Fitness Has a Complexity Problem",
+      "You Don't Need 47 Exercises",
+      "You Need Three Habits",
+      "Lift Heavy: Compound Movements, Progressive Overload",
+      "Walk Lots: 10,000 Steps. Non-Negotiable.",
+      "Sleep Deep: 8 Hours. No Phone.",
+      "The Catalyst 8-Week Reset",
+      "Week 1: Show Up. That's It.",
+      "Simple. Repeatable. Effective."
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Letters That Stopped a War: The Cuban Missile Crisis Hotline — a 7-minute lecture on how a single teletype message from Khrushchev to Kennedy on October 26, 1962 de-escalated nuclear standoff.",
+    "audience": "high school AP history students",
+    "style_hints": "dramatic, one-moment-per-slide, suspenseful",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Essentialism by Greg McKeown: Do Less, Better — a discussion guide framing the core argument that choosing what to eliminate matters more than choosing what to add.",
+    "audience": "corporate book club members",
+    "style_hints": "Socratic, one-question-per-slide, reflective",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Essentialism: The Disciplined Pursuit of Less",
+      "Core Question: What If You Did Only What Matters?",
+      "'If It Isn't a Clear Yes, It's a No'",
+      "The Paradox of Success: More Opportunities, Less Focus",
+      "Protect the Asset: You Cannot Give What You Don't Have",
+      "Discussion: What Have You Said No To This Month?",
+      "Discussion: Where Is 'Busyness' Hiding in Your Work?",
+      "Do Less. But Better."
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Beatrice Corwin: A Life in One Color — a retrospective on the fictional painter who used only Payne's Grey for 40 years, arguing that constraint, not freedom, creates mastery.",
+    "audience": "gallery patrons at the Corwin retrospective opening",
+    "style_hints": "contemplative, declarative, one-idea-per-painting",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "Priya & James: Twelve Years of Choosing Each Other — a wedding toast recounting three turning points in the couple's relationship, each reduced to one declarative sentence.",
+    "audience": "wedding guests at Priya and James's reception",
+    "style_hints": "warm, minimal, emotional precision",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Twelve Years. Three Moments.",
+      "2013: 'You're Wrong About That Movie' — The First Real Conversation",
+      "2017: 'I'll Go With You' — Moving to Portland Sight Unseen",
+      "2021: 'Let's Try Again' — After the Miscarriage, They Stayed",
+      "They Never Stopped Choosing",
+      "Priya & James: Still Choosing",
+      "To the Next Twelve."
+    ]
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "Dinner Table, Not Drive-Thru — a bold-opinion guide for dual-income parents arguing that 20 minutes of shared dinner, five nights a week, is the single highest-ROI parenting action.",
+    "audience": "working parents at a community center workshop",
+    "style_hints": "direct, conviction-driven, one-claim-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "The 30-Day Sketch Habit: One Pen, One Notebook — a creative manifesto arguing that artistic skill comes from daily volume, not occasional inspiration, using the 30-day challenge format.",
+    "audience": "aspiring artists and designers",
+    "style_hints": "motivational, one-rule-at-a-time, gritty",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "You Don't Need Talent. You Need a Habit.",
+      "One Pen. One Notebook. 30 Days.",
+      "Day 1–10: Draw What's in Front of You",
+      "Day 11–20: Draw Faster. Don't Erase.",
+      "Day 21–30: Draw What Doesn't Exist Yet",
+      "The Rule: No Skipping. No 'Not Good Enough.'",
+      "Volume Beats Perfection Every Time",
+      "By Day 30, You Won't Recognize Your Own Work",
+      "Start Today."
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "The Linden Garden Collective: Dirt, Seeds, Neighbors — a community update on converting a vacant lot into 20 raised beds, told through three seasons and one shared harvest.",
+    "audience": "Linden neighborhood residents and volunteers",
+    "style_hints": "warm, communal, short sentences",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Scientific Method in Six Words: Observe, Question, Hypothesize, Test, Analyze, Share — a 9th-grade biology lesson where each step gets its own emphatic slide with one example from Mendel's pea experiments.",
+    "audience": "9th-grade biology students",
+    "style_hints": "clear, stepped, one-word-anchor",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Science Is a Verb, Not a Noun",
+      "Step 1: OBSERVE — Mendel Noticed Peas Differed in Color",
+      "Step 2: QUESTION — Why Are Some Peas Green and Others Yellow?",
+      "Step 3: HYPOTHESIZE — 'A Single Factor Determines Color'",
+      "Step 4: TEST — Cross-Pollinate and Count the Offspring",
+      "Step 5: ANALYZE — The 3:1 Ratio Changed Biology",
+      "Step 6: SHARE — Mendel Published. The World Ignored Him. For 35 Years.",
+      "Six Words. One Method. Every Discovery.",
+      "Your Turn: Observe Something in This Room",
+      "Now Question It."
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Ikigai: The Intersection Where Life Makes Sense — a cultural explainer cutting through Western misinterpretation to present ikigai as the simple Okinawan concept of 'a reason to get up in the morning.'",
+    "audience": "lifestyle-curious professionals at a lunch-and-learn",
+    "style_hints": "corrective, gentle authority, one-idea-at-a-time",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Chantal Akerman and the Radical Power of Stillness — a 10-minute film essay arguing that Akerman's static camera in 'Jeanne Dielman' forces audiences to confront the invisible labor of women.",
+    "audience": "film studies students and cinephiles",
+    "style_hints": "analytical, bold claims, one-scene-per-idea",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The Longest Three Hours in Cinema",
+      "Stanley Kubrick Called It 'Boring.' He Missed the Point.",
+      "Static Camera = Refusal to Look Away",
+      "Scene 1: Peeling Potatoes — 5 Unbroken Minutes",
+      "The Kitchen Is the Battlefield",
+      "When the Camera Finally Moves, Everything Has Changed",
+      "Invisible Labor Made Visible",
+      "Akerman Was 25. She Changed Film Forever.",
+      "Stillness Is Not Emptiness."
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "The Three-Point Revolution: How Steph Curry Broke Basketball — a fan-facing analytics talk showing how one player's efficiency from range forced every NBA franchise to change offensive strategy.",
+    "audience": "basketball fans at a sports bar meetup",
+    "style_hints": "energetic, stat-as-punchline, fan-culture",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Deep Work Is the Only Work That Matters — a motivational talk based on Cal Newport's framework, arguing that 4 hours of focused work produces more value than 12 hours of fragmented attention.",
+    "audience": "knowledge workers at a professional development conference",
+    "style_hints": "conviction-heavy, one-principle-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "You Think You Work 8 Hours. You Don't.",
+      "The Average Knowledge Worker: 2.5 Hours of Real Focus Per Day",
+      "The Rest Is Meetings, Slack, and 'Quick Questions'",
+      "Deep Work: Professional Activity Performed in Distraction-Free Concentration",
+      "Rule 1: Schedule Your Deep Hours. Protect Them Viciously.",
+      "Rule 2: Shut Down Completely at 6 PM",
+      "Rule 3: Embrace Boredom — It's Where Ideas Live",
+      "4 Deep Hours > 12 Shallow Hours",
+      "Choose Depth."
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Burn the Playbook: Why Solopreneurs Are Winning in 2025 — a manifesto pitch for SoleForge, a one-person business OS, arguing that the era of the 10-person seed team is over.",
+    "audience": "micro-fund partners and solo founder community",
+    "style_hints": "disruptive, contrarian, one-claim-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Serverless Is a Scam (And What Comes Next) — a lightning talk arguing that serverless computing hides operational complexity instead of eliminating it, and proposing 'minimal-server' as the real answer.",
+    "audience": "cloud architects at DevOpsDays Berlin",
+    "style_hints": "provocative, technical contrarianism, one-argument-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Serverless Promised You No Servers",
+      "It Lied",
+      "You Still Pay for Cold Starts",
+      "You Still Debug What You Can't See",
+      "You Still Vendor-Lock Your Architecture",
+      "The Real Problem: Operational Complexity, Not Server Count",
+      "Minimal-Server: One Process. One Container. Full Control.",
+      "Example: A 20ms Cold Start vs. a 200ms Lambda",
+      "Own Your Stack. Shrink Your Stack.",
+      "Serverless Is a Scam. Minimal Server Isn't."
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Clean Water for Kayanga Village: One Well. 800 Lives. — an ignition-style fundraising talk for drilling a single borehole well in Kayanga, Tanzania, with a $12,000 ask and a 90-day timeline.",
+    "audience": " rotary club chapter members",
+    "style_hints": "human-centered, single-focused, urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Touch First: Why Mobile-First Is Dead and Thumb-First Won — a design review manifesto for the Reva banking app redesign, arguing that reachable thumb zone, not screen size, should drive layout decisions.",
+    "audience": "Reva product and UX leadership",
+    "style_hints": "opinionated, one-principle-at-a-time, design-authority",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Mobile-First Was Right in 2012",
+      "It's Wrong Now",
+      "Everyone Has a Big Screen. No One Has Long Thumbs.",
+      "The Thumb Zone: Bottom 60% Is Home",
+      "Current Reva App: Primary Action at Top Right. Unreachable.",
+      "New Reva App: Primary Action at Bottom Center. Instant.",
+      "Three Flows Redesigned. All Thumb-First.",
+      "Stop Designing for Screens. Design for Hands."
+    ]
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The 5-Second Rule That Changed My Mornings — a personal productivity talk about Mel Robbins's 5-4-3-2-1 activation technique and how it eliminated a decade of snooze-button habits.",
+    "audience": "morning meetup group for creatives",
+    "style_hints": "personal, kinetic, one-revelation-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "At Canopy, We Don't Do 'Fine' — a motivational closer for the biannual all-hands rallying 600 employees around a new standard: every project ships as 'great' or it doesn't ship.",
+    "audience": "Canopy Inc. full company",
+    "style_hints": "rallying, unapologetic, repetition-as-power",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "How's the Project? 'Fine.'",
+      "'Fine' Is the Enemy of Great",
+      "'Fine' Means We Stopped Caring",
+      "'Fine' Means We Stopped Pushing",
+      "At Canopy, 'Fine' Is Not a Finish Line",
+      "New Rule: Ship Great or Don't Ship",
+      "Great Demands One More Pass. Take It.",
+      "We Don't Do Fine."
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Sourdough Is Alive: A Manifesto for Patient Bakers — a workshop opener arguing that sourdough teaches patience, humility, and acceptance of imperfection better than any self-help book.",
+    "audience": "beginning sourdough bakers at a community bakery",
+    "style_hints": "meditative, philosophical, one-lesson-per-slide",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  }
+]

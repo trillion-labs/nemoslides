@@ -1,0 +1,730 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "A deep dive into using eBPF for dynamic network security policies at CloudScale, demonstrating how kernel-level programmability replaces static iptables rules.",
+    "audience": "Cloud infrastructure engineers",
+    "style_hints": "calm, technical, polished",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Intro to CloudScale's network challenges",
+      "Limitations of iptables at scale",
+      "eBPF primer for network filtering",
+      "Architecture: Dynamic policy injection",
+      "Code walkthrough: tc filter program",
+      "Performance benchmarks vs iptables",
+      "Rollout strategy and observability",
+      "Future of eBPF at CloudScale"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on lab for building composable Terraform modules to manage multi-region AWS VPCs and EC2 auto-scaling groups.",
+    "audience": "DevOps practitioners",
+    "style_hints": "instructional and practical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Quantel SRE team's Q3 update covering error budget burn rates, SLI improvements for the payments API, and the new on-call rotation metrics.",
+    "audience": "Engineering managers and ICs",
+    "style_hints": "objective, data-driven",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Q3 Executive Summary",
+      "Error Budget Status: Payments API",
+      "SLI/SLO Dashboard Review",
+      "Major Incidents & Post-Mortems",
+      "On-Call Health: Alert Fatigue Reduction",
+      "Upstream Dependencies Latency",
+      "Q4 Focus: Platform Reliability"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An explainer on the Linux io_uring API, how it improves async I/O performance, and practical examples replacing epoll in high-throughput C applications.",
+    "audience": "Systems programmers",
+    "style_hints": "calm and deeply technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Research talk presenting a formal TLA+ model verifying the safety and liveness properties of a novel sharded Raft consensus protocol.",
+    "audience": "Distributed systems researchers",
+    "style_hints": "rigorous and analytical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Motivation for Sharded Consensus",
+      "Limitations of traditional Raft",
+      "Introducing Sharded-Raft Protocol",
+      "Formal Specification in TLA+",
+      "Invariants & Safety Proofs",
+      "Liveness under Network Partitions",
+      "Model Checking Results",
+      "Comparison with Elastic Raft",
+      "Performance Implications",
+      "Future Work & Open Questions"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting pitch for senior kernel engineers to join the Datadog eBPF team, highlighting the team's projects in custom probes, tracing, and performance optimization.",
+    "audience": "Senior systems job seekers",
+    "style_hints": "understated yet compelling",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch deck for watchToweR, an AI-powered observability startup that focuses on pre-anomaly detection using causal inference on distributed traces.",
+    "audience": "VC partners",
+    "style_hints": "polished and data-forward",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Observability Data Deluge",
+      "Problem: Correlation over Collection",
+      "Solution: watchToweR Causal Engine",
+      "How it Works: Trace Topology Graph",
+      "Core Product Features",
+      "Business Model & Pricing",
+      "Market Size & Competitive Landscape",
+      "Traction & Early Adopters",
+      "The Founding Team",
+      "The Ask: Seed Funding Goals"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Case study on how FinServe Corp migrated their legacy JVM monolith to a microservices architecture on Kubernetes using GitOps and Flux.",
+    "audience": "DevOps leads",
+    "style_hints": "structured and practical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launch keynote for Deno 2.0, focusing on native compatibility, new package management features, and backend cloud infrastructure integrations.",
+    "audience": "Web developers and JS ecosystem",
+    "style_hints": "crisp and highly technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "State of the Ecosystem",
+      "Deno 1.x: What We Learned",
+      "The Compatibility Mandate",
+      "Deep Dive: Package Management",
+      "Cloud Primitives Built-In",
+      "Deno 2 Architecture & V8 Snapshots",
+      "Performance Benchmarks",
+      "Ecosystem & Tooling Updates",
+      "Live Demo: Full-Stack App"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Design review for the new distributed tracing pipeline at Vitra, detailing the switch from pull-based to push-based telemetry ingestion.",
+    "audience": "Internal architecture board",
+    "style_hints": "precise and detail-oriented",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A practical guide to debugging gRPC latency and connection draining issues in microservices, using Envoy proxies and Wireshark.",
+    "audience": "Backend and network engineers",
+    "style_hints": "calm and problem-solving focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Complexity of gRPC in Prod",
+      "Common Failure Modes",
+      "Envoy Proxy Observability",
+      "Connection Management & Draining",
+      "Using Wireshark for gRPC",
+      "Interpreting HTTP/2 Frames",
+      "Case Study: The 5-Second Timeout",
+      "Custom Interceptors for Tracing",
+      "Best Practices for Reliability",
+      "Summary & Resources"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on tutorial for setting up reproducible development environments and system configurations using Nix Flakes and NixOS.",
+    "audience": "DevOps engineers",
+    "style_hints": "instructional and declarative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q2 review of the platform engineering division, covering developer velocity metrics, internal developer portal adoption, and self-service infrastructure provisioning.",
+    "audience": "VP of Engineering and CTO",
+    "style_hints": "factual and concise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Q2 Platform Engineering Overview",
+      "Adoption of Internal Developer Portal",
+      "Self-Service Provisioning Metrics",
+      "Cycle Time Reductions",
+      "Key Infrastructure Improvements",
+      "Feedback Surveys & NPS",
+      "Roadmap for Q3"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A technical explainer on why Rust is uniquely suited for building memory-safe network daemons and file systems, comparing its ownership model to C++.",
+    "audience": "C++ developers transitioning",
+    "style_hints": "technical and analytical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "An applied lecture on utilizing queuing theory concepts—specifically Little's Law and M/M/1 queues—to model and predict web server capacity under load.",
+    "audience": "SREs and performance engineers",
+    "style_hints": "academic yet pragmatic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Introduction to Queuing Theory",
+      "Why SREs Should Care",
+      "Little's Law Explained",
+      "The M/M/1 Queue Model",
+      "Modeling a Web Server",
+      "Deriving Wait Times from Utilization",
+      "Case Study: The Queue Buildup",
+      "Practical Capacity Planning",
+      "Limitations & Real-World Adjustments",
+      "Key Takeaways"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Pitch deck for infrastructure engineering roles at Stripe, focusing on building globally distributed, fault-tolerant payment processing systems.",
+    "audience": "Senior distributed systems engineers",
+    "style_hints": "understated, premium, technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch for Flache, a serverless edge computing platform that optimizes cold start times via micro-VM snapshotting and WASM execution.",
+    "audience": "Seed-stage investors",
+    "style_hints": "technical and confident",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "The Latency Problem at the Edge",
+      "Current Serverless Limitations",
+      "Introducing Flache",
+      "Micro-VM Snapshotting Explained",
+      "WASM Execution Model",
+      "Architecture Deep Dive",
+      "Cold Start Benchmarks vs Competitors",
+      "Developer Experience",
+      "Business Model",
+      "Go-To-Market Strategy",
+      "The Ask"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How ScaleGrid utilized FinOps practices and intelligent auto-scaling to reduce their AWS spend by 40% without impacting application latency.",
+    "audience": "Cloud architects and finance ops",
+    "style_hints": "data-driven and practical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Release keynote for Cilium 1.14, covering new features like beta support for Layer 4 load balancing and enhanced cluster mesh networking.",
+    "audience": "Cloud-native developers and SREs",
+    "style_hints": "technical and celebratory",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Cilium 1.14 Release Overview",
+      "Community Growth Stats",
+      "Deep Dive: L4 Load Balancing",
+      "Cluster Mesh Enhancements",
+      "Network Policy Improvements",
+      "eBPF Program Updates",
+      "Performance Metrics",
+      "Deprecation Notices & Upgrade Guide",
+      "Live Q&A"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Design review for migrating a monolithic Redis cluster to a sharded, fault-tolerant architecture utilizing Redis Cluster and custom rendezvous hashing.",
+    "audience": "Backend and infra engineers",
+    "style_hints": "calm, deeply technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "An exploration of the lifecycle of a malloc call in a modern Linux system, covering glibc internals, virtual memory allocation, and kernel splicing.",
+    "audience": "Systems programmers",
+    "style_hints": "deeply technical and pedagogical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Why Understanding malloc Matters",
+      "The libc Allocator (ptmalloc)",
+      "Arena Management & Bins",
+      "Virtual Memory & sbrk/mmap",
+      "The Page Fault Path",
+      "Kernel Handling: vm_area_struct",
+      "Transparent Huge Pages",
+      "Memory Fragmentation Realities",
+      "tcmalloc & jemalloc Alternatives",
+      "Debugging Memory Leaks"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Lab session for building a custom Prometheus exporter in Go, covering the client library, histogram patterns, and metric naming conventions.",
+    "audience": "SREs and DevOps developers",
+    "style_hints": "practical and instructional",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "A quarterly review of the Q4 high-severity incidents for the DataPath project, common post-mortem themes around configuration drift, and action items.",
+    "audience": "Engineering leadership",
+    "style_hints": "objective and improvements-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Q4 Incident Summary",
+      "Severity Breakdown & MTTR",
+      "Incident 1: Config Drift Outage",
+      "Incident 2: DNS Propagation Delay",
+      "Cross-cutting Themes",
+      "Action Items & Follow-ups",
+      "Process Improvements",
+      "Open Discussion"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A primer on Border Gateway Protocol (BGP), explaining how internet routing works, ASNs, and the vulnerabilities of the global routing table.",
+    "audience": "Network-curious developers",
+    "style_hints": "calm and exploratory",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Lecture on Conflict-Free Replicated Data Types (CRDTs) and their practical application in building highly available, multi-leader distributed databases.",
+    "audience": "Distributed systems researchers",
+    "style_hints": "conceptual and rigorous",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "The Challenge of Multi-Leader Writes",
+      "Introduction to CRDTs",
+      "State vs Operation-based CRDTs",
+      "Formal Correctness Proofs",
+      "Practical CRDTs: G-Counter & OR-Set",
+      "Applying CRDTs in Database Design",
+      "Case Study: Riak & Auto-Merge",
+      "Performance Trade-offs",
+      "Limitations & Garbage Collection",
+      "Recent Research & Optimizations",
+      "Open Questions"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "A pitch deck for the Compute Platform team at Vercel, focusing on the challenges of building multi-tenant, globally distributed serverless infrastructure.",
+    "audience": "Senior cloud and infra engineers",
+    "style_hints": "modern and highly technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch for Shieldwall, a DevSecOps platform that shifts security scanning into the CI/CD pipeline using static analysis and infrastructure-as-policy checks.",
+    "audience": "Series A investors",
+    "style_hints": "direct and security-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Shift-Left Security Imperative",
+      "Problem: Security as a Bottleneck",
+      "Solution: Shieldwall IaC Scanning",
+      "Architecture: CI/CD Integration",
+      "Infrastructure as Policy with OPA",
+      "Code Scanning Deep Dive",
+      "Vulnerability Dashboard & Reporting",
+      "Enterprise Go-To-Market",
+      "Traction & Metrics",
+      "Ask & Use of Funds"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "A case study detailing how OceanBank rolled out a unified observability stack (OpenTelemetry + Grafana) across 200 microservices without affecting latency.",
+    "audience": "SREs and engineering directors",
+    "style_hints": "professional and detailed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Keynote presenting Grafana 10, focusing on the unified alerting system, new native histograms, and top-level dashboard improvements.",
+    "audience": "Observability community",
+    "style_hints": "polished and feature-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Welcome & State of Grafana",
+      "Unified Alerting V2",
+      "Native Histograms Deep Dive",
+      "Dashboard UX Improvements",
+      "Correlations: Linking Traces & Logs",
+      "Public Dashboards & Sharing",
+      "Plugin Ecosystem Updates",
+      "Performance Under the Hood",
+      "Closing & On-Site Workshops"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Design review for a new centralized authorization microservice at MatrixCo, heavily inspired by Google Zanzibar and implemented via relationship tuples.",
+    "audience": "Security and infra architects",
+    "style_hints": "calm and highly rigorous",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A talk on writing a simple Linux character device driver in Rust, focusing on the kernel bindings, safety guarantees, and current limitations of Rust in the kernel.",
+    "audience": "OS developers and Rustaceans",
+    "style_hints": "technical and exploratory",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Push for Rust in Linux",
+      "Kernel Rust vs Userspace Rust",
+      "Setting Up the Development Env",
+      "Building a Character Device",
+      "The File Operations Struct",
+      "Memory Safety in Kernel Space",
+      "Handling Kernel Errors",
+      "Current Limitations & Ergonomics",
+      "Future of Rust Kernel Modules",
+      "Resources & Links"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on tutorial on instrumenting a Node.js application with OpenTelemetry, creating custom spans, and exporting to Jaeger.",
+    "audience": "Backend developers",
+    "style_hints": "practical and guided",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q1 update from the Cloud Cost Optimization task force, detailing a 15% reduction in AWS spend via reserved instances, spot pools, and right-sizing.",
+    "audience": "Finance and engineering leaders",
+    "style_hints": "precise and metric-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6,
+    "outline_hint": [
+      "Task Force Objectives",
+      "Q1 Cost Overview",
+      "Reserved Instance Coverage",
+      "Spot Pool Architecture",
+      "Right-Sizing Automation Results",
+      "Next Quarter Targets"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A protocol deep dive into WireGuard, examining its cryptographic key exchange, data packet format, and why it outperforms IPsec in modern cloud networks.",
+    "audience": "Network engineers and cybersecurity pros",
+    "style_hints": "concise and analytical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A research talk outlining the LLVM BPF backend, the compilation pipeline from C to BPF bytecode, and optimization passes for constrained environments.",
+    "audience": "Compiler engineers and eBPF devs",
+    "style_hints": "academic and highly detailed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "The eBPF Compilation Pipeline",
+      "LLVM BPF Backend Overview",
+      "C to LLVM IR Translation",
+      "BPF-Specific Optimizations",
+      "Register Allocation Constraints",
+      "Handling Helpers & Maps",
+      "Debug Info Generation",
+      "Case Study: Compiler Bugs",
+      "Comparison: clang vs gcc-bpf",
+      "Future: BTF and CO-RE",
+      "Concluding Remarks"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting deck for SRE positions at GitLab, highlighting the challenges of running a massive single-codebase rails application at scale with a fully remote team.",
+    "audience": "Senior SREs",
+    "style_hints": "pragmatic and process-driven",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Pitch for PSQLPulse, a specialized observability tool designed to visualize query execution plans and identify bottlenecks in PostgreSQL databases.",
+    "audience": "Enterprise VCs",
+    "style_hints": "technical and authoritative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Observability Gap in Databases",
+      "Introducing PSQLPulse",
+      "Query Plan Visualization",
+      "Live Wait Event Analysis",
+      "Architecture: eBPF Agent & Dashboard",
+      "Integration with Existing APMs",
+      "Business Model",
+      "Target Market Size",
+      "Traction & Customer Quotes",
+      "Seed Round Objectives"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How TravelUp executed a zero-downtime migration from on-premise VMs to Kubernetes, utilizing canary deployments and Istio traffic shifting.",
+    "audience": "Infrastructure leads",
+    "style_hints": "technical and outcome-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A comparative talk on Cloud Native Buildpacks versus traditional Dockerfiles, exploring build speeds, supply chain security, and developer experience implications.",
+    "audience": "Platform engineers",
+    "style_hints": "balanced and comparative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Container Build Landscape",
+      "Dockerfiles: Ubiquity & Pitfalls",
+      "Cloud Native Buildpacks Explained",
+      "Build Speed Benchmarks",
+      "Supply Chain Security: Reproducibility",
+      "Developer Experience Comparison",
+      "Case Study: CI Pipeline Integration",
+      "When to Use Which Approach",
+      "Hybrid Workflows",
+      "Conclusions & Recommendations"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on lab for setting up GitOps workflows using ArgoCD, covering app-of-apps pattern, sync waves, and disaster recovery restoration.",
+    "audience": "Kubernetes administrators",
+    "style_hints": "instructional and clear",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An in-depth explainer on the QUIC protocol, detailing its UDP foundation, built-in TLS 1.3 encryption, and multiplexed streams that solve TCP head-of-line blocking.",
+    "audience": "Network protocol enthusiasts",
+    "style_hints": "structural and calm",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Need for a New Transport Protocol",
+      "QUIC Foundations: UDP",
+      "Built-in TLS 1.3 Handshake",
+      "Multiplexed Streams & No HOL Blocking",
+      "Connection Migration & IDs",
+      "Loss Detection & Congestion Control",
+      "QUIC vs TCP Comparison",
+      "Adoption & Future Trajectory"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Review of the proposed event-driven architecture for a new order processing system utilizing Apache Kafka, schema registries, and exactly-once semantics.",
+    "audience": "Senior backend engineers",
+    "style_hints": "structured and domain-heavy",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  }
+]

@@ -1,0 +1,438 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The influence of Neoplatonism on the iconography of Renaissance Florence, focusing on Botticelli's mythological canvases and the intellectual circle of Lorenzo de' Medici.",
+    "audience": "Graduate art-history seminar",
+    "style_hints": "Erudite and richly referenced",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "How the Hanseatic League governed long-distance trade across the Baltic and North Seas, from the founding of Lübeck to the decline of the Kontor network.",
+    "audience": "Undergraduate medieval-history survey",
+    "style_hints": "Narrative and institutional",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Moral philosophy in Dostoevsky's The Brothers Karamazov — the Grand Inquisitor parable, the problem of evil, and the tension between faith and reason.",
+    "audience": "University reading group",
+    "style_hints": "Reflective and dialectical",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The collapse of the Roman Republic: from the Gracchi reforms through Sulla's dictatorship to Caesar's crossing of the Rubicon.",
+    "audience": "AP Classics students",
+    "style_hints": "Structured and chronological",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Heidegger's concept of Dasein in Being and Time and its reception in mid-century existential psychiatry, with reference to Ludwig Binswanger's Daseinsanalyse.",
+    "audience": "Philosophy faculty colloquium",
+    "style_hints": "Rigorous and concept-dense",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "From Vulgar Latin to the Romance languages: phonological shifts, the simplification of the case system, and the role of the Carolingian Renaissance in standardizing Old French.",
+    "audience": "Linguistics undergraduates",
+    "style_hints": "Systematic and comparative",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The Pre-Raphaelite Brotherhood: painting against the Royal Academy, medievalist aesthetics, and the poetry of Keats and Tennyson as visual subject matter.",
+    "audience": "Museum docent training session",
+    "style_hints": "Descriptive and aesthetically attuned",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Congress of Vienna (1814–15): Metternich's balance of power, Talleyrand's diplomatic rehabilitation of France, and the conservative order that shaped nineteenth-century Europe.",
+    "audience": "Continuing-education history learners",
+    "style_hints": "Measured and diplomatic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Aristotle's Nicomachean Ethics and the modern revival of virtue ethics in the work of Alasdair MacIntyre, Philippa Foot, and Rosalind Hursthouse.",
+    "audience": "Ethics seminar students",
+    "style_hints": "Argumentative and historically layered",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Andrei Tarkovsky's poetics of time and memory: long takes, water imagery, and the philosophical theology of Stalker and Nostalghia.",
+    "audience": "Film-studies graduate cohort",
+    "style_hints": "Contemplative and visually analytical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Introduction to reading Sumerian cuneiform: sign morphology, syllabic values, and guided transcription of a temple-inscription from the Ur III period in the Penn Museum collection.",
+    "audience": "Assyriology beginners",
+    "style_hints": "Pedagogical and methodical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The concept of the 'sublime' from Longinus to Edmund Burke to Kant: rhetorical, aesthetic, and transcendental dimensions of overwhelming experience.",
+    "audience": "Comparative literature faculty",
+    "style_hints": "Theoretically ambitious and discursive",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Ancient Greek rhetorical traditions: the Sophists versus Plato, the canons of Aristotle's Rhetoric, and the enduring structure of classical oratory in modern argumentation.",
+    "audience": "Rhetoric and composition undergraduates",
+    "style_hints": "Analytical and illustrative",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Intellectual exchange along the Silk Road: Buddhist cave art at Dunhuang, Manichaean texts at Turfan, and the transmission of papermaking to the Abbasid world.",
+    "audience": "World-history survey class",
+    "style_hints": "Broad and connective",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Jane Austen's free-indirect discourse: narrative irony, the management of social distance, and the technique's debts to Samuel Richardson's epistolary method.",
+    "audience": "Eighteenth-century literature seminar",
+    "style_hints": "Close-reading focused and wryly observant",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Simone de Beauvoir's The Second Sex: the phenomenology of embodiment, the social construction of 'woman,' andresponses from intersectional and postcolonial feminism.",
+    "audience": "Gender-studies graduate students",
+    "style_hints": "Critical and historically situated",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Proust's In Search of Lost Time — involuntary memory, the sociology of the salons, and time as both destroyer and preserver of the self.",
+    "audience": "Community great-books circle",
+    "style_hints": "Leisurely and appreciative",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Baroque church architecture in Counter-Reformation Rome: Il Gesù as prototype, Borromini's fluid geometries, and Bernini's theatrical integration of sculpture and space.",
+    "audience": "Architectural-history graduate students",
+    "style_hints": "Spatial and sensorially descriptive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Dead Sea Scrolls and Second Temple Judaism: sectarian identity at Qumran, messianic expectations, and the reinterpretation of Habakkuk in the Pesher literature.",
+    "audience": "Biblical-studies faculty workshop",
+    "style_hints": "Text-critical and historically cautious",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Viking settlement of Iceland: the Landnámabók as source, the Alþingi as proto-parliament, and the ecological consequences of deforestation on the Norse colony.",
+    "audience": "Scandinavian-studies undergraduates",
+    "style_hints": "Source-conscious and ecologically aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Gothic novel and the architectural imagination: Walpole's Otranto, Radcliffe's picturesque ruins, and the haunted house as psychic space in Poe and Shelley.",
+    "audience": "Gothic-fiction seminar",
+    "style_hints": "Atmospheric and intertextual",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The development of English common law from Magna Carta to the Glorious Revolution: the evolution of habeas corpus, parliament's legislative supremacy, and Coke's Institutes.",
+    "audience": "Pre-law undergraduates",
+    "style_hints": "Institutional and precedent-driven",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Ancient Egyptian funerary practices: mummification techniques, the Book of the Dead, and the theology of Ma'at from the Old Kingdom through the Ptolemaic era.",
+    "audience": "High-school world-civilizations class",
+    "style_hints": "Clear and vividly descriptive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Kierkegaard's three stages of existence — aesthetic, ethical, and religious — as elaborated in Either/Or and Fear and Trembling, with responses from contemporary existential psychotherapy.",
+    "audience": "Philosophy and theology joint seminar",
+    "style_hints": "Pseudonymous and pastorally aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Historiographical debates on the French Revolution: Marxist orthodoxy (Lefebvre, Soboul) versus revisionism (Furet, Schama) and the linguistic turn of the 1990s.",
+    "audience": "Historiography graduate module",
+    "style_hints": "Debate-structured and historiographically self-aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Ovid's Metamorphoses in Renaissance painting: Titian's Diana and Actaeon, Correggio's Jupiter and Io, and the humanist practice of painting 'poesie.'",
+    "audience": "Classical-reception conference attendees",
+    "style_hints": "Interdisciplinary and richly illustrated",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Library of Alexandria: Hellenistic patronage, the editorial standardization of Homer, and the limits of the 'destruction' narrative in modern popular history.",
+    "audience": "Library-science graduate students",
+    "style_hints": "Corrective and evidentially meticulous",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Ingmar Bergman's The Seventh Seal as medieval morality play: the Danse Macabre tradition, existential dread, and the knight's confession to Death on the chapel wall.",
+    "audience": "Film and philosophy interdisciplinary class",
+    "style_hints": "Thematic and theological",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Close-reading methodology for Victorian poetry: Tennyson's 'Ulysses,' the dramatic monologue form, and the mechanics of enjambment, caesura, and iambic variation.",
+    "audience": "First-year English majors",
+    "style_hints": "Patient and technically precise",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Thucydides' History of the Peloponnesian War — the Melian Dialogue as realism versus idealism, the plague narrative, and the historian's method of constructed speeches.",
+    "audience": "Political-theory reading group",
+    "style_hints": "Analytical and debate-oriented",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Japanese woodblock prints (ukiyo-e) and their catalytic influence on French Impressionism: Monet's Giverny bridge, Van Gogh's reinventions of Hiroshige, and Degas' asymmetrical compositions.",
+    "audience": "Cross-cultural art-history lecture",
+    "style_hints": "Visual-comparative and culturally nuanced",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Bread and wine as ritual symbols across the ancient Mediterranean: Eleusinian mysteries, Dionysian cult, early Christian Eucharist, and comparative phenomenology of sacred meals.",
+    "audience": "Religious-studies undergraduates",
+    "style_hints": "Comparative and phenomenological",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Nominalism versus realism in medieval philosophy: Abelard's conceptualism, Ockham's razor, and the conciliar debates at Constance and Basel over universals and ecclesial authority.",
+    "audience": "Medieval philosophy specialist audience",
+    "style_hints": "Scholastically precise and dialogically framed",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The translation movement in Abbasid Baghdad (8th–10th centuries): the Bayt al-Hikma, Hunayn ibn Ishaq's Galen translations, and the preservation of Greek philosophical medicine.",
+    "audience": "Islamic-studies introductory class",
+    "style_hints": "Cosmopolitan and intellectually generous",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Wittgenstein's language games and the ordinary-language turn: the Tractatus picture theory, the Philosophical Investigations rule-following paradox, and Stanley Cavell's elaboration.",
+    "audience": "Twentieth-century philosophy seminar",
+    "style_hints": "Analytically rigorous with illustrative examples",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Political allegory in George Orwell's essays: 'Shooting an Elephant,' 'Politics and the English Language,' and the tension between democratic socialism and anti-totalitarian critique.",
+    "audience": "Twentieth-century British literature class",
+    "style_hints": "Politically engaged and textually grounded",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The philosophical schools of Hellenistic Athens: Epicurean ataraxia, Stoic logos, and Pyrrhonian skepticism as responses to the post-Aristotelian loss of metaphysical certainty.",
+    "audience": "High-school philosophy elective",
+    "style_hints": "Clear and pedagogically scaffolded",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The cartographic imagination in early modern exploration narratives: Waldseemüller's 1507 map, the Cantino planisphere, and the rhetorical construction of 'terra incognita.'",
+    "audience": "History of cartography symposium",
+    "style_hints": "Spatially imaginative and critically alert",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The concept of mimesis from Plato's Republic to Erich Auerbach's Mimesis: rival ontologies of representation, the prohibition of poetry, and the realist novel as modern answer.",
+    "audience": "Comparative literature doctoral candidates",
+    "style_hints": "Grandly synthetic and philologically attentive",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Monastic scriptoria and the preservation of classical texts: Cassiodorus at Vivarium, the Rule of St. Benedict on lectio divina, and the copying of Cicero in Carolingian scriptoria.",
+    "audience": "Palaeography and manuscript-studies class",
+    "style_hints": "Material-text oriented and reverently detailed",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The concept of 'face' (gesichtsverlust, mianzi) and honor cultures in early modern Europe and Qing China: dueling codes, ritual propriety, and the anthropology of shame versus guilt.",
+    "audience": "Anthropology upper-level undergraduates",
+    "style_hints": "Cross-culturally comparative and conceptually rigorous",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Hannah Arendt's The Human Condition: the vita activa, the rise of the 'social,' and the banality of evil thesis in relation to the Eichmann trial coverage.",
+    "audience": "Political philosophy research group",
+    "style_hints": "Gravely reflective and analytically clear",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 12
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "BoltDB-XT, an edge-native embedded vector database designed for real-time AI inference on low-power IoT devices.",
+    "audience": "Early-stage deep tech VCs",
+    "style_hints": "confident, crisp, developer-product aesthetic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: BoltDB-XT - Vector DB for the Edge",
+      "The Problem: Cloud latency kills real-time IoT inference",
+      "The Solution: Embedded, lightweight vector search on-device",
+      "How it Works: Architecture diagram of the XT engine",
+      "Benchmarks: BoltDB-XT vs Cloud DBs on edge hardware",
+      "Market Size: The $4B edge AI opportunity",
+      "Traction: 500+ GitHub stars, 3 active pilot programs",
+      "The Team: Ex-ARM and Redis kernel engineers",
+      "The Ask: $3M Seed for compute and hiring",
+      "Closing: Build the future of edge AI"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scaling stateful WebAssembly at the edge: a deep dive into the architecture of Verge's EdgeFn v2 runtime.",
+    "audience": "Backend and infrastructure engineers",
+    "style_hints": "technical, monospace-driven, precise",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 2024 board update for FluxCM, a developer-focused configuration management SaaS, highlighting ARR milestones, developer adoption metrics, and new GitOps integration.",
+    "audience": "Board members and lead investors",
+    "style_hints": "transparent, metrics-driven, crisp",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: FluxCM Q3 2024 Board Update",
+      "Executive Summary: Hits and misses at a glance",
+      "ARR & Revenue: Crossing the $5M milestone",
+      "Developer Adoption: 40k weekly active users",
+      "Product Release: GitOps Integration V2",
+      "GTM Review: Enterprise pipeline expansion",
+      "Burn & Runway: 18 months of capital remaining",
+      "Q4 Priorities & Discussion"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Deploying with Raycast: a hands-on lab building and publishing your first open-source Raycast extension for developer productivity workflows.",
+    "audience": "Frontend and full-stack developers",
+    "style_hints": "step-by-step, terminal-forward, developer-product energy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  }
+]

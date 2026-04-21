@@ -1,0 +1,692 @@
+[
+  {
+    "domain": "book club discussion guide",
+    "topic": "The role of the unreliable narrator in Kazuo Ishiguro's 'The Remains of the Day', focusing on Stevens' self-deception and the tragedy of his British restraint.",
+    "audience": "Literature enthusiasts and book club members",
+    "style_hints": "Melancholic, introspective, literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Introduction to Stevens' reserve",
+      "The unreliable narrator defined",
+      "Self-deception in Darlington Hall",
+      "Key passage: The broken tiger",
+      "Miss Kenton's foil and missed connections",
+      "The political blindspot",
+      "The reframing of dignity",
+      "Discussion questions"
+    ]
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "An analysis of the relativity of time and memory in Terrence Malick's 'The Tree of Life', examining the juxtaposition of the O'Brien family's 1950s Texas life with cosmic origins.",
+    "audience": "Cinema studies students and arthouse film fans",
+    "style_hints": "Poetic, sweeping, philosophical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The fall of Constantinople in 1453 and its direct role in sparking the intellectual migration that fueled the Italian Renaissance's revival of Greek and Roman texts.",
+    "audience": "History buffs and lifelong learners",
+    "style_hints": "Narrative-driven, authoritative, classical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "timeline/layouts"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The Byzantine twilight",
+      "Mehmed II's siege technology",
+      "Constantine XI's final stand",
+      "The flight of the scholars",
+      "Chrysoloras and the dawn of Greek learning",
+      "Florence as the new Athens",
+      "Plato's revival in the West",
+      "The shift in artistic perspective",
+      "Patronage of the Medici",
+      "Long-term cultural impact"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The evolution of the Arts and Crafts movement from William Morris' Red House to its controversial transition into the industrial minimalism of the Bauhaus.",
+    "audience": "Design historians and museum patrons",
+    "style_hints": "Textural, ornamental, transitioning to minimalist",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "How the French Académie's linguistic purism has shaped modern Francophone identity and its ongoing, often futile, battle against the influx of English Anglicisms.",
+    "audience": "Francophiles and linguistics students",
+    "style_hints": "Debate-style, erudite, slightly ironic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Académie's founding mandate",
+      "Defining 'pure' French",
+      "The battle against Anglo-Saxon terms",
+      "Franglais: A perceived existential threat",
+      "Quebec's Office québécois as contrast",
+      "Francophone Africa's linguistic dynamism",
+      "Conclusion: The impossible linguistic wall"
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Preserving the Georgian terraces of the Edinburgh New Town: an urgent appeal to save 18th-century architectural heritage from the destructive pressures of short-term rentals.",
+    "audience": "Heritage conservation funders and local policymakers",
+    "style_hints": "Urgent but dignified, preservationist",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A philosophical inquiry into Heidegger's concept of 'Dasein' and its hidden implications for modern digital existence and the alienation of social media.",
+    "audience": "Philosophy graduate students and academics",
+    "style_hints": "Dense, intellectual, contemplative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The question of Being",
+      "Heidegger's 'Dasein' definition",
+      "Throwness and fallenness",
+      "The they (Das Man)",
+      "Technology as enframing (Gestell)",
+      "The modern digital they",
+      "Authenticity in the age of algorithms",
+      "Unconcealment vs. TikTok",
+      "A path toward digital poiesis"
+    ]
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Practical Stoicism: Applying Marcus Aurelius' daily reflections to modern corporate leadership, emotional regulation, and high-stakes decision-making.",
+    "audience": "Mid-to-senior level executives",
+    "style_hints": "Grounded, reflective, classical wisdom applied",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Repatriation of colonial-era artifacts: A proposed legal and ethical framework for the British Museum's sub-Saharan African collections, focusing on Benin Bronzes.",
+    "audience": "Ministry of Culture officials and museum trustees",
+    "style_hints": "Diplomatic, measured, legally precise",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense-tables",
+      "two-col-comparison"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "The repatriation moral imperative",
+      "Current inventory disputes: Benin Bronzes",
+      "Provenance research constraints",
+      "The 'universal museum' defense",
+      "Collaborative stewardship models",
+      "Digital repatriation initiatives",
+      "Nigerian and Ghanaian stakeholder demands",
+      "Proposed legal framework for deaccessioning",
+      "Insurance and logistics of transfer",
+      "Long-term diplomatic relations",
+      "Next steps for the trustees"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The typography of the web: A historical essay on how serif fonts shaped early internet readability, culture, and the aesthetic transition to sans-serif modernity.",
+    "audience": "Web developers and UX designers",
+    "style_hints": "Nostalgic, design-focused, analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "The Bodleian Library's 2023 Year in Review: Highlighting the expansion of digital access to their medieval manuscript collection and the rise in global researcher engagement.",
+    "audience": "University board members and academic donors",
+    "style_hints": "Institutional, dignified, heritage-rich",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense-tables",
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Letter from the Director",
+      "2023 Acquisitions highlight",
+      "Digital scans: Updating the medieval archive",
+      "Reader statistics: Global access grows",
+      "Conservation lab breakthroughs",
+      "Writer-in-residence program launch",
+      "Funding and endowment health",
+      "A look ahead to 2024"
+    ]
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Launching 'Meridian', a new luxe literary magazine targeting millennial readers who are disillusioned with algorithmic content and crave long-form editorial curation.",
+    "audience": "Media buyers and editorial stakeholders",
+    "style_hints": "Aspirational, editorial, sophisticated",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "two-col-comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Q3 update for Heritage Distilleries: Reviving pre-Prohibition botanical brewing techniques and scaling them for the modern craft spirits market.",
+    "audience": "Angel investors and spirits industry veterans",
+    "style_hints": "Heritage-meets-modern, earnest, premium",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense-tables"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Heritage Distilleries Q3 overview",
+      "The rise of pre-Prohibition botanicals",
+      "Supply chain: Sourcing heritage grains",
+      "Production update: The new copper pot still",
+      "Marketing the 'botanical revival'",
+      "Wholesale distribution growth",
+      "Minority investor outlook"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "The motif of water and rebirth in Toni Morrison's 'Beloved', exploring how the river acts as a boundary between slavery and the trauma of freedom.",
+    "audience": "Advanced literature seminar students",
+    "style_hints": "Haunting, lyrical, deeply analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Zaha Hadid's early parametric paintings: How her expressive canvases bridged the gap between Russian Suprematism and modern computational architecture.",
+    "audience": "Architecture critics and design curators",
+    "style_hints": "Dynamic, artistic, avant-garde",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Introduction to Zaha's early years",
+      "Suprematism and Malevich's influence",
+      "Moving beyond the straight line",
+      "The peak of her painted compositions",
+      "The transition to computational form-finding",
+      "From 2D canvas to 3D parametric models",
+      "Vitra Fire Station: Painting built",
+      "The digital legacy of her paintings",
+      "Critique: Dynamism vs. static architecture",
+      "Conclusion: Parametricism's literary roots"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Library of Alexandria: Separating myth from historical reality to understand the actual political and intellectual consequences of its slow decline.",
+    "audience": "Public library patrons and classicists",
+    "style_hints": "Debunking, scholarly, classical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "timeline/layouts"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Kubrick's use of one-point perspective and deliberate symmetry in '2001: A Space Odyssey' as a tool to convey existential isolation and cosmic indifference.",
+    "audience": "Film theory enthusiasts and directors",
+    "style_hints": "Geometric, obsessive, cinematic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The dawn of man: A symmetrical genesis",
+      "One-point perspective: The corridor of isolation",
+      "HAL 9000: The omniscient eye",
+      "The centrifuge: Geometry of routine",
+      "The monolith: Rectangular perfection",
+      "The Star Gate: Subverting symmetry",
+      "18th-century influence: What Kubrick borrowed from Wright",
+      "The loneliness of 143 degrees",
+      "Conclusion: Geometry as narrative"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The cultural history of the Japanese concept of 'Ma' (negative space) and its profound influence on modern minimalist interior design and ikebana.",
+    "audience": "Design students and Japanophiles",
+    "style_hints": "Sparse, conceptual, meditative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic direction for the Getty Museum: Transitioning from physical curation to immersive virtual reality exhibitions to attract global digital memberships.",
+    "audience": "Museum board of trustees",
+    "style_hints": "Institutional, forward-looking, authoritative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "State of the museum sector",
+      "Competitor analysis: Virtual gallery trends",
+      "Strategic Pillar 1: VR-first exhibition design",
+      "Pillar 2: Global digital memberships",
+      "Pillar 3: Hybrid curation models",
+      "Proposed VR tech stack and vendor eval",
+      "Budget reallocation for VR director",
+      "Timeline: 3-year rollout"
+    ]
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "The lost art of wet plate collodion photography: A historical overview and practical philosophy for modern film enthusiasts seeking slowness in their craft.",
+    "audience": "Analog photographers and photography historians",
+    "style_hints": "Tactile, artisanal, unhurried",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The epistemology of the archive: How colonial record-keeping structures indigenous marginalization in South Asian historical narratives.",
+    "audience": "Postcolonial academics and archivists",
+    "style_hints": "Rigorous, deconstructive, literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Introduction: The Archive as Power",
+      "Colonial administrative technologies",
+      "The categorization of caste",
+      "The erasure of indigenous voices",
+      "Counter-archival methodologies",
+      "Subaltern studies and reclaiming the narrative",
+      "Case study: Partition records in Delhi",
+      "Case study: Subaltern trace in Sri Lanka",
+      "Digital archives: Perpetuating old bias?",
+      "Feminist critiques of national archives",
+      "Conclusion: Decolonizing the metadata",
+      "Open discussion"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The Gutenberg Parenthesis: Why the modern transition from print to digital culture mirrors the historical shift from oral tradition to print, and what it means for authorship.",
+    "audience": "Publishing technologists and media theorists",
+    "style_hints": "Meta-analytical, historical, engaging",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "timeline/layouts"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Restoring the 19th-century murals of the Appian Aqueduct in Upstate New York: Progress report on conservation efforts and historical context of the artwork.",
+    "audience": "Local residents and municipal donors",
+    "style_hints": "Community-focused, historical, restorative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Brief history of the Appian Aqueduct",
+      "The neglect and structural decay",
+      "Phase 1 completed: Structural stabilization",
+      "Uncovering the 1880s murals",
+      "Conservation challenges: Moisture and paint loss",
+      "Community volunteer engagement",
+      "Phase 2 preview: Visitor experience"
+    ]
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The art of the commonplace: Finding profound meaning in daily routines through the lens of Simone Weil's philosophy of attention.",
+    "audience": "Philosophy-curious wellness seekers",
+    "style_hints": "Contemplative, grounded, mindful",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "The Aphasia Poetry Project: Raising funds for creative writing workshops designed for stroke survivors as a form of cognitive rehabilitation and identity reconstruction.",
+    "audience": "Healthcare philanthropists and speech therapists",
+    "style_hints": "Compassionate, transformative, literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The challenge: Aphasia and identity loss",
+      "Poetry as cognitive rehabilitation",
+      "Pilot program at Groves Memorial",
+      "Participant story: Sarah's Haiku",
+      "Structural linguistics regained through verse",
+      "Funding ask: Expanding to 5 regional hospitals",
+      "Our team of speech therapists and poets",
+      "Budget breakdown",
+      "Join us: Healing through words"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Silk Road's forgotten translator: How Sogdian merchants acted as cultural bridges between Tang Dynasty China and the Abbasid Caliphate, facilitating more than just trade.",
+    "audience": "World history students",
+    "style_hints": "Narrative, cross-cultural, exploratory",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "map-graphics"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "George Eliot's 'Middlemarch' and the tyranny of deferred life plans for women in 19th-century rural England, focusing on Dorothea Brooke's disillusionment.",
+    "audience": "Classic literature readers",
+    "style_hints": "Analytical, empathetic, Victorian",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Eliot's ambition vs. provincial reality",
+      "Dorothea's tragic deferral",
+      "Lydgatel's arrogant spiral",
+      "Casaubon's dead-end scholarship",
+      "The web of Middlemarch society",
+      "Marriage as institutional suffocation",
+      "The tyranny of the 'deferred life'",
+      "How Eliot resolves (or doesn't) her promises"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The sociolinguistics of Dialect Levelling in contemporary Barcelona: How the fading of Catalan in Gen-Z internet slang mirrors globalized cultural erasure.",
+    "audience": "Sociolinguists and cultural commentators",
+    "style_hints": "Data-informed, culturally sensitive, modern",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense-tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'Threads of Time': A retrospective of Anni Albers' textile work and her profound impact on modern geometric abstraction, weaving text and thread.",
+    "audience": "Museum curators and modern art fans",
+    "style_hints": "Textural, abstract, reverent",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Anni Albers at the Bauhaus",
+      "The shift from pictorial to textile",
+      "The wall as canvas, the thread as line",
+      "Influence of pre-Columbian weaving",
+      "Black Mountain College experiments",
+      "The 'On Weaving' thesis",
+      "From functional craft to gallery art",
+      "Albers' impact on minimalism and op art",
+      "The intersection of mathematics and weaving",
+      "Legacy: Textiles in contemporary museums"
+    ]
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Protecting intangible cultural heritage: Legislative strategies to safeguard endangered indigenous languages in Patagonia before regional extinction.",
+    "audience": "UNESCO policymakers and regional legislators",
+    "style_hints": "Formal, persuasive, culturally deferential",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The forgotten women of Bletchley Park: A narrative history of the cryptanalysts who cracked Enigma and were subsequently silenced by the Official Secrets Act.",
+    "audience": "Tech conference attendees and historians",
+    "style_hints": "Historical, narrative, revelatory",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Bletchley Park enigma",
+      "The recruitment of Britain's brightest women",
+      "Joan Clarke: Breaking naval Enigma",
+      "The Colossus operators",
+      "Secrecy protocols and the Official Secrets Act",
+      "Post-war invisibility and erasure",
+      "The feminist historiography of codebreaking",
+      "Why tech culture forgot the women"
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Quarterly briefing for Folio Bindery: Navigating the boutique renaissance of physical bookbinding in an e-book dominated market and scaling artisan editions.",
+    "audience": "Private equity partners in luxury goods",
+    "style_hints": "Artisanal, premium, narrative-driven",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense-tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The gothic pastoral: Analyzing the extinction of the English countryside in the films of Andrea Arnold, focusing on class and rural alienation.",
+    "audience": "Cultural critics and cinephiles",
+    "style_hints": "Atmospheric, critical, brooding",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Defining the 'Gothic Pastoral'",
+      "Andrea Arnold's visual grammar",
+      "Fish Tank: Brutalism in the margins",
+      "Wuthering Heights: Mud, dogs, and decay",
+      "American Honey: Neon in the wasteland",
+      "The extinction of the English countryside",
+      "Class and rural alienation",
+      "Cow and roadkill motifs",
+      "Conclusion: A landscape without a future"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The phenomenology of memory in Proust's 'In Search of Lost Time': Examining the madeleine as a trigger for involuntary recollection and the architecture of the self.",
+    "audience": "Continental philosophy scholars",
+    "style_hints": "Intricate, literary, deeply philosophical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "'Sonder & Solitude': A marketing narrative for a boutique retreat in the Scottish Highlands targeting burnt-out creatives seeking deep-work isolation.",
+    "audience": "Creative agency leadership and PR partners",
+    "style_hints": "Evocative, serene, bespoke",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Target audience profile: The burnt-out creative",
+      "Thesis: Solitude as creative fuel",
+      "The backdrop: Scottish Highlands and isolation",
+      "The retreat itinerary: Morning prompts",
+      "Culinary philosophy: Slow food and local sourcing",
+      "Testimonials from beta testers",
+      "The ask: PR partnerships and influencer selection"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Coffeehouse culture in 17th-century London: The birth of the public sphere and how caffeine fueled the pamphleteering that shaped the Enlightenment.",
+    "audience": "General public and social history fans",
+    "style_hints": "Lively, historical, caffeinated",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "timeline/layouts"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "The Carte de Visite craze of the 1860s: How early portrait photography democratized personal vanity and created the world's first viral social network.",
+    "audience": "Photography historians and sociologists",
+    "style_hints": "Wry, historical, portrait-focused",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The birth of carte de visite photography",
+      "Disderi's multi-lens camera",
+      "Democratizing portraiture beyond the aristocracy",
+      "The Victorian 'cardomania' craze",
+      "Celebrity culture: Queen Victoria and Abraham Lincoln",
+      "Albums as early social networks",
+      "The eventual decline of the CDV format",
+      "Parallels to the modern selfie"
+    ]
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "'Invisible Cities' by Italo Calvino: Exploring the meta-narrative of urban imagination and Kublai Khan's melancholy through Marco Polo's invented dialogues.",
+    "audience": "Urban planners and literary fiction readers",
+    "style_hints": "Imagistic, structural, philosophical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "quotes/blockquotes"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Untranslatable words of the Nordic winter: How 'Hygge,' 'Koselig,' and 'Lagom' construct seasonal cultural identities and coping mechanisms.",
+    "audience": "Scandinavian culture enthusiasts",
+    "style_hints": "Cozy, cultural, analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 6,
+    "outline_hint": [
+      "Introduction: The untranslatable season",
+      "Denmark: Hygge and coexistence",
+      "Norway: Koselig and the fierce cold",
+      "Sweden: Lagom and collective moderation",
+      "Finland: Sisu and the dark endurance",
+      "Conclusion: Language shapes winter reality"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The Aesthetics of Code: How the structural elegance of Lisp and Smalltalk embodies literary constraints akin to the Oulipo movement in French literature.",
+    "audience": "Functional programmers and digital humanists",
+    "style_hints": "Interdisciplinary, poetic, logical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "code-blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "The Bethlehem Writers' Colony proposal: Transforming an abandoned 19th-century industrial mill into a residency for narrative non-fiction authors.",
+    "audience": "City council members and arts foundations",
+    "style_hints": "Civic-minded, literary, visionary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The Bethlehem industrial mill site",
+      "The vision: A sanctuary for narrative non-fiction",
+      "Architectural preservation meets modern residency",
+      "Partnerships: Local publishing houses",
+      "Funding sources: NEH and private donors",
+      "The application process and selection criteria",
+      "Economic impact on the rust-belt community",
+      "Pitch: Why narrative non-fiction needs a home"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The rhetoric of the ruin: How 18th-century landscape painters like Piranesi invented the modern aesthetic of industrial decay and romanticized dilapidation.",
+    "audience": "Art historians and Romanticism scholars",
+    "style_hints": "Decomposing, romantic, intellectual",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  }
+]

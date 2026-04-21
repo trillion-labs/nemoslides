@@ -1,0 +1,71 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Introducing Vamp-DB, a new terminal-native database migration CLI written in Rust that automatically versions your schema changes and syncs across night-owl dev teams.",
+    "audience": "Backend engineers and database administrators",
+    "style_hints": "snappy, terminal-forward, developer-insider",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Intro to Vamp-DB and why schema migrations suck",
+      "The architecture: How Vamp-DB tracks state in local JSON",
+      "Installation & Initial Setup",
+      "Creating your first migration script",
+      "Running migrations in a production-like environment",
+      "Rollbacks and recovery mechanisms",
+      "Comparing Vamp-DB to existing tools (Flyway, Liquibase)",
+      "Roadmap and community contribution info",
+      "Q&A"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "A pitch for BiteScript, a hackathon-winning developer tool that generates type-safe API clients by inspecting network traffic in real-time via a local proxy.",
+    "audience": "Developer tool investors and hackathon judges",
+    "style_hints": "high-contrast, fast-paced, bold claims with code proof",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on walkthrough for building a bleeding-edge, dark-mode-centric development environment using Tmux, Neovim, and custom Zsh configurations for maximum terminal productivity.",
+    "audience": "Curious developers and terminal enthusiasts",
+    "style_hints": "step-by-step, technical, config-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide: Building the Ultimate Dark-Mode Dev Environment",
+      "Why Tmux + Neovim? The case against heavy IDEs",
+      "Bootstrapping your dotfiles repo",
+      "Tmux config: Panes, windows, and session persistence",
+      "Neovim setup: LazyVim vs. custom from scratch",
+      "LSP and autocomplete in the terminal",
+      "Git integration with lazygit and Fugitive",
+      "Zsh + Starship: Making the prompt your own",
+      "Putting it all together: A live coding workflow",
+      "Cheat sheet and resource links"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Deep dive into optimizing the 'Fast-ML' Python CLI execution speeds using Rust extensions, profiling with py-spy, and compiling with PyO3.",
+    "audience": "Python developers and performance engineers",
+    "style_hints": "data-dense, analytical, deeply technical",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  }
+]

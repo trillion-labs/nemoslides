@@ -1,0 +1,70 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Introducing Vuelmate, a brand-new open-source Vue 3 component library that provides warm, accessible UI patterns out of the box for rapid prototyping.",
+    "audience": "Frontend developers at a Vue.js meetup",
+    "style_hints": "Vibrant, enthusiastic, developer-centric",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Why We Built Vuelmate - The gap in accessible Vue 3 UI libraries",
+      "Core Philosophy: Warm & Accessible - Design principles and gradient defaults",
+      "Setup and Installation - Quick start with Vite and npm",
+      "Live Demo: Building a Dashboard - Combining layout and data components",
+      "Vuelmate vs. Existing Libraries - Feature comparison and bundle size",
+      "Customizing Gradients and Themes - Using CSS variables and utility classes",
+      "Open Source Roadmap - Upcoming components and community calls",
+      "Q&A and Community Links - GitHub repo and Discord invite"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A step-by-step hands-on lab demonstrating how to build BoardSync, a real-time collaborative whiteboard app using Vue 3, Pinia, and WebSockets.",
+    "audience": "Intermediate JS developers attending a community workshop",
+    "style_hints": "Interactive, step-by-step, friendly",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Reviewing the migration of the Lumina Design System from React to Vue 3, focusing on warm gradient tokens and component parity for the new frontend stack.",
+    "audience": "Internal product and engineering teams",
+    "style_hints": "Polished, visual, collaborative",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Lumina UI 2.0: Why Move to Vue? - Ecosystem alignment and reactivity benefits",
+      "Project Scope & Timeline - Phased rollout over Q3",
+      "Gradient Token Architecture - New warm color system for modern UI",
+      "React vs. Vue Component Parity Table - Tracking completed and pending mappings",
+      "Migration Strategy & Risk Assessment - Phased approach and breaking changes",
+      "Demo: Interactive Storybook - Live preview of Vue components",
+      "Beta Feedback Summary - Developer pain points and resolutions",
+      "Next Steps & Launch Plan - V2 release date and upcoming workshops"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing Slidev 5.0 at the VueConf opening keynote, showcasing new motion-powered transitions, native Vite integration, and speaker mode enhancements.",
+    "audience": "VueConf attendees and online viewers",
+    "style_hints": "Energetic, modern, visionary",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  }
+]

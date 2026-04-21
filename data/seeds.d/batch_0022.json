@@ -1,0 +1,723 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Deep dive into the V8 engine's garbage collection mechanisms with a focus on the Orinoco concurrent collector.",
+    "audience": "Node.js and Chrome engine developers",
+    "style_hints": "Code-heavy, dark mode native, hacker-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: V8 GC Internals",
+      "The Evolution of Orinoco",
+      "Heap Organization: Old vs Young Generation",
+      "Scavenge and Minor GC Walkthrough",
+      "The Mark-Compact Algorithm",
+      "Concurrent Marking & Sweeping",
+      "Idle Time GC: Scheduling",
+      "Memory Allocation Fallbacks",
+      "Tracing GC Latency in Production",
+      "Key Takeaways & Future Work"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a custom Kubernetes scheduler from scratch using Go, focusing on bin-packing strategies for cost optimization.",
+    "audience": "Platform engineers and SREs",
+    "style_hints": "Hands-on, step-by-step code walkthroughs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architecture of the 'Chrono' distributed time-series database and its MVCC storage engine.",
+    "audience": "Database internal engineers",
+    "style_hints": "Architecture diagrams, dense but accessible",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Chrono DB Architecture",
+      "TSDB Landscape & Motivation",
+      "Data Model: Tags, Fields, Points",
+      "Write Path: WAL to Memtable",
+      "MVCC Transaction Isolation",
+      "Compaction Strategy: Time-Window Merging",
+      "Query Engine & Predicate Pushdown",
+      "Distributed Consensus (Raft) Integration",
+      "Benchmarks vs InfluxDB/TimescaleDB",
+      "Open Questions & Next Steps"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of concurrent data structures using TLA+ to prove linearizability.",
+    "audience": "Distributed systems researchers",
+    "style_hints": "Formal, rigorous, specification-heavy",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How eBPF transforms Linux kernel observability and networking without requiring kernel module modifications.",
+    "audience": "Systems software developers",
+    "style_hints": "Kernel-level deep dive, syscall tracing",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: eBPF: The Kernel's Superpower",
+      "The Problem with Kernel Modules",
+      "eBPF Architecture: Map Abstractions",
+      "Verifying Safety: The BPF Verifier",
+      "Tracing: kprobes & tracepoints",
+      "Networking: XDP & TC Hooks",
+      "User-Space Communication via Perf Buffers",
+      "Practical Demo: Tracing TCP Retransmits"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Flux' - a serverless edge computing platform for low-latency IoT data pipelines and real-time inference.",
+    "audience": "Seed-stage VC partners",
+    "style_hints": "Technical but persuasive, infra-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing 'Rune' - a new statically typed systems language targeting WebAssembly with zero-cost abstractions.",
+    "audience": "Compiler engineers and language designers",
+    "style_hints": "Bold technical宣言, syntax-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: Announcing Rune 1.0",
+      "The WASM Ecosystem & Language Gap",
+      "Rune Design Philosophy: Safety + Ergonomics",
+      "Type System: Algebraic Data Types & Traits",
+      "Memory Management: Ownership without Rust's Complexity",
+      "Compiler Pipeline: HIR to Wasm",
+      "Interoperability: Wasm Component Model",
+      "Standard Library Tour",
+      "Benchmarking: Rune vs Rust vs C#",
+      "Ecosystem & Tooling (LSP, Formatter)",
+      "Live Demo: CLI App to WASI",
+      "Call for Contributors"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Debugging a 2-second latency spike in our microservices architecture during peak traffic.",
+    "audience": "Senior backend developers",
+    "style_hints": "War-story narrative, intense debugging logs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing custom LLVM passes for static analysis to detect vulnerable pointer arithmetic in C++.",
+    "audience": "Security researchers and compiler devs",
+    "style_hints": "Deep systems hacking, compiler internals",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: LLVM Passes for Security",
+      "LLVM IR Refresher",
+      "Pass Manager Evolution (Legacy vs New)",
+      "Writing a Function Pass: Skeleton & Boilerplate",
+      "Analyzing Pointer Arithmetic Patterns",
+      "Building the Data Flow Graph",
+      "Taint Tracking Implementation",
+      "Emitting Diagnostics",
+      "Testing with LLVM LIT",
+      "Integrating into CI Pipeline"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Migrating 'Aether' message queue from RabbitMQ to NATS JetStream for high-throughput event streaming.",
+    "audience": "Internal platform infrastructure team",
+    "style_hints": "Migration-focused, architectural trade-offs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join the 'Nebula' core database engineering team: Building next-gen distributed storage.",
+    "audience": "Senior distributed systems engineers",
+    "style_hints": "Technical pitch, challenge-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: Build the Database of the Future",
+      "The Problem: Scaling Stateful Workloads",
+      "Introducing Project Nebula",
+      "Architecture: Log-Structured Merge Trees on Raft",
+      "Tech Stack: Rust, gRPC, RDMA",
+      "Challenges: Distributed Transactions & Global Indexes",
+      "Open Positions & Application Process"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Zero Trust networking architecture at scale: Service mesh mTLS and identity-based routing.",
+    "audience": "Cloud security architects",
+    "style_hints": "Security-focused, infrastructure diagrams",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Red teaming Kubernetes clusters: A practical guide to escaping pods and escalating privileges.",
+    "audience": "Offensive security professionals",
+    "style_hints": "Dark theme, hacker ops, exploit-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: K8s Red Team Ops",
+      "Recon: Enumerating Cluster Permissions",
+      "Exploiting RBAC Misconfigurations",
+      "Breaking out of Privileged Pods",
+      "HostPath Mount Escapes",
+      "Abusing Cloud Instance Metadata",
+      "Stealing Service Account Tokens",
+      "Lateral Movement via API Server",
+      "Container Runtime (containerd) Exploit",
+      "Mitigation & Hardening Checklist"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 Platform Engineering team velocity, incident metrics, and service level objective performance.",
+    "audience": "VP of Engineering and CTO",
+    "style_hints": "Data-heavy, crisp, operational metrics",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Contributing to the Rust compiler: Your first PR to the standard library.",
+    "audience": "Open-source Rust contributors",
+    "style_hints": "Step-by-step, welcoming but technical",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Your First Rust PR",
+      "Cloning and Bootstrapping the Compiler",
+      "Navigating the Codebase: std vs compiler",
+      "Finding a Good First Issue",
+      "Writing the Fix / Feature",
+      "Testing: Cargo Test & UI Tests",
+      "The Bors Bot & CI Pipeline",
+      "Code Review Expectations"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Floating point intricacies and IEEE 754 edge cases causing monetary calculation errors in fintech systems.",
+    "audience": "Quantitative developers and CS students",
+    "style_hints": "Academic, precise, mathematical",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Memory allocation strategies in low-latency C++ high-frequency trading systems.",
+    "audience": "Performance engineers and HFT devs",
+    "style_hints": "Hardcore optimization, cycle-counting",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Allocators in the Fast Lane",
+      "The Cost of 'new' and 'delete'",
+      "Custom Arena Allocators",
+      "Object Pools for Order Books",
+      "Hazard Pointers vs Epoch-based Reclamation",
+      "Preventing Memory Fragmentation",
+      "Cache-Line Alignment & False Sharing",
+      "Benchmarking Allocator Overhead"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "'Glaive' IDE v2: Deep diving the new Language Server Protocol integration engine and Rust core.",
+    "audience": "Developer tooling enthusiasts",
+    "style_hints": "Sleek, feature-packed, technical demo hints",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The internals of SQLite: Understanding the B-Tree layout and WAL journaling mechanisms.",
+    "audience": "Mobile and embedded software engineers",
+    "style_hints": "Systems-level exploration, clear data flow",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: Under the Hood of SQLite",
+      "Architecture: The Virtual Database Engine",
+      "File Format: Pages and Headers",
+      "B-Tree Structures: Table vs Index",
+      "Cell Representation & Overflow Pages",
+      "Write-Ahead Logging (WAL) Mechanism",
+      "Read/Write Concurrency via MVCC",
+      "Transaction Commit Protocol",
+      "Optimizing Schema for Mobile Apps",
+      "Low Memory Mode Operations",
+      "Key Takeaways"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Refactoring the 'Prism' authentication gateway for multi-tenant SaaS isolation.",
+    "audience": "Security and backend engineers",
+    "style_hints": "Architectural focus, boundary mapping",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Exploiting speculative execution in modern CPUs: The Spectre/Meltdown saga revisited.",
+    "audience": "Security researchers and hardware enablers",
+    "style_hints": "Low-level, assembly-focused, high-stakes",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Speculative Execution Attacks",
+      "Out-of-Order Execution Primer",
+      "Branch Prediction & Microarchitectural State",
+      "Meltdown: Breaking User/Kernel Isolation",
+      "Spectre v1: Bounds Check Bypass",
+      "Spectre v2: Branch Target Injection",
+      "Side Channels: Cache vs Port",
+      "Transient Execution & Microcode Updates",
+      "Future of Hardware Security"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on reverse engineering a Gameboy Advance ROM and writing a custom emulator in Rust.",
+    "audience": "Retro computing hobbyists and systems devs",
+    "style_hints": "Interactive, bit-fiddling, nostalgic tech",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Infrastructure engineering at 'Silicate' - building bare-metal provisioning systems for AI clusters.",
+    "audience": "Senior systems engineers",
+    "style_hints": "Hardcore infra pitch, metal-to-cloud",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Join Silicate Core Infra",
+      "The Challenge: Bootstrapping 10k GPU Nodes",
+      "Our Approach: Declarative Bare Metal Provisioning",
+      "Architecture: PXE, Tinkerbell, and Custom Agents",
+      "The Network Fabric: RDMA and RoCE",
+      "Automating Infrastructure Validation",
+      "Our Tech Stack & Open Source",
+      "Apply & Shape the Future"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Post-mortem of the 'Orion' API outage: DNS propagation failures and remediation strategy.",
+    "audience": "Engineering all-hands",
+    "style_hints": "Blameless post-mortem style, timeline-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Writing Postgres extensions in Rust with pgrx: A practical guide to custom data types.",
+    "audience": "Database developers",
+    "style_hints": "Code walkthrough, library deep dive",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Postgres + Rust = ❤️",
+      "Why pgrx? The State of PG Extensions",
+      "Setting up the pgrx Dev Environment",
+      "Mapping Postgres Types to Rust",
+      "Writing a Custom Aggregate Function",
+      "Background Workers in Rust",
+      "Handling Memory Contexts Safely",
+      "Testing and CI Workflow",
+      "Deploying via pgxn / Docker"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How Discord stores trillions of messages using ScyllaDB and tiered storage architectures.",
+    "audience": "Scaling engineers and architects",
+    "style_hints": "Architecture deep dive, scaling war story",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Compiling dependent types: The TypeId algorithm and type erasure boundary in modern compilers.",
+    "audience": "PL researchers and type theorists",
+    "style_hints": "Formal, theoretical, logic-based",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Dependent Types & Erasure",
+      "The Expressivity vs Decidability Tradeoff",
+      "Dependent Type Theory Refresher",
+      "The TypeId Canonicalization Algorithm",
+      "Pushing Types to Runtime: The Erasure Boundary",
+      "Coherence Checking Across Modules",
+      "Implementing TypeId in the 'Aster' Compiler",
+      "Benchmarks: Compilation Time Overhead",
+      "Formal Proofs & Future Directions"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Secure CI/CD pipeline architecture for the 'Garrison' project utilizing in-cluster signing.",
+    "audience": "DevSecOps engineers",
+    "style_hints": "Security-prioritized, pipeline diagrams",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building custom Terraform providers for integrating internal tooling APIs.",
+    "audience": "Platform and DevOps engineers",
+    "style_hints": "Hands-on hashicorp go development",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Custom Terraform Providers",
+      "Provider Architecture: RPC & Plugin Model",
+      "Scaffolding with tfprotov5",
+      "Defining the Schema & Data Sources",
+      "Implementing CRUD Operations",
+      "Handling Authentication & Rate Limiting",
+      "Local Development & Acceptance Testing",
+      "Distributing via Internal Registry"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Phalanx' - Server-side WebAssembly deployment for edge AI inference.",
+    "audience": "Series A venture capitalists",
+    "style_hints": "Tech-visionary, deep tech market framing",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The cost of abstraction: Benchmarking Rust async runtimes for network I/O.",
+    "audience": "Systems programmers and performance engineers",
+    "style_hints": "Data-driven, benchmark graphs, skeptical",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Abstraction Cost in Async Rust",
+      "The Async/Await State Machine",
+      "Runtime Contenders: Tokio vs async-std vs smol",
+      "Benchmarking Methodology: Criterion & Tokio-console",
+      "Task Scheduling Overhead",
+      "Memory Usage per Task",
+      "I/O Driver Implementations (epoll/io_uring)",
+      "Microbenchmark vs Real-World Results",
+      "When to Choose Which Runtime"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing 'Sigil' v3: A next-gen open-source API gateway built on Envoy.",
+    "audience": "Cloud-native developers",
+    "style_hints": "Grand reveal, architecture breakdown, API-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A visual guide to Linux Container Namespaces and Cgroups isolation.",
+    "audience": "Junior site reliability engineers",
+    "style_hints": "Diagram-heavy, explanatory but technical",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: Inside the Container",
+      "Container Illusion vs OS Reality",
+      "PID Namespaces: Process Isolation",
+      "Network Namespaces: Veth Pairs & Bridge",
+      "Mount Namespaces: chroot on Steroids",
+      "Cgroups: Limiting CPU and Memory",
+      "How Docker and Containerd Tie it Together"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "'Cortex' event sourcing engine: Sharding strategy and snapshotting approaches.",
+    "audience": "Distributed systems backend engineers",
+    "style_hints": "Whiteboard-style, algorithms and state diagrams",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing BPF tools for tracing disk I/O bottlenecks in production Kubernetes nodes.",
+    "audience": "Systems performance engineers",
+    "style_hints": "Hands-on kernel tracing, low-level",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: BPF for Disk I/O",
+      "Intro to BCC and bpftrace",
+      "Tracing Block I/O Submits",
+      "Latency Histograms for Read/Write",
+      "Identifying Queue Merges",
+      "Mapping I/O to Container Cgroups",
+      "Building a Custom BPF Tool Skeleton",
+      "Integrating with Prometheus via eBPF Exporter"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Scaling the 'Titan' search index to 50 billion documents with custom sharding logic.",
+    "audience": "Search platform engineering team",
+    "style_hints": "Technical retrospective, scaling graphs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Hacking smart locks: A practical red-team engagement story focusing on BLE protocol flaws.",
+    "audience": "IoT security researchers",
+    "style_hints": "Narrative hacking, protocol analysis",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: Picking the Digital Lock",
+      "Threat Modeling a Bluetooth Smart Lock",
+      "Setting Up the BLE Sniffing Lab",
+      "Reversing the Custom GATT Protocol",
+      "Vulnerability: Replay Attacks on Nonces",
+      "Exploitation: Unlock via script",
+      "Gaining Persistent Access via OTA Updates",
+      "Disclosure & Vendor Patch Timeline",
+      "Lessons for BLE Developers"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Inlining heuristics in the JVM's JIT compiler: Graal vs HotSpot C2 optimization passes.",
+    "audience": "Compiler researchers and JVM devs",
+    "style_hints": "Academic, data-heavy, algorithm-focused",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Primer Labs: Design the future of cryptographic proving systems and ZK-SNARKs.",
+    "audience": "Cryptography PhDs and low-level protocol devs",
+    "style_hints": "Highly technical, mathematical, visionary",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Cryptography Engineering at Primer Labs",
+      "The ZK Landscape: SNARKs vs STARKs",
+      "Our Mission: Proving Computation",
+      "Prover Architecture: FFT and MSM Acceleration",
+      "Circuit Design: R1CS to Plonkish",
+      "Recursive Proof Composition",
+      "Open Roles: Verif & Compilers",
+      "Apply to Solve Hard Math Problems"
+    ]
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How Git actually works: Objects, trees, packs, and reflogs under the hood.",
+    "audience": "Curious developers",
+    "style_hints": "Console/terminal style, plumbing commands",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Thread-per-core architecture in the 'Tokio' asynchronous runtime and io_uring integration.",
+    "audience": "Rust network service developers",
+    "style_hints": "Deep systems dive, event loop mechanics",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: Tokio & io_uring",
+      "The Thread-per-Core Model",
+      "Work-stealing vs Dedicated Threads",
+      "Async Networking: Epoll vs io_uring",
+      "The Tokio Driver Architecture",
+      "Submission Queue & Completion Queue",
+      "Zero-copy Network I/O",
+      "Handling Cancellation & Timeouts",
+      "Benchmarks: Tokio-uring vs Mio",
+      "Future of Async Rust IO"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a syntax-aware code search tool using Tree-sitter and Rust.",
+    "audience": "Developer tooling creators",
+    "style_hints": "Hands-on, parser construction, REPL-style",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  }
+]

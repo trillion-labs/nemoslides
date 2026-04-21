@@ -1,0 +1,46 @@
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# uv
+# (keep uv.lock committed)
+
+# data / artifacts
+data/raw/
+data/**/*.jsonl
+data/hf/
+data/gallery_*/
+data/seeds.d.archive-*/
+data/query_cache.json
+checkpoints/
+wandb/
+outputs/
+
+# codex pipeline work dirs (scratch, >100MB of intermediate seed folders)
+work/
+work_*/
+.tmp-codex-*
+
+# rendered artifacts
+**/screenshots/
+**/dist/
+demo/**/node_modules/
+node_modules/
+
+# eval run artifacts (generations, renders, judge outputs)
+eval/runs/
+
+# local tool state
+.claude/
+.omx/
+
+# editor
+.DS_Store
+.vscode/
+.idea/

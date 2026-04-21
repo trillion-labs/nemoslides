@@ -1,0 +1,451 @@
+[
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 OKR readout for the Nexus SaaS division, highlighting missed error-rate targets and the new Q4 mitigation plan.",
+    "audience": "Engineering and product leadership",
+    "style_hints": "Direct, data-driven, objective",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "End-of-year all-hands for Solaris Financial, covering remote work policy updates and the 2024 benefits enrollment timeline.",
+    "audience": "All company employees",
+    "style_hints": "Reassuring, transparent, inclusive",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-marketing proposal between CloudTrails and Trekker Outdoor Gear to launch a joint GPS tracking application for hikers.",
+    "audience": "CloudTrails business development team",
+    "style_hints": "Persuasive, structured, professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Board briefing for Meridian Logistics on integrating autonomous trucking routes into their Midwest supply chain by 2026.",
+    "audience": "Board of directors",
+    "style_hints": "Strategic, high-level, cautious",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Quarterly revenue update for GreenLeaf Landscaping investors, focusing on seasonal churn and new commercial contract wins.",
+    "audience": "Angel investors and local VC partners",
+    "style_hints": "Factual, grounded, appreciative",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Q4 campaign brief for the 'Aura Glow' skincare line launch across digital and retail channels in North America.",
+    "audience": "Marketing and creative agency leads",
+    "style_hints": "Visionary yet detail-oriented",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "FY24 Sales Kickoff for Zeta CRM, outlining the new enterprise pricing tiers and territory realignment for the EMEA team.",
+    "audience": "EMEA sales representatives",
+    "style_hints": "Motivational, clear, actionable",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinServe Bank reduced client onboarding time by 40% using Onboard.io's automated KYC verification suite.",
+    "audience": "Prospective fintech clients",
+    "style_hints": "Success-oriented, professional, metric-heavy",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "2023 Annual Report summary for Horizon Realty Group, breaking down residential vs. commercial revenue and sustainability KPIs.",
+    "audience": "Shareholders and public investors",
+    "style_hints": "Formal, polished, authoritative",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Capital raise for Urban Roots Community Gardens to fund the construction of five new hydroponic greenhouses in District 9.",
+    "audience": "Local philanthropists and city council",
+    "style_hints": "Compassionate, practical, community-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Briefing on the proposed Data Privacy Act amendments for the State Senate Judiciary Committee.",
+    "audience": "State senators and legal aides",
+    "style_hints": "Neutral, analytical, policy-focused",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Recruiting presentation for Velocity Consulting's associate program, emphasizing the career development framework and mentorship structure.",
+    "audience": "MBA campus recruits",
+    "style_hints": "Engaging, aspirational, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Cross-functional status report for Project Comet, the new inventory management system, detailing API integration milestones and test coverage.",
+    "audience": "Project stakeholders across IT and operations",
+    "style_hints": "Technical but accessible, status-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Seed round pitch for NutriSync, a B2B SaaS platform automating dietary compliance for hospital cafeterias.",
+    "audience": "Healthcare-focused venture capitalists",
+    "style_hints": "Problem-solution oriented, confident",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An overview of zero-trust network architecture and its implementation steps for legacy enterprise environments.",
+    "audience": "IT infrastructure managers",
+    "style_hints": "Educational, logical, clear",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "A corporate benefits session explaining the new 401(k) match policy and Roth IRA conversion options for mid-career employees.",
+    "audience": "Employees aged 35-50",
+    "style_hints": "Informative, reassuring, straightforward",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "A lunch-and-learn on implementing the 'Getting Things Done' methodology for corporate email and meeting overload.",
+    "audience": "Corporate office workers",
+    "style_hints": "Practical, encouraging, structured",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Quarterly update to the City Council on the Riverfront Revitalization Initiative, covering zoning approvals and Phase 1 park construction.",
+    "audience": "City council members and local residents",
+    "style_hints": "Informative, civic-minded, transparent",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "UI/UX design review for the Veridian Health patient portal, reviewing the new appointment scheduling flow and accessibility compliance.",
+    "audience": "Product and engineering leads",
+    "style_hints": "Constructive, user-centric, objective",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Welcome presentation for the newly acquired Beacon Analytics team, outlining integration timelines and cultural alignment.",
+    "audience": "Beacon Analytics employees and current parent company staff",
+    "style_hints": "Welcoming, informative, positive",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposal for Cirrus Airlines and AeroTech to co-develop an AI-driven predictive maintenance platform for regional jets.",
+    "audience": "Cirrus Airlines VP of Engineering",
+    "style_hints": "Forward-looking, technical-business hybrid",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q2 retention metrics review for the Apex Fitness app, focusing on churn reduction after the subscription price increase.",
+    "audience": "Executive leadership team",
+    "style_hints": "Analytical, candid, strategic",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Product marketing brief for the Overture 3.0 release, targeting enterprise orchestration buyers with a focus on cost-savings.",
+    "audience": "Sales and marketing departments",
+    "style_hints": "Value-driven, crisp, compelling",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic review of the proposed divestiture of Omega Corp's European textile manufacturing division.",
+    "audience": "Omega Corp Board of Directors",
+    "style_hints": "Serious, decisive, financial-heavy",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Launch deck for the 'Win Winter' sales push at Alpine Snowboards, detailing the new B2B retailer discount structure.",
+    "audience": "North American sales reps",
+    "style_hints": "Energetic, focused, goal-oriented",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "A case study on how Brickell Retail Group streamlined vendor management using supply-chain software LinkLog.",
+    "audience": "Retail operations directors",
+    "style_hints": "Professional, outcome-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Mid-year investor letter presentation for Blue Harbor Seafood, covering supply chain disruptions and direct-to-consumer growth.",
+    "audience": "Private equity backers",
+    "style_hints": "Forthright, resilient, grounded",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Visual summary of the 2024 Global Impact Report for Pinnacle Education Foundation.",
+    "audience": "Donors and global partners",
+    "style_hints": "Inspiring, accountable, clean",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Funding pitch for 'Code Tomorrow' to expand after-school coding programs to 15 new Title I schools in the district.",
+    "audience": "Corporate social responsibility officers",
+    "style_hints": "Urgent, logical, community-benefit driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Briefing for the Department of Transportation on infrastructure resilience metrics for coastal highways.",
+    "audience": "DOT policy analysts and undersecretaries",
+    "style_hints": "Formal, empirical, objective",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Employer branding deck for Apex Manufacturing, highlighting shift to advanced robotics and upskilling opportunities for technicians.",
+    "audience": "Trade school graduates",
+    "style_hints": "Forward-thinking, stable, skills-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Series A pitch for PetroVault, a compliance management platform for mid-market oil and gas operators.",
+    "audience": "Energy tech investors",
+    "style_hints": "Domain-expert, confident, structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "An architectural overview of event-driven microservices for processing high-frequency trading data.",
+    "audience": "Senior software engineers",
+    "style_hints": "Technical, precise, pattern-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "H1 compliance update for the legal department, tracking new SEC regulations and internal audit findings.",
+    "audience": "General counsel and legal team",
+    "style_hints": "Meticulous, risk-aware, procedural",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "A primer on equity compensation, vesting schedules, and ISO vs. NSO tax implications for startup employees.",
+    "audience": "Startup employees receiving stock options",
+    "style_hints": "Educational, clear, objective",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Diversity, Equity, and Inclusion progress report for Q3, highlighting employee resource group initiatives and hiring pipeline metrics.",
+    "audience": "Global workforce",
+    "style_hints": "Inclusive, reflective, forward-looking",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Joint venture proposal between DataVault and CyberShield to offer a combined secure cloud storage and threat intelligence bundle.",
+    "audience": "DataVault strategic partnerships team",
+    "style_hints": "Synergistic, practical, cooperative",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architecture review for the new campus recreation center, focusing on sustainable materials and ADA compliance.",
+    "audience": "University facilities committee",
+    "style_hints": "Professional, structural, eco-conscious",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "A webinar on asynchronous communication best practices for globally distributed corporate teams.",
+    "audience": "Remote managers and team leads",
+    "style_hints": "Instructive, empathetic, systematic",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Metro Logistics cut last-mile delivery costs by 22% using RouteMaster AI's dynamic routing engine.",
+    "audience": "Supply chain directors",
+    "style_hints": "Efficiency-focused, factual, persuasive",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Progress report on the Downtown Library modernization, covering fundraising milestones and the digital archive rollout.",
+    "audience": "Library board and community donors",
+    "style_hints": "Appreciative, organized, civic",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "End-of-quarter security posture review for the IT department, detailing phishing simulation results and zero-day patch compliance.",
+    "audience": "CISO and IT security staff",
+    "style_hints": "Vigilant, precise, action-oriented",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  }
+]

@@ -1,0 +1,656 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Asynchro: The End of the Standup' - A manifesto-style pitch declaring real-time meetings obsolete, advocating for an async video tool.",
+    "audience": "VC investors",
+    "style_hints": "aggressive, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "The Standup is Dead",
+      "Time is Money (We Waste It)",
+      "Interruption Kills Flow",
+      "Asynchro: Async Video Updates",
+      "Watch When You Want",
+      "Reply When You're Ready",
+      "The End of 'Does Anyone Have Anything Else?'",
+      "Join the Async Revolution",
+      "The Ask: $5M for Flow"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'Stop Using Microservices' lightning talk. A bold-opinion essay arguing for modular monoliths over distributed complexity.",
+    "audience": "Backend engineers",
+    "style_hints": "punchy, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "'Nova Phone: Screen Zero' closing manifesto. A one-idea-per-slide closer about reclaiming attention from screens via a voice-first device.",
+    "audience": "Tech press and consumers",
+    "style_hints": "minimalist, theatrical",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Your Screen Stole Your Day",
+      "Average 8 Hours Looking Down",
+      "What If You Looked Up?",
+      "Introducing Nova Phone",
+      "No Screen. Just Voice.",
+      "Ambient Intelligence Only.",
+      "Reclaim Your Eyes.",
+      "Nova. Be Present."
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "'Moore's Law is Over. Now What?' A bold-opinion short talk on the end of scaling and the rise of specialized silicon.",
+    "audience": "CS graduate students",
+    "style_hints": "declarative, urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "'One Metric: Net Dollar Retention' rally cry. A minimalist Q3 update focusing entirely on NDR as the sole driver of the business.",
+    "audience": "Company employees",
+    "style_hints": "severe minimalism, singular focus",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Q3 Review",
+      "We Track 42 Metrics.",
+      "Only 1 Matters.",
+      "Net Dollar Retention.",
+      "Current NDR: 115%",
+      "If NDR Hits 120%, We Win.",
+      "Product Impact on NDR",
+      "Sales Impact on NDR",
+      "Focus on NDR."
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "'Write Less Code' philosophy. A short ignition talk on simplicity and the developer imperative to avoid over-engineering.",
+    "audience": "Junior developers",
+    "style_hints": "punchy, confrontational",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "'SPAs are Overkill' essay. A declarative talk pushing back against Single Page Applications for majority web projects.",
+    "audience": "Frontend developers",
+    "style_hints": "provocative, direct",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "You Don't Need React.",
+      "Your Site Is Static.",
+      "JavaScript Bloat.",
+      "Server-Rendered Is Back.",
+      "MPA > SPA",
+      "Think Before You npm install.",
+      "Ship HTML."
+    ]
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "'Profit Over Growth' manifesto. A quarterly update to local bakery chain investors demanding an end to discounting and a focus on margins.",
+    "audience": "Angel investors",
+    "style_hints": "uncompromising, bold",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "'One Market: Medical Clinics' strategy. A minimal briefing insisting on abandoning horizontal SaaS for a single vertical.",
+    "audience": "Board of directors",
+    "style_hints": "declarative, focused",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "We Serve Everyone.",
+      "We Serve No One Well.",
+      "Horizontal SaaS is a Trap.",
+      "The Pivot.",
+      "Medical Clinics Only.",
+      "We Build for One.",
+      "Total Focus.",
+      "Approve the Vertical Focus."
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "'We Are Not a Family' closer. A transparent, one-idea-per-slide talk defining the company as a team of professionals, not a family.",
+    "audience": "Entire company",
+    "style_hints": "honest, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "'Say One Thing' manifesto. A brief for the Oakhill App launch demanding extreme focus in messaging and the death of feature lists.",
+    "audience": "Marketing department",
+    "style_hints": "minimalist, didactic",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "We Have 50 Features.",
+      "Nobody Cares About 50 Features.",
+      "They Care About 1.",
+      "What is Our One Thing?",
+      "Oakhill = Instant Booking.",
+      "Not Cheap. Not Social. Instant.",
+      "Say One Thing.",
+      "Oakhill: Book Now."
+    ]
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "'Sell the Problem' closing keynote. An ignition-style talk urging the sales team to stop pitching features and start diagnosing pain.",
+    "audience": "Sales team",
+    "style_hints": "high-impact, motivational",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "'Zero Churn at Apex Data' lightning talk. A bold case study on how saying 'no' to bad-fit clients led to zero churn.",
+    "audience": "SaaS leaders",
+    "style_hints": "punchy, direct",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Apex Data Churn.",
+      "Industry Average: 12%.",
+      "Apex Churn: 0%.",
+      "How?",
+      "We Fired 20% of Our Customers.",
+      "Bad Fits = High Churn.",
+      "Say No.",
+      "Zero Churn."
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "'Merge or Die: A Call to Vitalize Health' bold proposal. A dramatic proposal for two struggling health-tech startups to merge for survival.",
+    "audience": "Vitalize Health shareholders",
+    "style_hints": "urgent, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "'Year of Resilience' summary. A punchy, oversized-type visualization of Athlos Gear's survival and turnaround in 2023.",
+    "audience": "Shareholders",
+    "style_hints": "monumental, minimal",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Athlos 2023",
+      "Revenue Down.",
+      "Supply Chain Broken.",
+      "But We Survived.",
+      "Year of Resilience.",
+      "Inventory Optimized.",
+      "Debt Restructured.",
+      "Profitable Again."
+    ]
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "'Water is a Right' closing appeal. A single-idea manifesto to fund clean water infrastructure in the Rift Valley.",
+    "audience": "Philanthropic donors",
+    "style_hints": "emotional, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "'Ban the Box' manifesto. A bold policy briefing demanding the removal of criminal history questions from job applications.",
+    "audience": "City council members",
+    "style_hints": "declarative, urgent",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "10,000 Citizens Released Yearly.",
+      "They Need Jobs.",
+      "The Box Asks: 'Have You Been Convicted?'",
+      "Check the Box, Lose the Interview.",
+      "The Box Creates Unemployment.",
+      "Unemployment Creates Crime.",
+      "Ban the Box.",
+      "Give Us a Chance."
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "'Whitespace Wins' bold opinion. A lightning talk advocating for the radical removal of UI elements in the new app redesign.",
+    "audience": "Product and design team",
+    "style_hints": "punchy, minimalist",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "'Build the Future' manifesto. A short, punchy recruiting deck pitching the mission of TerraForm, a climate-tech startup.",
+    "audience": "Senior software engineers",
+    "style_hints": "inspirational, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Software is Eating the World.",
+      "The World is Burning.",
+      "We Need Chefs, Not Cooks.",
+      "TerraForm.",
+      "Reversing Climate Change.",
+      "With Code.",
+      "Ship or Burn.",
+      "Join Us."
+    ]
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "'Debt is Slavery' essay. A bold-opinion financial talk equating consumer debt to loss of freedom and autonomy.",
+    "audience": "Young professionals",
+    "style_hints": "confrontational, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "'Travel Light, Live Large' philosophy. A manifesto-style guide on one-bag travel using the Gossamer packing system.",
+    "audience": "Digital nomads",
+    "style_hints": "oversized type, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "You Pack Too Much.",
+      "50lb Suitcases.",
+      "Anxiety in a Bag.",
+      "The Gossamer System.",
+      "One Bag.",
+      "7 Days.",
+      "5 Pieces of Clothing.",
+      "Freedom of Movement.",
+      "Travel Light. Live Large."
+    ]
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "'Fire, Salt, Time' manifesto. A minimalist talk on stripping cooking back to its core elements and mastering heat.",
+    "audience": "Home cooks",
+    "style_hints": "primal, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "'Lift Heavy, Live Long' bold guide. An ignition talk advocating for heavy compound lifts over cardio for longevity.",
+    "audience": "Gym newcomers over 40",
+    "style_hints": "bold, instructional",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "You Are Losing Muscle.",
+      "Cardio Won't Save You.",
+      "Muscle is the Organ of Longevity.",
+      "Lift Heavy.",
+      "Squat. Press. Deadlift.",
+      "Bone Density.",
+      "Metabolic Health.",
+      "Lift Heavy, Live Long."
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "'The Fall of Rome' single-idea. A mini-lecture positing that Rome didn't fall; it outsourced its defense.",
+    "audience": "History enthusiasts",
+    "style_hints": "declarative, historical",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "'Lynch's Law: Embrace the Suck' essay. A discussion guide on David Lynch's philosophy of creativity through discomfort.",
+    "audience": "Book club members",
+    "style_hints": "punchy, philosophical",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "The Easy Path.",
+      "Comfort is the Enemy of Art.",
+      "David Lynch Knew.",
+      "Embrace the Suck.",
+      "The Darkness is the Canvas.",
+      "Don't Look Away.",
+      "Create Anyway."
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'Form Follows Emotion' closer. A large-type closing manifesto for the Bauhaus design exhibition at the Met.",
+    "audience": "Museum patrons",
+    "style_hints": "emotive, oversized type",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "'To Partnership, Not Perfection' toast. A best man's toast emphasizing the power of effort over fairy tales.",
+    "audience": "Wedding guests",
+    "style_hints": "heartfelt, minimal",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Fairytales are Lies.",
+      "Nobody is Perfect.",
+      "Perfection is Lonely.",
+      "Partnership.",
+      "Showing Up Every Day.",
+      "Choosing Each Other.",
+      "To Clara and Sam.",
+      "To Partnership."
+    ]
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "'The Power of Boredom' manifesto. A bold essay on why parents should stop overscheduling kids and let them be bored.",
+    "audience": "Parents of young children",
+    "style_hints": "declarative, reassuring",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "'The 100mm Lens Revolution' essay. A bold opinion piece on why switching to a single prime lens transforms photographic seeing.",
+    "audience": "Amateur photographers",
+    "style_hints": "punchy, didactic",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Your Zoom Lens is Making You Lazy.",
+      "Seeing is Harder Than Zooming.",
+      "The 100mm Constraint.",
+      "No Zoom. Just Feet.",
+      "Bokeh is Not Composition.",
+      "Subject Isolation.",
+      "The 100mm Revolution.",
+      "See First. Shoot Second."
+    ]
+  },
+  {
+    "domain": "local community project update",
+    "topic": "'Save the Library' rally cry. A high-impact update demanding municipal funding restoration for the Ridgewood Branch.",
+    "audience": "Town residents",
+    "style_hints": "urgent, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "'Read the Book' manifesto. A short, punchy slide deck for high schoolers on why actually reading the text matters over summaries.",
+    "audience": "High school students",
+    "style_hints": "confrontational, minimal",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "SparkNotes is Cheating.",
+      "You Miss the Art.",
+      "The Summary is Not the Story.",
+      "Read the Book.",
+      "The Pacing.",
+      "The Subtext.",
+      "The Voice.",
+      "Do the Work.",
+      "Read the Book."
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "'Untranslatable' lightning talk. A single-idea presentation on how specific foreign words reveal cultural blindspots.",
+    "audience": "Language learners",
+    "style_hints": "clever, punchy",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "'The Horror of Compliance' essay. An oversized-type essay on how modern sci-fi films reflect corporate conformity fears.",
+    "audience": "Film students",
+    "style_hints": "stark, analytical",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Alien (1979): The Company.",
+      "The Matrix: The Cubicle.",
+      "They Live: Obey.",
+      "Conformity is Survival.",
+      "Sci-Fi Shows the Uniform.",
+      "Compliance is Horror.",
+      "Wake Up."
+    ]
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "'Shoot More Threes' manifesto. A data-backed, single-idea talk on why local high school basketball must abandon mid-range shots.",
+    "audience": "High school basketball coaches",
+    "style_hints": "aggressive, data-declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "'Do It Badly' manifesto. A bold-opinion talk on overcoming perfectionism through deliberately low-quality first drafts.",
+    "audience": "Creative professionals",
+    "style_hints": "punchy, motivational",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Perfection is Paralysis.",
+      "You Are Stuck Because It Must Be Good.",
+      "The First Draft.",
+      "It Will Be Bad.",
+      "Give Yourself Permission to Suck.",
+      "Do It Badly.",
+      "Edit Later.",
+      "Do It Badly."
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Monochrome: Anti-social Media' pitch. A manifesto pitch for a social app with no likes, no comments, and no color dials.",
+    "audience": "Seed investors",
+    "style_hints": "minimalist, provocative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "problem-solution-ask",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'Ops is Dead' lightning talk. A declarative essay arguing that DevOps practices have become bloated and must be automated out of existence.",
+    "audience": "DevOps engineers",
+    "style_hints": "confrontational, high-impact",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "You Built a Moat.",
+      "Ops Becomes a Bottleneck.",
+      "Deploy Takes 4 Days.",
+      "The Princess and the Pea.",
+      "Infrastructure as Code is Not Enough.",
+      "Platform Engineering is the Answer.",
+      "Self-Serve or Die.",
+      "No More Ops.",
+      "Automate the Ops Away."
+    ]
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "'No Meetings Week' declaration. A single-idea announcement for an upcoming week of absolute meeting prohibition across the company.",
+    "audience": "Entire company",
+    "style_hints": "minimalist, authoritative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "'End Hunger Now' appeal. A bold closing keynote demanding immediate legislative action on food deserts in the state.",
+    "audience": "State legislators",
+    "style_hints": "urgent, monumental",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "40,000 Residents in Food Deserts.",
+      "No Groceries. No Choice.",
+      "They Are Hungry.",
+      "In Our Rich State.",
+      "Hunger is a Policy Choice.",
+      "We Choose Differently.",
+      "End Hunger Now.",
+      "Vote Yes on Bill 402."
+    ]
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "'Sleep is the New Caffeine' bold guide. A one-idea presentation asserting sleep is the ultimate performance enhancer for executives.",
+    "audience": "Overworked executives",
+    "style_hints": "declarative, provocative",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "'The Art of Saying No' manifesto. A high-impact talk on setting boundaries and protecting focus from distraction.",
+    "audience": "Freelancers",
+    "style_hints": "punchy, direct",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "You Say Yes Too Much.",
+      "Your Calendar is Full.",
+      "Your Work is Mediocre.",
+      "Because You Are Exhausted.",
+      "Say No.",
+      "No to Bad Clients.",
+      "No to 'Quick Calls'.",
+      "No to Scope Creep.",
+      "Protect the Work.",
+      "Say No."
+    ]
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "'Compound Interest is Magic' essay. A bold, declarative talk mathematically proving the reality of starting to invest at 25 vs 35.",
+    "audience": "College seniors",
+    "style_hints": "oversized type, mind-blowing",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 8
+  }
+]

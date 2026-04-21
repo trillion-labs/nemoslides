@@ -1,0 +1,857 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "Vex CLI: a terminal-first secrets manager that encrypts .env files and syncs them across developer machines via a zero-knowledge relay server, pitched at a weekend hackathon.",
+    "audience": "hackathon judges and fellow devs",
+    "style_hints": "snappy, demo-heavy, dev-insider jokes about .env leaks",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "problem-solution-ask layout"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: Vex CLI — Your .env Files Suck, Let's Fix That",
+      "Problem: screenshot of a GitHub repo leaking API keys, stats on secret sprawl",
+      "How it works: Vex encrypts locally, syncs via relay, zero-knowledge architecture",
+      "Live demo: `vex init → vex push → teammate: vex pull`",
+      "Comparison table: Vex vs dotenv-vault vs Doppler",
+      "Tech stack: Rust CLI + Go relay + libsodium encryption",
+      "Roadmap: team sharing, CI injection, audit logs",
+      "Ask: open-source contributors + grant funding"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Tokio internals: how Rust's async runtime schedules futures, manages the I/O driver, and handles cooperative yielding — a deep dive into the source code.",
+    "audience": "Rust developers and runtime engineers",
+    "style_hints": "code-walkthrough style, methodical, interspersed diagrams",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Neovim from scratch: attendees build a complete Lua config with lazy.nvim, LSP,treesitter, telescope, and a custom statusline over 90 minutes.",
+    "audience": "vim-curious developers",
+    "style_hints": "step-by-step, friendly, lots of copy-paste code",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Welcome & prerequisites: Neovim 0.10+, git, a C compiler",
+      "Scaffolding: init.lua, lazy.nvim bootstrap snippet",
+      "Plugin round 1 — colorscheme (catppuccin), nvim-tree, lualine",
+      "Plugin round 2 — telescope, which-key, trouble.nvim",
+      "LSP: mason.nvim → nvim-lspconfig → autocompletion with blink.cmp",
+      "Treesitter setup & fold settings",
+      "Formatters & linters with conform.nvim and lint.nvim",
+      "Custom keymaps leader guide",
+      "Statusline deep-dive: custom lualine sections",
+      "Tips: profiling startup, debugging plugins",
+      "Wrap-up & resources repo link"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Ghostty 1.0 launch: introducing a GPU-accelerated, cross-platform terminal emulator built in Zig with first-class ligature, image protocol, and theme support.",
+    "audience": "terminal power users and OS enthusiasts",
+    "style_hints": "theatrical reveal cadence, high-contrast screenshots",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "WebAssembly component model: explaining how Wasm components, WIT interfaces, and WASI Preview 2 enable portable, composable modules beyond the browser.",
+    "audience": "platform engineers and Wasm early adopters",
+    "style_hints": "conceptual but precise, uses analogy to POSIX",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams",
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title & speaker intro: why we need composability",
+      "Wasm 1.0 recap — modules are too low-level",
+      "The component model: lifting/lowering, canonical ABI",
+      "WIT IDL: defining interfaces with `world` and `interface`",
+      "WASI Preview 2: what changed from Preview 1",
+      "Demo: Rust component called from Python host",
+      "Registry & wkg: distributing components",
+      "Ecosystem snapshot: Fermyon Spin, jco, wasm-tools",
+      "Limitations & ongoing spec work",
+      "Call to action: try wasm-tools component-wit today"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Git dark arts: hands-on practice with bisect, reflog, cherry-pick, and interactive rebase to recover lost work and hunt down regressions.",
+    "audience": "mid-level developers comfy with basic Git",
+    "style_hints": "casual, meme-aware, 'don't panic' tone",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How DNS actually works: tracing a query from the browser stub resolver through recursive and authoritative nameservers, covering caching, TTL, and glue records.",
+    "audience": "backend devs who use DNS daily but never read RFC 1035",
+    "style_hints": "clear and layered, builds complexity slide by slide",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Title: DNS Is Not a Black Box",
+      "The question: what happens when you type `api.example.com`",
+      "Stub resolver → recursive resolver: first hop",
+      "Recursive resolver logic: cache check, root query",
+      "TLD & authoritative: walking down the delegation chain",
+      "Glue records & bailiwick: why `.com` can hand off `ns1.example.com`",
+      "TTL, negative caching, and stale-answers-while-refreshing",
+      "Real-world debugging with `dig +trace` and `kdig`",
+      "Takeaways & further reading list"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Kubernetes CNI compared: a benchmarking walkthrough of Calico, Cilium, and Flannel networking stacks on a 50-node cluster, with packet captures and latency data.",
+    "audience": "K8s platform and SRE teams",
+    "style_hints": "data-driven, opinionated, reuses terminal captures",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Relay.sh: an event-driven DevOps automation platform that wires GitHub, PagerDuty, and Slack actions together with minimal YAML, seeking seed funding.",
+    "audience": "seed-stage VC partners",
+    "style_hints": "sharp, problem-solution-ask, avoids jargon overload",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask layout",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Tmux power user: attendees learn sessions, panes, custom keybindings, the plugin manager TPM, and a reproducible `.tmux.conf` over 60 minutes.",
+    "audience": "terminal enthusiasts at a Linux meetup",
+    "style_hints": "energetic, shortcut-callout style, live-demo feel",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Why tmux still matters in 2024",
+      "Core concepts: server, session, window, pane",
+      "Preset config walkthrough (the `dracula` tmux theme, natch)",
+      "Custom prefix & keybinding table",
+      "TPM plugin ecosystem: resurrect, continuum, yank",
+      "Scripting tmux: `run-shell` hooks and `@plugin` options",
+      "Panes as a dev workflow: editor + tests + REPL",
+      "Copy-mode vi bindings and system clipboard integration",
+      "Resources: dotfiles repo & recommended plugins list"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Go generics in practice: walking through practical patterns from the Go standard library — type constraints, type sets, and when to stay generic vs concrete.",
+    "audience": "Go developers six months into generics",
+    "style_hints": "pragmatic, prefers working code over theory",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Zed editor 1.0: launching a multiplayer, GPU-rendered code editor written in Rust, with live collaboration, AI assist, and sub-4ms startup times.",
+    "audience": "early-adopter developers and editor enthusiasts",
+    "style_hints": "hype-building, visual contrast, 'speed is a feature' mantra",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Opening: a clean terminal, `zed .`, instant open",
+      "The problem: VS Code is 800ms to start; dev flow breaks",
+      "Architecture: Rust + GPUI custom renderer",
+      "Collaboration: live cursors, voice, follow mode",
+      "AI assist: inline edits, assistant panel, explained diffs",
+      "Performance benchmarks table: startup, scroll, LSP latency",
+      "Extension model: WASM-based extensions for safety",
+      "Pricing & open-core model",
+      "Roadmap: vim mode improvements, remote dev, debugger",
+      "Community demo reel",
+      "Download & getting started"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Writing a toy compiler: a 50-minute lecture walking from hand-written lexer to recursive-descent parser to tree-walk interpreter, using a small ML-like language called Minali.",
+    "audience": "CS undergrads in a compilers elective",
+    "style_hints": "pedagogical, incremental, code builds slide to slide",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Linux kernel module programming: live-coding a `/proc` device driver from scratch, covering init/exit, user-space buffering, and kernel debug logging.",
+    "audience": "systems-curious developers",
+    "style_hints": "live-code feel, warns about kernel panics humorously",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Docker Compose networking & volumes deep dive: multi-service dev stacks, bridge vs host networking, named volumes, and health checks for realistic local dev environments.",
+    "audience": "developers using docker-compose daily but cargo-culting configs",
+    "style_hints": "practical, opinionated, 'here's the RIGHT way'",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Common pain: 'it works on my machine' with compose",
+      "Anatomy of a solid compose.yaml: version, services, networks, volumes",
+      "Networking: default bridge, custom bridge, host mode, macvlan",
+      "Service DNS and inter-container communication",
+      "Named vs bind mounts: when to use which",
+      "Health checks: `healthcheck` directive and depends_on condition",
+      "Multi-env overrides: compose.override.yml and .env",
+      "Profiling: compose profiles for optional services like Mailpit",
+      "Debugging: `docker compose logs`, `docker compose exec`, network inspect",
+      "Reference compose.yaml they can steal"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Highlight.io Series A pitch: an open-source, full-stack error monitoring platform designed for developer self-serve, competing on developer experience vs Sentry.",
+    "audience": "Series A VC partners",
+    "style_hints": "confident, metric-forward, community-driven narrative",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "problem-solution-ask layout"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Reading EXPLAIN ANALYZE: a PostgreSQL deep dive into query plans, showing how to interpret sequential vs index scans, join strategies, and buffer statistics.",
+    "audience": "backend devs and DBAs tuning Postgres queries",
+    "style_hints": "methodical walkthrough, emphasizes reading not guessing",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Bash scripting patterns: error handling with `set -euo pipefail`, argument parsing with `getopt`, structured logging, and testing with bats-core.",
+    "audience": "DevOps engineers writing production shell scripts",
+    "style_hints": "practical, battle-scarred tone, 'I learned this the hard way'",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "CTF war stories: a retrospective on solving the Pwn Adventure 3 haunted-forest challenge, covering reverse-engineering the game binary, writing a C++ aimbot, and exploit delivery.",
+    "audience": "security researchers and CTF players",
+    "style_hints": "narrative, dramatic, concession to 'responsible fun' framing",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Intro: what is Pwn Adventure 3 — a CTF disguised as an MMO",
+      "Recon: mapping attack surfaces, the custom game protocol",
+      "Reverse engineering the client with Ghidra",
+      "Finding the vulnerability: a heap buffer overflow in spell prefab",
+      "Writing the aimbot: hooking `Update()` with a injected .so",
+      "Exploit delivery via weaponized in-game item names",
+      "Escalation: from the game process to the scoring server",
+      "Flag capture & scoreboard moment",
+      "Lessons: game hacking is systems hacking",
+      "Resources and next CTF events"
+    ]
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join Fly.io: a recruiting deck showcasing the edge-cloud engineering team's culture, on-call rotation, the `fly deploy` experience, and flight-mode remote work policy.",
+    "audience": "senior infrastructure engineers on the job market",
+    "style_hints": "informal, 'come build weird infrastructure' energy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "GraphQL N+1 resolver patterns: demonstrating how DataLoader, hand-written SQL, and the look-ahead technique each solve the N+1 problem with different trade-offs.",
+    "audience": "full-stack devs running GraphQL in production",
+    "style_hints": "pragmatic, trade-off focused, no GraphQL kool-aid",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Homelab architecture with Proxmox and Tailscale: building a self-hosted dev lab with VMs, LXC containers, and private networking, for secure remote access.",
+    "audience": "self-hosting hobbyists and remote workers",
+    "style_hints": "DIY ethos, practical, 'your homelab your rules'",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "SSH tunneling demystified: local and remote port forwarding, SOCKS proxy via DynamicForward, jump hosts with ProxyJump, and the security model of agent forwarding.",
+    "audience": "developers who `ssh` daily but fear `-R` flags",
+    "style_hints": "calm, diagram-first, reassures that tunnels are learnable",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The problem: 'I can't reach the staging DB from my laptop'",
+      "Local forwarding: `ssh -L` mechanics with ASCII diagram",
+      "Remote forwarding: `ssh -R` — when the server phones home",
+      "Dynamic forwarding: SOCKS5 via `ssh -D`",
+      "ProxyJump: the modern `-J` alternative to nested tunnels",
+      "Agent forwarding: convenience vs risk (we say: avoid it)",
+      "Autossh and config file `~/.ssh/config` patterns",
+      "Cheat-sheet slide with all flags"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zig for C programmers: how Zig provides memory safety without garbage collection, using comptime, err-sets, and explicit allocators as improvements over the C preprocessor.",
+    "audience": "C and embedded developers evaluating alternatives",
+    "style_hints": "comparative, respectful of C, shows Zig as evolution not revolution",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Dagger: CI/CD as code — a seed pitch for an open-source CI engine that replaces YAML pipelines with real code in Go, Python, or TypeScript running in containers.",
+    "audience": "developer-infra VC partners",
+    "style_hints": "polished, example-driven, 'pipelines are programs' refrain",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask layout",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "VS Code extension development workshop: attendees scaffold, develop, and package a real extension that adds a custom sidebar webview with LSP integration.",
+    "audience": "developers who want to extend their editor",
+    "style_hints": "hands-on, step-by-step, celebrates VS Code API quirks",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Redis data structures inside out: exploring skip lists (sorted sets), ziplists/quicklists (lists), intsets (small sets), and the hashtable implementation (keyspace).",
+    "audience": "developers who rely on Redis but wonder what's underneath",
+    "style_hints": "guts-and-bolts, surprised-delight tone at clever impls",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Why look inside? Latency mysteries start at data structures",
+      "Redis object header: `robj`, type, encoding, refcount",
+      "Strings: SDS header, pre-allocation strategy",
+      "Hash tables: two-table rehashing,渐进式 rehash",
+      "Lists: quicklist = list + ziplist hybrid",
+      "Sorted sets: skip list node layout, O(logN) ops",
+      "Small collections: intset and ziplist automatic promotion",
+      "Sets: hashtable vs intset vs listpack encoding decisions",
+      "Memory overhead comparison table across types",
+      "Practical: `OBJECT ENCODING` and `MEMORY USAGE` commands",
+      "Lessons: pick the right Redis type, memory adds up fast"
+    ]
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Radicle 1.0 launch: a peer-to-peer, decentralized code forge built on top of Git, offering issues, patches, and identity without a central host like GitHub.",
+    "audience": "open-source maintainers and decentralization advocates",
+    "style_hints": "mission-driven, community rallying, visual-first",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Writing eBPF programs with bpftrace and Cilium: tracing kernel syscalls, enforcing network policy, and Observing a microservice mesh without touching application code.",
+    "audience": "SRE and platform engineers running Linux fleets",
+    "style_hints": "hands-on, minimal theory, 'just trace it' ethos",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Migrating your Neovim config from Vimscript to Lua: a guided rewrite covering init.vim → init.lua, function mappings, autocmds, and plugin specs.",
+    "audience": "Neovim users stuck on legacy configs",
+    "style_hints": "encouraging, side-by-side before/after snippets",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Distributed tracing with OpenTelemetry: instrumenting a Go microservice chain, configuring trace propagation, and analyzing spans inside Jaeger and Grafana Tempo.",
+    "audience": "observability-minded backend developers",
+    "style_hints": "systematic, tool-agnostic principles then tool-specific demo",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The tracing promise: see across service boundaries",
+      "OpenTelemetry primer: traces, spans, context propagation",
+      "Bootstrapping OTel SDK in a Go service",
+      "Auto-instrumentation vs manual spans",
+      "Context propagation: W3C TraceContext across HTTP and gRPC",
+      "Sampling strategies: head-based vs tail-based",
+      "Exporter configuration: OTLP → Jaeger and Grafana Tempo",
+      "Reading a flame graph: finding the slow span",
+      "Metrics from spans: the exemplar link",
+      "Anti-patterns: span storms and unsampled tail latencies"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Infisical: open-source secrets management for developers — an end-to-end encrypted vault that injects secrets into local dev, CI, and Kubernetes via a CLI and operator.",
+    "audience": "developer-tools angel investors",
+    "style_hints": "community-first narrative, logo-heavy social proof",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask layout",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Kubernetes operators with Kubebuilder: scaffolding, defining CRDs, writing reconciliation loops, and running Envtest-based integration tests against a real API server.",
+    "audience": "K8s platform engineers building internal operators",
+    "style_hints": "structured, scaffolding-heavy, acknowledges boilerplate pain",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "SQLite file format deep dive: walking through page structures, B-tree node layouts, the write-ahead log, and how `PRAGMA journal_mode=WAL` changes concurrency.",
+    "audience": "embedded and mobile devs who ship SQLite everywhere",
+    "style_hints": "low-level, fascinated by elegant file format design",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "OAuth2 flows compared: authorization code with PKCE for SPAs, client credentials for service accounts, and device authorization for CLI tools — when to use each and common pitfalls.",
+    "audience": "backend devs integrating auth who find OAuth2 spec unreadable",
+    "style_hints": "clarity-obsessed, builds each flow step-by-step, anti-footgun focus",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Why OAuth2 feels hard: the spec is abstract",
+      "Core roles: resource owner, client, authorization server, resource server",
+      "Authorization code flow: the big one, step-by-step diagram",
+      "PKCE: why public clients MUST use it, code verifier + challenge",
+      "Client credentials: machine-to-machine, no user, no redirect",
+      "Device authorization: `docker login` flow, polling pattern",
+      "Comparison table: flow × client type × use-case",
+      "Pitfalls: redirect URI mismatch, token leakage in logs, refresh rotation",
+      "Checklist: which flow should you implement tonight"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building type-safe APIs with tRPC v11: end-to-end TypeScript RPC from Zod schemas, router composition, and React Query integration to sub-200ms cold starts.",
+    "audience": "TypeScript full-stack developers",
+    "style_hints": "fast-paced, assumes TS fluency, 'no more /api/types.ts'",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Dotfiles management with Chezmoi: templating configs across macOS and Linux machines, handling secrets with age encryption, and bootstrapping a fresh box with one command.",
+    "audience": "developers who manually copy configs between laptops",
+    "style_hints": "tidy, dotfile-obsessed, celebrates idempotent bootstraps",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "The dotfiles problem: drift, secrets, multiple machines",
+      "Why Chezmoi over GNU Stow/Bare Git: templating engine",
+      "Initial setup: `chezmoi init` and directory layout",
+      "Templates: conditional blocks for OS differences",
+      "Secrets with age: `chezmoi add --template --encrypt`",
+      "Scripts: run-once vs run-onchange for bootstrap",
+      "Managing conflict resolution and updates",
+      "One-command fresh-machine bootstrap demo"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Memory allocators compared: arena, slab, and mimalloc — examining allocation strategies, fragmentation behavior, thread-local caching, and benchmarking methodology with `malloc-count`.",
+    "audience": "performance engineers and game developers",
+    "style_hints": "deep-systems tone, benchmark-heavy, honest about trade-offs",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Mintlify Series A: AI-powered developer documentation platform that writes, updates, and auto-generates API reference docs from OpenAPI specs and source code.",
+    "audience": "B2B SaaS investors",
+    "style_hints": "polished, revenue-forward, shows beautiful doc sites",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask layout"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hobby tutorial",
+    "topic": "QMK firmware programming for a custom split keyboard: keymap layers, rotary encoder callbacks, OLED display code, and flashing via DFU.",
+    "audience": "mechanical keyboard builders and firmware hobbyists",
+    "style_hints": "maker-community tone, celebrates reaching 'it compiles' moment",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Buck2 vs Bazel: a build-systems shootout comparing hermeticity, remote execution, Rust-based rule evaluation vs Starlark, and migration cost for a monorepo with 2,000 targets.",
+    "audience": "monorepo owners evaluating build system switches",
+    "style_hints": "even-handed, data-tables-backed, acknowledges hype on both sides",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Why your build system matters at 2,000+ targets",
+      "Bazel 7 recap: bzlmod, remote execution, hermetic toolchains",
+      "Buck2 intro: Rust-native, no Starlark interpreter in hot path",
+      "Architecture comparison: Skyframe vs DICE incremental models",
+      "Rule authoring: Starlark (Bazel) vs Starlark-over-Rust (Buck2)",
+      "Cold-start benchmark results table: full build time",
+      "Incremental build benchmark: single file change propagation",
+      "Remote execution: Bazel RBE vs Buck2 RE API parity",
+      "Migration cost: effort, tooling, community libraries",
+      "Our verdict: context-dependent, here's the decision tree"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "REST vs gRPC vs GraphQL: an API design review for the Acme Payments platform, comparing latency envelope, schema evolution, and observability trade-offs for a high-throughput billing service.",
+    "audience": "engineering leads and architects at Acme",
+    "style_hints": "decision-framework style, opinionated tables, action at the end",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Reverse engineering a Game Boy ROM: walking through the disassembly of Pokémon Red using RGBDS, understanding banked memory, touchscreen input ports, and the script engine.",
+    "audience": "retro-computing enthusiasts and beginning reverse engineers",
+    "style_hints": "nostalgic, deeply technical, celebrates 8-bit constraints",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The terminal-native workflow: how to do email (mutt/neomutt), calendar (calcurse), note-taking (neorg), and task management (taskwarrior) entirely from the CLI for deep-focus devs.",
+    "audience": "developers seeking distraction-free tooling",
+    "style_hints": "philosophy-meets-practical, keyboard-centric evangelism",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "A brief history of Unix file permissions: from MULTICS access control to the 9-bit `rwx` model, `chmod`, ACLs, capabilities, and why `sudo` exists.",
+    "audience": "junior devs curious about why permissions look the way they do",
+    "style_hints": "storytelling, builds chronologically, connects past to present",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "MULTICS & the birth of access control rings",
+      "Unix simplification: owner / group / other × read / write / execute",
+      "Octal notation: why `chmod 755` is 'rwxr-xr-x'",
+      "The setuid bit: executable escalation, `passwd` as canonical example",
+      "ACLs: why POSIX.1e added finer-grained control",
+      "Capabilities: dropping root for least privilege (CAP_NET_RAW etc)",
+      "sudo: running-as-root vs running-as-user-with-elevated-rights",
+      "Modern twist: containers, namespaces, and rootless runtimes"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a CLI game with Rust: attendees write a terminal roguelike using the `ratatui` crate, handling input events, rendering a map, and managing game state over 2 hours.",
+    "audience": "Rust beginners who want a fun project",
+    "style_hints": "playful, game-dev-flavored, celebrates terminal aesthetics",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The architecture of Mithril: how this Starkware zero-knowledge prover compiles Cairo programs to AIR, runs a STARK prover, and outputs recursive SNARKs for Ethereum verification.",
+    "audience": "ZK-curious blockchain developers",
+    "style_hints": "conceptual-ladder style, builds from arithmetic circuits to full pipeline",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Hacker tropes on screen vs reality: a visual essay deconstructing the 'dark terminal with green text' cinematic cliché and mapping it to real tools (tmux, Neovim, Metasploit) that developers use.",
+    "audience": "dev-adjacent creatives and movie-nerd engineers",
+    "style_hints": "witty, screenshot-heavy, celebrates the gap between Hollywood and `/home`",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Profiling Node.js in production: using `--inspect`, 0x flamegraphs,clinic.js doctor, and continuous profiling with Pyroscope to bring p99 latency under 200ms at scale.",
+    "audience": "Node.jsplatform engineers",
+    "style_hints": "metrics-first, shares real outages, tool-specific",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "CS 106 Intro: What happens when you compile and run `hello.c`? Tracing from preprocessor, through the C compiler, assembler, and linker to a running process on Linux.",
+    "audience": "first-year CS students",
+    "style_hints": "approachable, builds one phase at a time, light analogies",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The mystery: you type `./hello` and 'Hello, world' — what happened?",
+      "Phase 1: preprocessor expands `#include <stdio.h>`",
+      "Phase 2: compiler translates C to assembly (x86-64) — show `objdump`",
+      "Phase 3: assembler turns `.s` → `.o` (machine code, relocations)",
+      "Phase 4: linker resolves `printf`, creates an ELF binary",
+      "Loading: the kernel maps the ELF, sets up the stack",
+      "The `main()` entry: `_start` → `__libc_start_main` → `main`",
+      "System call: `write(1, msg, len)` inside `printf`",
+      "File descriptors & the terminal: stdout connects to your tty",
+      "Summary: source → binary → process → syscall → screen"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "TempoDB: a developer-first time-series database built on object storage, with Pushdown queries and Grafana-native plugins, seeking pre-seed funding at a YC interview.",
+    "audience": "YC partners and dev-infra angels",
+    "style_hints": "one-big-idea clarity, founder-technical, demo-screenshot-driven",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "problem-solution-ask layout",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing a CLI from scratch with Go and Cobra: scaffolding the project, adding subcommands, flags, config via Viper, distribution with Goreleaser, and testing with golden files.",
+    "audience": "Go developers who want to ship their first CLI tool",
+    "style_hints": "project-oriented, practical, 'ship it on Saturday' energy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Garbage collection algorithms visualized: reference counting, mark-sweep, generational, and ZGC — with step-by-step heap animations showing live vs dead objects.",
+    "audience": "JVM and runtime developers",
+    "style_hints": "visual, almost-animatic, each GC gets a before/after heap diagram",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "mermaid diagrams",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Creating a GitHub Action in TypeScript: writing the action logic, packaging with `ncc`, running the CI workflow locally with `act`, and publishing to the marketplace.",
+    "audience": "dev workflow hackers who want to automate their own repos",
+    "style_hints": "hands-on, incremental, 'we just made an action!' payoff moments",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Protocol Buffers at scale: how Stripe's 5,000-proto monorepo manages breaking-change detection, backward compatibility rules, and automated API review with Buf.",
+    "audience": "platform engineers governing large proto surfaces",
+    "style_hints": "operational, governance-focused, invites discussion on lint rules",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "The proto proliferation problem at Stripe",
+      "Buf schema registry: global module graph",
+      "Breaking-change categories: wire vs JSON vs surface",
+      "Automated lint: `FIELD_NO_DEFAULT`, `PACKAGE_DIRECTORY_MATCH`",
+      "Breaking-change CI: `buf breaking` on every PR",
+      "Backward-compatibility rules: never remove a required field",
+      "API review: gating changes behind a `buf.yaml` check",
+      "Migration: from protoc multi-step to Buf single toolchain",
+      "Performance: buf build on 5000 protos in <10s",
+      "Open-sourcing our lint rule set and lessons learned"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The Joy of X11: how the X Window protocol's client-server model works, why it persists in Wayland-era Linux, and sending synthetic keystrokes via `xdotool` and Python's `xcffib`.",
+    "audience": "Linux desktop hackers and accessibility tool developers",
+    "style_hints": "affectionate, systems-explorer, references the X11 spec by section",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid diagrams"
+    ],
+    "n_slides_target": 10
+  }
+]

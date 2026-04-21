@@ -1,0 +1,490 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Migrating a 50-node Prometheus federation to VictoriaMetrics for long-term storage and cost reduction at ScaleGrid.",
+    "audience": "infrastructure engineers",
+    "style_hints": "calm, data-driven, pragmatic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a custom Terraform provider for the proprietary 'Aurora' internal cloud platform at Apex Tech.",
+    "audience": "platform engineers",
+    "style_hints": "practical, step-by-step, focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Deep dive into the QUIC protocol: understanding connection establishment and multiplexing in modern networks.",
+    "audience": "networking enthusiasts and developers",
+    "style_hints": "methodical, illustrative, clear",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of distributed consensus algorithms using TLA+ in the 'CryoDB' project.",
+    "audience": "distributed systems researchers",
+    "style_hints": "rigorous, analytical, scholarly",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 SRE review: incident response metrics, MTTR reduction, and on-call load balancing at StreamCore.",
+    "audience": "engineering managers and SRE leads",
+    "style_hints": "factual, metric-focused, direct",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing Glimt: a new open-source CLI tool for real-time debugging of gRPC streams in microservices.",
+    "audience": "cloud-native developers",
+    "style_hints": "polished, technical, assured",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinServe Co reduced p99 latency by 40% by implementing eBPF-based observability with Hubble.",
+    "audience": "prospective DevOps customers",
+    "style_hints": "narrative, evidence-based, professional",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Proposing a new event-driven architecture using NATS JetStream to decouple the payment processing pipeline at NordPay.",
+    "audience": "staff engineers and architects",
+    "style_hints": "systematic, objective, detailed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Joining the Rust systems engineering team: building FrostDB, a high-performance time-series database from scratch.",
+    "audience": "senior Rust developers",
+    "style_hints": "technical, compelling, forward-looking",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Setting up Cilium and Hubble for advanced network policies and observability in a multi-cluster Kubernetes environment.",
+    "audience": "Kubernetes administrators",
+    "style_hints": "guided, hands-on, thorough",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Memory management and custom allocators in Zig: optimizing for latency-critical embedded systems.",
+    "audience": "systems programmers",
+    "style_hints": "deep, technical, precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Demystifying io_uring: how the modern Linux asynchronous I/O subsystem outperforms traditional epoll.",
+    "audience": "backend software engineers",
+    "style_hints": "analytical, clear, instructive",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Integrating FrostVault secrets management into the PipeForge CI/CD platform for seamless zero-trust deployments.",
+    "audience": "partner integration engineers",
+    "style_hints": "collaborative, structured, strategic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q4 Network Engineering update: transitioning backbone routing to BGP EVPN at IceNet Telecommunications.",
+    "audience": "network operations directors",
+    "style_hints": "high-level, factual, operational",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Selling PolyglotDeploy: positioning the enterprise GitOps platform to legacy enterprise infrastructure teams.",
+    "audience": "B2B infrastructure sales team",
+    "style_hints": "persuasive, value-driven, crisp",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Analyzing the performance implications of different garbage collection algorithms in high-concurrency Go applications.",
+    "audience": "programming language researchers",
+    "style_hints": "scholarly, empirical, objective",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Compiling Rust to WebAssembly for edge computing: a hands-on lab for writing fast Cloudflare Workers.",
+    "audience": "edge computing developers",
+    "style_hints": "interactive, practical, modern",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Launching IceStack: a new declarative infrastructure-as-code engine written in Rust with instant plan previews.",
+    "audience": "DevOps practitioners and CTOs",
+    "style_hints": "visionary, technical, sleek",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zero-downtime database schema migrations in Postgres: strategies using shadow databases and reversible migrations.",
+    "audience": "database administrators and backend devs",
+    "style_hints": "cautious, experienced, methodical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Adopting a service mesh: how HealthTech Inc secured their microservices and achieved HIPAA compliance with Linkerd.",
+    "audience": "security-conscious engineering leads",
+    "style_hints": "professional, assuring, structured",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architecture redesign: implementing a Envoy-based custom rate-limiting gateway for the 'Horizon' internal API layer.",
+    "audience": "senior backend engineers",
+    "style_hints": "detailed, critical, collaborative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "BGP routing explained: understanding how internet traffic flows and why network leaks happen.",
+    "audience": "junior network engineers and SREs",
+    "style_hints": "simplified, logical, cool-headed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Building the future of observability: joining the senior SRE team at OrbitStream to tame hyper-scale data pipelines.",
+    "audience": "senior site reliability engineers",
+    "style_hints": "challenging, rewarding, technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q1 Platform Engineering update: migrating from legacy EC2 to an internal developer platform based on Backstage.",
+    "audience": "director of engineering and product",
+    "style_hints": "reflective, progress-oriented, clear",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Profiling and optimizing slow Rust compilation times using cargo-flamegraph and alternative linkers.",
+    "audience": "Rust developers",
+    "style_hints": "investigative, methodical, hands-on",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Conflict-free Replicated Data Types (CRDTs) in distributed databases: theory and practical implementations in Rust.",
+    "audience": "distributed systems grad students",
+    "style_hints": "theoretical, deep, precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Securing the software supply chain: implementing Sigstore and SLSA Level 3 in a large-scale CI/CD pipeline.",
+    "audience": "security engineers and DevOps leads",
+    "style_hints": "serious, actionable, modern",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Unveiling PolarDash: a unified observability platform correlating logs, metrics, and traces for the modern cloud.",
+    "audience": "CTOs and VP of Engineering",
+    "style_hints": "confident, polished, architectural",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How AutoDrive AI cut AWS compute costs by 40% using Karpenter and Graviton spot instances for ML workloads.",
+    "audience": "cloud architects and FinOps teams",
+    "style_hints": "factual, economical, smart",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "two-col comparison"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Phased migration of a monolithic Java order management system to Go-based microservices at LogiCore.",
+    "audience": "principal engineers and tech leads",
+    "style_hints": "strategic, pragmatic, cautious",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The nuances of TCP congestion control: comparing CUBIC, BBR, and QUIC loss detection mechanisms.",
+    "audience": "network engineers",
+    "style_hints": "technical, comparative, measured",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-developing a native Kubernetes operator for the 'FrostQueue' message broker with the CloudNative Inc team.",
+    "audience": "partner product managers",
+    "style_hints": "cooperative, visionary, structured",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a high-performance real-time dashboard using Go WebSockets and HTMX for infrastructure monitoring.",
+    "audience": "full-stack backend developers",
+    "style_hints": "practical, performant, clever",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "H2 Infrastructure Retrospective for ClusterNine: evaluating uptime, incident reports, and cloud spend.",
+    "audience": "executive leadership and SRE teams",
+    "style_hints": "objective, succinct, transparent",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building a custom Linux CPU scheduler for handling high-throughput, low-latency market data feeds in C++.",
+    "audience": "C++ systems developers",
+    "style_hints": "hardcore, meticulous, advanced",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Introducing Frostbite Trace: positioning our next-gen APM tool to the the enterprises burdened by legacy monitoring.",
+    "audience": "enterprise software sales reps",
+    "style_hints": "strategic, competitive, decisive",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Erasure coding vs. replication in distributed object storage: a mathematical analysis of latency and durability.",
+    "audience": "storage systems researchers",
+    "style_hints": "academic, logical, rigorous",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Scaling the streaming infrastructure: joining the the DevOps platform team at StreamLine Media to build the next-gen CDN.",
+    "audience": "mid-level DevOps engineers",
+    "style_hints": "ambitious, technical, dynamic",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "problem-solution-ask",
+      "KaTeX + mermaid"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing Rune: a statically typed, compiled configuration language designed for safe and scalable DevOps workflows.",
+    "audience": "DevOps tooling creators",
+    "style_hints": "innovative, authoritative, elegant",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Achieving SOC2 compliance through infrastructure-as-code and Open Policy Agent (OPA) at FinBridge bank.",
+    "audience": "security and compliance officers",
+    "style_hints": "reliable, procedural, principled",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Advanced Git rebasing and bisecting: tracking down the root cause of intermittent kernel panics in large repos.",
+    "audience": "experienced software developers",
+    "style_hints": "detective-like, analytical, skill-building",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Operating a highly available NATS JetStream cluster across multi-cloud environments at EdgeNet Systems.",
+    "audience": "cloud infrastructure engineers",
+    "style_hints": "calm, experienced, practical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX + mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  }
+]

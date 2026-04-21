@@ -1,0 +1,464 @@
+[
+  {
+    "domain": "product launch keynote",
+    "topic": "Aura by SoundCore — unveiling a next-generation noise-cancelling wireless headphone with spatial audio, designed for audiophiles who demand silence and clarity in equal measure.",
+    "audience": "tech press and consumer electronics buyers",
+    "style_hints": "dramatic pauses, hero imagery, one-word headlines",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Halo Smart Mirror — reveal of a wall-mounted smart mirror with ambient wellness lighting, skincare analysis, and a calendar glance, targeting the luxury bathroom market.",
+    "audience": "home design media and premium retailers",
+    "style_hints": "soft gradients, lifestyle photography, spacious layouts",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "'Driven by Design' — the fall campaign for Aethon Motors' electric sedan, positioning the car as a piece of moving sculpture rather than a vehicle.",
+    "audience": "Aethon marketing and agency creative team",
+    "style_hints": "cinematic, aspirational, restrained copy",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Lumière x Musée d'Orsay — a limited-edition fragrance collection inspired by five Impressionist paintings, launching during Paris Fashion Week.",
+    "audience": "Lumière brand managers and retail partners",
+    "style_hints": "art-forward, poetic captions, muted palettes",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "MERIDIAN flagship store redesign in Ginza — presenting the new interior concept built around light wells, natural stone, and a double-height atrium for the luxury accessories brand.",
+    "audience": "MERIDIAN executive leadership and retail ops",
+    "style_hints": "architectural renderings, material swatches, clean grids",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Prism App 4.0 UI overhaul — walking stakeholders through the simplified navigation, new type system, and reduced color palette for the photo-editing app's biggest redesign.",
+    "audience": "Prism product and engineering leads",
+    "style_hints": "side-by-side before/after, type specimen slides, generous whitespace",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Kei Living — a direct-to-consumer brand bringing Japanese minimalist home essentials (ceramics, linen, brushes) to Western households, seeking Series A funding.",
+    "audience": "VC partners focused on consumer brands",
+    "style_hints": "quiet confidence, product still-lifes, sparse text",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask",
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Somna — a premium sleep optimization system combining a resonance bed frame, smart blackout shade, and companion app, pitching to a health-tech angel syndicate.",
+    "audience": "angel investors in wellness and sleep tech",
+    "style_hints": "calming dusk tones, data-light, emphasis on experience",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Maison Elara FY2024 — a visual year-in-review for the Paris-based fashion house, covering creative direction changes, flagship openings, and revenue milestones.",
+    "audience": "Maison Elara board and global press",
+    "style_hints": "editorial layouts, full-bleed photography, restrained data",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Form x Equinox — proposing a co-branded wellness product line (resistance bands, mats, rollers) designed for Equinox's luxury gym floors and e-commerce.",
+    "audience": "Equinox VP of Product and merchandising team",
+    "style_hints": "bold type, prototype imagery, confident tone",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Aethon x Zaha Hadid Architects — a concept for a limited-run architectural edition of the Aethon GT coupe, featuring parametric interior surfaces and a sculptural dashboard.",
+    "audience": "Aethon brand director and ZHA partner",
+    "style_hints": "futuristic minimalism, rendered visuals, aspirational",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Hôtel Solstice Q3 update — covering occupancy rates, new Riviera property opening, and the brand's expansion into branded residential units for the boutique hotel chain.",
+    "audience": "private equity backers and hotel investors",
+    "style_hints": "warm photography, clean metrics, unhurried pacing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Dieter Rams: Design Legacy — a retrospective examining ten of Braun's most iconic product designs and their lasting influence on contemporary consumer electronics.",
+    "audience": "design school students and professionals",
+    "style_hints": "museum-wall elegance, centered objects, minimal labels",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "'The Art of Restraint' — a keynote at Config SF on how to design calm, focused software interfaces by removing rather than adding.",
+    "audience": "product designers and design engineers",
+    "style_hints": "single aphorism per slide, stark contrast, deliberate rhythm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Capturing Lifestyle — a hands-on photography workshop teaching CPG marketers how to shoot product still-lifes that convey warmth, quality, and aspiration using only a phone.",
+    "audience": "brand marketers and social media leads",
+    "style_hints": "photo-heavy, step-by-step, warm and approachable",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "The Modernist Trust — raising funds to preserve five endangered Brutalist and mid-century buildings across the UK, with a goal of £2M for structural restoration.",
+    "audience": "philanthropic donors and cultural patrons",
+    "style_hints": "monochrome photography, bold typography, dignified urgency",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "2025 Aethon product lineup — the sales team's first look at the refreshed electric coupe, the new entry-level sedan, and updated pricing for the global market.",
+    "audience": "Aethon regional sales directors",
+    "style_hints": "punchy reveals, spec highlights, high-energy minimalism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Canopy Design Co. Q1 town hall — CEO address on the company's new 'Design with Less' initiative, recent hire milestones, and the opening of the Kyoto studio.",
+    "audience": "all Canopy employees worldwide",
+    "style_hints": "warm, personal, open whitespace for emphasis",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Maison Elara Asia expansion — a strategic proposal to open flagships in Seoul, Shanghai, and Mumbai over the next 36 months, with local partnership models.",
+    "audience": "Maison Elara board of directors",
+    "style_hints": "executive brevity, map visuals, decisive tone",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "The Art of Pour-Over — a concise guide to selecting beans, grinding, water temperature, and pouring technique for crafting a perfect single-origin cup at home.",
+    "audience": "coffee enthusiasts and home brewers",
+    "style_hints": "warm tones, step-by-step, sensory descriptions",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "7 Days in Kyoto — a curated luxury itinerary covering private temple visits, kaiseki dining, artisan workshops, and a stay at a redesigned machiya townhouse.",
+    "audience": "discerning travellers and luxury travel advisors",
+    "style_hints": "postcard imagery, day-by-day flow, poetic place names",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Plating as Poetry — a fine-dining cooking demonstration on composing a dish visually, covering negative space, colour contrast, and sauce techniques.",
+    "audience": "professional chefs and culinary students",
+    "style_hints": "gallery-style plates, close-up photography, quiet authority",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "The Solace Method — a 30-day mindful reset programme combining breathwork, slow resistance training, and journal prompts for high-performing professionals.",
+    "audience": "executive wellness programme coordinators",
+    "style_hints": "muted earth tones, spacious calendar views, calming rhythm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Discussing 'The Architecture of Happiness' by Alain de Botton — exploring how our surroundings shape our emotions and why beautiful design matters.",
+    "audience": "design-adjacent book club members",
+    "style_hints": "literary minimalism, key quote pulls, contemplative pace",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "The Simple Portfolio — a minimalist investing workshop for creatives, covering a three-fund strategy, fee awareness, and why complexity is the enemy of returns.",
+    "audience": "freelance designers and creative professionals",
+    "style_hints": "calm authority, decisive language, uncluttered charts",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Introduction to Design Thinking — a high-school lesson walking students through empathy mapping, ideation, and rapid prototyping to redesign the school cafeteria experience.",
+    "audience": "16–18 year old design students",
+    "style_hints": "friendly minimalism, visual prompts, clear steps",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "The One Thing Method — a keynote on identifying and protecting the single highest-leverage task each day, drawn from interviews with 200 creative directors.",
+    "audience": "creative agency leaders and founders",
+    "style_hints": "one idea per slide, declarative sentences, bold emphasis",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Wabi-Sabi: The Beauty of Imperfection — an illustrated explainer of the Japanese aesthetic philosophy, its roots in tea ceremony, and its relevance to modern product design.",
+    "audience": "design professionals and cultural enthusiasts",
+    "style_hints": "earthy textures, raku pottery images, meditative pacing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The Aesthetics of Clean Cinema — a visual essay on how directors like Celine Song and Chantal Akerman use stillness, symmetry, and silence as cinematic tools.",
+    "audience": "film students and cinephiles",
+    "style_hints": "frame stills, spare annotation, contemplative rhythm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "Aethon Athletics: Performance Meets Design — revealing the new carbon-plated racing shoe and the wind-tunnel data behind its sole geometry for sub-2:10 marathoners.",
+    "audience": "elite runners and running store buyers",
+    "style_hints": "technical meets elegant, data-light, hero shots",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Bauhaus Revolution — a 15-minute lecture tracing how the Bauhaus school's principles of form-follows-function reshaped architecture, furniture, and typography from 1919 to today.",
+    "audience": "museum visitors at a design exhibition",
+    "style_hints": "period photography, bold chronology, analytical clarity",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "The Mindful Nursery — a guide for expecting parents on designing a calm, non-overstimulating nursery using natural materials, muted palettes, and purposeful simplicity.",
+    "audience": "expecting parents attending a prenatal workshop",
+    "style_hints": "gentle warmth, soft imagery, reassuring tone",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Greenline Park Redesign — presenting the updated landscape plan, native planting palette, and community input summary for transforming a 5-acre urban lot into a serene public garden.",
+    "audience": "city council and neighbourhood residents",
+    "style_hints": "plan renderings, botanical illustrations, civic optimism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join Canopy — a recruiting deck for Canopy Design Co., showcasing studio culture, project diversity, and the creative freedom afforded to every hire.",
+    "audience": "senior product designers considering an offer",
+    "style_hints": "studio photography, direct voice, minimal fluff",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Walkable Cities: A Design-Forward Urban Plan — briefing city planning commissioners on pedestrian-priority zones, shared surfaces, and wayfinding design standards for the capital district.",
+    "audience": "city planning commissioners and urban policy staff",
+    "style_hints": "authoritative clarity, diagram-led, no ornament",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "Emma & James: A Story in Moments — a visual narrative of the couple's journey from a Tokyo meeting to a Tuscan wedding, told through key photographs and short vignettes.",
+    "audience": "wedding guests at the reception",
+    "style_hints": "intimate, photo-led, minimal text, timeline feel",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Psychology of Premium — presenting research on how consumers perceive value through material weight, packaging texture, and font choice in luxury branding experiments.",
+    "audience": "marketing faculty and consumer psychology researchers",
+    "style_hints": "rigorous but elegant, visual experiment stimuli, clean data",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Ceramic Engineering in Consumer Tech — explaining how zirconia ceramics are manufactured, finished, and used in luxury watch cases and smartphone backs, for an audience of materials engineers.",
+    "audience": "materials scientists and mechanical engineers",
+    "style_hints": "precise and composed, cross-section diagrams, process clarity",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Aethon Motors Q3 Review — an internal review covering delivery numbers, the new paint facility in Graz, customer satisfaction scores, and the upcoming roadster prototype timeline.",
+    "audience": "Aethon department heads and regional leads",
+    "style_hints": "crisp metrics, milestone highlights, executive cadence",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "The Glass House Project — how Studio Noa's award-winning hillside residence used Prism Displays throughout the home for ambient art, with architect and client testimonials.",
+    "audience": "architects and interior designers evaluating Prism",
+    "style_hints": "case study elegance, before/after, quote pulls",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Lumière Soleil — launch of a sheer SPF 50+ daily moisturizer in a weightless serum format, designed to be invisible under makeup and feel like nothing on the skin.",
+    "audience": "beauty editors and dermatologists",
+    "style_hints": "suncare reimagined, ingredient-forward, clean beauty language",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "fashion / beauty launch",
+    "topic": "MAISON ELARA Autumn/Winter 2025 — runway presentation of the new collection exploring draped wool, muted earth tones, and sculptural silhouettes for a post-minimalist wardrobe.",
+    "audience": "fashion buyers and press at Paris Fashion Week",
+    "style_hints": "lookbook minimalism, full-bleed garments, fabric close-ups",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 14
+  }
+]

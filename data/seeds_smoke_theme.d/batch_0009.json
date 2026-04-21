@@ -1,0 +1,68 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Tracing the epistolary networks of Roman provincial governors during the Crisis of the Third Century — how correspondence maintained imperial cohesion amid political fragmentation and rapid succession.",
+    "audience": "Classical studies graduate seminar",
+    "style_hints": "scholarly, evidentiary, archival-text-forward",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide: 'Letters of Loyalty — Epistolary Networks and Imperial Cohesion, 235–284 CE'",
+      "Historical context: the Crisis of the Third Century — succession instability, provincial secession, external threats",
+      "Sources and methodology: Pliny the Younger's letters as model, the Augustan correspondence archive, papyrological evidence",
+      "Network mapping: Mermaid diagram of governor-to-emperor and governor-to-governor letter routes across key provinces",
+      "Case study 1: Gaul and Britannia — Postumus' breakaway and the correspondence gap",
+      "Case study 2: Palmyra — Odaenathus and the diplomatic letter as substitute for military deployment",
+      "Quantifying fidelity: formulaic loyalty language in official dispatches (KaTeX table of frequency distributions)",
+      "The cursus publicus under stress — infrastructure of imperial communication and its breakdown",
+      "Argument synthesis: epistolary practice as a technology of governance, not merely record-keeping",
+      "Conclusions and open questions — toward a network-theoretic model of Roman imperial resilience"
+    ]
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The intellectual debts of the French Revolution's Declaration of the Rights of Man — tracing how Rousseau's general will, Locke's natural rights, and Montesquieu's separation of powers shaped its articles.",
+    "audience": "Undergraduate political philosophy students",
+    "style_hints": "erudite, reflective, narrative-driven",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A seminar discussion of Virginia Woolf's 'To the Lighthouse,' examining subjective time, stream of consciousness technique, and the structural parallel between the novel's three sections and Lily Briscoe's completing her painting.",
+    "audience": "University literature reading group",
+    "style_hints": "contemplative, analytical, literary",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: 'Finishing the Picture — Form, Time, and Vision in To the Lighthouse'",
+      "Woolf's biographical context: St Ives, Leslie Stephen, and the kernel of the novel",
+      "The Window: domestic time, perception and the 'little language' of consciousness",
+      "Time Passes: impersonal duration — decay, war, and the silence between",
+      "The Lighthouse: return, reconciliation, and Lily's 'vision' as artistic culmination",
+      "Discussion prompts: Is the novel a painting? Can fiction 'finish' what life leaves incomplete?",
+      "Further reading and closing image — Vanessa Bell's Studio at Charleston"
+    ]
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "How Homeric Greek oral-formulaic composition worked — demonstrating Milman Parry's thesis through repeated type-scenes and formulaic epithets from the Iliad, with close readings of key passages.",
+    "audience": "Introductory classics students",
+    "style_hints": "pedagogical, methodical, text-heavy with Greek passages",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  }
+]

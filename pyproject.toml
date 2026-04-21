@@ -1,0 +1,16 @@
+[project]
+name = "slides-sft"
+version = "0.0.1"
+description = "Nemotron-3-Nano-30B-A3B SFT on synthetic Slidev decks — NVIDIA Nemotron Hackathon 2026, Track B."
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.54.0",
+    "python-dotenv>=1.0.1",
+    "httpx>=0.27.0",
+    "tqdm>=4.66.0",
+    "datasets>=4.8.4",
+    "huggingface-hub>=1.11.0",
+]
+
+[tool.uv]
+package = false

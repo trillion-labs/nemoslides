@@ -1,0 +1,70 @@
+[
+  {
+    "domain": "product launch keynote",
+    "topic": "\"Aura One\" wireless earbuds launch event — ultra-premium, titanium-cased earbuds with spatial audio and 40-hour battery, targeting audiophiles and design-conscious consumers. The reveal follows a single-hero-product Apple-style narrative.",
+    "audience": "tech press and premium consumers",
+    "style_hints": "dramatic reveals, hero imagery, confident minimalism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — Introducing Aura One",
+      "The problem — Sound deserves better design",
+      "Titanium craftsmanship — design philosophy and materials",
+      "Spatial Audio reimagined — immersive sound architecture",
+      "40-hour battery — effortlessly all week",
+      "Seamless connectivity — one-tap pairing ecosystem",
+      "Aura app — your personal sound profile",
+      "Pricing and availability — three finishes",
+      "One more thing — Aura One Pro over-ear",
+      "Thank you — order now at aura.com"
+    ]
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Studio Forma's complete brand-identity redesign for Lumière Hotel — a luxury boutique property on Lake Como. Showcases the logo evolution, bespoke typeface, restrained colour palette, and environmental signage system rolled out across three properties.",
+    "audience": "hospitality executives and design community",
+    "style_hints": "editorial, refined, typographically bold",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "\"Velvet Season\" — the holiday 2025 campaign for Maison Éclat luxury fragrance. Centred on the limited-edition Velvet Oud scent and its cinematic 30-second hero film, the brief covers art direction, in-store experience, and social rollout strategy.",
+    "audience": "internal marketing and retail partners",
+    "style_hints": "luxurious, moody, aspirational",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — Velvet Season, Holiday 2025",
+      "The Velvet Oud story — inspiration and provenance",
+      "Fragrance architecture — notes and craftsmanship",
+      "Hero film — 30-second cinematic spot breakdown",
+      "Campaign visual language — colour, light, texture",
+      "Retail experience — in-store and counter displays",
+      "Digital and social rollout — platform strategy",
+      "Influencer and PR partnerships — key voices",
+      "Timeline — key milestones September through December",
+      "Investment overview and next steps"
+    ]
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "\"Meridian\" — a premium wellness retreat programme offering curated 7-day mindfulness and movement experiences at a restored clifftop estate in the Algarve. The deck introduces the philosophy, daily rhythm, practitioner roster, and booking tiers.",
+    "audience": "prospective high-net-worth wellness travellers",
+    "style_hints": "serene, aspirational, light-filled",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A conference paper walkthrough detailing 'NeuroVis: A Graph Neural Network Approach to Mapping Cortical Connectivity,' presenting the experimental results and methodology from the Stanford NeuroAI Lab on fMRI dataset reconstruction.",
+    "audience": "Neuroscience and machine learning researchers",
+    "style_hints": "Formal, rigorous, and results-driven",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Evaluating the efficacy of the 'Urban Green Spaces Initiative' in reducing heat island effects in Berlin, drawing on a 5-year longitudinal climatological study from the Humboldt University Environmental Policy Center.",
+    "audience": "City council members and urban planners",
+    "style_hints": "Authoritative, evidence-based, and formal",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A graduate-level lab module on building parsimonious Bayesian hierarchical models for ecological population forecasting, taught by Dr. Aris Thorne at the Max Planck Institute for Demography.",
+    "audience": "First-year ecology PhD students",
+    "style_hints": "Instructional, rigorous, and step-by-step",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A literature review synthesizing five seminal papers on fiscal multiplier effects in post-pandemic European economies, assessing variances in sovereign debt response trajectories across the Eurozone.",
+    "audience": "Macroeconomics faculty and graduate students",
+    "style_hints": "Scholarly, objective, and analytical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  }
+]

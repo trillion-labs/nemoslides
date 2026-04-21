@@ -1,0 +1,48 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "How the Vulpes team built an incremental compilation engine for the Onyx programming language, covering AST diffing, dependency-graph pruning, and bytecode patching strategies that cut recompilation times by 18×.",
+    "audience": "Compiler engineers and language implementers at LangConf",
+    "style_hints": "deep technical dive with annotated source walkthroughs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Post-mortem of a 47-minute production outage at Meridian Labs caused by a subtle race condition in their distributed lock manager, walking through the systematic debugging methodology that traced it to a fence-sync gap in the Raft log replicator.",
+    "audience": "Senior SREs and backend engineers",
+    "style_hints": "blow-by-blow incident timeline with terminal output dumps",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A practical walkthrough of how the Ghostthread red team chained SSRF vulnerabilities in Kubernetes admission controllers to pivot from a compromised pod to cluster-admin, paired with concrete hardening controls for each escalation step.",
+    "audience": "Security engineers and platform SREs",
+    "style_hints": "adversarial mindset, offensive-to-defensive flow",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Benchmarking arena vs. slab allocators in high-throughput Rust services: methodology, allocation-pressure models, and latency distributions measured across the Carpathia messaging platform's 2M req/s ingestion pipeline.",
+    "audience": "Systems researchers and performance engineers",
+    "style_hints": "data-driven, rigorous methodology with formal notation",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  }
+]

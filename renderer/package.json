@@ -1,0 +1,35 @@
+{
+  "name": "slides-sft-renderer",
+  "private": true,
+  "type": "module",
+  "description": "Canonical Slidev rendering environment — used for synthesis validation, baseline/finetuned eval, and the demo gallery. Bundles popular themes so arbitrary decks render without triggering the interactive theme-install prompt.",
+  "scripts": {
+    "render": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-seriph": "*",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-apple-basic": "*",
+    "slidev-theme-geist": "*",
+    "slidev-theme-academic": "*",
+    "slidev-theme-the-unnamed": "*",
+    "slidev-theme-nord": "*",
+    "slidev-theme-penguin": "*",
+    "slidev-theme-dracula": "*",
+    "slidev-theme-frankfurt": "*",
+    "slidev-theme-scholarly": "*",
+    "slidev-theme-takahashi": "*",
+    "@iconify-json/mdi": "*",
+    "@iconify-json/carbon": "*",
+    "@iconify-json/logos": "*",
+    "@iconify-json/tabler": "*",
+    "@iconify-json/ph": "*",
+    "@iconify-json/heroicons": "*",
+    "@iconify-json/twemoji": "*",
+    "@iconify-json/lucide": "*",
+    "@iconify-json/simple-icons": "*",
+    "playwright-chromium": "^1.47.0",
+    "vue": "^3.4.0"
+  }
+}

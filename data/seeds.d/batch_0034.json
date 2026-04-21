@@ -1,0 +1,502 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "Inside the Vycel compiler: how a new statically-typed functional language lowers to WebAssembly via an SSA intermediate representation called VexIR.",
+    "audience": "PL enthusiasts and compiler engineers",
+    "style_hints": "low-level walkthrough with IR dumps and register coloring",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Build a Tree-sitter grammar for the NxQL domain query language from scratch, covering lexical rules, precedence declarations, and external scanners.",
+    "audience": "tooling developers and language hackers",
+    "style_hints": "step-by-step live-coding tone, lots of annotated snippets",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How the Linux kernel verifies and safely executes eBPF programs before they run in kernel space — the verifier's check graph, bounded loops, and helper whitelisting.",
+    "audience": "systems-curious backend engineers",
+    "style_hints": "visual but Never fluffy; diagrams + syscall tables",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Post-mortem of the night we chased a 47-minute GC pause in the Fennel payments service: heap fragmentation, humongous allocation, and the ZGC rescue.",
+    "audience": "JVM performance engineers",
+    "style_hints": "war-story pacing, logs and flame graphs on screen",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of a lock-free Michael-Scott queue using TLA+, proving linearizability under an unbounded scheduler, and the model-checking wall we hit at depth 18.",
+    "audience": "formal-methods researchers and distributed-systems grad students",
+    "style_hints": "rigorous, notation-heavy, with proof sketches",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Write your first LLVM optimization pass on MRV, a minimal RISC-V backend: from TableGen definitions to a working if-conversion transform.",
+    "audience": "compiler newcomers with C++ experience",
+    "style_hints": "hands-on and incremental, show each build step",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Inside V8's Maglev JIT: how TurboFan's middle-tier compiler generates fast-tier code for hot JavaScript without the full optimization pipeline cost.",
+    "audience": "V8 contributors and JS runtime hackers",
+    "style_hints": "architecture-deep, unapologetically dense",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Why your PostgreSQL queries are slow: a visual tour of the query planner, index scan vs sequential scan decisions, and the cardinality estimator's blind spots.",
+    "audience": "backend developers with SQL anxiety",
+    "style_hints": "pragmatic and example-driven, EXPLAIN ANALYZE all over",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Breaking out of a misconfigured container: a practical red-team walk-through exploiting missing seccomp profiles, overly permissive capabilities, and a host-mounted docker.sock.",
+    "audience": "offensive security practitioners and DevOps defenders",
+    "style_hints": "adversarial storytelling, shell-by-shell escalation",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Hands-on fuzzing with LibAFL: instrument the Pixz image decoder, write a simple mutator, and triage the resulting crashes to find a real heap buffer overflow.",
+    "audience": "security researchers learning modern fuzzing",
+    "style_hints": "methodical lab-instruction tone, expected output shown",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architecture v2 of the Tigris event-sourcing engine: replacing Kafka Streams with a custom append-only log on top of FoundationDB and adding a tag-based projection index.",
+    "audience": "platform engineering team",
+    "style_hints": "opinionated technical debate, trade-offs on every slide",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Implementing Yjs's YATA algorithm step by step: how a CRDT for shared text editing resolves concurrent inserts without a central server.",
+    "audience": "collaborative-software engineers",
+    "style_hints": "algorithmic walkthrough, item graphs and vector clocks",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Side-channel attacks on AMD Zen 3: exploiting the hardware prefetcher to leak kernel memory across a logical core boundary, demonstrated in the PhantomDrift proof-of-concept.",
+    "audience": "hardware-security researchers and curious kernel devs",
+    "style_hints": "detail-obsessed, register-level, adversarial",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Memory allocation in the Kite runtime: replacing the system malloc with arena pools, size-class freelists, and a thread-local magazine allocator for sub-µs allocations.",
+    "audience": "runtime and systems engineers",
+    "style_hints": "systems-level, pointer-chasing, malloc-replacement energy",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Build a Redis module in C that implements a geospatial R-tree index for the Cantor mapping service: module boilerplate, custom type registration, and range-query commands.",
+    "audience": "Redis power users and C programmers",
+    "style_hints": "hands-on and gritty, no hand-holding",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Causal consistency in distributed systems: the Bolt protocol's fast-path reads, clock-skew tolerance bounds, and a formal proof of convergence under partition healing.",
+    "audience": "distributed-systems PhD students and database researchers",
+    "style_hints": "formal, proof-oriented, with definitions and invariants",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "How we cut p99 latency by 60% by rewriting the Obelisk connection pooler in Rust: async Pgwire, prepared-statement caching, and a fair-scheduling multiplexer.",
+    "audience": "database-adjacent backend engineers",
+    "style_hints": "war-story with metrics, before-and-after data",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join the Brimstone compiler team: build the next-generation type checker and constraint solver for a verified, capability-secure systems language.",
+    "audience": "senior PL and systems engineers evaluating job offers",
+    "style_hints": "technically aspirational, show real code from the repo",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 platform engineering review at Helium Labs: migrating 340 microservices to the Helios service mesh, certificate rotation outages, and the mTLS rollout scoreboard.",
+    "audience": "platform engineering leadership and SRE management",
+    "style_hints": "data-heavy status report, no fluff, metric-first",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Reverse-engineering the Draco binary file format: writing an open-source decoder in Zig for the proprietary 3D asset pipeline used by Sable Interactive's game engine.",
+    "audience": "reverse engineers and game-tools developers",
+    "style_hints": "hex-dump aesthetic, offset-by-offset dissection",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Implement a minimal WebSocket server from the RFC in Rust: frame parsing, masking, continuation handling, and a chat-room demo on tokio.",
+    "audience": "Rust learners comfortable with async",
+    "style_hints": "RFC-adjacent, incremental implementation steps",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "How Git stores your data: blobs, trees, commits, and the packfile format—why gc can reclaim space and what delta compression actually does to your objects.",
+    "audience": "developers who use Git daily but fear the internals",
+    "style_hints": "demystifying, object-graph centered",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Debugging a Heisenbug in the Prism distributed lock service: how a subtle Raft log truncation under disk-pressure caused split-brain that only reproduced at 3 AM.",
+    "audience": "distributed-systems operators and devs",
+    "style_hints": "detective-story pacing, log-line evidence",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Proposal: replacing Consul with Gossipore, a custom Gossip-based service discovery system for the Kepler cluster's 2,800-node deployment with sub-second convergence.",
+    "audience": "infrastructure architects writing the RFC",
+    "style_hints": "proposal-defense, comparison tables, honest cons",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Supply-chain attack vectors in npm: lessons from the Spectra incident where a typosquatted postinstall hook exfiltrated AWS credentials from 12,000 CI runners.",
+    "audience": "DevSecOps practitioners and open-source maintainers",
+    "style_hints": "forensic and urgent, with hard-won recommendations",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Write a VS Code extension for the Bicep infrastructure language: language-client protocol wiring, semantic token provider, and a custom diagnostic code action.",
+    "audience": "developer-experience engineers",
+    "style_hints": "worked-example flow, TypeScript throughout",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Abstract interpretation for static analysis: from the Galois connection framework to the concrete design of the Clouseau analyzer that catches null derefs in Kotlin without false positives.",
+    "audience": "static-analysis researchers and tool builders",
+    "style_hints": "theoretical foundation into practical tooling",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "TLS 1.3 handshake internals: the ClientHello extensions that matter, the 0-RTT replay trap, and why the KeyShare + SupportedVersions dance eliminates a full round trip.",
+    "audience": "network-security engineers and protocol implementers",
+    "style_hints": "byte-level protocol dissection, packet captures on screen",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The browser rendering pipeline: from HTML bytes to pixels on screen — parse, DOM, CSSOM, layout, paint, composite — and why transform skips layout.",
+    "audience": "front-end developers optimizing for 60 fps",
+    "style_hints": "pipeline-diagram driven, each stage with a gotcha",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Real-time collaborative editing in the Feldspar project: why we abandoned OT after two years and rewrote on Yjs CRDTs, including the undo-stack nightmare that followed.",
+    "audience": "collaboration-software engineers who have been burned by OT",
+    "style_hints": "battle-scarred and opinionated, with real migration metrics",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Profile and optimize a Go microservice with pprof and continuous flame graphs: identify a hot malloc path in the Callisto URL shortener and cut allocator pressure by 4×.",
+    "audience": "Go backend developers new to profiling",
+    "style_hints": "practical lab, instrument → observe → fix",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "eBPF for security: tracing syscalls in real time with the open-source Telum agent, writing tail-call programs for execve monitoring, and handling the overhead vs visibility trade-off.",
+    "audience": "defensive security engineers and kernel tooling devs",
+    "style_hints": "kernel-native, security-operator tone",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "SRE half-year review at Pinnacle Cloud: reducing MTTR from 4 hours to 18 minutes with the Nyx runbook-automation framework and on-call rotation redesign.",
+    "audience": "VP Engineering and cross-functional tech leadership",
+    "style_hints": "metrics-driven retrospective, incident timeline examples",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Escaping the sandbox: three novel Chrome V8 exploits from the Hydrogen CTF, mapped to Turbolizer sea-of-nodes graphs, and the hardening patches that closed each hole.",
+    "audience": "browser exploit developers and V8 hardening team",
+    "style_hints": "CTF write-up energy, graph-heavy, exploit-code onsite",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Implement consistent hashing with virtual nodes in Rust for the Zodiac cache layer: hash ring construction, rebalancing on node join/leave, and benchmarking uniformity.",
+    "audience": "distributed-systems developers building cache layers",
+    "style_hints": "algorithm-implementation lab, benchmark tables",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Verification of the Nimbus Byzantine consensus protocol using Alloy: modeling validators, quorum certificates, and discovering a liveness bug at slashing boundary condition.",
+    "audience": "protocol researchers and formal-methods grad students",
+    "style_hints": "formal modeling, predicate-heavy, counterexample-driven",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Exactly-once delivery without distributed transactions: how the Tundish message broker uses idempotent producers, offset deduplication, and a write-ahead commit log.",
+    "audience": "messaging-infrastructure engineers",
+    "style_hints": "mechanism-deep, honesty about edge-case costs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Why Rust's borrow checker works: a visual guide to ownership, moves, and lifetimes — showing the lifetime-contraction algorithm the compiler actually runs before acceptance.",
+    "audience": "Rust learners stuck on borrow-checker errors",
+    "style_hints": "pedagogical but systems-accurate, annotated error output",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Anatomy of a memory leak: hunting the growing old-generation heap in the Obsidian web server from shrimp-cli profiling dumps to a forgotten callback closure holding 2 GB of AST cache.",
+    "audience": "Node.js runtime engineers",
+    "style_hints": "debugging-detective, heap snapshots step by step",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Contributing to the Elixir compiler: adding a peephole optimization to the Doré intermediate representation that eliminates redundant map-put operations in pattern-match clauses.",
+    "audience": "Elixir developers ready for compiler contributions",
+    "style_hints": "guided-first-contribution tone, BEAM bytecode shown",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Rate-limiting algorithms compared: token bucket, leaky bucket, fixed window, sliding-log, and the Granular hybrid approach — with a live JMH benchmark matrix on real traffic shapes.",
+    "audience": "API platform engineers choosing a rate-limiter",
+    "style_hints": "comparative and benchmark-heavy, no hand-waving",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Proposal: migrating the Quasar analytics pipeline from nightly Spark batches to real-time streaming with Apache Flink, including exactly-once sink guarantees to the Iceberg catalog.",
+    "audience": "data-platform architects reviewing the RFC",
+    "style_hints": "architectural trade-off presentation, latency-cost matrix",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  }
+]

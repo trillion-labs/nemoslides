@@ -1,0 +1,444 @@
+[
+  {
+    "domain": "product launch keynote",
+    "topic": "Launch keynote for Aether, a minimalist smart-home speaker with seamless voice integration and sculpted aluminium housing.",
+    "audience": "consumer tech press and loyal brand followers",
+    "style_hints": "bold single-line headlines, whitespace-dominant, confident rhythm",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Feature reveal for Opal, a titanium smart ring that tracks sleep, stress, and steps with zero screen distraction.",
+    "audience": "health-tech enthusiasts and lifestyle media",
+    "style_hints": "oversized stat callouts, ultra-clean product imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Dusk premium e-bike debut keynote highlighting range, frame design, and urban-lifestyle positioning.",
+    "audience": "urban commuters and design-conscious cyclists",
+    "style_hints": "cinematic photo-forward slides, minimal text overlays",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Brand identity review for Kindred, a boutique hotel chain moving from rustic to refined-minimal visual language.",
+    "audience": "Kindred executive team and creative agency",
+    "style_hints": "side-by-side before/after, generous whitespace",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "UI redesign review for Sage meditation app, showcasing new onboarding flow and ambient visual system.",
+    "audience": "Sage product and design leadership",
+    "style_hints": "calm, spacious layouts; accent color restraint",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Watch-face collection design review for Meridian, presenting four seasonal complications with typography-first aesthetics.",
+    "audience": "Meridian hardware design team",
+    "style_hints": "centered showcase frames, type-driven emphasis",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Nomo minimalist travel booking app pitch: one-tap itinerary creation for premium leisure travellers.",
+    "audience": "seed-stage venture partners",
+    "style_hints": "crisp problem/solution, aspirational lifestyle imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Aura sleep wellness device pitch: bedside ambient light and sound cube that adapts to circadian rhythm.",
+    "audience": "Series A health-tech investors",
+    "style_hints": "calm confidence, breathing-room pacing, soft data callouts",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Tonic organic skincare subscription pitch: curated quarterly boxes with refillable glass vessels.",
+    "audience": "angel investors in beauty & sustainability",
+    "style_hints": "luxury-tone minimalism, product-forward frames",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Terranova outdoor apparel brand-refresh campaign: shifting from rugged expedition imagery to refined trail lifestyle.",
+    "audience": "Terranova global marketing team",
+    "style_hints": "bold宣言-style headlines, nature photography with white-border framing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Silhouette eyewear seasonal campaign brief for the 'Invisible Frame' launch emphasising weightlessness and style.",
+    "audience": "Silhouette creative directors and retail leads",
+    "style_hints": "whisper-quiet confidence, single focal image per slide",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Velour autumn fashion collection reveal brief: layered neutrals, cashmere-centric, editorial-style lookbook rollout.",
+    "audience": "Velour brand team and fashion editors",
+    "style_hints": "editorial minimalism, lookbook grid choice",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Color Field exhibition retrospective at Pinakothek Berlin: revisiting Rothko-era emotional colour throughout minimal glazes.",
+    "audience": "gallery patrons and art-history enthusiasts",
+    "style_hints": "gallery-wall whitespace, centered artwork, muted captions",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Isamu Noguchi sculptural design retrospective: tracing lamps, playgrounds, and stone from modernist Japan to American museums.",
+    "audience": "design students and museum members",
+    "style_hints": "zen-like pacing, sculptural photography, sparse text",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Clarity Method productivity framework reveal: three attention-anchor practices for deep-work revival.",
+    "audience": "knowledge workers at a corporate wellness summit",
+    "style_hints": "one-idea-per-slide, confident assertion, no clutter",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Align premium yoga programme overview: eight-week guided flow series with breath-first methodology and minimalist branding.",
+    "audience": "studio members and wellness influencer partners",
+    "style_hints": "serene spaciousness, lean typography, gentle sequence",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Centered corporate wellness programme pitch to enterprise HR leads: on-site meditation pods and weekly reset sessions.",
+    "audience": "enterprise HR and wellbeing directors",
+    "style_hints": "calm authority, single benefit per slide, airy spacing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Omakase premium dining experience workshop: guiding home cooks through a five-course seasonal Japanese menu.",
+    "audience": "serious home cooks and food enthusiasts",
+    "style_hints": "elegant course-by-course reveal, ingredient photography, restrained text",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "Single-origin coffee tasting workshop at Kinoko Café: flavour notes, brewing ratios, and origin stories.",
+    "audience": "coffee aficionados and lifestyle customers",
+    "style_hints": "warm minimal, tasting-card layout, single image hero",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "Luxury Kyoto autumn itinerary: temple stays, kaiseki bookings, and moss-garden morning walks.",
+    "audience": "high-end travel planners and solo luxury travellers",
+    "style_hints": "poetic brevity, destination photography, sparse timeline",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "Solstice wellness brand 2024 annual report: revenue milestones, community growth, and new studio openings.",
+    "audience": "Solstice board and investor community",
+    "style_hints": "clean stat hero slides, whitespace-prioritized charts",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How Maison Noir winery grew direct-to-consumer sales 180% using the Cuvée commerce platform.",
+    "audience": "prospective Cuvée platform clients",
+    "style_hints": "story-forward minimalism, result stat centred, narrative flow",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Helix premium fitness equipment 2025 sales kickoff: new catalog, revised margin structure, and showroom refresh.",
+    "audience": "Helix national sales team",
+    "style_hints": "bold rallying headlines, product spotlight slides, minimal data overlay",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Strategic partnership proposal between Atelier home-goods and Kin lifestyle platform for an exclusive co-branded capsule.",
+    "audience": "Atelier and Kin executive leadership",
+    "style_hints": "refined pitch cadence, brand-side-by-side, aspirational visuals",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Prism Design Studio 2025 vision all-hands: new studios in Lisbon and Seoul, creative-direction shift to tactile minimalism.",
+    "audience": "Prism global team",
+    "style_hints": "clean rallying headlines, city imagery with ample white margin",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Canvas art therapy for veterans gala pitch: funding mobile studio kits and veteran-led exhibition tours.",
+    "audience": "philanthropic donors and civic leaders",
+    "style_hints": "dignified minimalism, story-first, restrained emotion",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Ellipse fashion brand board strategy briefing: pivoting from fast-fashion to premium capsule collections.",
+    "audience": "Ellipse board of directors",
+    "style_hints": "quiet authority, strategic stat slides, minimal embellishment",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Bloom artisanal bakery investor update: new wholesale contracts, margin improvement, and second-location roadmap.",
+    "audience": "Bloom angel and seed investors",
+    "style_hints": "warm minimalism, metric-forward, clean fiscal table",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Verve lifestyle magazine Q4 review: subscriber growth, editorial redesign launch, and advertiser renewals.",
+    "audience": "Verve leadership and editorial board",
+    "style_hints": "editorial polish, stat-led slides, breathing whitespace",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Onyx Design creative studio recruiting pitch: roles in spatial design, motion, and brand architecture.",
+    "audience": "senior creative professionals exploring opportunities",
+    "style_hints": "studio-cool minimalism, role spotlight frames, culture imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Bauhaus design principles lesson: form follows function, Gesamtkunstwerk, and the legacy of simplified craft.",
+    "audience": "undergraduate design-history students",
+    "style_hints": "pedagogical clarity, archetype imagery, single-concept slides",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Japanese aesthetic principles explainer: wabi-sabi, ma, and Shibui as design lenses for Western creatives.",
+    "audience": "Western design professionals and curious creatives",
+    "style_hints": "meditative whitespace, translated terms centered, nature photography",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "History of minimalist graphic design: from Swiss typography to modern brand identities traced in ten milestones.",
+    "audience": "design-appreciation adult-education class",
+    "style_hints": "chronological clarity, milestone-marked slides, generous white margin",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Discussion guide for The Life-Changing Magic of Tidying Up: konmari categories, emotional prompts, and visual order.",
+    "audience": "lifestyle book club members",
+    "style_hints": "light, airy framing; prompt-per-slide; soothing tone",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Visual design analysis of Blade Runner 2049: colour palettes, spatial framing, and dystopian minimalism.",
+    "audience": "cinephiles and design-minded viewers",
+    "style_hints": "cinematic stills centre-stage, caption-style analysis, muted palette",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Minimalist photography composition tutorial: negative-space mastery, single-subject focus, and tonal restraint.",
+    "audience": "intermediate photographers seeking aesthetic refinement",
+    "style_hints": "example-photo per slide, rule stated in one line, wide margins",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Beginner pottery wheel workshop guide: centering, pulling walls, and trimming for clean simple forms.",
+    "audience": "first-time pottery students at community studio",
+    "style_hints": "step-by-step calm, craft photography, whitespace breathing",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "James and Elara wedding celebration slideshow: timeline vignettes from first meeting to coastal ceremony.",
+    "audience": "wedding guests and family",
+    "style_hints": "romantic minimalism, photo-led, single sentence captions",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Greenway urban park redesign community update: native planting plan, walkway layout, and volunteer schedule.",
+    "audience": "neighbourhood residents and city planners",
+    "style_hints": "civic clarity, plan-visual forward, restrained nature palettes",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Keynote on human-centered AI at DesignForward 2025: designing invisible intelligence into everyday objects.",
+    "audience": "design-tech conference attendees",
+    "style_hints": "keynote confidence, single-thesis slides, example product imagery",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Typography-first branding mini-workshop: choosing weight, spacing, and pairing for premium identity systems.",
+    "audience": "junior designers and brand strategists",
+    "style_hints": "type-sample showcase, one principle per slide, crisp authority",
+    "theme_hint": "apple-basic",
+    "feature_hints": [],
+    "n_slides_target": 7
+  }
+]

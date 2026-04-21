@@ -1,0 +1,430 @@
+[
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Stoic philosophy and its influence on Roman imperial governance, tracing Seneca, Epictetus, and Marcus Aurelius through primary source analysis",
+    "audience": "upper-level classics undergraduates",
+    "style_hints": "measured, text-rich, citation-heavy",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Peloponnesian War's impact on Athenian civic identity, focusing on the Melian Dialogue and Thucydides' realist framing",
+    "audience": "community continuing-education learners",
+    "style_hints": "narrative-driven, reflective pacing",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Dostoevsky's Crime and Punishment and the moral psychology of guilt, structured around Raskolnikov's three confession scenes",
+    "audience": "university-affiliated reading group",
+    "style_hints": "Socratic, passage-centered",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Athenian direct democracy versus modern republican systems: comparative institutional analysis of ecclesia and parliamentary procedure",
+    "audience": "political theory graduate seminar",
+    "style_hints": "analytical, institutionally grounded",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Introduction to reading Latin inscriptions from the Roman province of Britannia, using the RIB corpus as a primary dataset",
+    "audience": "early-career archaeologists and classicists",
+    "style_hints": "methodical, hands-on, encouraging",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Byzantine iconography and the theology of the image: a visual survey of mosaic programs at Hagia Sophia, San Vitale, and Hosios Loukas",
+    "audience": "art history survey students",
+    "style_hints": "visually immersive, reverent",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The Enlightenment philosophes and the Encyclopédie: how Diderot and d'Alembert organized knowledge for a revolutionary age",
+    "audience": "AP European History high-school students",
+    "style_hints": "clear, engaging, structured for note-taking",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Medieval manuscript illumination in the Book of Kells and Très Riches Heures du Duc de Berry: comparative analysis of Insular and International Gothic styles",
+    "audience": "medieval studies conference attendees",
+    "style_hints": "erudite, detail-attentive, visually rich",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Shakespeare on screen: comparing Orson Welles's Othello (1952) and Oliver Parker's Othello (1995) in their treatment of Venetian setting and race",
+    "audience": "film and literature crossover conference",
+    "style_hints": "comparative, critically nuanced",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Classical Arabic qasida poetry: the structure of the nasib, rahil, and fakhr and their evolution from pre-Islamic to Abbasid courts",
+    "audience": "Arabic language learners at intermediate level",
+    "style_hints": "lucid, culturally contextual, bilingual",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Heidegger's concept of Dasein in Being and Time: a close reading of Division I with reference to Husserl's phenomenological method",
+    "audience": "philosophy graduate students",
+    "style_hints": "rigorous, concept-dense, patient",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Silk Road as a conduit for religious syncretism: Buddhism, Manichaeism, and Nestorian Christianity in Tang-dynasty Chang'an",
+    "audience": "museum public lecture attendees",
+    "style_hints": "expansive, vivid, accessible",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Renaissance humanism and the reform of education: Petrarch, Vittorino da Feltre, and the studia humanitatis curriculum at the school of Mantua",
+    "audience": "intellectual history colloquium",
+    "style_hints": "discursive, biographically threaded",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Women philosophers of the Islamic Golden Age: the epistemological contributions of A'isha al-Ba'uniyya and Lubna of Córdoba",
+    "audience": "interdisciplinary humanities faculty",
+    "style_hints": "corrective, rigorously sourced, dignified",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The fall of Constantinople in 1453 and its reverberations across Italian humanist circles, with attention to George of Trebizond and Cardinal Bessarion",
+    "audience": "Renaissance studies workshop participants",
+    "style_hints": "dramatic but measured, cause-and-effect",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Plato's Republic Book VII: the Allegory of the Cave and its implications for contemporary debates about education and indoctrination",
+    "audience": "liberal-arts college alumni book group",
+    "style_hints": "dialogic, thought-provoking",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Victorian novel and social reform: Dickens, Gaskell, and the condition-of-England question in Hard Times and North and South",
+    "audience": "English literature undergraduates",
+    "style_hints": "historically situated, thematic",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Gothic cathedral architecture and scholastic thought: the structural logic of Chartres, Reims, and Amiens as expressions of medieval theological order",
+    "audience": "architecture and theology joint seminar",
+    "style_hints": "interdisciplinary, visually rigorous",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward",
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Paleography for beginners: identifying Caroline minuscule, Gothic textualis, and Humanist script in digitized medieval manuscripts",
+    "audience": "archival studies master's students",
+    "style_hints": "practical, methodical, example-heavy",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Existentialism in postwar French thought: Sartre's Being and Nothingness versus Camus's The Myth of Sisyphus on the question of suicide",
+    "audience": "philosophy society public audience",
+    "style_hints": "sober, engaging, ethically serious",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Ancient Roman law and its legacy: the Twelve Tables, the Praetorian Edict, and the Corpus Juris Civilis as foundations of Western legal tradition",
+    "audience": "first-year law and humanities students",
+    "style_hints": "structured, principle-focused, clear",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Carolingian Renaissance: Alcuin of York's educational reforms and the standardization of Carolingian minuscule at the court of Charlemagne",
+    "audience": "medieval palaeography summer school",
+    "style_hints": "scholarly, reform-narrative, precise",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Sanskrit kāvya literature and the theory of rasa: how Bharata's Nāṭyaśāstra shaped classical Indian aesthetic judgment from the Gupta period onward",
+    "audience": "comparative literature graduate students",
+    "style_hints": "cross-cultural, concept-clarifying, respectful",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Wittgenstein's later philosophy and the concept of language games: Philosophical Investigations §§1–27 as a critique of Augustinian sign theory",
+    "audience": "analytic philosophy research group",
+    "style_hints": "close-reading focused, logically precise",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Historical authenticity and anachronism in period drama: a comparative study of The Favourite (2018) and Barry Lyndon (1975) as historiographic interventions",
+    "audience": "film studies and history dual-subject students",
+    "style_hints": "critical, theoretically informed, witty",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Homer's Iliad and heroic ethics: Achilles, Hector, and the tension between individual glory and communal obligation in the warrior code",
+    "audience": "great-books program freshmen",
+    "style_hints": "epic, character-driven, morally probing",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Library of Alexandria: historical evidence and myth, examining the testimonies of Galen, Orosius, and Ammianus Marcellinus on its destruction",
+    "audience": "public library lecture series attendees",
+    "style_hints": "myth-busting, evidence-centered, engaging",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The Protestant Reformation and the rise of vernacular literacy: Luther's Bible translation and its statistical impact on German reading culture 1522–1600",
+    "audience": "book history and print culture conference",
+    "style_hints": "data-informed, sociologically aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Marcus Aurelius's Meditations as philosophical self-therapy: Stoic exercises for anxiety, anger, and mortality in Books II, IV, and IX",
+    "audience": "philosophy-in-practice community group",
+    "style_hints": "contemplative, accessible, self-reflective",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Pre-Raphaelite Brotherhood aesthetics and the medievalist revival: Millais's Ophelia, Hunt's The Light of the World, and Rossetti's sonnet paintings",
+    "audience": "Victorian visual culture symposium",
+    "style_hints": " painterly, sensuous yet critical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Hannah Arendt's concept of the banality of evil: Eichmann in Jerusalem between Kantian judgment and the phenomenology of thoughtlessness",
+    "audience": "political philosophy conference panel",
+    "style_hints": "gravely attentive, conceptually exacting",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "Colonial-era education policy in British India: Macaulay's Minute of 1835 and its consequences for vernacular language and literary production",
+    "audience": "postcolonial studies reading group",
+    "style_hints": "critical-historical, rhetorically sharp",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "Intellectual origins of the French Revolution: Rousseau's Social Contract, the salons, and the financial crisis of 1787–1789",
+    "audience": "IB History diploma students",
+    "style_hints": "structured for exam revision, causally organized",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Virtue ethics from Aristotle to MacIntyre: reconstructing teleological morality after the Enlightenment project's failure in After Virtue",
+    "audience": "moral philosophy seminar",
+    "style_hints": "reconstructive, historically layered",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Archival research methods for early modern historians: paleography, codicology, and database construction using the State Papers Online",
+    "audience": "history PhD candidates in first year",
+    "style_hints": "practical, reassurance-oriented, methodical",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Structuralism and post-structuralism: Lévi-Strauss's mythologie versus Derrida's deconstruction of the sign in Of Grammatology",
+    "audience": "critical theory reading group",
+    "style_hints": "theoretically dense, deliberately provocative",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Old English elegiac poetry: The Wanderer, The Seafarer, and the Exeter Book riddles as windows into Anglo-Saxon interiority and world-view",
+    "audience": "general humanities enthusiasts at a public festival",
+    "style_hints": "evocative, bilingual, gently translated",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "James Joyce's Ulysses and modernist stream of consciousness: the 'Penelope' episode and the dissolution of narrative authority",
+    "audience": "modernist literature specialization course",
+    "style_hints": "textually immersed, formally attentive",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Thucydides' History of the Peloponnesian War as a manual for realist foreign policy: the Mytilene Debate and the Melian Dialogue in dialogue with modern strategy",
+    "audience": "international relations faculty reading circle",
+    "style_hints": "politically engaged, historically deep",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Indigenous oral traditions and narrative theory: Leanne Betasamosake Simpson's Noopiming and the Anishinaabe practice of kinship-as-epistemology",
+    "audience": "decolonial studies interdisciplinary group",
+    "style_hints": "respectful, epistemically generous, critically aware",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Haitian Revolution and Enlightenment contradictions: Toussaint Louverture, the Declaration of the Rights of Man, and the question of universal liberty",
+    "audience": "Atlantic world history workshop",
+    "style_hints": "forceful, corrective, morally centered",
+    "theme_hint": "scholarly",
+    "feature_hints": [],
+    "n_slides_target": 9
+  }
+]

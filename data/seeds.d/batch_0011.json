@@ -1,0 +1,442 @@
+[
+  {
+    "domain": "history mini-lecture",
+    "topic": "The fall of the Alexandrian Library and the tragic loss of ancient Hellenistic knowledge.",
+    "audience": "University history students",
+    "style_hints": "Scholarly and melancholic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Unpacking the themes of emotional repression and duty in Kazuo Ishiguro's 'The Remains of the Day'.",
+    "audience": "Literary book club members",
+    "style_hints": "Introspective and conversational",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The cinematic language of longing and silence in Wong Kar-wai's 'In the Mood for Love'.",
+    "audience": "Cinema studies enthusiasts",
+    "style_hints": "Atmospheric and visual",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "Tracing the evolution of the Japanese aesthetic concept of 'Mono no Aware' from Heian poetry to modern anime.",
+    "audience": "Cultural anthropology learners",
+    "style_hints": "Thoughtful and poetic",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "A retrospective on the Arts and Crafts movement and William Morris's enduring influence on modern sustainable design.",
+    "audience": "Museum patrons and design students",
+    "style_hints": "Richly illustrated and historically grounded",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Decoding the epistolary traditions of 18th-century France and their role in shaping Enlightenment philosophies.",
+    "audience": "Graduate students in literature",
+    "style_hints": "Dense and analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Preserving the historic architecture of the Deco District: Raising funds for the Atlas Building restoration.",
+    "audience": "Local heritage foundation donors",
+    "style_hints": "Urgent yet elegant",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The ethics of memory curation: How archival algorithms shape our historical narrative.",
+    "audience": "Digital humanities scholars",
+    "style_hints": "Philosophical and questioning",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Deep reading: Reclaiming focus and cultivating empathy in an attention-deficit economy.",
+    "audience": "Knowledge workers and bibliophiles",
+    "style_hints": "Calm and persuasive",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "The philosophical approach to 'Enough': Aligning personal finance with Stoic values and intentional living.",
+    "audience": "Minimalism enthusiasts",
+    "style_hints": "Measured and reflective",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "A literary pilgrimage through the cafes and bookshops of 1920s Paris.",
+    "audience": "Cultural travelers",
+    "style_hints": "Evocative and romantic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "The history and craft of ancient grain fermentation in Mediterranean diets.",
+    "audience": "Culinary history buffs",
+    "style_hints": "Sensory and historical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "Stoicism and movement: Integrating philosophical resilience with mindful strength training.",
+    "audience": "Mindfulness practitioners",
+    "style_hints": "Disciplined and contemplative",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Capitalizing on the 'Cottagecore' aesthetic for the Heritage Wool Co. brand relaunch.",
+    "audience": "Creative agency team",
+    "style_hints": "Charming and narrative-driven",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "local community project update",
+    "topic": "Restoring the Riverfront Murals: An update on the community initiative to preserve local history.",
+    "audience": "City council and residents",
+    "style_hints": "Communal and optimistic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "The philosophical roots of the Romantic rebellion against Enlightenment rationalism.",
+    "audience": "High school AP Literature students",
+    "style_hints": "Educational and engaging",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Unpacking 'Beloved' by Toni Morrison and the haunting legacy of generational trauma.",
+    "audience": "Advanced literature readers",
+    "style_hints": "Solemn and empathetic",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "Color theory and moral ambiguity in the 'Three Colours' trilogy by Krzysztof Kieślowski.",
+    "audience": "Arthouse film aficionados",
+    "style_hints": "Analytical and vivid",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The enduring influence of Arabic poetic forms on the literary culture of Al-Andalus.",
+    "audience": "University linguistics students",
+    "style_hints": "Erudite and cross-cultural",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Zaha Hadid and the poetic geometry of deconstructivist architecture.",
+    "audience": "Architecture enthusiasts",
+    "style_hints": "Dynamic and expressive",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The De Medicis and the birth of the modern cultural patronage system.",
+    "audience": "Renaissance history hobbyists",
+    "style_hints": "Narrative and rich",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Curating the future: The Atheneum Gallery's annual financial review and acquisition strategy.",
+    "audience": "Art investors and board members",
+    "style_hints": "Professional and sophisticated",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic expansion of the Metropolitan Library's rare manuscript digitization project.",
+    "audience": "Library board of trustees",
+    "style_hints": "Formal and visionary",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How the Concord Museum revitalized its permanent exhibit layout to double visitor engagement.",
+    "audience": "Museum curators and directors",
+    "style_hints": "Celebratory and analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "A joint exhibition proposal between the Louvre and the Met: 'Echoes of Antiquity'.",
+    "audience": "International museum directors",
+    "style_hints": "Grand and diplomatic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Typography as narrative: Reviewing the concept for 'The Serif' literary magazine.",
+    "audience": "Editorial design team",
+    "style_hints": "Minimal and typographic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Join the Folger Institute: Shaping the future of Shakespearean scholarship.",
+    "audience": "Academic researchers",
+    "style_hints": "Inspiring and historical",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "A retrospective on the literary love story of Arthur and Sylvia, from Oxford to the altar.",
+    "audience": "Wedding guests and family",
+    "style_hints": "Heartfelt and storytelling",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "Reading aloud as a ritual: Building empathy through classic children's literature.",
+    "audience": "Parents of young children",
+    "style_hints": "Warm and encouraging",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "The meditative art of Bonsai: Cultivating patience and landscape poetry.",
+    "audience": "Gardening club members",
+    "style_hints": "Tranquil and instructional",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "A semantic deep-dive into the untranslatable concept of 'Saudade' in Portuguese literature.",
+    "audience": "Language learners and writers",
+    "style_hints": "Nuanced and lyrical",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Mapping the shifting cartography of the Ottoman Empire through travelogues.",
+    "audience": "History and geography scholars",
+    "style_hints": "Documentary-like and precise",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "The beautiful interface: How Arabic calligraphy influenced early UI paradigms.",
+    "audience": "UX designers and historians",
+    "style_hints": "Interdisciplinary and sleek",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The mechanics of early printing presses and their impact on European literacy.",
+    "audience": "Makers and typography enthusiasts",
+    "style_hints": "Clear and educational",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "Selling stories: The new editorial approach for the Broadside Publishing Group.",
+    "audience": "Literary sales representatives",
+    "style_hints": "Energetic but literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "The Athenaeum Quarterly: Charting our literary membership growth in the digital age.",
+    "audience": "Internal stakeholders and staff",
+    "style_hints": "Informative and measured",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Reflecting on our mission: Mr. Penumbra's Literary Foundation yearly review.",
+    "audience": "Non-profit staff and volunteers",
+    "style_hints": "Reflective and community-focused",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Introducing 'Codex': The beautifully designed e-reader crafted for long-form reading.",
+    "audience": "Tech journalists and bibliophiles",
+    "style_hints": "Elegant and minimal",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Vellum': A subscription platform for long-form, ad-free literary journalism.",
+    "audience": "Seed-stage VC investors",
+    "style_hints": "Persuasive and sophisticated",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Preserving cultural heritage sites in rapid urban development zones: A policy framework.",
+    "audience": "City planning commissioners",
+    "style_hints": "Objective and principled",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "The Year in Letters: A visual summary of the Public Library Society's milestones.",
+    "audience": "Donors and public members",
+    "style_hints": "Celebratory and elegant",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables",
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "The poetry of the perfect swing: An aesthetic analysis of baseball's Golden Age.",
+    "audience": "Sports historians",
+    "style_hints": "Nostalgic and analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX",
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  }
+]

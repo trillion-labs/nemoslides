@@ -1,0 +1,41 @@
+[
+  {
+    "domain": "startup pitch deck",
+    "topic": "Series A pitch for FarmStack, an IoT & ML platform predicting crop yields for midwest soybean farmers, reducing fertilizer waste by 30%.",
+    "audience": "AgTech VC partners",
+    "style_hints": "VC-ready punchy",
+    "theme_hint": "bricks",
+    "feature_hints": [
+      "image-forward",
+      "charts"
+    ],
+    "n_slides_target": 12,
+    "id": "sample_0000"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scaling stateful microservices across multi-region Kubernetes clusters using VortexDB's new distributed cache layer.",
+    "audience": "Distributed systems engineers",
+    "style_hints": "engineering blog voice",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "id": "sample_0005"
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding tokenization algorithms, byte-pair encoding, and context windows in modern Large Language Models.",
+    "audience": "Software developers",
+    "style_hints": "pedagogical and clear",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "id": "sample_0020"
+  }
+]

@@ -1,0 +1,763 @@
+[
+  {
+    "domain": "conference tech talk",
+    "topic": "eBPF-based observability at Cloudflare scale — how the edge network team replaces kernel modules with eBPF programs for real-time latency histograms and packet drops across 300+ data centers.",
+    "audience": "infrastructure engineers and SREs",
+    "style_hints": "calm deep-dive with kernel diagrams",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title: eBPF Observability at Cloudflare Scale",
+      "Why eBPF? Limitations of kernel modules for fleet-wide instrumentation",
+      "Anatomy of an eBPF program: maps, helpers, attachment points",
+      "Our latency histogram design — per-PoP aggregation with BPF maps",
+      "Packet-drop tracing: replacing dropwatch with bpftrace one-liners",
+      "Walking through the code: kernel-space collector (C)",
+      "Walking through the code: userspace exporter (Go)",
+      "Deployment via Cilium — rollouts across 300+ PoPs",
+      "Performance overhead benchmarks: CPU < 0.3%, memory < 12 MB",
+      "Integrating eBPF metrics with Prometheus and Grafana",
+      "Lessons learned: kernel version fragmentation and CO-RE",
+      "Q&A and resources"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building a custom Terraform provider for a fictional internal platform called 'Iceberg' — attendees write a provider from scratch that manages virtual cluster resources via a REST API.",
+    "audience": "platform engineers new to provider development",
+    "style_hints": "step-by-step, hands-on, code-heavy",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "QUIC protocol internals — a byte-level walkthrough of the handshake, 0-RTT, connection migration, and how QUIC solves head-of-line blocking that plagues TCP-based HTTP/2.",
+    "audience": "network-curious developers and students",
+    "style_hints": "layered diagrams, measured pacing",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title: QUIC Protocol Internals — A Byte-Level Walkthrough",
+      "Motivation: why HTTP/2 over TCP still head-of-line blocks",
+      "QUIC packet structure: long vs short headers, connection IDs",
+      "The cryptographic handshake: TLS 1.3 integration",
+      "0-RTT: how it works and the replay risk trade-off",
+      "Stream multiplexing inside a single connection",
+      "Connection migration: IP changes without re-handshake",
+      "Congestion control in userspace — rethinking loss recovery",
+      "Comparison matrix: TCP+TLS 1.3 vs QUIC latency",
+      "Open-source implementations: quiche, msquic, aioquic",
+      "Further reading and RFC links"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Formal verification of distributed consensus in the Verdi framework — presenting a proof that the Raft implementation in the Verdi Coq library satisfies safety under asynchrony.",
+    "audience": "PL researchers and distributed-systems grad students",
+    "style_hints": "rigorous, theorem-forward, minimal decoration",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Platform Engineering Q3 review at 'Glacier Corp' — covering SLO attainment for the internal developer platform, on-call load, and new self-service capabilities shipped in the quarter.",
+    "audience": "engineering leadership and staff engineers",
+    "style_hints": "data-dense, metric-driven, no fluff",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Q3 Platform Engineering Review",
+      "Quarter at a glance: ships, incidents, hiring",
+      "SLO dashboard: 4 of 6 services met 99.95% target",
+      "Top 2 SLO misses — root cause summaries",
+      "On-call load: pages per engineer and fatigue metric",
+      "Self-service wins: 40% reduction in ticket volume",
+      "New capabilities: ephemeral environments, Cost Guard",
+      "Q4 roadmap preview: service mesh rollout and golden signals push",
+      "Open questions and discussion"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Migration of the 'Aurora' payments service from a synchronous monolith to an event-driven architecture using Apache Kafka and Outbox pattern, with exactly-once delivery guarantees.",
+    "audience": "senior backend engineers and architects",
+    "style_hints": "architecture-first, trade-off analysis",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Frostbyte' — a seed-stage startup building an open-source CLI for infrastructure-as-code that compiles TypeScript policies to Terraform-compatible plans with built-in drift detection.",
+    "audience": "seed-stage VC partners",
+    "style_hints": "problem-solution-ask, crisp flow",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Frostbyte — TypeScript-native IaC",
+      "The problem: HCL is painful, drift is silent, testing is hard",
+      "Our solution: TS compiler → Terraform plan, with built-in drift guard",
+      "How it works: architecture diagram",
+      "Open-source traction: 8K GitHub stars, 120 contributors in 6 months",
+      "Business model: Frostbyte Cloud — managed drift detection and RBAC",
+      "Market landscape and positioning vs Pulumi, Terraform, CDK",
+      "Team: ex-HashiCorp, ex-Databricks founders",
+      "The ask: $4M seed for 18-month runway",
+      "Vision: default IaC layer for every cloud-native team"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How 'Vortex Logistics' migrated 2,400 microservices from self-hosted Envoy to Istio service mesh, cutting mean-time-to-detect from 22 minutes to under 3 minutes across all production environments.",
+    "audience": "prospective enterprise buyers evaluating Istio",
+    "style_hints": "metric-forward, before-and-after contrast",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Rust for embedded Linux device drivers — lessons from rewriting a proprietary SPI display driver in Rust, achieving zero-copy DMA transfers and eliminating an entire class of use-after-free bugs.",
+    "audience": "embedded developers and systems programmers",
+    "style_hints": "code-centric, calm analysis of bug classes",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Rust on Embedded Linux — A Driver Rewrite Story",
+      "The legacy driver: 4,200 lines of C, 14 CVEs in 2 years",
+      "Why Rust? Ownership model maps to hardware resource lifetimes",
+      "Project setup: cross-compilation, no_std, and the Linux kernel module crate",
+      "Zero-copy DMA: pinning, volatile access, and cache coherency",
+      "Code walkthrough: the SPI transfer abstraction",
+      "Eliminating use-after-free at compile time — 3 case studies",
+      "Benchmarks: throughput +8%, p99 latency –15%, memory unchanged",
+      "Ecosystem gaps: missing crates, unstable APIs, kernel interface",
+      "When Rust is worth it and when it isn't",
+      "Resources and getting started links"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Writing Neovim plugins in Lua — a guided lab where attendees build a minimal git-blame sidebar plugin from scratch, covering the Neovim Lua API, autocommands, and floating windows.",
+    "audience": "Vim enthusiasts and tooling tinkerers",
+    "style_hints": "friendly, code-along, iterative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "DNS resolution: recursive vs iterative — a visual breakdown of how a query for 'api.glacier.io' traverses root, TLD, and authoritative servers, with EDNS(0) and DNSSEC validation at each hop.",
+    "audience": "junior-to-mid developers curious about networking",
+    "style_hints": "visual, step-by-step, layered clarity",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "KaTeX"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "How DNS Actually Resolves: Recursive vs Iterative",
+      "Setting the scene: a stub resolver queries for api.glacier.io",
+      "The recursive resolver's journey — overview diagram",
+      "Hitting the root: . and the hint file",
+      "TLD servers: .io delegation and referral responses",
+      "Authoritative answer with DNSSEC RRSIG records",
+      "EDNS(0): larger UDP buffers and the 1232-byte threshold",
+      "When resolution goes iterative: the resolver does it itself",
+      "Caching, TTL, and negative responses (NXDOMAIN)",
+      "Recap diagram and common misconceptions"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Zero-downtime Kubernetes cluster upgrades at 'FjordPay' — the playbook for upgrading 60 production clusters from v1.27 to v1.30 with zero customer-impacting incidents across three months.",
+    "audience": "Kubernetes operators and platform teams",
+    "style_hints": "playbook-style, practical, sequence diagrams",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "SRE on-call incident review for Q2 at 'Polaris Health' — analyzing 47 P1/P2 incidents, the introduction of error budget policies, and new automated remediation playbooks that reduced MTTR by 35%.",
+    "audience": "SRE leadership and engineering directors",
+    "style_hints": "sober, metric-dense, retrospective",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Q2 SRE Incident Review — Polaris Health",
+      "Quarter summary: 47 incidents, 3 post-mortems still open",
+      "Incidents by service and severity heat map",
+      "Top 3 root causes: config drift, bad deploys, upstream DNS",
+      "MTTR trend: from 47 min → 31 min average",
+      "New automated remediation: 12 playbooks in Opsgenie",
+      "Error budget policy rollout: 2 services hit policy, 1 feature freeze",
+      "Changelog: alert tuning removing 60% of noise",
+      "Q3 focus areas: change management and canary enforcement",
+      "Discussion and action items"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Memory-safe systems programming in the 'Oxide' framework — a research language that enforces region-based memory safety at compile time without garbage collection, applied to a network packet filter.",
+    "audience": "PL researchers and systems faculty",
+    "style_hints": "formal, proof sketches, measured",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "code blocks"
+    ],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Multi-region failover architecture for 'Boreal Payments' — designing active-active PostgreSQL with logical replication, global load balancing via Cloudflare, and a Chaos Monkey validation plan.",
+    "audience": "principal engineers and VP of Engineering",
+    "style_hints": "architecture-heavy, trade-off candid",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Boreal Payments — Multi-Region Failover Architecture",
+      "Current state: single-region us-east-1, 8 min RTO, 40 min RPO",
+      "Target: active-active us-east-1 + eu-west-1, < 30s failover",
+      "PostgreSQL logical replication topology",
+      "Conflict resolution: last-writer-wins with vector clocks",
+      "Global load balancing: Cloudflare health checks + DNS failover",
+      "Data consistency model: eventual with read-repair",
+      "Chaos validation plan: monthly Chaos Monkey runs",
+      "Cost analysis: dual-region compute and storage",
+      "Migration plan: 6-phase rollout with traffic shifting",
+      "Open decisions: synchronous vs async commit for write path"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Deep integration proposal between 'Frostbyte IaC' and the 'Glacier CI' platform — embedding drift detection output directly into CI pipelines and PR status checks.",
+    "audience": "Glacier CI product and partnerships team",
+    "style_hints": "structured, mutual-value framing",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "GitOps with ArgoCD at scale — how 'Tundra Analytics' manages 1,200 ArgoCD applications across 40 clusters using ApplicationSets, progressive delivery with Rollouts, and a custom progressive delivery plugin.",
+    "audience": "DevOps engineers running ArgoCD in production",
+    "style_hints": "war-story, practical, diagram-rich",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "GitOps at Scale with ArgoCD — Tundra Analytics",
+      "Our ArgoCD landscape: 40 clusters, 1,200 apps, 90 namespaces",
+      "Why ApplicationSets replaced our monorepo-of-manifests",
+      "Pattern: generator matrix for multi-env + multi-cluster",
+      "Progressive delivery: Argo Rollouts + canary analysis with Prometheus queries",
+      "Custom plugin: pre-promotion gate that runs integration tests",
+      "Managing sync waves: ordering 14 resource types safely",
+      "Observing ArgoCD itself: controller metrics and retries",
+      "Pain points: excessive refreshes and the perceived-degradation problem",
+      "Scale tuning: status-processors, repo-server replicas, redis",
+      "Lessons learned and anti-patterns",
+      "Resources and community links"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Intro to Nix for reproducible builds — attendees learn to write a Nix flake for a polyglot monorepo containing a Rust API, a Go CLI, and a Python ML script, all built in a single CI pipeline.",
+    "audience": "DevOps practitioners new to Nix",
+    "style_hints": "patient, example-driven, incremental",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "TCP congestion control algorithms compared — a side-by-side analysis of Cubic, BBR, and Vegas on a simulated lossy WAN link, with throughput and fairness charts under controlled conditions.",
+    "audience": "network engineers and performance-minded devs",
+    "style_hints": "analytical, chart-forward, precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "TCP Congestion Control: Cubic vs BBR vs Vegas",
+      "Why congestion control still matters in the datacenter-age WAN",
+      "Cubic: loss-based, additive-increase multiplicative-decrease",
+      "BBR: model-based, estimating bandwidth and RTT",
+      "Vegas: delay-based, sensing queue buildup",
+      "Test setup: Mahimahi link emulator, 50 Mbps / 60 ms / 1% loss",
+      "Results table: throughput, retransmit rate, fairness index",
+      "Fairness concern: BBR vs Cubic competing on shared bottleneck",
+      "When to choose which: practical guidance by scenario"
+    ]
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How 'Drift Security' reduced Mean Time to Detect from 6 hours to 12 minutes using a custom Grafana + Loki + Tempo stack replacing their commercial SIEM for cloud-native log analysis.",
+    "audience": "security engineers evaluating open-source observability",
+    "style_hints": "metric-focused, journey narrative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "WebAssembly at the edge with Fastly Compute — compiling a Go image-resizing service to Wasm and deploying to 50 edge PoPs, achieving sub-20ms first-byte time worldwide.",
+    "audience": "edge-computing curious developers",
+    "style_hints": "demo-driven, practical benchmarks",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Wasm at the Edge — Sub-20ms Image Resize Worldwide",
+      "Why Wasm on the edge? Sandboxed, language-agnostic, cold-start < 5 ms",
+      "Fastly Compute architecture and the Wasmtime runtime",
+      "Selecting Go → TinyGo for smaller Wasm binaries (4 MB → 800 KB)",
+      "Code walkthrough: request routing and image pipeline",
+      "Image resize: libvips compiled to Wasm-via-WASI",
+      "Deployment: CLI push, canary via traffic shaping",
+      "Benchmark results: TTFB comparison Cloud Run vs Compute@Edge",
+      "Limitations: no TCP sockets, 50 MB memory ceiling, logging gaps",
+      "Future: Wasm component model and Rust port",
+      "Resources and demo repo link"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Nordguard' — a seed-stage zero-trust network access platform that replaces VPNs with per-identity micro-tunnels, integrating with Okta and Kubernetes service accounts for fine-grained access control.",
+    "audience": "infrastructure-focused seed investors",
+    "style_hints": "sharp problem-solution-ask, technical credibility",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "two-col comparison",
+      "mermaid"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Cloud cost optimization Q4 report for 'Solstice' engineering — findings from a FinOps audit that identified $2.1M in annual waste from oversized EBS volumes, idle RDS instances, and orphaned ELBs.",
+    "audience": "engineering VPs and finance partners",
+    "style_hints": "data-heavy, action-oriented, fiscal clarity",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Q4 Cloud Cost Optimization — Solstice Engineering",
+      "Total AWS spend: $18.4M/yr, up 22% YoY",
+      "FinOps audit scope: 14 accounts, 2,400 instances",
+      "Finding 1: $890K waste in oversized EBS gp3 volumes",
+      "Finding 2: $620K in idle RDS instances (no connections in 30 days)",
+      "Finding 3: $340K in orphaned ELBs and unattached EIPs",
+      "Finding 4: Spot adoption at 8% — target 30%",
+      "Executed savings: $1.1M annualized through right-sizing sprint",
+      "Q1 roadmap: automated rightsizing, spot controller, tag enforcement",
+      "Projected savings: $2.1M by Q3 of next fiscal"
+    ]
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Service mesh architecture with Istio for 'Boreal Payments' — evaluating sidecar vs ambient mode, traffic management policies, and mTLS rollout strategy across 380 microservices.",
+    "audience": "staff engineers and security architects",
+    "style_hints": "evaluation framework, trade-off matrices",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "CAP theorem implications for modern databases — revisiting the consistency-availability trade-off with a formal model and case studies from CockroachDB, ScyllaDB, and TiDB under partition conditions.",
+    "audience": "distributed-systems students and database researchers",
+    "style_hints": "theorem-proof style, with empirical validation",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "data-dense tables"
+    ],
+    "n_slides_target": 13,
+    "outline_hint": [
+      "CAP Revisited — Formal Model and Empirical Case Studies",
+      "The CAP theorem: formal statement and common misunderstandings",
+      "Formal model: asynchrony, partitions, and linearizability",
+      "Latency vs consistency: the PACELC extension",
+      "CockroachDB: serializable, partition-tolerant, Leader Leases",
+      "ScyllaDB: tunable consistency, QUORUM under partition",
+      "TiDB: Raft-based consensus, reading from followers under staleness",
+      "Benchmark methodology: Jepsen-inspired partition injection",
+      "Results table: consistency level achieved vs claimed",
+      "Analysis: when CP systems in practice behave as AP",
+      "Latency penalty of strong consistency: p99 at 3 vs 15 ms",
+      "Conclusions and guidelines for practitioners",
+      "Open questions and references"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "tmux + Zsh terminal workflow mastery — configuring a production-grade terminal environment with tmux sessions, Zsh completions, starship prompt, and a reproducible dotfiles repo.",
+    "audience": "developers leveling up terminal productivity",
+    "style_hints": "casual, demo-heavy, config-savvy",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "OAuth 2.0 flows explained — when to use Authorization Code, Client Credentials, Device Code, and PKCE, with concrete examples from a fictional API called 'NordAPI' serving mobile and CLI clients.",
+    "audience": "backend developers integrating auth for the first time",
+    "style_hints": "clear, flow-diagram-driven, scenario-based",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "OAuth 2.0 Flows — Which One and When?",
+      "OAuth roles refresher: resource owner, client, authorization server, resource server",
+      "Authorization Code flow — web apps with a backend",
+      "PKCE extension — why SPAs and mobile apps must use it",
+      "Client Credentials — service-to-service (machine-to-machine)",
+      "Device Code — CLIs, TVs, IoT devices with no browser",
+      "Implicit flow: deprecated, and why",
+      "Flow decision tree diagram",
+      "NordAPI example: registering clients and requesting tokens",
+      "Security checklist: redirect URI validation, token storage, scope principle"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Building a CNCF sandbox project from scratch — the story of 'Permafrost', a Kubernetes scheduler plugin for cost-aware pod placement, from first PR to sandbox acceptance in 14 months.",
+    "audience": "open-source contributors and CNCF aspirants",
+    "style_hints": "narrative arc, practical, honest",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "'Meridian Freight' reduced infrastructure cost by 40% adopting the 'Frostbyte' tool — a detailed walkthrough of their IaC migration from hand-crafted Terraform modules to a policy-as-code model.",
+    "audience": "DevOps leaders evaluating IaC tooling",
+    "style_hints": "before-after narrative, ROI-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Meridian Freight × Frostbyte — 40% Cost Reduction",
+      "About Meridian: 800 employees, $120M revenue, AWS-heavy",
+      "Their pain: 120 hand-crafted Terraform modules, 3 FTEs maintaining state",
+      "Migration strategy: phase 1 audit, phase 2 Frostbyte rewrite, phase 3 policy enforcement",
+      "Phase 1 findings: 45% of instances oversized, no tagging standard",
+      "Phase 2: TypeScript policies replacing 60% of module logic",
+      "Results: 40% infra cost reduction, 2 FTEs reallocated",
+      "Key metrics table: cost, drift incidents, deploy time",
+      "Lessons and next steps: multi-cloud expansion"
+    ]
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Grafana Labs integration partnership with 'Nordguard' ZTNA — embedding real-time session telemetry and access logs into Grafana dashboards and alerting for security operations teams.",
+    "audience": "Grafana Labs business development team",
+    "style_hints": "mutual-value, architecture-forward",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Chaos engineering with Litmus at 'Verizon Media' — how the SRE team runs weekly chaos experiments across a Kafka streaming pipeline, reducing critical incident frequency by 60% in one year.",
+    "audience": "SREs and reliability engineers",
+    "style_hints": "war-story, experiment-focused, results-oriented",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Chaos Engineering with Litmus at Verizon Media",
+      "Why we chaos: 2 outages from Kafka broker failures in Q1",
+      "Meet Litmus: architecture and the ChaosHub catalog",
+      "Our chaos pipeline: schedule → inject → observe → abort/green",
+      "Experiment 1: Kafka broker kill — consumer lag recovery",
+      "Experiment 2: Network partition between producer and broker",
+      "Experiment 3: Disk fill on ZooKeeper ensemble",
+      "Automating weekly experiments via GitOps and Argo Workflows",
+      "Results: evacuating 60% of critical incidents in 12 months",
+      "Cultural shift: from 'don't touch prod' to 'prod is a lab'",
+      "Anti-patterns we learned the hard way",
+      "Open source contributions and getting started"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Rust async programming with Tokio — building a high-performance TCP echo server, then evolving it into a chat server with broadcast channels, graceful shutdown, and structured concurrency.",
+    "audience": "Rust beginners comfortable with ownership basics",
+    "style_hints": "iterative, code-along, calm explanations",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "BGP routing and internet peering — how packets find their way between ISPs, the role of AS numbers, route advertisements, and why a single misconfigured BGP filter can take down half the internet.",
+    "audience": "developers curious about internet infrastructure",
+    "style_hints": "story-driven, visual, step-by-step",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "BGP: The Protocol That Routes The Internet",
+      "What is BGP? Path-vector routing between Autonomous Systems",
+      "AS numbers and the concept of peers vs transit providers",
+      "Route advertisement: NLRI, AS-PATH, and path attributes",
+      "Example: how a packet from AS64512 reaches AS13335 (Cloudflare)",
+      "Peering at IXPs: public vs private peering",
+      "Route leaks and hijacks: the Pakistan YouTube incident",
+      "RPKI: cryptographic validation of route origination",
+      "BGP in the datacenter: why some use it internally (FRR, Clos fabrics)",
+      "Resources and further reading"
+    ]
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "DevOps maturity assessment results for 'CryoWorks' — benchmarking 14 product teams against the DORA metrics, identifying bottlenecks in deployment frequency (median 1/month) and lead time for changes (8 days).",
+    "audience": "engineering directors and CTO",
+    "style_hints": "benchmarking-focused, improvement-roadmap-driven",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Event sourcing with Apache Kafka at 'NordLedger' — designing a CQRS + event-sourced financial ledger where every transaction is an immutable event, with snapshot-based state reconstruction and Kafka Streams projections.",
+    "audience": "senior engineers on the payments platform team",
+    "style_hints": "architectural depth, correctness-obsessed",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Event-Sourced Ledger Architecture — NordLedger",
+      "Requirements: audit trail, idempotency, dual-entry consistency",
+      "Why event sourcing: immutability, replay, temporal queries",
+      "Event schema: TransactionInitiated → Authorized → Settled → Reversed",
+      "Kafka topic design: partition by account_id, compaction for snapshots",
+      "CQRS: write path (command handler) vs read path (projections)",
+      "Snapshot strategy: every 1,000 events per aggregate",
+      "Projection engines: Kafka Streams for real-time, Flink for batch",
+      "Idempotency: exactly-once with transactional producer",
+      "Dual-entry invariant check: async reconciliation job",
+      "Migration from SQL: dual-write period and validation",
+      "Open questions and performance targets"
+    ]
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'TundraDB' — a Serverless PostgreSQL platform with automatic scaling to zero, built on Neon's storage layer and extending it with per-tenant connection pooling and query cost isolation for multi-tenant SaaS.",
+    "audience": "Series A investors in developer infrastructure",
+    "style_hints": "technical-credibility-first, clear market wedge",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Compile-time dependency injection in Go — a pattern using code generation (wire) to eliminate runtime reflection-based DI, demonstrated on a real 'Fjord Gateway' API gateway codebase with 60 injectable services.",
+    "audience": "Go developers building large services",
+    "style_hints": "pattern-driven, code-focused, comparative",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Compile-Time DI in Go — Killing Reflection at Fjord Gateway",
+      "The problem: dig/uberfx reflection DI and startup panics in prod",
+      "Why compile-time: fail fast, IDE navigation, no reflection surprises",
+      "Google Wire: provider sets and injector generation",
+      "Our pattern: 60 services, 12 dependency layers",
+      "Code walkthrough: provider definitions",
+      "Code walkthrough: generated injector",
+      "Comparison table: Wire vs Dig vs manual constructor injection",
+      "Testing benefits: each service testable with fakes, no DI container needed",
+      "Gotchas: circular dependencies and phased initialization",
+      "Results: 0 runtime DI panics in 6 months after migration"
+    ]
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building Grafana dashboards for SLO tracking — students instrument a demo service with Prometheus metrics, define SLOs, and build dashboards with burn-rate alerting and error budget charts.",
+    "audience": "SREs and observability engineers",
+    "style_hints": "lab-oriented, metric-centric, guided",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Container networking: CNI plugins deep dive — how Calico, Cilium, and Flannel differ in their data-plane (iptables vs eBPF vs VXLAN), and performance under 100k concurrent connections on a 50-node cluster.",
+    "audience": "Kubernetes operators choosing a CNI",
+    "style_hints": "comparative, data-backed, clear verdicts",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "data-dense tables",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "CNI Deep Dive: Calico vs Cilium vs Flannel",
+      "What CNI does: IPAM, routing, and network policy enforcement",
+      "Flannel: VXLAN overlay, simple but limited",
+      "Calico: BGP routing, iptables data plane, network policy",
+      "Cilium: eBPF data plane, identity-based policy, Hubble observability",
+      "Architecture diagram: packet path for each CNI",
+      "Benchmark setup: 50-node cluster, 100k connections / node",
+      "Results: throughput, latency p50/p99, CPU per node",
+      "Network policy performance: rule evaluation time at scale",
+      "Choosing your CNI: decision matrix by cluster size and needs",
+      "Migration considerations and mixed CNI with Multus"
+    ]
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "CRDTs for state synchronization — exploring how Conflict-Free Replicated Data Types enable offline-first collaborative editing in 'NordNote', a distributed note-taking app, with formal proofs of convergence.",
+    "audience": "distributed-systems researchers and collaborative-software engineers",
+    "style_hints": "formal, proof-driven, applied examples",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "'Autodesk Infra' journey to multi-cloud — migrating 500 stateful services from AWS-only to a dual-cloud AWS + GCP setup using Crossplane for unified control planes and reducing vendor lock-in risk.",
+    "audience": "enterprise architects evaluating multi-cloud",
+    "style_hints": "journey narrative, architecture evolution",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Autodesk Infra — From AWS-Only to Multi-Cloud with Crossplane",
+      "Context: 500 stateful services, $45M annual AWS spend",
+      "Motivation: vendor lock-in risk, regulatory data-residency requirements",
+      "Strategy: Crossplane as the unified control plane",
+      "Phase 1: lift-and-shift mapping AWS resources to Crossplane Claims",
+      "Phase 2: GCP provisioning — same API, different Provider",
+      "Phase 3: traffic shifting with Cloudflare load balancing",
+      "Results: 30% cost savings on GCP for batch workloads",
+      "Lessons: Crossplane composition complexity and day-2 operations",
+      "Roadmap: Azure addition and disaster-recovery failover automation"
+    ]
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "WAL-based replication in PostgreSQL internals — a deep dive into how Write-Ahead Logs enable point-in-time recovery, logical replication, and streaming replicas, with performance data on a 10 TB 'NordLedger' database.",
+    "audience": "database engineers and backend architects",
+    "style_hints": "internals-focused, data-rich, precise",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  }
+]

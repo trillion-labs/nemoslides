@@ -1,0 +1,440 @@
+[
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 OKR readout for Northwind Traders' supply chain and logistics division.",
+    "audience": "Supply chain leadership",
+    "style_hints": "Professional and direct",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Annual culture, benefits, and roadmap update at Apex Systems.",
+    "audience": "Apex Systems global employees",
+    "style_hints": "Warm but corporate",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Co-marketing proposal between fictional HR brands Lumina Talent and Peak Recruiting.",
+    "audience": "Peak Recruiting executive team",
+    "style_hints": "Persuasive and structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q4 sales pipeline and territory review for the EMEA region at GlobalTech Solutions.",
+    "audience": "VP of Sales and regional directors",
+    "style_hints": "Metric-driven and formal",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Overview of the new GDPR compliance workflow for data engineering teams.",
+    "audience": "Data engineers and compliance officers",
+    "style_hints": "Clear and instructional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "2024 strategic roadmap for the renewable energy portfolio at Verdant Capital.",
+    "audience": "Verdant Capital board members",
+    "style_hints": "Executive and high-level",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Fall 2024 influencer campaign brief for skincare brand Aura.",
+    "audience": "Aura marketing and creative teams",
+    "style_hints": "Visually clean and brief",
+    "theme_hint": "default",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "FY25 sales enablement kickoff and quota rollout for the SaaS platform CloudSync.",
+    "audience": "CloudSync sales organization",
+    "style_hints": "Motivational and data-driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How FinServe Corp reduced onboarding time by 30% using ClientHub.",
+    "audience": "Prospective ClientHub customers",
+    "style_hints": "Professional and proof-driven",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Joint venture proposal for a shared last-mile logistics network between FastFreight and MoveIt.",
+    "audience": "MoveIt partnership committee",
+    "style_hints": "Collaborative and strategic",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Mid-year engineering velocity, sprint metrics, and tech debt review for Team Atlas.",
+    "audience": "Engineering managers and CTO",
+    "style_hints": "Objective and precise",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "H1 2024 financial and store expansion update for regional bakery chain Golden Crust.",
+    "audience": "Golden Crust private equity backers",
+    "style_hints": "Transparent and formal",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Cross-functional status report on Project Horizon for senior leadership.",
+    "audience": "Senior leadership team",
+    "style_hints": "Concise and neutral",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Diversity, Equity, and Inclusion progress report and next steps at Innovate Inc.",
+    "audience": "Innovate Inc global workforce",
+    "style_hints": "Respectful and corporate",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Risk assessment and mitigation strategies for the 2024 audit cycle at Pinnacle Financial.",
+    "audience": "Pinnacle Financial board of directors",
+    "style_hints": "Serious and methodical",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "B2B lead generation campaign review and scaling plan for DataVault enterprise software.",
+    "audience": "DataVault marketing and sales leads",
+    "style_hints": "Analytical and professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "Retailer Urban Threads scaling inventory management efficiency with StockMaster.",
+    "audience": "Retail operations directors",
+    "style_hints": "Professional and results-oriented",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Intro to vector databases and semantic search for product managers at DataFlow.",
+    "audience": "DataFlow product managers",
+    "style_hints": "Educational and clear",
+    "theme_hint": "default",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "Series A pitch for MediTrace, a clinical trial recruitment and retention platform.",
+    "audience": "Venture capital partners",
+    "style_hints": "Confident and structured",
+    "theme_hint": "default",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Internal training workshop on agile project management frameworks for new hires.",
+    "audience": "Recently onboarded associates",
+    "style_hints": "Instructional and accessible",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "University recruiting deck for engineering roles at fictional firm Quantum Dynamics.",
+    "audience": "University computer science seniors",
+    "style_hints": "Engaging but corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Budget vs. actuals review for Q2 marketing spend at EcoWear.",
+    "audience": "EcoWear CFO and CMO",
+    "style_hints": "Financial and direct",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Product roadmap reveal and key feature updates for the upcoming year at SaaS company WriteFlow.",
+    "audience": "WriteFlow employees",
+    "style_hints": "Upbeat but clean",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Technology integration proposal between payment gateway PayGate and retail POS system RetailOS.",
+    "audience": "RetailOS product and business development",
+    "style_hints": "Strategic and logical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Proposed acquisition target analysis of NanoTech Materials for the board of Apex Industries.",
+    "audience": "Apex Industries board members",
+    "style_hints": "Formal and analytical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Understanding zero-trust architecture and identity verification for the IT operations team.",
+    "audience": "IT operations and security engineers",
+    "style_hints": "Technical and straightforward",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "SecureAuth enterprise new product feature rollout and sales playbook.",
+    "audience": "SecureAuth account executives",
+    "style_hints": "Action-oriented and clear",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 14
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Customer support ticket volume, SLA adherence, and resolution trends for Q3 at HelpDesk Pro.",
+    "audience": "HelpDesk Pro VP of Customer Success",
+    "style_hints": "Metric-focused and neutral",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "Q1 2025 brand awareness and go-to-market strategy for GreenHome sustainable living products.",
+    "audience": "GreenHome marketing directors",
+    "style_hints": "Professional and forward-looking",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Fleet expansion and regional logistics update for Cornerstone Freight.",
+    "audience": "Cornerstone Freight investors",
+    "style_hints": "Professional and status-oriented",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Procurement efficiency, cost savings, and vendor consolidation update at OmniCorp.",
+    "audience": "OmniCorp procurement leadership",
+    "style_hints": "Corporate and concise",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Year-end recap, performance highlights, and holiday schedule for Pinnacle Consulting.",
+    "audience": "Pinnacle Consulting staff",
+    "style_hints": "Celebratory but formal",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Strategic alliance proposal for co-developing ESG reporting tools between EthicalMetrics and AuditPlus.",
+    "audience": "AuditPlus partnership team",
+    "style_hints": "Collaborative and corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Corporate compliance and ethics training module for mid-level managers.",
+    "audience": "Mid-level managers across departments",
+    "style_hints": "Serious and instructional",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Employer brand deck and veteran hiring initiative for BlueSky Logistics.",
+    "audience": "Military transition program coordinators",
+    "style_hints": "Respectful and professional",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Capital allocation and dividend policy review for FY24 at Apex Materials Group.",
+    "audience": "Apex Materials Group board of directors",
+    "style_hints": "Sober and financial",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How MediCare Plus streamlined patient intake and reduced wait times using HealthOS.",
+    "audience": "Healthcare administration directors",
+    "style_hints": "Professional and evidence-based",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Product usage analytics and feature adoption rates for the FitTrack mobile app.",
+    "audience": "FitTrack product and UX teams",
+    "style_hints": "Objective and analytical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Demystifying LLM fine-tuning and RAG architectures for the non-technical executive team.",
+    "audience": "C-suite executives",
+    "style_hints": "Simplified and corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "EMEA territory rollout strategy and quota allocation for CloudNet networking solutions.",
+    "audience": "CloudNet EMEA sales team",
+    "style_hints": "Strategic and professional",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Affiliate program proposal between the TravelBuddy app and SkyHigh Airlines.",
+    "audience": "SkyHigh Airlines business development",
+    "style_hints": "Mutually beneficial and logical",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 employee retention, turnover analysis, and engagement survey results at TechForward Inc.",
+    "audience": "TechForward HR and executive team",
+    "style_hints": "Professional and objective",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  }
+]

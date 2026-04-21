@@ -1,0 +1,800 @@
+[
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 OKR readout for the Apex customer success platform at Lumenex Software — covering acquisition targets, net revenue retention, and support SLA improvements across EMEA and APAC regions",
+    "audience": "Lumenex leadership and department heads",
+    "style_hints": "data-driven, direct, no-nonsense corporate",
+    "theme_hint": "default",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "id": "seed_00000"
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "Proposed strategic partnership between Corvus Freight and EcoRoute EV to co-develop a carbon-neutral last-mile delivery network across the Pacific Northwest, including fleet sizing, revenue sharing, and pilot timeline",
+    "audience": "Corvus Freight executive team and board",
+    "style_hints": "persuasive yet measured, opportunity-focused",
+    "theme_hint": "default",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00001"
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Meridian Health Systems Q3 all-hands — CEO Sarah Chen reviews year-to-date patient outcomes, announces the new Community Care Initiative for rural clinics, and shares updated open-enrollment benefits details",
+    "audience": "All Meridian Health Systems employees",
+    "style_hints": "warm but professional, transparency-forward",
+    "theme_hint": "default",
+    "feature_hints": [],
+    "n_slides_target": 13,
+    "id": "seed_00002"
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Cross-functional status update for Project Orca — the migration of Bayshore Financial's legacy trading platform to a cloud-native architecture, covering API integration milestones, security audit results, and revised go-live timeline",
+    "audience": "Bayshore Financial engineering, compliance, and operations leads",
+    "style_hints": "structured, progress-oriented, flagging risks clearly",
+    "theme_hint": "default",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "id": "seed_00003"
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A rigorous proof walkthrough of the Prime Number Theorem using complex analysis, presented at the Heidelberg Mathematical Institute's weekly colloquium.",
+    "audience": "Graduate mathematics students and faculty",
+    "style_hints": "Theorem-proof structure, rigorous and formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "outline_hint": [
+      "Title slide: The Prime Number Theorem via Complex Analysis",
+      "Historical context and statement of the theorem",
+      "Definition and convergence of the Riemann Zeta Function",
+      "Analytic continuation of Zeta(s) to the critical strip",
+      "The Euler product formula and its implications",
+      "Establishing zero-free regions for Zeta(s)",
+      "The explicit formula linking Zeta zeros to prime counting",
+      "Key lemmas and contour integration setup",
+      "Proof outline: Estimating the Chebyshev function",
+      "Error terms and the Riemann Hypothesis implications",
+      "Consequences for multiplicative number theory",
+      "References and further reading"
+    ],
+    "id": "seed_00004"
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Economic impact analysis of the proposed EU carbon border adjustment mechanism on the German manufacturing sector.",
+    "audience": "Federal Ministry for Economic Affairs officials",
+    "style_hints": "Objective, data-driven, highly structured",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables",
+      "KaTeX"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00005"
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Q3 performance review and macroeconomic outlook for Frankfurter Vorsorge Kasse's European municipal bond fund.",
+    "audience": "Institutional pension fund managers",
+    "style_hints": "Conservative, precise, strictly formal",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title slide: Frankfurter Vorsorge Kasse Q3 Update",
+      "Executive Summary and NAV Performance",
+      "Macroeconomic Indicators: ECB Monetary Policy",
+      "Yield Curve Evolution and Spreads",
+      "Portfolio Allocation and Duration Metrics",
+      "Credit Quality Distribution of Holdings",
+      "Regional Exposure and Default Provisions",
+      "Forward Guidance and Q4 Hedging Strategy"
+    ],
+    "id": "seed_00006"
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The diplomatic framework of the Congress of Vienna and the reorganization of European state boundaries from 1814 to 1815.",
+    "audience": "Undergraduate history majors",
+    "style_hints": "Chronological, authoritative, traditional academic",
+    "theme_hint": "frankfurt",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "id": "seed_00007"
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "\"Aura One\" wireless earbuds launch event — ultra-premium, titanium-cased earbuds with spatial audio and 40-hour battery, targeting audiophiles and design-conscious consumers. The reveal follows a single-hero-product Apple-style narrative.",
+    "audience": "tech press and premium consumers",
+    "style_hints": "dramatic reveals, hero imagery, confident minimalism",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — Introducing Aura One",
+      "The problem — Sound deserves better design",
+      "Titanium craftsmanship — design philosophy and materials",
+      "Spatial Audio reimagined — immersive sound architecture",
+      "40-hour battery — effortlessly all week",
+      "Seamless connectivity — one-tap pairing ecosystem",
+      "Aura app — your personal sound profile",
+      "Pricing and availability — three finishes",
+      "One more thing — Aura One Pro over-ear",
+      "Thank you — order now at aura.com"
+    ],
+    "id": "seed_00008"
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "Studio Forma's complete brand-identity redesign for Lumière Hotel — a luxury boutique property on Lake Como. Showcases the logo evolution, bespoke typeface, restrained colour palette, and environmental signage system rolled out across three properties.",
+    "audience": "hospitality executives and design community",
+    "style_hints": "editorial, refined, typographically bold",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00009"
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "\"Velvet Season\" — the holiday 2025 campaign for Maison Éclat luxury fragrance. Centred on the limited-edition Velvet Oud scent and its cinematic 30-second hero film, the brief covers art direction, in-store experience, and social rollout strategy.",
+    "audience": "internal marketing and retail partners",
+    "style_hints": "luxurious, moody, aspirational",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title — Velvet Season, Holiday 2025",
+      "The Velvet Oud story — inspiration and provenance",
+      "Fragrance architecture — notes and craftsmanship",
+      "Hero film — 30-second cinematic spot breakdown",
+      "Campaign visual language — colour, light, texture",
+      "Retail experience — in-store and counter displays",
+      "Digital and social rollout — platform strategy",
+      "Influencer and PR partnerships — key voices",
+      "Timeline — key milestones September through December",
+      "Investment overview and next steps"
+    ],
+    "id": "seed_00010"
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "\"Meridian\" — a premium wellness retreat programme offering curated 7-day mindfulness and movement experiences at a restored clifftop estate in the Algarve. The deck introduces the philosophy, daily rhythm, practitioner roster, and booking tiers.",
+    "audience": "prospective high-net-worth wellness travellers",
+    "style_hints": "serene, aspirational, light-filled",
+    "theme_hint": "apple-basic",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "id": "seed_00011"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Introducing Vuelmate, a brand-new open-source Vue 3 component library that provides warm, accessible UI patterns out of the box for rapid prototyping.",
+    "audience": "Frontend developers at a Vue.js meetup",
+    "style_hints": "Vibrant, enthusiastic, developer-centric",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Why We Built Vuelmate - The gap in accessible Vue 3 UI libraries",
+      "Core Philosophy: Warm & Accessible - Design principles and gradient defaults",
+      "Setup and Installation - Quick start with Vite and npm",
+      "Live Demo: Building a Dashboard - Combining layout and data components",
+      "Vuelmate vs. Existing Libraries - Feature comparison and bundle size",
+      "Customizing Gradients and Themes - Using CSS variables and utility classes",
+      "Open Source Roadmap - Upcoming components and community calls",
+      "Q&A and Community Links - GitHub repo and Discord invite"
+    ],
+    "id": "seed_00012"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A step-by-step hands-on lab demonstrating how to build BoardSync, a real-time collaborative whiteboard app using Vue 3, Pinia, and WebSockets.",
+    "audience": "Intermediate JS developers attending a community workshop",
+    "style_hints": "Interactive, step-by-step, friendly",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "id": "seed_00013"
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Reviewing the migration of the Lumina Design System from React to Vue 3, focusing on warm gradient tokens and component parity for the new frontend stack.",
+    "audience": "Internal product and engineering teams",
+    "style_hints": "Polished, visual, collaborative",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "two-col comparison",
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Lumina UI 2.0: Why Move to Vue? - Ecosystem alignment and reactivity benefits",
+      "Project Scope & Timeline - Phased rollout over Q3",
+      "Gradient Token Architecture - New warm color system for modern UI",
+      "React vs. Vue Component Parity Table - Tracking completed and pending mappings",
+      "Migration Strategy & Risk Assessment - Phased approach and breaking changes",
+      "Demo: Interactive Storybook - Live preview of Vue components",
+      "Beta Feedback Summary - Developer pain points and resolutions",
+      "Next Steps & Launch Plan - V2 release date and upcoming workshops"
+    ],
+    "id": "seed_00014"
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "Announcing Slidev 5.0 at the VueConf opening keynote, showcasing new motion-powered transitions, native Vite integration, and speaker mode enhancements.",
+    "audience": "VueConf attendees and online viewers",
+    "style_hints": "Energetic, modern, visionary",
+    "theme_hint": "penguin",
+    "feature_hints": [
+      "code blocks",
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00015"
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Introducing 'Drift', a daily markdown note-taking method that uses atomic files and timestamped linking to capture fleeting thoughts before they vanish.",
+    "audience": "Writers and journal keepers",
+    "style_hints": "quiet, focused, introspective",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 7,
+    "id": "seed_00016"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on lab on building a minimalist, text-first personal wiki using the fictional 'ProseDB' engine and plain-text workflows.",
+    "audience": "Hobbyist developers and technical writers",
+    "style_hints": "instructional, unadorned, systematic",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "id": "seed_00017"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "A manifesto on restructuring the fictional 'Vortex API' documentation to prioritize writerly clarity and reading flow over exhaustive specification.",
+    "audience": "Developer experience engineers and technical writers",
+    "style_hints": "precise, persuasive, editorial",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "id": "seed_00018"
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "A guide to creating, printing, and distributing a single-sheet zine using the fictional 'FoldPrint' method, emphasizing minimal design and maximal words.",
+    "audience": "DIY creators and indie writers",
+    "style_hints": "gritty, authentic, makerly",
+    "theme_hint": "eloc",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00019"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Migrating the StreamStack platform's Kubernetes CNI from iptables to Cilium eBPF filters to reduce pod-to-pod tail latency by 40%.",
+    "audience": "Cloud-native networking engineers and KubeCon attendees",
+    "style_hints": "understated, data-driven, highly technical",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "id": "seed_00020"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Building custom Neovim plugins in Lua to parse, filter, and highlight structured JSON logs directly in the terminal.",
+    "audience": "Backend developers and terminal tooling enthusiasts",
+    "style_hints": "calm, hands-on, focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00021"
+  },
+  {
+    "domain": "design review presentation",
+    "topic": "Architectural review of the AuroraDB multi-region active-active replication strategy using CRDTs for conflict resolution.",
+    "audience": "Principal engineers and infrastructure architects",
+    "style_hints": "polished, precise, systems-focused",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "data-dense tables"
+    ],
+    "n_slides_target": 10,
+    "id": "seed_00022"
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A deep-dive into the W3C Trace Context propagation standard and how OpenTelemetry handles distributed trace correlation across asynchronous message queues.",
+    "audience": "SREs and observability practitioners",
+    "style_hints": "cool, methodical, clarifying",
+    "theme_hint": "nord",
+    "feature_hints": [
+      "mermaid",
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00023"
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A conference paper walkthrough detailing 'NeuroVis: A Graph Neural Network Approach to Mapping Cortical Connectivity,' presenting the experimental results and methodology from the Stanford NeuroAI Lab on fMRI dataset reconstruction.",
+    "audience": "Neuroscience and machine learning researchers",
+    "style_hints": "Formal, rigorous, and results-driven",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "id": "seed_00024"
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Evaluating the efficacy of the 'Urban Green Spaces Initiative' in reducing heat island effects in Berlin, drawing on a 5-year longitudinal climatological study from the Humboldt University Environmental Policy Center.",
+    "audience": "City council members and urban planners",
+    "style_hints": "Authoritative, evidence-based, and formal",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00025"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A graduate-level lab module on building parsimonious Bayesian hierarchical models for ecological population forecasting, taught by Dr. Aris Thorne at the Max Planck Institute for Demography.",
+    "audience": "First-year ecology PhD students",
+    "style_hints": "Instructional, rigorous, and step-by-step",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "code blocks",
+      "KaTeX"
+    ],
+    "n_slides_target": 14,
+    "id": "seed_00026"
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "A literature review synthesizing five seminal papers on fiscal multiplier effects in post-pandemic European economies, assessing variances in sovereign debt response trajectories across the Eurozone.",
+    "audience": "Macroeconomics faculty and graduate students",
+    "style_hints": "Scholarly, objective, and analytical",
+    "theme_hint": "academic",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00027"
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "BoltDB-XT, an edge-native embedded vector database designed for real-time AI inference on low-power IoT devices.",
+    "audience": "Early-stage deep tech VCs",
+    "style_hints": "confident, crisp, developer-product aesthetic",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title: BoltDB-XT - Vector DB for the Edge",
+      "The Problem: Cloud latency kills real-time IoT inference",
+      "The Solution: Embedded, lightweight vector search on-device",
+      "How it Works: Architecture diagram of the XT engine",
+      "Benchmarks: BoltDB-XT vs Cloud DBs on edge hardware",
+      "Market Size: The $4B edge AI opportunity",
+      "Traction: 500+ GitHub stars, 3 active pilot programs",
+      "The Team: Ex-ARM and Redis kernel engineers",
+      "The Ask: $3M Seed for compute and hiring",
+      "Closing: Build the future of edge AI"
+    ],
+    "id": "seed_00028"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Scaling stateful WebAssembly at the edge: a deep dive into the architecture of Verge's EdgeFn v2 runtime.",
+    "audience": "Backend and infrastructure engineers",
+    "style_hints": "technical, monospace-driven, precise",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 12,
+    "id": "seed_00029"
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 2024 board update for FluxCM, a developer-focused configuration management SaaS, highlighting ARR milestones, developer adoption metrics, and new GitOps integration.",
+    "audience": "Board members and lead investors",
+    "style_hints": "transparent, metrics-driven, crisp",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8,
+    "outline_hint": [
+      "Title: FluxCM Q3 2024 Board Update",
+      "Executive Summary: Hits and misses at a glance",
+      "ARR & Revenue: Crossing the $5M milestone",
+      "Developer Adoption: 40k weekly active users",
+      "Product Release: GitOps Integration V2",
+      "GTM Review: Enterprise pipeline expansion",
+      "Burn & Runway: 18 months of capital remaining",
+      "Q4 Priorities & Discussion"
+    ],
+    "id": "seed_00030"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Deploying with Raycast: a hands-on lab building and publishing your first open-source Raycast extension for developer productivity workflows.",
+    "audience": "Frontend and full-stack developers",
+    "style_hints": "step-by-step, terminal-forward, developer-product energy",
+    "theme_hint": "geist",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00031"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Ship It: A 5-minute lightning talk manifesto on why waiting for perfection kills projects, urging the DevCon 2024 audience to release their MVPs immediately.",
+    "audience": "Software developers",
+    "style_hints": "Punchy, declarative, challenging",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00032"
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Stop Managing Your Time: A bold-opinion essay arguing that energy management, not time management, is the sole key to unlocking creative output for independent workers.",
+    "audience": "Freelancers and creators",
+    "style_hints": "Provocative, minimalist, declarative",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 10,
+    "id": "seed_00033"
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Water Changes Everything: A rapid-fire ignition talk for the PureWater Initiative, demonstrating the domino effect of clean water access in rural Malawi.",
+    "audience": "Philanthropic donors",
+    "style_hints": "Urgent, high-impact, emotional",
+    "theme_hint": "takahashi",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00034"
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "The Relentless Year: A single-idea closing manifesto for the Apex Systems 2024 kickoff, rallying the entire company around the concept of moving fast and breaking barriers.",
+    "audience": "Company employees",
+    "style_hints": "Inspiring, high-impact, bold",
+    "theme_hint": "takahashi",
+    "feature_hints": [],
+    "n_slides_target": 7,
+    "id": "seed_00035"
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Tracing the epistolary networks of Roman provincial governors during the Crisis of the Third Century — how correspondence maintained imperial cohesion amid political fragmentation and rapid succession.",
+    "audience": "Classical studies graduate seminar",
+    "style_hints": "scholarly, evidentiary, archival-text-forward",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide: 'Letters of Loyalty — Epistolary Networks and Imperial Cohesion, 235–284 CE'",
+      "Historical context: the Crisis of the Third Century — succession instability, provincial secession, external threats",
+      "Sources and methodology: Pliny the Younger's letters as model, the Augustan correspondence archive, papyrological evidence",
+      "Network mapping: Mermaid diagram of governor-to-emperor and governor-to-governor letter routes across key provinces",
+      "Case study 1: Gaul and Britannia — Postumus' breakaway and the correspondence gap",
+      "Case study 2: Palmyra — Odaenathus and the diplomatic letter as substitute for military deployment",
+      "Quantifying fidelity: formulaic loyalty language in official dispatches (KaTeX table of frequency distributions)",
+      "The cursus publicus under stress — infrastructure of imperial communication and its breakdown",
+      "Argument synthesis: epistolary practice as a technology of governance, not merely record-keeping",
+      "Conclusions and open questions — toward a network-theoretic model of Roman imperial resilience"
+    ],
+    "id": "seed_00036"
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The intellectual debts of the French Revolution's Declaration of the Rights of Man — tracing how Rousseau's general will, Locke's natural rights, and Montesquieu's separation of powers shaped its articles.",
+    "audience": "Undergraduate political philosophy students",
+    "style_hints": "erudite, reflective, narrative-driven",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00037"
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A seminar discussion of Virginia Woolf's 'To the Lighthouse,' examining subjective time, stream of consciousness technique, and the structural parallel between the novel's three sections and Lily Briscoe's completing her painting.",
+    "audience": "University literature reading group",
+    "style_hints": "contemplative, analytical, literary",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7,
+    "outline_hint": [
+      "Title: 'Finishing the Picture — Form, Time, and Vision in To the Lighthouse'",
+      "Woolf's biographical context: St Ives, Leslie Stephen, and the kernel of the novel",
+      "The Window: domestic time, perception and the 'little language' of consciousness",
+      "Time Passes: impersonal duration — decay, war, and the silence between",
+      "The Lighthouse: return, reconciliation, and Lily's 'vision' as artistic culmination",
+      "Discussion prompts: Is the novel a painting? Can fiction 'finish' what life leaves incomplete?",
+      "Further reading and closing image — Vanessa Bell's Studio at Charleston"
+    ],
+    "id": "seed_00038"
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "How Homeric Greek oral-formulaic composition worked — demonstrating Milman Parry's thesis through repeated type-scenes and formulaic epithets from the Iliad, with close readings of key passages.",
+    "audience": "Introductory classics students",
+    "style_hints": "pedagogical, methodical, text-heavy with Greek passages",
+    "theme_hint": "scholarly",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00039"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "Introducing Vamp-DB, a new terminal-native database migration CLI written in Rust that automatically versions your schema changes and syncs across night-owl dev teams.",
+    "audience": "Backend engineers and database administrators",
+    "style_hints": "snappy, terminal-forward, developer-insider",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "outline_hint": [
+      "Intro to Vamp-DB and why schema migrations suck",
+      "The architecture: How Vamp-DB tracks state in local JSON",
+      "Installation & Initial Setup",
+      "Creating your first migration script",
+      "Running migrations in a production-like environment",
+      "Rollbacks and recovery mechanisms",
+      "Comparing Vamp-DB to existing tools (Flyway, Liquibase)",
+      "Roadmap and community contribution info",
+      "Q&A"
+    ],
+    "id": "seed_00040"
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "A pitch for BiteScript, a hackathon-winning developer tool that generates type-safe API clients by inspecting network traffic in real-time via a local proxy.",
+    "audience": "Developer tool investors and hackathon judges",
+    "style_hints": "high-contrast, fast-paced, bold claims with code proof",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "two-col comparison",
+      "code blocks"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00041"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "A hands-on walkthrough for building a bleeding-edge, dark-mode-centric development environment using Tmux, Neovim, and custom Zsh configurations for maximum terminal productivity.",
+    "audience": "Curious developers and terminal enthusiasts",
+    "style_hints": "step-by-step, technical, config-heavy",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide: Building the Ultimate Dark-Mode Dev Environment",
+      "Why Tmux + Neovim? The case against heavy IDEs",
+      "Bootstrapping your dotfiles repo",
+      "Tmux config: Panes, windows, and session persistence",
+      "Neovim setup: LazyVim vs. custom from scratch",
+      "LSP and autocomplete in the terminal",
+      "Git integration with lazygit and Fugitive",
+      "Zsh + Starship: Making the prompt your own",
+      "Putting it all together: A live coding workflow",
+      "Cheat sheet and resource links"
+    ],
+    "id": "seed_00042"
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "Deep dive into optimizing the 'Fast-ML' Python CLI execution speeds using Rust extensions, profiling with py-spy, and compiling with PyO3.",
+    "audience": "Python developers and performance engineers",
+    "style_hints": "data-dense, analytical, deeply technical",
+    "theme_hint": "dracula",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "id": "seed_00043"
+  },
+  {
+    "domain": "conference tech talk",
+    "topic": "How the Vulpes team built an incremental compilation engine for the Onyx programming language, covering AST diffing, dependency-graph pruning, and bytecode patching strategies that cut recompilation times by 18×.",
+    "audience": "Compiler engineers and language implementers at LangConf",
+    "style_hints": "deep technical dive with annotated source walkthroughs",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 12,
+    "id": "seed_00044"
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "Post-mortem of a 47-minute production outage at Meridian Labs caused by a subtle race condition in their distributed lock manager, walking through the systematic debugging methodology that traced it to a fence-sync gap in the Raft log replicator.",
+    "audience": "Senior SREs and backend engineers",
+    "style_hints": "blow-by-blow incident timeline with terminal output dumps",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00045"
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "A practical walkthrough of how the Ghostthread red team chained SSRF vulnerabilities in Kubernetes admission controllers to pivot from a compromised pod to cluster-admin, paired with concrete hardening controls for each escalation step.",
+    "audience": "Security engineers and platform SREs",
+    "style_hints": "adversarial mindset, offensive-to-defensive flow",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "code blocks",
+      "mermaid"
+    ],
+    "n_slides_target": 11,
+    "id": "seed_00046"
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "Benchmarking arena vs. slab allocators in high-throughput Rust services: methodology, allocation-pressure models, and latency distributions measured across the Carpathia messaging platform's 2M req/s ingestion pipeline.",
+    "audience": "Systems researchers and performance engineers",
+    "style_hints": "data-driven, rigorous methodology with formal notation",
+    "theme_hint": "the-unnamed",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13,
+    "id": "seed_00047"
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "A close reading of long takes and landscapes in Terrence Malick's 'The Tree of Life' and 'Days of Heaven,' exploring how visual patience became a moral stance in American cinema.",
+    "audience": "Graduate film studies seminar",
+    "style_hints": "meditative, image-driven, contemplative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11,
+    "outline_hint": [
+      "Title slide — 'The Patience of Light: Long Takes in Malick'",
+      "Why patience matters — the moral weight of looking longer",
+      "Days of Heaven — the golden hour as cinematic ethics",
+      "The harvest sequence — a close reading of one 4-minute take",
+      "The Tree of Life — cosmic scope and domestic intimacy",
+      "The creation sequence — beauty as theology",
+      "Stillness vs. silence — what the camera does when nothing happens",
+      "Influences: Ozu, Bresson, Tarkovsky — a brief comparative lens",
+      "The legacy — how Malick reshaped independent American cinema",
+      "Discussion prompt: Is slowness a privilege? Who gets to be patient?",
+      "Closing still + recommended reading list"
+    ],
+    "id": "seed_00048"
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "A thematic dissection of 'The Remains of the Day' by Kazuo Ishiguro — the architecture of emotional repression, the unreliability of memory, and what Stevens the butler cannot say.",
+    "audience": "Public library book club members",
+    "style_hints": "reflective, gently probing, literary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col-comparison"
+    ],
+    "n_slides_target": 8,
+    "id": "seed_00049"
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The wartime correspondence between Simone Weil and Albert Camus (1942–1947) — two moral philosophers who never met in person but shaped each other's final thinking on suffering, solidarity, and the duty to act.",
+    "audience": "Undergraduate philosophy and history students",
+    "style_hints": "narrative-driven, scholarly, humanistic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "mermaid"
+    ],
+    "n_slides_target": 10,
+    "outline_hint": [
+      "Title slide — 'Letters Across the Abyss'",
+      "Who was Simone Weil? — a brief biographical sketch",
+      "Who was Albert Camus? — a brief biographical sketch",
+      "How the correspondence began — Camus publishes Weil posthumously",
+      "On suffering — where they agreed",
+      "On the duty to act — where they diverged",
+      "Weil's concept of 'attention' vs. Camus's concept of 'revolt'",
+      "Timeline of their parallel lives — visual chronology",
+      "What each philosopher took from the other",
+      "Why their exchange still matters — moral philosophy in a fractured age"
+    ],
+    "id": "seed_00050"
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'On the Loom' — a curatorial walk-through of Anni Albers's textile experiments at Black Mountain College, tracing how one weaver's refusal to separate craft from art changed American modernism.",
+    "audience": "Museum members and patrons",
+    "style_hints": "reverent, tactile, visually unhurried",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 9,
+    "id": "seed_00051"
+  }
+]

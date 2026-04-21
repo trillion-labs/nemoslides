@@ -1,0 +1,434 @@
+[
+  {
+    "domain": "book club discussion guide",
+    "topic": "A deep dive into the themes of isolation and connection in Marilynne Robinson's novel 'Gilead', exploring the epistolary structure and theological undertones.",
+    "audience": "Literary fiction book club members",
+    "style_hints": "contemplative and pastoral",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "An editorial analysis of the visual language of grief in Wes Anderson's 'The Royal Tenenbaums', focusing on symmetrical framing and muted color palettes.",
+    "audience": "Cinema studies undergraduate students",
+    "style_hints": "visually observant and analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The rise and fall of the Library of Alexandria, examining the historical realities versus the mythological narrative of lost ancient knowledge.",
+    "audience": "Public library patrons attending a lecture series",
+    "style_hints": "scholarly and myth-busting",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "A retrospective on the Arts and Crafts movement's rejection of industrialization, highlighting the typography and bookbinding of William Morris's Kelmscott Press.",
+    "audience": "Museum of Fine Arts docents",
+    "style_hints": "artisanal and historically grounded",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "The evolution of the French language from Old French to modern Québécois, tracing the political and social forces that shaped its divergence.",
+    "audience": "Alliance Française language learners",
+    "style_hints": "etymological and narrative-driven",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Preserving the architectural heritage of abandoned rural chapels in the American South, seeking funds for structural stabilization and historical registry.",
+    "audience": "Historic preservation foundation donors",
+    "style_hints": "reverent and urgent",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The philosophical implications of Stoicism in the modern workplace, mapping Seneca's letters to contemporary burnout culture and remote work boundaries.",
+    "audience": "Academic philosophy conference attendees",
+    "style_hints": "rigorous and interdisciplinary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "self-improvement / productivity talk",
+    "topic": "Embracing 'otium' — reimagining ancient Roman concepts of leisurely contemplation as a cure for modern hustle culture.",
+    "audience": "Corporate wellness retreat participants",
+    "style_hints": "philosophical and soothing",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "policy briefing for government officials",
+    "topic": "Evaluating the cultural impact of proposed zoning laws on historic bookstore row in Portland, Oregon, balancing affordable housing with cultural preservation.",
+    "audience": "City council members and urban planners",
+    "style_hints": "measured and civic-minded",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "investor update for a non-tech business",
+    "topic": "Yearly performance review for 'Athanor Publishing', an independent press specializing in translated Eastern European fiction, detailing new imprint acquisitions.",
+    "audience": "Private investors and literary benefactors",
+    "style_hints": "literary and fiscally responsible",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "local community project update",
+    "topic": "The revitalization of the Oakwood Community Poetry Garden, summarizing the installation of new verse-engraved walking paths and native plant restoration.",
+    "audience": "Neighborhood association residents",
+    "style_hints": "community-focused and tranquil",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "wedding toast / life event recap",
+    "topic": "A fifty-year anniversary toast for Arthur and Elara, recounting their life together through the literature they loved and the gardens they grew.",
+    "audience": "Family and close friends",
+    "style_hints": "romantic and nostalgic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "travel trip-planning guide",
+    "topic": "A literary tour of the Scottish Highlands, mapping the historical settings that inspired Sir Walter Scott's 'Waverley' and the poetry of Robert Burns.",
+    "audience": "Senior center travel group",
+    "style_hints": "romantic and geographic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "cooking or food workshop",
+    "topic": "The history and cultural significance of the Japanese tea ceremony, tracing its roots from Song Dynasty China to the wabi-sabi aesthetic of Sen no Rikyū.",
+    "audience": "Cultural anthropology students",
+    "style_hints": "ceremonial and mindful",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "school or classroom lesson slides",
+    "topic": "An English literature lesson on the unreliable narrator in Ford Madox Ford's 'The Good Soldier', analyzing the gaps between what is said and what is true.",
+    "audience": "AP English high school students",
+    "style_hints": "analytical and probing",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hobby tutorial (music, photography, gardening, pottery, etc.)",
+    "topic": "Capturing the decisive moment: a philosophy of street photography rooted in the humanist traditions of Henri Cartier-Bresson and Vivian Maier.",
+    "audience": "Amateur photography club members",
+    "style_hints": "observant and artistic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Unpacking the post-colonial themes in Chinua Achebe's 'Things Fall Apart', contrasting the Igbo cultural framework with the encroaching British colonial narrative.",
+    "audience": "University community reading group",
+    "style_hints": "critical and empathetic",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "film or tv essay / analysis",
+    "topic": "The role of silence and diegetic sound in the films of Chloé Zhao, focusing on 'Nomadland' as a meditation on American economic invisibility.",
+    "audience": "Independent film festival attendees",
+    "style_hints": "atmospheric and observant",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The correspondence between John Adams and Thomas Jefferson: a 14-year dialogue on the soul of the American republic.",
+    "audience": "Historical society members",
+    "style_hints": "epistolary and reflective",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "culture & language explainer",
+    "topic": "How the invention of the printing press altered the trajectory of the Arabic script, from fluid calligraphic traditions to standardized typefaces.",
+    "audience": "Typography and design historians",
+    "style_hints": "technical and cultural",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "art or design retrospective",
+    "topic": "'Visions of Dystopia': examining the architectural renderings and concept art of Soviet Brutalism as expressions of ideological ambition and eventual decay.",
+    "audience": "Architecture school alumni",
+    "style_hints": "monumental and melancholic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 12
+  },
+  {
+    "domain": "academic lecture / research talk",
+    "topic": "The phenomenology of walking in Victorian literature, mapping pedestrian landscapes in the works of Charles Dickens and Elizabeth Gaskell.",
+    "audience": "Humanities researchers",
+    "style_hints": "peripatetic and detailed",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "KaTeX",
+      "mermaid"
+    ],
+    "n_slides_target": 13
+  },
+  {
+    "domain": "nonprofit fundraising pitch",
+    "topic": "Securing the future of the 'Voices of Tomorrow' youth poetry program in Detroit, presenting case studies of student growth through spoken word.",
+    "audience": "Corporate arts sponsors",
+    "style_hints": "impassioned and structured",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison",
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "annual report visual summary",
+    "topic": "The 2023 annual review for the 'Global Monuments Fund', detailing completed restorations of Phoenician ruins and funding allocation for upcoming Mediterranean sites.",
+    "audience": "International heritage conservation donors",
+    "style_hints": "transparent and worldly",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "board meeting strategy briefing",
+    "topic": "Strategic plan for the 'Athenaeum Public Library' system: navigating the transition from physical archives to digital access while preserving community touchpoints.",
+    "audience": "Library board of trustees",
+    "style_hints": "principled and forward-looking",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 11
+  },
+  {
+    "domain": "public explainer for a technical audience",
+    "topic": "The ethics of algorithmic curation in municipal libraries, asking whether recommendation engines undermine the serendipity of browsing.",
+    "audience": "Librarians and information scientists",
+    "style_hints": "ethical and inquisitive",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "startup pitch deck",
+    "topic": "'Marginadia': a pitch for a curated long-form essay platform that pairs emerging writers with editorial mentors to revive the Sunday supplement tradition.",
+    "audience": "Angel investors in media and publishing",
+    "style_hints": "editorially confident and visionary",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "problem-solution-ask"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "product launch keynote",
+    "topic": "The launch of the 'Hemingway', a distraction-free e-ink typewriter designed for novelists that syncs handwritten drafts to a cloud manuscript.",
+    "audience": "Writers and creative technologists",
+    "style_hints": "minimalist and romantic",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "partnership proposal",
+    "topic": "A proposed joint exhibition between the 'Museo del Prado' and the 'Metropolitan Museum of Art' on the cross-cultural exchange between Spanish Golden Age and Dutch Masters.",
+    "audience": "Museum directors and curators",
+    "style_hints": "diplomatic and scholarly",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "customer success case study",
+    "topic": "How the 'Oakmont Journal' transitioned from ad-dependent print to a thriving reader-supported digital magazine using a slow-journalism model.",
+    "audience": "Media industry executives",
+    "style_hints": "narrative and evidence-based",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sales kickoff deck",
+    "topic": "'Selling the Story': aligning the sales team of 'Chronicle Books' around the value of tactile, beautifully bound editions in an era of disposable media.",
+    "audience": "Publishing sales representatives",
+    "style_hints": "inspiring and tactile",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "marketing campaign brief",
+    "topic": "A campaign brief for 'The Winding Path', an independent bookstore's community reading challenge focusing on translated literary fiction.",
+    "audience": "Bookstore marketing staff and local partners",
+    "style_hints": "inviting and community-oriented",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 6
+  },
+  {
+    "domain": "company all-hands town hall",
+    "topic": "Reflecting on the mission of 'Heritage Textiles': celebrating 50 years of preserving artisanal weaving techniques in the Appalachian region.",
+    "audience": "Company employees and artisans",
+    "style_hints": "appreciative and legacy-focused",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "internal business review / quarterly update",
+    "topic": "Q3 editorial review for 'The Meridian Quarterly', analyzing readership demographics, essay submission volumes, and top-performing cultural criticism pieces.",
+    "audience": "Magazine editorial board",
+    "style_hints": "analytical and literate",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "data-dense tables"
+    ],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "hiring / recruiting pitch deck",
+    "topic": "Joining the 'Institute for the Future of the Book': recruiting editorial fellows to rethink long-form reading experiences in digital spaces.",
+    "audience": "Grad students in digital humanities",
+    "style_hints": "intellectual and mission-driven",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "personal finance primer",
+    "topic": "'The Philosophy of Enough': a primer on aligning personal investment strategies with Stoic and Epicurean principles of wealth and sufficiency.",
+    "audience": "Philosophy in practice meetup group",
+    "style_hints": "grounded and philosophical",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "two-col comparison"
+    ],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "sports analytics or fan presentation",
+    "topic": "The poetry of the perfect curve: exploring the aesthetic and cultural significance of the 'fadeaway' jump shot from Jordan to Nowitzki.",
+    "audience": "Basketball history enthusiasts",
+    "style_hints": "lyrical and analytical",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "parenting or family-life guide",
+    "topic": "Raising readers in a digital age: cultivating a home library and a family culture centered around shared read-aloud traditions.",
+    "audience": "Parents of young children",
+    "style_hints": "nurturing and practical",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 7
+  },
+  {
+    "domain": "fitness / wellness programme overview",
+    "topic": "'Moving Meditations': an 8-week yoga and reflective journaling program based on Thoreau's transcendentalist writings.",
+    "audience": "Wellness retreat attendees",
+    "style_hints": "holistic and introspective",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 8
+  },
+  {
+    "domain": "workshop tutorial / hands-on lab",
+    "topic": "The art of the personal essay: a writing workshop on blending memoir with cultural criticism, inspired by Joan Didion's syntax.",
+    "audience": "Aspiring creative nonfiction writers",
+    "style_hints": "instructional and inspiring",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "code blocks"
+    ],
+    "n_slides_target": 10
+  },
+  {
+    "domain": "book club discussion guide",
+    "topic": "Examining the motif of the double in Fyodor Dostoevsky's 'The Brothers Karamazov' and its implications for moral accountability.",
+    "audience": "Philosophy and literature enthusiasts",
+    "style_hints": "probing and profound",
+    "theme_hint": "seriph",
+    "feature_hints": [],
+    "n_slides_target": 9
+  },
+  {
+    "domain": "history mini-lecture",
+    "topic": "The Salon era: how 17th-century French aristocratic women curated intellectual life and shaped the Enlightenment from their drawing rooms.",
+    "audience": "Lifelong learning institute members",
+    "style_hints": "sophisticated and narrative",
+    "theme_hint": "seriph",
+    "feature_hints": [
+      "image-forward"
+    ],
+    "n_slides_target": 10
+  }
+]
