@@ -4,6 +4,8 @@
 
 NVIDIA Nemotron Hackathon 2026 · Track B (training process + metric validity) · 2-day solo project.
 
+**Reviewer writeup:** [trillion-labs.github.io/slides-sft](https://trillion-labs.github.io/slides-sft/) — or read the source under [`docs/`](docs/index.md).
+
 ## What this is
 
 We fine-tune **Nemotron-3-Nano-30B-A3B** (MoE, 3B active) on a Codex-authored corpus of Slidev training samples. Each sample has:
@@ -47,73 +49,79 @@ The packed dataset is published (private) at [`trillionlabs/slides-sft-v0`](http
 Python deps via [`uv`](https://docs.astral.sh/uv/) only — `pip` / `conda` / `poetry` are not used in this repo.
 
 ```bash
-uv sync
-cp .env.example .env   # fill in OPENAI_API_KEY, OPENROUTER_API_KEY, UNSPLASH_ACCESS_KEY, GEMINI_API_KEY
+uv sync                      # runtime
+uv sync --group dev          # + pytest / ruff
+cp .env.example .env         # fill keys — see comments in the file
+cd renderer && npm install   # Slidev + themes (Node)
 ```
 
-Renderer (Node, for Slidev export):
-
-```bash
-cd renderer && npm install
-```
+Required keys: `OPENROUTER_API_KEY` (baseline + judge), `GEMINI_API_KEY` (judge, direct mode), `UNSPLASH_ACCESS_KEY` (image resolver). See `.env.example` for which path consumes which key.
 
 ## Repo structure
 
 ```
 slides-sft/
-├── README.md          — this file
-├── PLAN.md            — 48-hour execution plan
-├── DECISIONS.md       — locked design decisions + rationale
-├── PROGRESS.md        — live execution log
-├── pipeline/          — shared Slidev reference + image tools + helpers
-├── scripts/           — Codex pipeline + HF dataset packer
-├── data/              — seeds, image bank (packed JSONL + work dirs gitignored)
-├── train/             — NeMo-RL config + launch scripts
-├── eval/              — PPTEval harness (generate + render + judge + score)
-├── renderer/          — Slidev rendering env (node_modules gitignored)
-├── reference/         — Slidev docs + gold few-shot examples
-├── demo/              — pre-rendered smoke gallery
-└── docs/              — hour-1 qualitative evidence
+├── README.md / PLAN.md / PROGRESS.md
+├── pyproject.toml · uv.lock    — uv-managed Python env
+├── pipeline/                   — Slidev reference pack, clients, image tools
+├── scripts/                    — Codex data pipeline + HF dataset packer
+├── data/                       — seeds + image bank (raw JSONL + work dirs gitignored)
+├── train/                      — NeMo-RL config + launch scripts
+├── eval/                       — PPTEval harness (generate + render + judge + score)
+├── renderer/                   — pinned Slidev + theme env; `render.sh` entry point
+├── reference/                  — vendored Slidev docs + gold few-shot examples
+├── demo/                       — pre-rendered smoke gallery
+├── docs/                       — reviewer writeup (start with docs/README.md) + qualitative evidence
+└── tests/                      — pytest suite
 ```
 
-## Pipeline
+## Reproduce end-to-end
 
 ```bash
-# 1. Materialize a Codex workspace from locked seeds
-uv run python -m scripts.codex_pipeline init --seeds data/seeds.json --out work_1615
+# 0. Install (see above)
 
-# 2. Track completion while Codex fills PROMPT.md / think.md / deck.md
-uv run python -m scripts.codex_pipeline status --work work_1615
+# 1. Baseline PPTEval (the protocol every claim derives from)
+uv run python -m eval.run --model nemotron-nano --out eval/runs/nemotron-nano
+uv run python -m eval.compare
 
-# 3. Pack completed folders into training records (local JSONL)
-uv run python -m scripts.codex_pipeline pack --work work_1615 --out data/raw/codex
+# 2. Synthesize training data — Codex authors PROMPT.md / think.md / deck.md per seed
+WORK=work-$(date +%Y%m%d)
+uv run python -m scripts.codex_pipeline init   --seeds data/seeds.json --out "$WORK"
+# ... Codex fills each seed folder ...
+uv run python -m scripts.codex_pipeline status --work "$WORK"
+uv run python -m scripts.codex_pipeline pack   --work "$WORK" --out data/raw/codex
 
-# 4. Pack into messages-only JSONL + push to HF Hub
-uv run python -m scripts.push_hf_dataset --work work_1615 --push
+# 3. Pack to chat JSONL + push to HF Hub (dataset: trillionlabs/slides-sft-v0)
+uv run python -m scripts.push_hf_dataset --work "$WORK" --push
+
+# 4. SFT with NeMo-RL (see train/)
+# 5. Re-run step 1 against the finetuned checkpoint — identical rubric, identical split.
 ```
 
-`PROMPT.md` is authored by Codex, not generated from the seed by the pipeline.
+## Eval protocol
 
-## Eval
+30-row held-out test split → `eval.generate` produces decks → `renderer/render.sh` exports per-slide PNGs → `eval.judge` (Gemini 3 Flash, vision) scores Content / Design / Coherence on a 1–5 rubric → `eval.features` adds an objective Visual Craft score by scanning for Slidev primitives (named layouts, shiki, Mermaid, KaTeX, `v-click`, transitions, presenter notes, non-default theme).
 
-Identical protocol across base and finetuned checkpoints:
+**Weighted Overall** = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`. The visual axis is over-weighted because that's where SFT delta is expected to land.
 
-```bash
-uv run python -m eval.run --model <name> --out eval/runs/<name>
-```
-
-Generates 50 held-out decks → renders via `renderer/render.sh` → judges with Gemini 3 Flash on the PPTEval rubric → writes scored JSONL. Baseline must run first and is the single point of comparison.
+**Floor-scored**: unrenderable decks count as 1 across all dims. This is the headline number — it penalizes models that emit invalid Slidev markdown and can't be scored by the judge at all.
 
 ## Results
 
-*Populated at hour 26 after finetuned checkpoint is available.*
+Baselines from rubric v5, 30-row test split, floor-scored. Judge: `google/gemini-3-flash-preview`. Full table + renderable-only view in [`eval/comparison_table.md`](eval/comparison_table.md).
 
-| Metric | Base | Finetuned | Δ |
-|---|---|---|---|
-| PPTEval Content (1–5) | — | — | — |
-| PPTEval Design (1–5) | — | — | — |
-| PPTEval Coherence (1–5) | — | — | — |
-| Pairwise win rate vs base | — | — | — |
+| Model | Render | Content | Design | Coherence | VisCraft | **Overall** |
+|---|---|---|---|---|---|---|
+| `gpt-5.4` | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
+| `glm-5.1` | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
+| `nemotron-super` (120B-A12B) | 100% | 4.13 | 2.63 | 3.73 | 1.97 | **2.83** |
+| **`nemotron-nano` (30B-A3B, SFT target)** | 87% | 3.50 | 2.30 | 3.37 | 1.80 | **2.50** |
+| **Finetuned (ours)** | — | — | — | — | — | **—** |
+| **Δ vs. base** | — | — | — | — | — | **—** |
+
+Nano's 87% render rate is inflated ~15pp by cache-reuse of Vue-error PNGs; the judge and feature scanner correctly score those low, so the weighted Overall ranking is unaffected. Final pitch number will re-render fresh.
+
+**SFT target:** lift nano ≥ `nemotron-super` (must-have) and close the gap to `glm-5.1` (stretch). The objective VisCraft dim (nano 1.80 → gpt-5.4 3.40) is the quantified teaching signal.
 
 ## References
 

@@ -21,7 +21,7 @@ load_dotenv()
 
 TEACHER_MODEL = "gpt-5-mini"
 BASE_MODEL = "nvidia/nemotron-3-nano-30b-a3b"
-OUT_DIR = Path(__file__).parent.parent / "docs" / "hour1_qualitative"
+OUT_DIR = Path(__file__).parent.parent / "docs" / "qualitative"
 
 SYSTEM_PROMPT = """You are an expert slide designer. Generate a complete Slidev markdown presentation for the topic the user provides.
 

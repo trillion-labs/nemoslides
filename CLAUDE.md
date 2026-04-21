@@ -10,10 +10,10 @@ Guidance for Claude Code sessions working in this repo.
 
 1. [`README.md`](README.md) — project summary, stack, repo structure
 2. [`PLAN.md`](PLAN.md) — 48-hour hour-by-hour execution plan + success criteria
-3. [`DECISIONS.md`](DECISIONS.md) — locked design decisions with rationale + what was rejected
+3. [`docs/README.md`](docs/README.md) — reviewer writeup entry point. Locked design decisions live inline in each topical doc (`docs/02-data-pipeline.md`, `docs/03-training.md`, `docs/04-evaluation.md`).
 4. [`PROGRESS.md`](PROGRESS.md) — live execution log. **Update this as work progresses.**
 
-Do not re-litigate locked decisions in `DECISIONS.md` unless the user explicitly reopens them.
+Do not re-litigate locked decisions in the `docs/` writeup unless the user explicitly reopens them.
 
 ## Conventions
 

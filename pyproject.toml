@@ -1,7 +1,7 @@
 [project]
 name = "slides-sft"
 version = "0.0.1"
-description = "Nemotron-3-Nano-30B-A3B SFT on synthetic Slidev decks — NVIDIA Nemotron Hackathon 2026, Track B."
+description = "SFT Nemotron-3-Nano-30B-A3B on synthetic Slidev decks. NVIDIA Nemotron Hackathon 2026, Track B."
 requires-python = ">=3.11"
 dependencies = [
     "openai>=1.54.0",
@@ -10,7 +10,36 @@ dependencies = [
     "tqdm>=4.66.0",
     "datasets>=4.8.4",
     "huggingface-hub>=1.11.0",
+    "data-designer>=0.2.1",
+    "fastapi>=0.136.0",
+    "uvicorn>=0.45.0",
+    "jinja2>=3.1.6",
+    "python-multipart>=0.0.26",
+]
+
+[project.urls]
+Repository = "https://github.com/trillion-labs/slides-sft"
+Documentation = "https://trillion-labs.github.io/slides-sft/"
+Dataset = "https://huggingface.co/datasets/trillionlabs/slides-sft-v0"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+docs = [
+    "mkdocs>=1.6.0",
+    "mkdocs-material>=9.5.0",
+    "pymdown-extensions>=10.0",
 ]
 
 [tool.uv]
 package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -5,6 +5,7 @@
 # python
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .venv/
 *.egg-info/
 
@@ -39,6 +40,10 @@ eval/runs/
 # slidev render staging files (trap-cleaned; stragglers if process killed)
 renderer/.tmp-deck-*
 
+# blindtest runtime
+blindtest/votes.db
+blindtest/pair_queue.json
+
 # local tool state
 .claude/
 .omx/
@@ -47,3 +52,6 @@ renderer/.tmp-deck-*
 .DS_Store
 .vscode/
 .idea/
+
+# mkdocs build output
+site/

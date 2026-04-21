@@ -1,0 +1,101 @@
+site_name: slides-sft
+site_description: Nemotron-3-Nano-30B-A3B SFT on synthetic Slidev decks. NVIDIA Nemotron Hackathon 2026, Track B.
+site_url: https://trillion-labs.github.io/slides-sft/
+repo_url: https://github.com/trillion-labs/slides-sft
+repo_name: trillion-labs/slides-sft
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Overview: index.md
+  - 01 · Problem and thesis: 01-problem.md
+  - 02 · Data pipeline: 02-data-pipeline.md
+  - 03 · Training: 03-training.md
+  - 04 · Evaluation: 04-evaluation.md
+  - Qualitative evidence: qualitative/notes.md
+
+not_in_nav: |
+  qualitative/pitch_deck_*.md
+  qualitative/product_launch_*.md
+  qualitative/tech_talk_*.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/trillion-labs/slides-sft
+    - icon: fontawesome/solid/database
+      link: https://huggingface.co/datasets/trillionlabs/slides-sft-v0
+      name: Dataset on Hugging Face Hub
+
+copyright: >
+  NVIDIA Nemotron Hackathon 2026 · Track B ·
+  <a href="https://github.com/trillion-labs/slides-sft">source</a>
