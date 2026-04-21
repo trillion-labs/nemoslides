@@ -1,6 +1,24 @@
 {
   "rows": [
     {
+      "model": "nano-local",
+      "slug": "nemotron-slide",
+      "n": 30,
+      "render_rate": 0.933,
+      "mor": {
+        "content": 4.37,
+        "design": 3.815,
+        "coherence": 4.333,
+        "visual_craft": 3.778
+      },
+      "fl": {
+        "content": 4.033,
+        "design": 3.533,
+        "coherence": 4.0,
+        "visual_craft": 3.5
+      }
+    },
+    {
       "model": "gpt-5.4",
       "slug": "gpt-5.4",
       "n": 30,
@@ -16,24 +34,6 @@
         "design": 3.167,
         "coherence": 4.067,
         "visual_craft": 3.4
-      }
-    },
-    {
-      "model": "nano-local",
-      "slug": "nemotron-slide",
-      "n": 30,
-      "render_rate": 0.833,
-      "mor": {
-        "content": 4.32,
-        "design": 3.72,
-        "coherence": 4.48,
-        "visual_craft": 3.92
-      },
-      "fl": {
-        "content": 3.767,
-        "design": 3.267,
-        "coherence": 3.9,
-        "visual_craft": 3.433
       }
     },
     {

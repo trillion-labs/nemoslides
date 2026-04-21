@@ -28,7 +28,7 @@ STAGED="$(mktemp "$RENDERER_DIR/.tmp-deck-$$-$(date +%N)-XXXXXX.md")"
 trap 'rm -f "$STAGED"' EXIT
 
 # resolve image-query placeholders via the uv-managed python env at the repo root
-( cd "$REPO_DIR" && PYTHONPATH=src uv run --quiet python -m nemoslides.pipeline.image_resolver "$INPUT_ABS" -o "$STAGED" )
+( cd "$REPO_DIR" && uv run --quiet python -m nemoslides.pipeline.image_resolver "$INPUT_ABS" -o "$STAGED" )
 
 cd "$RENDERER_DIR"
 

@@ -32,13 +32,17 @@
 
 30-row held-out test split. Judge: `google/gemini-3-flash-preview` (vision). Rubric v5: Content / Design / Coherence (subjective) + Visual Craft (objective Slidev-feature scan). 1–5 each. **Weighted Overall** = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`. Floor-scored: unrenderable decks count as 1 across all dims.
 
-| Model | Render | Content | Design | Coherence | VisCraft | **Overall** |
-|---|---|---|---|---|---|---|
-| `gpt-5.4` (closed reference) | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
-| `glm-5.1` (open reference) | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
-| `nemotron-super` (120B-A12B) | 100% | 4.13 | 2.63 | 3.73 | 1.97 | **2.83** |
-| **`nemotron-nano` (30B-A3B, SFT target)** | 87% | 3.50 | 2.30 | 3.37 | 1.80 | **2.50** |
-| **NemoSlides (ours, finetuned)** | — | — | — | — | — | **—** |
+<p align="center">
+  <img src="results/eval/plots/overall_bar.png" alt="Weighted Overall score per model — NemoSlides ranks #1 in both floor-scored and renderable regimes" width="100%" />
+</p>
+
+**NemoSlides (our 30B SFT) ranks #1** — beats `gpt-5.4`, `glm-5.1`, and the `nemotron-super` 120B base — at **3.69 floor-scored / 3.99 renderable**. Against the `nemotron-nano` base it came from: **+48% Overall** (`2.50 → 3.69`), +1.56 on Design, +1.53 on Visual Craft, render rate `87% → 93%`.
+
+<p align="center">
+  <img src="results/eval/plots/sft_delta.png" alt="Base vs SFT per-dim gain" width="88%" />
+</p>
+
+See [`results/eval/plots/`](results/eval/plots/) for the full set (per-dim bars, radar profiles) and [`results/eval/comparison_table.md`](results/eval/comparison_table.md) for the numbers.
 
 ## Quickstart
 
@@ -51,7 +55,7 @@ uv run uvicorn nemoslides.demo.app:app --reload    # prompt-to-deck web UI
 
 ## How it works
 
-1. **Synthesis.** `nemoslides.cli.codex_pipeline` emits per-seed prompts; Codex authors `PROMPT.md` / `think.md` / `deck.md` per sample — 705 train + 30 test rows.
+1. **Synthesis.** Seeds `(theme, domain, audience, style, features, outline?)` are generated with [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner) (categorical spine × GLM-5.1 via OpenRouter); `nemoslides.cli.codex_pipeline` then drives Codex to author `PROMPT.md` / `think.md` / `deck.md` per seed — 705 train + 30 test rows.
 2. **Render-validate.** Every sample is compiled with Slidev + Playwright. Parse errors, Vue overlays, and <3-slide renders are dropped.
 3. **Pack.** `nemoslides.cli.push_hf_dataset` projects seeds into chat-JSONL (`messages[0..2]` with `reasoning_content` on the assistant turn) and pushes to HF Hub.
 4. **SFT.** NeMo-RL `run_sft.py` with LoRA + FSDP2 on the Nemotron-3-Nano base. Recipe at `src/nemoslides/train/recipes/`.
@@ -93,7 +97,8 @@ See [docs](docs/index.md) for the full writeup: problem framing, data pipeline, 
 ## References
 
 - **Base model:** [Nemotron-3-Nano-30B-A3B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16)
-- **Framework:** [NeMo-RL](https://github.com/NVIDIA-NeMo/RL)
+- **Training:** [NeMo-RL](https://github.com/NVIDIA-NeMo/RL)
+- **Data synthesis:** [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner)
 - **Rubric:** [PPTAgent (EMNLP 2025)](https://arxiv.org/abs/2501.03936) · [AutoPresent (CVPR 2025)](https://arxiv.org/abs/2501.00912)
 - **Format:** [Slidev](https://sli.dev)
 
