@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>blindtest — results</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .cell-n  { background: #f1f5f9; }
+    td, th { padding: 0.5rem 0.75rem; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+<div class="max-w-5xl mx-auto p-8 space-y-8">
+
+  <header class="flex items-baseline justify-between">
+    <h1 class="text-2xl font-semibold">blindtest results</h1>
+    <div class="text-sm text-slate-500 font-mono">
+      {{ total_votes }} votes · {{ per_annotator|length }} annotators
+    </div>
+  </header>
+
+  {% if per_annotator %}
+  <section class="bg-white border border-slate-200 rounded-lg p-6">
+    <h2 class="text-lg font-semibold mb-3">Per-annotator progress</h2>
+    <table class="w-full text-sm">
+      <thead class="text-xs uppercase text-slate-500">
+        <tr><th class="text-left">annotator</th><th class="text-right">votes</th><th class="text-right">% of queue</th></tr>
+      </thead>
+      <tbody>
+        {% for ann, n in per_annotator %}
+        <tr class="border-t border-slate-100">
+          <td class="font-mono">{{ ann }}</td>
+          <td class="text-right">{{ n }}</td>
+          <td class="text-right text-slate-500">{{ "%.0f%%"|format(n / total_pairs * 100) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  <div class="flex gap-2 text-sm">
+    <a href="/" class="px-3 py-1.5 rounded bg-white border border-slate-300 hover:bg-slate-100">← back to voting</a>
+    <a href="/export.csv" class="px-3 py-1.5 rounded bg-white border border-slate-300 hover:bg-slate-100 font-mono">download CSV</a>
+  </div>
+
+  <!-- leaderboard -->
+  <section class="bg-white border border-slate-200 rounded-lg p-6">
+    <h2 class="text-lg font-semibold mb-4">Overall win rate <span class="text-xs font-normal text-slate-500 ml-2">ties = 0.5 each</span></h2>
+    <table class="w-full text-sm">
+      <thead class="text-xs uppercase text-slate-500">
+        <tr><th class="text-left">rank</th><th class="text-left">model</th><th class="text-right">wins</th><th class="text-right">plays</th><th class="text-right">win rate</th></tr>
+      </thead>
+      <tbody>
+        {% for m in leaderboard %}
+        <tr class="border-t border-slate-100">
+          <td class="text-slate-400">{{ loop.index }}</td>
+          <td class="font-mono">{{ m }}</td>
+          <td class="text-right">{{ "%.1f"|format(wins[m]) }}</td>
+          <td class="text-right text-slate-500">{{ plays[m] }}</td>
+          <td class="text-right font-semibold">{{ "%.1f%%"|format(win_rate[m] * 100) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <!-- pairwise matrix -->
+  <section class="bg-white border border-slate-200 rounded-lg p-6">
+    <h2 class="text-lg font-semibold mb-2">Pairwise win rate</h2>
+    <p class="text-xs text-slate-500 mb-4">Row model's win rate when paired with column model. Cell bg shows sample size.</p>
+    <table class="w-full text-sm">
+      <thead class="text-xs uppercase text-slate-500">
+        <tr>
+          <th></th>
+          {% for b in models %}<th class="text-center font-mono">{{ b }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for a in models %}
+        <tr class="border-t border-slate-100">
+          <th class="text-left font-mono text-slate-700">{{ a }}</th>
+          {% for b in models %}
+            {% set wr = pair_win_rate[a][b] %}
+            {% set n = pair_counts[a][b] %}
+            <td class="text-center {% if a == b %}bg-slate-100 text-slate-300{% elif wr is none %}text-slate-300{% endif %}">
+              {% if a == b %}—
+              {% elif wr is none %}·
+              {% else %}
+                <div class="font-semibold">{{ "%.0f%%"|format(wr * 100) }}</div>
+                <div class="text-xs text-slate-400">n={{ n }}</div>
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+</div>
+</body>
+</html>

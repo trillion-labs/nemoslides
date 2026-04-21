@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>blindtest — done</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex items-center justify-center">
+  <div class="max-w-md w-full bg-white border border-slate-200 rounded-lg p-8 shadow-sm text-center space-y-4">
+    <h1 class="text-2xl font-semibold">All done.</h1>
+    <p class="text-slate-600">
+      <span class="font-mono">{{ annotator }}</span> — {{ done }} / {{ total }} pairs voted.
+    </p>
+    <p class="text-sm text-slate-500">Thanks. You can close this tab.</p>
+    <div class="pt-4 flex justify-center gap-2">
+      <form method="post" action="/logout" class="inline">
+        <button class="text-xs px-3 py-1.5 rounded border border-slate-300 hover:bg-slate-100 font-mono">sign out</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

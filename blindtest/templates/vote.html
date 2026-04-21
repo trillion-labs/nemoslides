@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>blindtest — {{ done }}/{{ total }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    .slide-img { cursor: zoom-in; }
+    .lightbox {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.92);
+      display: none; align-items: center; justify-content: center; z-index: 50;
+      cursor: zoom-out; padding: 2rem;
+    }
+    .lightbox.active { display: flex; }
+    .lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    details > summary { cursor: pointer; list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+<!-- progress + prompt header (always visible) -->
+<header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+  <div class="max-w-[1800px] mx-auto px-6 py-3 space-y-2">
+    <div class="flex items-center gap-4">
+      <div class="font-mono text-sm text-slate-600">
+        <span class="font-semibold text-slate-900">{{ done }}</span> / {{ total }}
+      </div>
+      {% if already_voted %}
+        <span class="inline-block px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs">already voted — re-submit overwrites</span>
+      {% endif %}
+      <div class="flex-1"></div>
+      <div class="text-xs text-slate-400 font-mono">
+        signed in as <span class="text-slate-600">{{ annotator }}</span>
+      </div>
+      <form method="post" action="/logout" class="inline">
+        <button class="text-xs px-2 py-0.5 rounded border border-slate-200 hover:bg-slate-100 font-mono text-slate-500">sign out</button>
+      </form>
+    </div>
+    <div class="text-xs uppercase tracking-wider text-slate-500 font-semibold">Prompt</div>
+    <div class="text-sm text-slate-800 whitespace-pre-wrap bg-slate-50 p-3 rounded border border-slate-200 max-h-56 overflow-y-auto">{{ prompt }}</div>
+  </div>
+</header>
+
+<!-- two columns -->
+<main class="max-w-[1800px] mx-auto px-6 py-6 pb-32">
+  <div class="grid grid-cols-2 gap-6">
+    <section>
+      <h2 class="text-xs uppercase tracking-wider text-slate-500 font-semibold mb-3">Left</h2>
+      <div class="space-y-3">
+        {% for url in slides_left %}
+          <img src="{{ url }}" loading="lazy" class="slide-img w-full rounded border border-slate-200 shadow-sm" data-src="{{ url }}">
+        {% else %}
+          <div class="text-red-600 text-sm">no slides rendered for left model</div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xs uppercase tracking-wider text-slate-500 font-semibold mb-3">Right</h2>
+      <div class="space-y-3">
+        {% for url in slides_right %}
+          <img src="{{ url }}" loading="lazy" class="slide-img w-full rounded border border-slate-200 shadow-sm" data-src="{{ url }}">
+        {% else %}
+          <div class="text-red-600 text-sm">no slides rendered for right model</div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- sticky vote bar -->
+<form method="post" action="/vote/{{ token }}" id="vote-form"
+      class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 shadow-lg z-40">
+  <input type="hidden" name="winner" id="winner-field">
+
+  <div class="max-w-[1800px] mx-auto px-6 py-4 flex items-center gap-4">
+    <button type="button" data-vote="left"
+            class="vote-btn flex-1 py-4 px-6 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-lg transition">
+      ← Left wins <span class="opacity-60 text-sm ml-2">[1]</span>
+    </button>
+    <button type="button" data-vote="tie"
+            class="vote-btn py-4 px-8 rounded-lg bg-slate-300 hover:bg-slate-400 text-slate-800 font-semibold text-lg transition">
+      Tie <span class="opacity-60 text-sm ml-2">[2]</span>
+    </button>
+    <button type="button" data-vote="right"
+            class="vote-btn flex-1 py-4 px-6 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-lg transition">
+      Right wins → <span class="opacity-60 text-sm ml-2">[3]</span>
+    </button>
+  </div>
+</form>
+
+<!-- undo -->
+<div class="fixed top-3 right-6 z-40 flex gap-2">
+  <form method="post" action="/undo" class="inline">
+    <button class="text-xs px-3 py-1.5 rounded bg-white border border-slate-300 hover:bg-slate-100 font-mono">undo [U]</button>
+  </form>
+</div>
+
+<!-- lightbox -->
+<div class="lightbox" id="lightbox"><img id="lightbox-img" src=""></div>
+
+<script>
+  // hotkeys
+  const voteMap = {'1': 'left', '2': 'tie', '3': 'right'};
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (voteMap[e.key]) {
+      e.preventDefault();
+      submitVote(voteMap[e.key]);
+    } else if (e.key === 'u' || e.key === 'U') {
+      e.preventDefault();
+      document.querySelector('form[action="/undo"]').submit();
+    } else if (e.key === 'Escape') {
+      document.getElementById('lightbox').classList.remove('active');
+    }
+  });
+
+  // vote buttons
+  document.querySelectorAll('.vote-btn').forEach(btn => {
+    btn.addEventListener('click', () => submitVote(btn.dataset.vote));
+  });
+
+  function submitVote(winner) {
+    document.getElementById('winner-field').value = winner;
+    document.getElementById('vote-form').submit();
+  }
+
+  // lightbox
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.slide-img').forEach(img => {
+    img.addEventListener('click', () => {
+      lbImg.src = img.dataset.src;
+      lb.classList.add('active');
+    });
+  });
+  lb.addEventListener('click', () => lb.classList.remove('active'));
+</script>
+
+</body>
+</html>
