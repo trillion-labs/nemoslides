@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="/static/app.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <h1>Prompt to interactive Slidev deck</h1>
+        <p class="hero-copy">
+          Minimal demo. Write a prompt, choose a few general options, and preview the presentation.
+        </p>
+      </header>
+
+      <main class="layout">
+        <section class="panel control-panel">
+          <form id="deck-form" class="deck-form">
+            <label class="field">
+              <span class="field-label">Presentation prompt</span>
+              <textarea
+                id="prompt"
+                name="prompt"
+                rows="7"
+                maxlength="4000"
+                placeholder="Example: Create a simple 8-slide product launch deck for a new AI note-taking app. Show the problem, product, key features, demo flow, and closing takeaway."
+                required
+              ></textarea>
+            </label>
+
+            <div class="controls-grid">
+              <fieldset class="field choice-group">
+                <legend class="field-label">Audience</legend>
+                <div class="pill-grid">
+                  {% for option in audiences %}
+                  <label class="pill-option">
+                    <input
+                      type="radio"
+                      name="audience"
+                      value="{{ option.value }}"
+                      {% if option.value == defaults.audience %}checked{% endif %}
+                    />
+                    <span>{{ option.label }}</span>
+                  </label>
+                  {% endfor %}
+                </div>
+              </fieldset>
+
+              <fieldset class="field choice-group">
+                <legend class="field-label">Tone</legend>
+                <div class="pill-grid">
+                  {% for option in tones %}
+                  <label class="pill-option">
+                    <input
+                      type="radio"
+                      name="tone"
+                      value="{{ option.value }}"
+                      {% if option.value == defaults.tone %}checked{% endif %}
+                    />
+                    <span>{{ option.label }}</span>
+                  </label>
+                  {% endfor %}
+                </div>
+              </fieldset>
+
+              <fieldset class="field choice-group">
+                <legend class="field-label">Slide count</legend>
+                <div class="pill-grid compact">
+                  {% for count in slide_counts %}
+                  <label class="pill-option">
+                    <input
+                      type="radio"
+                      name="slide_count"
+                      value="{{ count }}"
+                      {% if count == defaults.slide_count %}checked{% endif %}
+                    />
+                    <span>{{ count }} slides</span>
+                  </label>
+                  {% endfor %}
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="action-row">
+              <button id="generate-button" type="submit">Generate presentation</button>
+              <p id="status" class="status">Ready.</p>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel viewer-panel">
+          <div class="viewer-header">
+            <div>
+              <h2>Preview</h2>
+            </div>
+            <a id="open-link" class="ghost-link hidden" target="_blank" rel="noreferrer">
+              Open full screen
+            </a>
+          </div>
+
+          <div id="empty-state" class="empty-state">
+            <p>Generate a deck to load the Slidev presentation here.</p>
+          </div>
+
+          <iframe
+            id="viewer-frame"
+            class="viewer-frame hidden"
+            title="Generated Slidev presentation"
+          ></iframe>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>

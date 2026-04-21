@@ -45,7 +45,7 @@ if ready_file \"\$d/PROMPT.md\" 40 && ready_file \"\$d/think.md\" 400 && ready_f
   exit 0
 fi
 codex exec --full-auto --ephemeral --skip-git-repo-check -C \"\$d\" -o \"\$d/codex_last.txt\" \"$PROMPT\" > \"\$d/codex_run.log\" 2>&1
-' sh {} > '$LOG_DIR/xargs.log' 2>&1; python3 -m scripts.codex_pipeline status --work '$WORK_DIR' > '$LOG_DIR/final_status.txt' 2>&1"
+' sh {} > '$LOG_DIR/xargs.log' 2>&1; python3 -m nemoslides.cli.codex_pipeline status --work '$WORK_DIR' > '$LOG_DIR/final_status.txt' 2>&1"
 
 echo "started session: $SESSION_NAME"
 echo "workdir: $WORK_DIR"

@@ -1,132 +1,106 @@
-# slides-sft
+<p align="center">
+  <img src="docs/assets/logo.svg" alt="NemoSlides" width="360" />
+</p>
 
-**Teaching a 30B-A3B MoE open-weight model to design pitch decks.**
+<h3 align="center">Open-weight slide generation, fine-tuned on Nemotron.</h3>
 
-NVIDIA Nemotron Hackathon 2026 · Track B (training process + metric validity) · 2-day solo project.
+<p align="center">
+  <a href="https://build.nvidia.com"><img alt="NVIDIA Nemotron" src="https://img.shields.io/badge/NVIDIA-Nemotron--3--Nano--30B--A3B-76B900?logo=nvidia&logoColor=white"></a>
+  <a href="https://github.com/NVIDIA-NeMo/RL"><img alt="NeMo-RL" src="https://img.shields.io/badge/Built%20with-NeMo--RL-76B900"></a>
+  <a href="https://sli.dev"><img alt="Slidev" src="https://img.shields.io/badge/format-Slidev-06b6d4"></a>
+  <a href="https://huggingface.co/datasets/trillionlabs/slides-sft-v0"><img alt="HF dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20dataset-slides--sft--v0-FFD21F"></a>
+  <a href="https://ai.google.dev/gemini-api/docs"><img alt="Gemini judge" src="https://img.shields.io/badge/judge-Gemini%203%20Flash-4285F4"></a>
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white"></a>
+  <a href="https://docs.astral.sh/uv/"><img alt="uv" src="https://img.shields.io/badge/managed%20by-uv-261230"></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
+</p>
 
-**Reviewer writeup:** [trillion-labs.github.io/slides-sft](https://trillion-labs.github.io/slides-sft/) — or read the source under [`docs/`](docs/index.md).
+<p align="center">
+  <a href="https://trillion-labs.github.io/nemoslides/">Docs</a> ·
+  <a href="#quickstart">Quickstart</a> ·
+  <a href="#results">Results</a> ·
+  <a href="#reproduce">Reproduce</a>
+</p>
 
-## What this is
+---
 
-We fine-tune **Nemotron-3-Nano-30B-A3B** (MoE, 3B active) on a Codex-authored corpus of Slidev training samples. Each sample has:
+**NemoSlides** fine-tunes `NVIDIA-Nemotron-3-Nano-30B-A3B` (30B params, 3B active MoE) on a 705-sample corpus of Slidev decks, producing an open-weight model that generates designer-grade presentations from a single prompt — locally, offline, and permissively licensed.
 
-- `PROMPT.md` — a realistic user request
-- `think.md` — a one-pass reasoning trace
-- `deck.md` — the final Slidev deck
-
-The assistant target is:
-
-```text
-<think>{think.md}</think>
-
-{deck.md}
-```
-
-The packed dataset is published (private) at [`trillionlabs/slides-sft-v0`](https://huggingface.co/datasets/trillionlabs/slides-sft-v0) — 584 train / 30 test rows, chat-format JSONL with `reasoning_content` on the assistant turn.
-
-## Pitch
-
-> Gamma, but open weights, runs on your laptop, and we're shipping the dataset too.
-
-- **Productivity:** every knowledge worker builds decks — unlimited, free, local generation.
-- **OSS parity:** closes the gap between open-weight models and closed slide-gen tools (Gamma, Beautiful.ai, Canva Magic Design).
-- **NVIDIA ecosystem:** finetuned checkpoint is a deployable NeMo microservice candidate.
-
-## Stack
-
-| Layer | Choice |
-|---|---|
-| Base model | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16` (post-trained; native `<think>` reasoning) |
-| Training | [NeMo-RL](https://github.com/NVIDIA-NeMo/RL) `examples/run_sft.py` + LoRA + FSDP2 (adapted from `sft-nanov3-30BA3B-2n8g-fsdp2-lora.yaml`) |
-| Corpus author | [Codex CLI](https://developers.openai.com/codex/cli) — per-seed workspace with PROMPT / think / deck files |
-| Slide format | [Slidev](https://sli.dev) markdown — full capability surface (layouts, shiki, Mermaid, KaTeX, `v-click`, transitions) |
-| Image strategy | Model emits `image-query:` placeholders; pre-render preprocessor resolves via Unsplash + curated `data/image_bank.json` fallback |
-| Judge | **Gemini 3 Flash** via OpenRouter (`google/gemini-3-flash-preview`) — PPTEval rubric: Content / Design / Coherence, 1–5 each |
-| Rendering | `renderer/render.sh` — pinned Slidev env with common themes pre-installed |
-
-## Install
-
-Python deps via [`uv`](https://docs.astral.sh/uv/) only — `pip` / `conda` / `poetry` are not used in this repo.
-
-```bash
-uv sync                      # runtime
-uv sync --group dev          # + pytest / ruff
-cp .env.example .env         # fill keys — see comments in the file
-cd renderer && npm install   # Slidev + themes (Node)
-```
-
-Required keys: `OPENROUTER_API_KEY` (baseline + judge), `GEMINI_API_KEY` (judge, direct mode), `UNSPLASH_ACCESS_KEY` (image resolver). See `.env.example` for which path consumes which key.
-
-## Repo structure
-
-```
-slides-sft/
-├── README.md / PLAN.md / PROGRESS.md
-├── pyproject.toml · uv.lock    — uv-managed Python env
-├── pipeline/                   — Slidev reference pack, clients, image tools
-├── scripts/                    — Codex data pipeline + HF dataset packer
-├── data/                       — seeds + image bank (raw JSONL + work dirs gitignored)
-├── train/                      — NeMo-RL config + launch scripts
-├── eval/                       — PPTEval harness (generate + render + judge + score)
-├── renderer/                   — pinned Slidev + theme env; `render.sh` entry point
-├── reference/                  — vendored Slidev docs + gold few-shot examples
-├── demo/                       — pre-rendered smoke gallery
-├── docs/                       — reviewer writeup (start with docs/README.md) + qualitative evidence
-└── tests/                      — pytest suite
-```
-
-## Reproduce end-to-end
-
-```bash
-# 0. Install (see above)
-
-# 1. Baseline PPTEval (the protocol every claim derives from)
-uv run python -m eval.run --model nemotron-nano --out eval/runs/nemotron-nano
-uv run python -m eval.compare
-
-# 2. Synthesize training data — Codex authors PROMPT.md / think.md / deck.md per seed
-WORK=work-$(date +%Y%m%d)
-uv run python -m scripts.codex_pipeline init   --seeds data/seeds.json --out "$WORK"
-# ... Codex fills each seed folder ...
-uv run python -m scripts.codex_pipeline status --work "$WORK"
-uv run python -m scripts.codex_pipeline pack   --work "$WORK" --out data/raw/codex
-
-# 3. Pack to chat JSONL + push to HF Hub (dataset: trillionlabs/slides-sft-v0)
-uv run python -m scripts.push_hf_dataset --work "$WORK" --push
-
-# 4. SFT with NeMo-RL (see train/)
-# 5. Re-run step 1 against the finetuned checkpoint — identical rubric, identical split.
-```
-
-## Eval protocol
-
-30-row held-out test split → `eval.generate` produces decks → `renderer/render.sh` exports per-slide PNGs → `eval.judge` (Gemini 3 Flash, vision) scores Content / Design / Coherence on a 1–5 rubric → `eval.features` adds an objective Visual Craft score by scanning for Slidev primitives (named layouts, shiki, Mermaid, KaTeX, `v-click`, transitions, presenter notes, non-default theme).
-
-**Weighted Overall** = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`. The visual axis is over-weighted because that's where SFT delta is expected to land.
-
-**Floor-scored**: unrenderable decks count as 1 across all dims. This is the headline number — it penalizes models that emit invalid Slidev markdown and can't be scored by the judge at all.
+> _Gamma, but open-weights, runs on your laptop, and we're shipping the dataset too._
 
 ## Results
 
-Baselines from rubric v5, 30-row test split, floor-scored. Judge: `google/gemini-3-flash-preview`. Full table + renderable-only view in [`eval/comparison_table.md`](eval/comparison_table.md).
+30-row held-out test split. Judge: `google/gemini-3-flash-preview` (vision). Rubric v5: Content / Design / Coherence (subjective) + Visual Craft (objective Slidev-feature scan). 1–5 each. **Weighted Overall** = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`. Floor-scored: unrenderable decks count as 1 across all dims.
 
 | Model | Render | Content | Design | Coherence | VisCraft | **Overall** |
 |---|---|---|---|---|---|---|
-| `gpt-5.4` | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
-| `glm-5.1` | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
+| `gpt-5.4` (closed reference) | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
+| `glm-5.1` (open reference) | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
 | `nemotron-super` (120B-A12B) | 100% | 4.13 | 2.63 | 3.73 | 1.97 | **2.83** |
 | **`nemotron-nano` (30B-A3B, SFT target)** | 87% | 3.50 | 2.30 | 3.37 | 1.80 | **2.50** |
-| **Finetuned (ours)** | — | — | — | — | — | **—** |
-| **Δ vs. base** | — | — | — | — | — | **—** |
+| **NemoSlides (ours, finetuned)** | — | — | — | — | — | **—** |
 
-Nano's 87% render rate is inflated ~15pp by cache-reuse of Vue-error PNGs; the judge and feature scanner correctly score those low, so the weighted Overall ranking is unaffected. Final pitch number will re-render fresh.
+## Quickstart
 
-**SFT target:** lift nano ≥ `nemotron-super` (must-have) and close the gap to `glm-5.1` (stretch). The objective VisCraft dim (nano 1.80 → gpt-5.4 3.40) is the quantified teaching signal.
+```bash
+uv sync                       # installs nemoslides + deps
+cp .env.example .env          # fill: OPENROUTER_API_KEY, UNSPLASH_ACCESS_KEY
+cd assets/renderer && npm i && cd ../..
+uv run uvicorn nemoslides.demo.app:app --reload    # prompt-to-deck web UI
+```
+
+## How it works
+
+1. **Synthesis.** `nemoslides.cli.codex_pipeline` emits per-seed prompts; Codex authors `PROMPT.md` / `think.md` / `deck.md` per sample — 705 train + 30 test rows.
+2. **Render-validate.** Every sample is compiled with Slidev + Playwright. Parse errors, Vue overlays, and <3-slide renders are dropped.
+3. **Pack.** `nemoslides.cli.push_hf_dataset` projects seeds into chat-JSONL (`messages[0..2]` with `reasoning_content` on the assistant turn) and pushes to HF Hub.
+4. **SFT.** NeMo-RL `run_sft.py` with LoRA + FSDP2 on the Nemotron-3-Nano base. Recipe at `src/nemoslides/train/recipes/`.
+5. **PPTEval.** `nemoslides.eval.run` generates → renders → judges each held-out prompt. Identical protocol for base and finetuned — the delta is the only thing that matters.
+
+## Repo
+
+```
+nemoslides/
+├── src/nemoslides/        pipeline · cli · eval · demo · blindtest · train
+├── assets/                renderer/ (pinned Slidev) · reference/ (Slidev docs + gold examples)
+├── data/                  seeds · theme profiles · image bank
+├── results/               eval JSONs · qualitative renders · blindtest DB
+├── docs/                  reviewer writeup (mkdocs)
+└── tests/
+```
+
+## Reproduce
+
+```bash
+# 1. Baseline PPTEval — the protocol every claim derives from.
+uv run python -m nemoslides.eval.run --model nemotron-nano
+uv run python -m nemoslides.eval.compare
+
+# 2. Synthesize corpus — Codex writes PROMPT / think / deck per seed.
+WORK=work-$(date +%Y%m%d)
+uv run python -m nemoslides.cli.codex_pipeline init --seeds data/seeds.json --out "$WORK"
+./scripts/run_codex_batch.sh "$WORK"
+uv run python -m nemoslides.cli.push_hf_dataset --work "$WORK" --push
+
+# 3. SFT (requires 2n8g).
+./src/nemoslides/train/launch.sh
+
+# 4. Re-run step 1 against the finetuned checkpoint — same rubric, same split.
+```
+
+See [docs](docs/index.md) for the full writeup: problem framing, data pipeline, training config, evaluation protocol.
 
 ## References
 
-- **Framework:** [NeMo-RL SFT guide](https://docs.nvidia.com/nemo/rl/latest/guides/sft.html) · [Nemotron-3-Nano recipe dir](https://github.com/NVIDIA-NeMo/RL/tree/main/examples/configs/recipes/llm)
-- **Eval:** PPTAgent (EMNLP 2025, arXiv [2501.03936](https://arxiv.org/abs/2501.03936)) — PPTEval rubric
-- **Context:** AutoPresent (CVPR 2025, arXiv [2501.00912](https://arxiv.org/abs/2501.00912))
-- **Model:** [Nemotron-3-Nano on HuggingFace](https://huggingface.co/nvidia)
-- **Slide format:** [Slidev named layouts](https://sli.dev/builtin/layouts.html)
+- **Base model:** [Nemotron-3-Nano-30B-A3B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16)
+- **Framework:** [NeMo-RL](https://github.com/NVIDIA-NeMo/RL)
+- **Rubric:** [PPTAgent (EMNLP 2025)](https://arxiv.org/abs/2501.03936) · [AutoPresent (CVPR 2025)](https://arxiv.org/abs/2501.00912)
+- **Format:** [Slidev](https://sli.dev)
+
+## License
+
+Code: Apache-2.0. Model weights: governed by the [NVIDIA Open Model License](https://developer.download.nvidia.com/licenses/nvidia-open-model-license-agreement). Dataset: research use only.
+
+---
+
+<p align="center">Built for the <b>NVIDIA Nemotron Hackathon 2026 · Track B</b> by <a href="https://trillionlabs.co">Trillion Labs</a>.</p>

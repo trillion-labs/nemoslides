@@ -28,7 +28,7 @@ LOG_FILE="$LOG_DIR/status_watch.log"
 while true; do
   {
     echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
-    python3 -m scripts.codex_pipeline status --work "$WORK_DIR"
+    python3 -m nemoslides.cli.codex_pipeline status --work "$WORK_DIR"
     python3 - "$WORK_DIR" "$LOG_FILE" <<'PY'
 from __future__ import annotations
 

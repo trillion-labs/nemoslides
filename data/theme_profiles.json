@@ -1,0 +1,74 @@
+[
+  {
+    "theme": "default",
+    "vibe": "neutral, clean, minimal blue — safe business default",
+    "topic_fit": "generic business updates, internal reviews, company all-hands, partnership proposals, cross-functional status reports, quarterly OKR readouts, generic explainers",
+    "tone": "professional, neutral, corporate"
+  },
+  {
+    "theme": "seriph",
+    "vibe": "elegant serif, editorial — reads like a longform essay",
+    "topic_fit": "editorial essays, long-form keynotes, book-club discussions, culture/history explainers, film/tv analysis, philosophy talks, journalism briefings, museum talks",
+    "tone": "thoughtful, literary, considered"
+  },
+  {
+    "theme": "apple-basic",
+    "vibe": "Apple-keynote minimalism, oversized type, tons of whitespace",
+    "topic_fit": "consumer product launches, flagship feature reveals, design-review keynotes, brand-forward marketing, aesthetic product demos, fashion/beauty launches, premium-lifestyle pitches",
+    "tone": "crisp, confident, minimal"
+  },
+  {
+    "theme": "geist",
+    "vibe": "Vercel-clean, monospace accents, developer-product energy",
+    "topic_fit": "startup pitch decks, dev-tool launches, SaaS pitches, API/platform rollouts, infra-product explainers, investor updates for a dev-tool company, developer-conference tech talks",
+    "tone": "confident, technical, crisp"
+  },
+  {
+    "theme": "academic",
+    "vibe": "formal serif, figure-heavy, traditional academic",
+    "topic_fit": "research talks, conference paper walkthroughs, university lectures, thesis defenses, literature reviews, lab meeting updates, policy briefings grounded in research, higher-ed teaching",
+    "tone": "formal, rigorous, evidentiary"
+  },
+  {
+    "theme": "the-unnamed",
+    "vibe": "VS Code dark, purple accents, IDE-native",
+    "topic_fit": "engineering deep-dives, backend internals, compiler/language implementation talks, performance-optimization talks, open-source project tours, debugging war stories, security/red-team talks",
+    "tone": "technical, detailed, hacker-friendly"
+  },
+  {
+    "theme": "nord",
+    "vibe": "cool blue-gray Nord palette, understated dev aesthetic",
+    "topic_fit": "infra/DevOps talks, observability & SRE talks, cloud-architecture walkthroughs, networking/protocol explainers, terminal-tooling talks, systems programming",
+    "tone": "calm, technical, polished"
+  },
+  {
+    "theme": "penguin",
+    "vibe": "warm modern gradients, Vue/JS ecosystem energy",
+    "topic_fit": "Vue/JS/frontend meetup talks, product demos, component-library walkthroughs, design-system talks, hackathon recaps, community workshop kickoffs, developer-advocate presentations",
+    "tone": "approachable, modern, energetic"
+  },
+  {
+    "theme": "dracula",
+    "vibe": "classic Dracula dark palette, high contrast, popular dev aesthetic",
+    "topic_fit": "dev-tool tutorials, code-walkthrough talks, CLI tool showcases, terminal-workflow talks, hackathon pitches for developers, night-mode-forward tech talks",
+    "tone": "playful-technical, developer-insider"
+  },
+  {
+    "theme": "frankfurt",
+    "vibe": "Beamer-inspired navy + cream, structured and formal",
+    "topic_fit": "mathematics lectures, physics talks, economics seminars, structured academic lectures, grant-proposal presentations, formal conference presentations",
+    "tone": "formal, structured, old-school academic"
+  },
+  {
+    "theme": "scholarly",
+    "vibe": "traditional academic (oxford/cambridge/princeton color variants)",
+    "topic_fit": "humanities lectures, history talks, literature seminars, philosophy talks, classics/ancient-studies talks, liberal-arts college lectures, thesis presentations",
+    "tone": "erudite, institutional, reflective"
+  },
+  {
+    "theme": "takahashi",
+    "vibe": "oversized type, one-idea-per-slide, extreme minimalism",
+    "topic_fit": "lightning talks, single-idea manifestos, motivational talks, bold-opinion essays, short ignition-style talks, keynote closers, inspirational community talks",
+    "tone": "punchy, declarative, high-impact"
+  }
+]

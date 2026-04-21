@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts import codex_pipeline
+from nemoslides.cli import codex_pipeline
 
 
 class CodexPipelineTests(unittest.TestCase):

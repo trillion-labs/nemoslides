@@ -5,7 +5,7 @@
 #   ./scripts/render_theme_gallery.sh <synth_dir> <out_gallery_dir>
 #
 # For each unique theme present in synth_dir/*.json, takes the first record,
-# writes its deck_md to a scratch file, and renders via renderer/render.sh.
+# writes its deck_md to a scratch file, and renders via assets/renderer/render.sh.
 
 set -euo pipefail
 
@@ -66,7 +66,7 @@ PY
   out_theme="$OUT_DIR/$theme"
   echo ""
   echo "=== $theme ==="
-  if "$REPO_DIR/renderer/render.sh" "$deck_md" "$out_theme" > "$SCRATCH/$theme.log" 2>&1; then
+  if "$REPO_DIR/assets/renderer/render.sh" "$deck_md" "$out_theme" > "$SCRATCH/$theme.log" 2>&1; then
     n=$(ls "$out_theme"/*.png 2>/dev/null | wc -l | tr -d ' ')
     echo "  -> $n PNGs at $out_theme"
   else

@@ -1,0 +1,56 @@
+# NemoSlides SFT recipe — adapted from NeMo-RL's
+# examples/configs/recipes/llm/sft-nanov3-30BA3B-2n8g-fsdp2-lora.yaml
+#
+# Target: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16 (post-trained, native
+# <think> reasoning). LoRA + FSDP2 on 2 nodes × 8 GPUs.
+#
+# Dataset: trillionlabs/slides-sft-v0 (chat-format JSONL, messages column
+# with reasoning_content on the assistant turn).
+
+defaults:
+  - /recipes/llm/sft-nanov3-30BA3B-2n8g-fsdp2-lora
+
+policy:
+  model_name: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+  peft:
+    enabled: true
+    kind: lora
+    lora:
+      r: 32
+      alpha: 64
+      dropout: 0.0
+      target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+
+data:
+  train:
+    path: trillionlabs/slides-sft-v0
+    split: train
+    format: chat
+    messages_column: messages
+  eval:
+    path: trillionlabs/slides-sft-v0
+    split: test
+    format: chat
+    messages_column: messages
+
+trainer:
+  max_epochs: 3
+  global_batch_size: 64
+  micro_batch_size: 1
+  lr: 5.0e-5
+  lr_schedule: cosine
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  gradient_checkpointing: true
+  seed: 42
+
+logging:
+  run_name: nemoslides-sft-v0
+  wandb:
+    project: nemoslides
+    enabled: true
+
+checkpointing:
+  save_dir: ./checkpoints/nemoslides-sft-v0
+  save_top_k: 2
+  save_every_n_epochs: 1
