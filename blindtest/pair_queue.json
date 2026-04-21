@@ -1,0 +1,632 @@
+[
+  {
+    "pair_id": "seed_00027__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00027",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00006__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00006",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00000__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00000",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00022__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00022",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00012__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00012",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00007__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00007",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00025__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00025",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00029__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00029",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00031__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00031",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00009__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00009",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  },
+  {
+    "pair_id": "seed_00034__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00034",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00029__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00029",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00012__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00012",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00012__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00012",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00027__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00027",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00025__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00025",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00027__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00027",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00034__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00034",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00025__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00025",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00022__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00022",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00022__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00022",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00021__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00021",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00034__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00034",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00033__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00033",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00033__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00033",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00033__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00033",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00008__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00008",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00006__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00006",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00008__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00008",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00013__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00013",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00029__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00029",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00012__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00012",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00006__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00006",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00029__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00029",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00033__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00033",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00007__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00007",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00031__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00031",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00006__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00006",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00013__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00013",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00033__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00033",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00027__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00027",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00007__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00007",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00021__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00021",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00025__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00025",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00000__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00000",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00034__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00034",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00027__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00027",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00013__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00013",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00008__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00008",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00013__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00013",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00013__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00013",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00008__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00008",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00031__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00031",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00000__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00000",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00009__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00009",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  },
+  {
+    "pair_id": "seed_00006__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00006",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00012__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00012",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00034__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00034",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00021__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00021",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00000__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00000",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00022__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00022",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00007__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00007",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00013__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00013",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 9-slide Slidev deck for Innovate Inc.'s global all-hands on our Diversity, Equity, and Inclusion progress and next steps. Keep the tone respectful, corporate, and transparent: show measurable progress, acknowledge where results are still uneven, and close with concrete commitments for the next year. Use the default theme and make it feel presentation-ready rather than like an HR document dump."
+  },
+  {
+    "pair_id": "seed_00021__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00021",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00021__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00021",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00007__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00007",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00022__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00022",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00006__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00006",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a visually clean, image-forward Slidev deck for Aura's internal marketing and creative teams. The deck should be a Fall 2024 influencer campaign brief for the skincare brand Aura, around 7 slides, using the default theme. Keep it concise and presentation-ready: define the campaign idea, target audience, creator mix, launch rhythm, and the KPIs the team should align on."
+  },
+  {
+    "pair_id": "seed_00007__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00007",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 11-slide Slidev deck for our FY25 CloudSync sales kickoff. The audience is the full CloudSync sales organization, so make it motivational but grounded in numbers: explain what changed going into FY25, show the quota rollout by segment, clarify the core selling plays for new business and expansion, and end with the operating cadence we’ll use to stay on plan. Use the `default` theme, keep it crisp and presentation-ready, and include data-dense tables only where comparison really matters."
+  },
+  {
+    "pair_id": "seed_00031__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00031",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00009__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00009",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  },
+  {
+    "pair_id": "seed_00008__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00008",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00034__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00034",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create an 8-slide Slidev deck in the `default` theme for military transition program coordinators. The deck should introduce BlueSky Logistics' employer brand and veteran hiring initiative in a respectful, professional tone. Make the case that veterans are a strong fit for logistics roles, show the kinds of jobs and support BlueSky offers, and close with a clear partnership invitation for upcoming transition cohorts. Keep it presentation-ready, visually varied, and concise rather than text-heavy."
+  },
+  {
+    "pair_id": "seed_00021__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00021",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 7-slide Slidev deck for an internal Q2 marketing spend review at EcoWear. The audience is our CFO and CMO, so keep it financial, direct, and decision-oriented. Focus on budget vs. actuals, channel-level variance, what drove the over/under-spend, and the recommendation for how we should adjust Q3 mix. Use the default theme and make the middle of the deck data-dense where it helps, but still easy to scan in a live meeting."
+  },
+  {
+    "pair_id": "seed_00025__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00025",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00008__glm-5.1__vs__nemotron-super",
+    "seed_id": "seed_00008",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 8-slide Slidev case study deck for prospective ClientHub customers on how FinServe Corp reduced onboarding time by 30% with ClientHub. Keep the tone professional and proof-driven, use the default theme, and make the story easy to scan. I want a clear before-and-after comparison, the operational changes that drove the result, and a closing slide that turns the case study into a practical buying signal."
+  },
+  {
+    "pair_id": "seed_00000__glm-5.1__vs__gpt-5.4",
+    "seed_id": "seed_00000",
+    "model_a": "glm-5.1",
+    "model_b": "gpt-5.4",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00012__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00012",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create an executive-ready Slidev deck for a senior leadership quarterly update on Project Horizon. Keep it concise, neutral, and focused on cross-functional status: what changed this quarter, what is on track for the Q3 pilot, the biggest risks, and the specific decisions leadership needs to make next. Use the `default` theme, aim for about 8 slides, and include one simple Mermaid view only if it helps explain dependencies."
+  },
+  {
+    "pair_id": "seed_00031__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00031",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00025__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00025",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a presentation-ready Slidev deck for IT operations and security engineers that explains zero-trust architecture, with a strong focus on identity verification. Keep it technical and straightforward, use the default theme, and aim for about 10 slides. I want the audience to leave with a clear mental model of what must be verified on each access request, how policy decisions are made, and what an operational rollout looks like. Use visuals only where they clarify the architecture or flow."
+  },
+  {
+    "pair_id": "seed_00009__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00009",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  },
+  {
+    "pair_id": "seed_00022__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00022",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for our company all-hands announcing WriteFlow's 12-month product roadmap and the biggest feature updates coming next year. The audience is WriteFlow employees across product, engineering, sales, customer success, and operations, so the deck should align everyone on what we are building, why it matters, and when the major releases land. Keep the tone upbeat but clean, use the `default` theme, and make it feel like something leadership would actually present live."
+  },
+  {
+    "pair_id": "seed_00029__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00029",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00033__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00033",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create an 11-slide Slidev deck for a corporate compliance and ethics training module aimed at mid-level managers across departments. Keep the tone serious and instructional, use the `default` theme, and make it practical rather than legalistic. I want the deck to show why managers are the control point, cover the most common gray-area situations they face, give them a simple decision framework for escalation, and close with clear actions they should take when concerns surface."
+  },
+  {
+    "pair_id": "seed_00009__glm-5.1__vs__nemotron-nano",
+    "seed_id": "seed_00009",
+    "model_a": "glm-5.1",
+    "model_b": "nemotron-nano",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  },
+  {
+    "pair_id": "seed_00029__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00029",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for Cornerstone Freight investors on our fleet expansion and regional logistics update. Keep it professional and status-oriented, grounded in operating metrics instead of marketing language. Use the default theme, include a couple of data-dense tables, and make the story clear: where we added capacity, how the network changed across regions, and why the expansion matters for service levels and returns."
+  },
+  {
+    "pair_id": "seed_00000__gpt-5.4__vs__nemotron-nano",
+    "seed_id": "seed_00000",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-nano",
+    "prompt": "Build a 10-slide Slidev deck for our Q3 OKR readout for Northwind Traders' supply chain and logistics leadership team. Keep it professional, direct, and in the default theme. I want a leadership-ready narrative, not a wall of bullets: open with the quarter's headline, show the OKR scorecard, explain what improved versus what missed, include at least one data-dense table, and close with the Q4 decisions we need from the group."
+  },
+  {
+    "pair_id": "seed_00031__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00031",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a polished 7-slide Slidev deck for Pinnacle Consulting's year-end all-hands town hall. The audience is our staff, so keep the tone celebratory but formal. Cover the year-end recap, the most important performance highlights, and the holiday schedule, using the default theme and a clean corporate presentation style. Make it feel presentation-ready, with clear pacing and a strong closing slide."
+  },
+  {
+    "pair_id": "seed_00027__gpt-5.4__vs__nemotron-super",
+    "seed_id": "seed_00027",
+    "model_a": "gpt-5.4",
+    "model_b": "nemotron-super",
+    "prompt": "Build a 9-slide Slidev deck for our Q3 customer support business review at HelpDesk Pro. The audience is the VP of Customer Success, so keep it executive-ready, neutral, and metric-focused. Cover ticket volume, SLA adherence, and resolution trends, use compact tables where comparisons matter, stay on the `default` theme, and close with the few Q4 actions the team should prioritize."
+  },
+  {
+    "pair_id": "seed_00009__nemotron-nano__vs__nemotron-super",
+    "seed_id": "seed_00009",
+    "model_a": "nemotron-nano",
+    "model_b": "nemotron-super",
+    "prompt": "Create a 10-slide Slidev deck for MoveIt's partnership committee proposing a joint venture with FastFreight to build a shared last-mile logistics network. Keep the tone collaborative and strategic, show why the partnership is stronger than either company expanding alone, and cover the fit, operating model, expected economics, rollout plan, risks, and the committee decision. Use the default theme and make the ending feel like a concrete recommendation, not a generic Q&A slide."
+  }
+]
