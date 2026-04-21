@@ -26,6 +26,17 @@ SHORT = {
     "visual_craft": "VisCraft",
 }
 
+# Display names for the table. Keyed by the `model` field in the results JSON
+# (which is the internal slug, e.g. `nano-local`). Kept in sync with
+# `nemoslides.eval.plot.DISPLAY_NAME`.
+DISPLAY_NAME = {
+    "nano-local":     "nemoslides-30b-a3b",
+    "gpt-5.4":        "gpt-5.4",
+    "glm-5.1":        "glm-5.1",
+    "nemotron-super": "nemotron-super (120B)",
+    "nemotron-nano":  "nemotron-nano (base)",
+}
+
 
 def _fmt(x: float | None) -> str:
     return f"{x:.2f}" if isinstance(x, (int, float)) else "—"
@@ -69,12 +80,12 @@ def main() -> None:
     weights_str = " + ".join(f"{w:.2f}·{SHORT[d]}" for d, w in WEIGHTS.items())
 
     lines: list[str] = []
-    lines.append("# Eval comparison")
+    lines.append("# SlidevBench — comparison")
     lines.append("")
     lines.append(f"Test set: {rows[0]['n']} rows. Judge: `google/gemini-3-flash-preview` (vision).")
     lines.append("")
     lines.append(
-        "**Rubric v5:** Content / Design / Coherence (judge) + Visual Craft "
+        "**Rubric:** Content / Design / Coherence (judge) + Visual Craft "
         "(objective Slidev-feature scan). 1–5 each."
     )
     lines.append(f"**Weighted Overall:** `{weights_str}`")
@@ -95,8 +106,9 @@ def main() -> None:
     for r in rows:
         vals = " | ".join(_fmt(r["fl"].get(d)) for d in DIMENSIONS)
         overall = _weighted_overall(r["fl"])
+        name = DISPLAY_NAME.get(r["model"], r["model"])
         lines.append(
-            f"| `{r['model']}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
+            f"| `{name}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
         )
     lines.append("")
 
@@ -108,15 +120,17 @@ def main() -> None:
     for r in rows_mor:
         vals = " | ".join(_fmt(r["mor"].get(d)) for d in DIMENSIONS)
         overall = _weighted_overall(r["mor"])
+        name = DISPLAY_NAME.get(r["model"], r["model"])
         lines.append(
-            f"| `{r['model']}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
+            f"| `{name}` | {_fmt_pct(r['render_rate'])} | {vals} | **{_fmt(overall)}** |"
         )
     lines.append("")
 
     lines.append("## Model slugs")
     lines.append("")
     for r in rows:
-        lines.append(f"- `{r['model']}` → `{r['slug']}`")
+        name = DISPLAY_NAME.get(r["model"], r["model"])
+        lines.append(f"- `{name}` (internal slug `{r['model']}`) → `{r['slug']}`")
     lines.append("")
 
     md_path = EVAL_DIR / "comparison_table.md"

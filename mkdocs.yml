@@ -77,10 +77,21 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
-  - 01 · Problem and thesis: 01-problem.md
-  - 02 · Data pipeline: 02-data-pipeline.md
+  - 01 · Architecture: 01-overview.md
+  - 02 · Data: 02-data.md
   - 03 · Training: 03-training.md
   - 04 · Evaluation: 04-evaluation.md
+  - 05 · Results: 05-results.md
+  - Reproduce: reproduce.md
+
+not_in_nav: |
+  assets/diagrams/README.md
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mermaid-init.js
 
 extra:
   social:

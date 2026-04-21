@@ -42,18 +42,18 @@ open-weight 30B model that ranks **#1 on the 30-row PPTEval** — ahead of
 |---|---|---|
 | Data synthesis | done | 705 train / 30 test rows on `trillionlabs/slides-sft-v0` |
 | Quality filter | done | Codex pipeline validators + packer |
-| Baseline PPTEval (4 ref models) | done | rubric v5 locked; numbers in `results/eval/` |
+| Baseline SlidevBench (4 ref models) | done | rubric locked; numbers in `results/eval/` |
 | SFT training | done | checkpoint served via vLLM as `nemotron-slide` |
-| Finetuned PPTEval | done | nano-local ranks #1 at 3.69 floor-scored Overall |
+| Finetuned SlidevBench | done | `nemoslides-30b-a3b` ranks #1 at 3.69 floor-scored Overall |
 | Blindtest (human pairwise) | in progress | 90 pre-FT pairs voted; post-FT pending |
 | Demo gallery | pending | — |
 | Pitch polish | pending | — |
 
-## Key numbers (30-row test, rubric v5, floor-scored weighted Overall)
+## Key numbers (SlidevBench, 30-row test, floor-scored weighted Overall)
 
 | Model | Overall | Render |
 |---|---|---|
-| **NemoSlides (ours, 30B SFT)** | **3.69** | 93% |
+| **`nemoslides-30b-a3b`** (ours) | **3.69** | 93% |
 | `gpt-5.4` | 3.62 | 100% |
 | `glm-5.1` | 3.26 | 100% |
 | `nemotron-super` (120B) | 2.83 | 100% |

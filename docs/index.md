@@ -1,75 +1,90 @@
-# slides-sft — technical docs
+# NemoSlides
 
-A reviewer-facing writeup of what we built, how, and why it works.
+**Open-weight slide generation, fine-tuned on Nemotron.**
 
-## TL;DR
+NemoSlides fine-tunes `NVIDIA-Nemotron-3-Nano-30B-A3B` on a 705-sample synthetic corpus of Slidev decks. The resulting 30B-parameter MoE (3B active) generates presentation-grade decks from a single prompt and ranks **#1** on the 30-row **SlidevBench** test split — ahead of `gpt-5.4`, `glm-5.1`, and the 120B-A12B `nemotron-super`.
 
-Slide generation is a hard, high-impact problem with no good open-weight answer. Closed-source incumbents (Gamma, Beautiful.ai, Canva Magic Design) dominate; the open side has small templated tools and research prototypes. People complain about this gap publicly and often.
+<div class="ns-stats" markdown>
+<div class="ns-stat"><strong>#1</strong><span>SlidevBench rank</span></div>
+<div class="ns-stat"><strong>3.69</strong><span>Overall (floor)</span></div>
+<div class="ns-stat"><strong>3.99</strong><span>Overall (renderable)</span></div>
+<div class="ns-stat"><strong>+48%</strong><span>Δ vs. base nano</span></div>
+<div class="ns-stat"><strong>93%</strong><span>Render rate</span></div>
+<div class="ns-stat"><strong>30B / 3B</strong><span>Total / active</span></div>
+</div>
 
-In 48 hours, solo, we fine-tuned `Nemotron-3-Nano-30B-A3B` — a 30B-parameter MoE with 3B active — on a Codex-authored synthetic Slidev corpus, using **only the NVIDIA training stack** (NeMo-RL + LoRA + FSDP2 + the published 2n8g recipe). Every number the project claims derives from a single locked protocol: same prompts, same judge, same rubric, base-vs-finetuned. No cherry-picking.
+## Architecture
 
-Two claims this doc set defends:
+NemoSlides is a supervised fine-tune on top of NVIDIA's post-trained Nemotron-3-Nano-30B-A3B. Training runs through NeMo-RL's `run_sft.py` with LoRA + FSDP2 on a published 2n8g recipe. Evaluation reuses the same vLLM inference path as the base model, isolating the adapter as the only variable.
 
-1. **The Δ is real.** Rubric locked before training. Baseline numbers locked before training. Floor-scoring penalizes invalid Slidev so a model that emits garbage cannot hide behind unrenderable rows. The PPTEval-derived judge is cross-checked by an objective feature scanner that counts Slidev primitives directly.
-2. **The training methodology is NVIDIA-stack-native.** Post-trained Nemotron with its own `<think>` reasoning format. NeMo-RL's `run_sft.py` against its own LoRA+FSDP2 recipe. No alternative trainers. The hackathon eligibility requirement is met by the same code path that does the actual work.
+```mermaid
+flowchart LR
+    P["user prompt"] --> M["NemoSlides<br/>Nemotron-3-Nano-30B-A3B<br/>+ LoRA adapter"]
+    M --> D["Slidev markdown<br/>+ &lt;think&gt; trace"]
+    D --> R["Slidev + Playwright<br/>render"]
+    R --> SL["rendered deck"]
 
-## Headline numbers
+    subgraph train["Training (offline)"]
+        S["seeds<br/>data/seeds.json"] --> C["Codex CLI<br/>per-seed author"]
+        C --> J["chat JSONL<br/>trillionlabs/slides-sft-v0"]
+        J --> NR["NeMo-RL run_sft.py<br/>LoRA · FSDP2"]
+        NR --> AD["LoRA adapter"]
+    end
+    AD -.loaded at inference.-> M
+```
 
-30 held-out prompts, floor-scored, rubric v5. Judge: `google/gemini-3-flash-preview` (vision). Weighted Overall = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`.
+*A hand-drawn Excalidraw replacement for this diagram lives at `docs/assets/diagrams/architecture.svg` once rendered; see [`docs/assets/diagrams/README.md`](https://github.com/trillion-labs/nemoslides/blob/main/docs/assets/diagrams) for the export workflow.*
+
+## Headline results
+
+**SlidevBench** — 30 held-out prompts. Judge: `google/gemini-3-flash-preview` (vision). Rubric: Content / Design / Coherence (judge) + Visual Craft (objective Slidev-feature scan). Weighted Overall = `0.40·VisCraft + 0.25·Design + 0.20·Content + 0.15·Coherence`.
 
 | Model | Render | Content | Design | Coherence | VisCraft | **Overall** |
 |---|---|---|---|---|---|---|
-| `gpt-5.4` (frontier reference) | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
-| `glm-5.1` (open-weight reference) | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
-| `nemotron-super` (120B-A12B, larger sibling) | 100% | 4.13 | 2.63 | 3.73 | 1.97 | **2.83** |
-| **`nemotron-nano` (30B-A3B, SFT target)** | 87% | 3.50 | 2.30 | 3.37 | 1.80 | **2.50** |
-| **Finetuned (ours)** | — | — | — | — | — | **—** |
-| **Δ vs. base** | — | — | — | — | — | **—** |
+| **`nemoslides-30b-a3b`** (ours) | 93% | 4.03 | 3.53 | 4.00 | 3.50 | **3.69** |
+| `gpt-5.4` | 100% | 4.27 | 3.17 | 4.07 | 3.40 | **3.62** |
+| `glm-5.1` | 100% | 3.83 | 3.03 | 3.83 | 2.90 | **3.26** |
+| `nemotron-super` (120B-A12B) | 100% | 4.13 | 2.63 | 3.73 | 1.97 | **2.83** |
+| `nemotron-nano` (30B-A3B, base) | 87% | 3.50 | 2.30 | 3.37 | 1.80 | **2.50** |
 
-Base-model anchor is `nemotron-nano` at 2.50 floor-scored Overall. SFT must-have: clear the larger `nemotron-super` sibling (2.83) despite being 4× smaller in active params. Stretch: close the gap to `glm-5.1` (3.26).
+![Weighted Overall across all 5 models](assets/plots/overall_bar.png)
 
-## Pipeline at a glance
+Full results, per-dimension tables, and Δ analysis live in [05 · Results](05-results.md).
 
-```mermaid
-flowchart TB
-    subgraph synth[Data synthesis]
-        S[data/seeds.json] --> I[scripts.codex_pipeline init]
-        I --> W[work_YYYYMMDD/<br/>seed_NNNN/]
-        W --> C[Codex CLI<br/>full-auto · parallel · tmux]
-        C --> F[PROMPT.md<br/>think.md<br/>deck.md]
-        F --> P[scripts.codex_pipeline pack<br/>+ validators]
-        P --> H[HF Hub<br/>trillionlabs/slides-sft-v0<br/>chat JSONL]
-    end
+## What NemoSlides generates
 
-    subgraph train[Training]
-        H --> NR[NeMo-RL examples/run_sft.py<br/>LoRA + FSDP2]
-        NR --> CK[Finetuned adapter]
-    end
+Rendered slides from the finetuned model on held-out test prompts — layouts span `cover`, `two-cols`, `image-right`, `fact`, `center`, `end`, shiki code blocks, Mermaid diagrams, and `v-click` progressive reveals.
 
-    subgraph eval[Evaluation — identical protocol]
-        CK --> G[eval.generate]
-        BASE[Stock Nemotron-Nano-30B-A3B] -.same prompts, judge, rubric.-> G
-        G --> R[renderer/render.sh<br/>Slidev → per-slide PNG]
-        R --> J[eval.judge<br/>Gemini 3 Flash vision]
-        R --> VC[eval.features<br/>objective VisCraft scan]
-        J --> SC[Weighted Overall]
-        VC --> SC
-        SC --> D[Δ vs. base]
-    end
-```
+<div class="ns-gallery" markdown>
+![](assets/gallery/seed_00023_01.png)
+![](assets/gallery/seed_00012_03.png)
+![](assets/gallery/seed_00000_01.png)
+![](assets/gallery/seed_00018_04.png)
+![](assets/gallery/seed_00006_02.png)
+![](assets/gallery/seed_00027_02.png)
+![](assets/gallery/seed_00033_03.png)
+![](assets/gallery/seed_00010_05.png)
+</div>
 
-## Reading order
+## Documentation
 
-1. [**01-problem.md**](01-problem.md) — why slide generation is hard, why open-weight matters, the thesis.
-2. [**02-data-pipeline.md**](02-data-pipeline.md) — Codex-authored corpus, per-seed validators, Slidev feature coverage, the image-query placeholder trick. Decisions inline.
-3. [**03-training.md**](03-training.md) — post-trained Nemotron, native `<think>` format, NeMo-RL SFT with LoRA+FSDP2, chat-JSONL training format. Decisions inline.
-4. [**04-evaluation.md**](04-evaluation.md) — what PPTEval is, what we changed (rubric v5), why the changes hold up, the four-model baseline, the render-bug scars. Longest doc. Decisions inline.
-5. [**qualitative evidence**](qualitative/notes.md) — side-by-side base-vs-teacher renders from the hour-1 competence check. Visual evidence of the gap we're closing.
+This site covers the technical implementation in five parts.
 
-## Non-doc references
+| Section | Contents |
+|---|---|
+| [01 · Architecture](01-overview.md) | System components, module layout, inference + training stacks, request/response flow |
+| [02 · Data](02-data.md) | Synthesis pipeline (Data Designer + Codex), dataset schema, validators, feature coverage |
+| [03 · Training](03-training.md) | Base model, NeMo-RL SFT recipe, LoRA + FSDP2 config, chat-JSONL format, inference-time setup |
+| [04 · Evaluation](04-evaluation.md) | SlidevBench definition, two-fold protocol (VLM judge + human blindtest), rubric anchors, feature scanner |
+| [05 · Results](05-results.md) | Headline numbers, per-dimension breakdown, SFT Δ, before/after, blindtest status |
+| [Reproduce](reproduce.md) | Full repro playbook — baseline eval, synthesis, training, finetuned eval |
 
-- [Install + reproduce commands (repo README)](https://github.com/trillion-labs/slides-sft#readme)
-- [Hour-by-hour execution plan (`PLAN.md`)](https://github.com/trillion-labs/slides-sft/blob/main/PLAN.md)
-- [Live execution log (`PROGRESS.md`)](https://github.com/trillion-labs/slides-sft/blob/main/PROGRESS.md)
-- [Full 4-model eval table (`eval/comparison_table.md`)](https://github.com/trillion-labs/slides-sft/blob/main/eval/comparison_table.md)
-- [Dataset on HF Hub (private)](https://huggingface.co/datasets/trillionlabs/slides-sft-v0) — 705 train / 30 test chat-JSONL.
+## References
+
+- **Base model:** [`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16`](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16)
+- **Training framework:** [NVIDIA-NeMo/RL](https://github.com/NVIDIA-NeMo/RL) · recipe [`sft-nanov3-30BA3B-2n8g-fsdp2-lora.yaml`](https://github.com/NVIDIA-NeMo/RL/tree/main/examples/configs/recipes/llm)
+- **Data synthesis:** [NVIDIA-NeMo/DataDesigner](https://github.com/NVIDIA-NeMo/DataDesigner)
+- **Rubric:** [PPTAgent, EMNLP 2025](https://arxiv.org/abs/2501.03936) · [AutoPresent, CVPR 2025](https://arxiv.org/abs/2501.00912)
+- **Slide format:** [Slidev](https://sli.dev)
+- **Dataset:** [`trillionlabs/slides-sft-v0`](https://huggingface.co/datasets/trillionlabs/slides-sft-v0)
+- **Source:** [`trillion-labs/nemoslides`](https://github.com/trillion-labs/nemoslides)

@@ -1,0 +1,93 @@
+/* Gallery grid for docs/index.md and docs/05-results.md. */
+.ns-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin: 1.25rem 0;
+}
+.ns-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.ns-gallery img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 960px) {
+  .ns-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Before/after pair, side-by-side. */
+.ns-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+.ns-compare figure {
+  margin: 0;
+}
+.ns-compare img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.ns-compare figcaption {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.4rem;
+  color: var(--md-default-fg-color--light);
+}
+.ns-compare .ns-fail {
+  border-color: #c33;
+}
+.ns-compare .ns-win {
+  border-color: #2ea44f;
+}
+
+/* Key-number stat cards used in docs/index.md and 05-results.md. */
+.ns-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+.ns-stats .ns-stat {
+  background: var(--md-code-bg-color);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+}
+.ns-stats .ns-stat strong {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-family: "JetBrains Mono", monospace;
+}
+.ns-stats .ns-stat span {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Diagram captions. */
+figure.ns-figure {
+  margin: 1.5rem 0;
+}
+figure.ns-figure img {
+  width: 100%;
+  border-radius: 0.375rem;
+}
+figure.ns-figure figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.5rem;
+}
