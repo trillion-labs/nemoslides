@@ -11,6 +11,7 @@
   <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
   <a href="https://build.nvidia.com"><img alt="NVIDIA Nemotron" src="https://img.shields.io/badge/NVIDIA-Nemotron--3--Nano--30B--A3B-76B900?logo=nvidia&logoColor=white"></a>
   <a href="https://huggingface.co/datasets/trillionlabs/slides-sft-v0"><img alt="HF dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20dataset-slides--sft--v0-FFD21F"></a>
+  <a href="https://huggingface.co/trillionlabs/nemotron-slide"><img alt="HF model" src="https://img.shields.io/badge/%F0%9F%A4%97%20model-nemotron--slide-FFD21F"></a>
 </p>
 
 <p align="center">

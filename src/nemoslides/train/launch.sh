@@ -1,14 +1,28 @@
 #!/usr/bin/env bash
-# Launch NemoSlides SFT via NeMo-RL.
+# Launch NemoSlides SFT via Automodel.
 #
-# Clones NeMo-RL on first run, syncs deps, fires run_sft.py with the
+# Clones Automodel on first run, syncs deps, runs full-param SFT with the
 # NemoSlides recipe. Run from the repo root.
 
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+
+# Setup SFT
+AUTOMODEL_DIR="${AUTOMODEL_DIR:-$REPO_DIR/.external/Automodel}"
+SFT_RECIPE="$REPO_DIR/src/nemoslides/train/recipes/sft-nemotron-nano.yaml"
+
+if [[ ! -d "$AUTOMODEL_DIR" ]]; then
+  mkdir -p "$(dirname "$AUTOMODEL_DIR")"
+  git clone https://github.com/NVIDIA-NeMo/Automodel.git "$AUTOMODEL_DIR"
+fi
+
+cd "$AUTOMODEL_DIR"
+uv sync --frozen --extra cuda
+
+# Setup DPO
 NEMO_RL_DIR="${NEMO_RL_DIR:-$REPO_DIR/.external/NeMo-RL}"
-RECIPE="$REPO_DIR/src/nemoslides/train/recipes/sft-nemotron-nano-lora.yaml"
+DPO_RECIPE="$REPO_DIR/src/nemoslides/train/recipes/dpo-nemotron-nano.yaml"
 
 if [[ ! -d "$NEMO_RL_DIR" ]]; then
   mkdir -p "$(dirname "$NEMO_RL_DIR")"
@@ -16,6 +30,12 @@ if [[ ! -d "$NEMO_RL_DIR" ]]; then
 fi
 
 cd "$NEMO_RL_DIR"
-uv sync
+uv venv
 
-exec uv run python examples/run_sft.py --config-path "$REPO_DIR/src/nemoslides/train/recipes" --config-name sft-nemotron-nano-lora
+# Run SFT
+cd "$AUTOMODEL_DIR"
+uv run automodel finetune llm -c "$SFT_RECIPE"
+
+# Run DPO
+cd "$NEMO_RL_DIR"
+uv run python examples/dpo.py --config "$DPO_RECIPE"
