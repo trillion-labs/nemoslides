@@ -105,6 +105,37 @@ textarea:focus {
   border-color: #9ca3af;
 }
 
+.controls-fold {
+  border: 0;
+}
+
+.controls-fold > summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  color: var(--muted);
+}
+
+.controls-fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+.controls-fold > summary::before {
+  content: "\25B6\FE0E";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 0.7em;
+  transition: transform 160ms ease;
+}
+
+.controls-fold[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.controls-fold > .controls-grid {
+  margin-top: 14px;
+}
+
 .controls-grid {
   display: grid;
   gap: 16px;
@@ -168,6 +199,12 @@ button {
   cursor: pointer;
 }
 
+#clear-button {
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
 button:disabled {
   cursor: wait;
   opacity: 0.72;
@@ -178,17 +215,35 @@ button:disabled {
   color: var(--muted);
 }
 
+.viewer-fold {
+  border: 0;
+}
+
+.viewer-fold > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.viewer-fold > summary::-webkit-details-marker {
+  display: none;
+}
+
 .viewer-header {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   gap: 16px;
   margin-bottom: 12px;
 }
 
-.viewer-header h2 {
-  margin: 0;
+.viewer-header > span {
   font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.viewer-fold:not([open]) > .viewer-header {
+  margin-bottom: 0;
 }
 
 .ghost-link {

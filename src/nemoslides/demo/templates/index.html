@@ -30,85 +30,90 @@
               ></textarea>
             </label>
 
-            <div class="controls-grid">
-              <fieldset class="field choice-group">
-                <legend class="field-label">Audience</legend>
-                <div class="pill-grid">
-                  {% for option in audiences %}
-                  <label class="pill-option">
-                    <input
-                      type="radio"
-                      name="audience"
-                      value="{{ option.value }}"
-                      {% if option.value == defaults.audience %}checked{% endif %}
-                    />
-                    <span>{{ option.label }}</span>
-                  </label>
-                  {% endfor %}
-                </div>
-              </fieldset>
+            <details class="controls-fold" open>
+              <summary class="field-label">Options</summary>
+              <div class="controls-grid">
+                <fieldset class="field choice-group">
+                  <legend class="field-label">Audience</legend>
+                  <div class="pill-grid">
+                    {% for option in audiences %}
+                    <label class="pill-option">
+                      <input
+                        type="radio"
+                        name="audience"
+                        value="{{ option.value }}"
+                        {% if option.value == defaults.audience %}checked{% endif %}
+                      />
+                      <span>{{ option.label }}</span>
+                    </label>
+                    {% endfor %}
+                  </div>
+                </fieldset>
 
-              <fieldset class="field choice-group">
-                <legend class="field-label">Tone</legend>
-                <div class="pill-grid">
-                  {% for option in tones %}
-                  <label class="pill-option">
-                    <input
-                      type="radio"
-                      name="tone"
-                      value="{{ option.value }}"
-                      {% if option.value == defaults.tone %}checked{% endif %}
-                    />
-                    <span>{{ option.label }}</span>
-                  </label>
-                  {% endfor %}
-                </div>
-              </fieldset>
+                <fieldset class="field choice-group">
+                  <legend class="field-label">Tone</legend>
+                  <div class="pill-grid">
+                    {% for option in tones %}
+                    <label class="pill-option">
+                      <input
+                        type="radio"
+                        name="tone"
+                        value="{{ option.value }}"
+                        {% if option.value == defaults.tone %}checked{% endif %}
+                      />
+                      <span>{{ option.label }}</span>
+                    </label>
+                    {% endfor %}
+                  </div>
+                </fieldset>
 
-              <fieldset class="field choice-group">
-                <legend class="field-label">Slide count</legend>
-                <div class="pill-grid compact">
-                  {% for count in slide_counts %}
-                  <label class="pill-option">
-                    <input
-                      type="radio"
-                      name="slide_count"
-                      value="{{ count }}"
-                      {% if count == defaults.slide_count %}checked{% endif %}
-                    />
-                    <span>{{ count }} slides</span>
-                  </label>
-                  {% endfor %}
-                </div>
-              </fieldset>
-            </div>
+                <fieldset class="field choice-group">
+                  <legend class="field-label">Slide count</legend>
+                  <div class="pill-grid compact">
+                    {% for count in slide_counts %}
+                    <label class="pill-option">
+                      <input
+                        type="radio"
+                        name="slide_count"
+                        value="{{ count }}"
+                        {% if count == defaults.slide_count %}checked{% endif %}
+                      />
+                      <span>{{ count }} slides</span>
+                    </label>
+                    {% endfor %}
+                  </div>
+                </fieldset>
+              </div>
+            </details>
 
             <div class="action-row">
               <button id="generate-button" type="submit">Generate presentation</button>
+              <button id="clear-button" type="button">Clear</button>
               <p id="status" class="status">Ready.</p>
             </div>
           </form>
         </section>
 
         <section class="panel viewer-panel">
-          <div class="viewer-header">
-            <div>
-              <h2>Preview</h2>
+          <details class="viewer-fold" open>
+            <summary class="viewer-header">
+              <span>Preview</span>
+              <a id="open-link" class="ghost-link hidden" target="_blank" rel="noreferrer"
+                 onclick="event.stopPropagation()">
+                Open full screen
+              </a>
+            </summary>
+
+            <div id="empty-state" class="empty-state">
+              <p>Generate a deck to load the Slidev presentation here.</p>
             </div>
-            <a id="open-link" class="ghost-link hidden" target="_blank" rel="noreferrer">
-              Open full screen
-            </a>
-          </div>
 
-          <div id="empty-state" class="empty-state">
-            <p>Generate a deck to load the Slidev presentation here.</p>
-          </div>
-
-          <iframe
-            id="viewer-frame"
-            class="viewer-frame hidden"
-            title="Generated Slidev presentation"
-          ></iframe>
+            <iframe
+              id="viewer-frame"
+              class="viewer-frame hidden"
+              title="Generated Slidev presentation"
+            ></iframe>
+          </details>
         </section>
       </main>
     </div>

@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 
 from nemoslides._paths import REPO_ROOT, RENDERER
 from nemoslides.eval.generate import parse_deck
-from nemoslides.pipeline.clients import chat_with_retry
+from nemoslides.pipeline.clients import OPENROUTER_EXTRA_HEADERS, chat_with_retry
 
 from .prompting import (
     DEFAULT_AUDIENCE,
@@ -53,22 +53,37 @@ class GenerateRequest(BaseModel):
     slide_count: int = Field(default=DEFAULT_SLIDE_COUNT)
 
 
-def _generation_client() -> tuple[OpenAI, str, bool]:
-    base_url = os.environ.get("DEMO_OPENAI_BASE_URL") or None
+_DEFAULT_MODEL = "openai/gpt-5.4"
+
+
+def _generation_client() -> tuple[OpenAI, str]:
+    """Return (client, model_slug).
+
+    Priority:
+      1. DEMO_BASE_URL + DEMO_API_KEY  -- custom endpoint (future: own vLLM)
+      2. OPENROUTER_API_KEY            -- default OpenRouter route
+    """
+    base_url = os.environ.get("DEMO_BASE_URL") or None
     api_key = (
-        os.environ.get("DEMO_OPENAI_API_KEY")
-        or os.environ.get("OPENAI_API_KEY")
+        os.environ.get("DEMO_API_KEY")
+        or os.environ.get("OPENROUTER_API_KEY")
         or ("EMPTY" if base_url else None)
     )
     if not api_key:
         raise RuntimeError(
-            "missing API key: set DEMO_OPENAI_API_KEY or OPENAI_API_KEY for the demo app"
+            "missing API key: set DEMO_API_KEY or OPENROUTER_API_KEY"
         )
 
-    model = os.environ.get("DEMO_MODEL", "gpt-5.4")
-    client = OpenAI(api_key=api_key, base_url=base_url) if base_url else OpenAI(api_key=api_key)
-    is_openai_reasoning = base_url is None and model.startswith("gpt-5")
-    return client, model, is_openai_reasoning
+    model = os.environ.get("DEMO_MODEL", _DEFAULT_MODEL)
+
+    if base_url:
+        client = OpenAI(api_key=api_key, base_url=base_url)
+    else:
+        client = OpenAI(
+            api_key=api_key,
+            base_url="https://openrouter.ai/api/v1",
+        )
+    return client, model
 
 
 def _trim_log(text: str, limit: int = 1_600) -> str:
@@ -138,7 +153,7 @@ def _generate_deck_markdown(payload: GenerateRequest) -> str:
     if os.environ.get("DEMO_FAKE_GENERATION") == "1":
         return _fake_deck_markdown(payload)
 
-    client, model, is_openai_reasoning = _generation_client()
+    client, model = _generation_client()
     messages = [
         {"role": "system", "content": build_system_prompt()},
         {
@@ -151,12 +166,12 @@ def _generate_deck_markdown(payload: GenerateRequest) -> str:
             ),
         },
     ]
-    kwargs: dict[str, object] = {"model": model, "messages": messages}
-    if is_openai_reasoning:
-        kwargs["reasoning_effort"] = os.environ.get("DEMO_REASONING_EFFORT", "medium")
-        kwargs["max_completion_tokens"] = MAX_COMPLETION_TOKENS
-    else:
-        kwargs["max_tokens"] = MAX_COMPLETION_TOKENS
+    kwargs: dict[str, object] = {
+        "model": model,
+        "messages": messages,
+        "max_tokens": MAX_COMPLETION_TOKENS,
+        "extra_headers": OPENROUTER_EXTRA_HEADERS,
+    }
 
     response = chat_with_retry(client, **kwargs)
     raw = response.choices[0].message.content or ""

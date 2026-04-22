@@ -7,6 +7,7 @@ const statusEl = document.getElementById("status");
 const emptyState = document.getElementById("empty-state");
 const viewerFrame = document.getElementById("viewer-frame");
 const openLink = document.getElementById("open-link");
+const clearButton = document.getElementById("clear-button");
 
 function selectedValue(name) {
   const selected = form.querySelector(`input[name="${name}"]:checked`);
@@ -82,6 +83,23 @@ async function handleSubmit(event) {
     generateButton.disabled = false;
   }
 }
+
+promptField.addEventListener("keydown", (e) => {
+  if (e.key === "Tab" && !promptField.value.trim()) {
+    e.preventDefault();
+    promptField.value = promptField.placeholder.replace(/^Example:\s*/, "");
+  }
+});
+
+clearButton.addEventListener("click", () => {
+  promptField.value = "";
+  viewerFrame.src = "";
+  viewerFrame.classList.add("hidden");
+  emptyState.classList.remove("hidden");
+  openLink.classList.add("hidden");
+  statusEl.textContent = "Ready.";
+  sessionStorage.removeItem(STORAGE_KEY);
+});
 
 form.addEventListener("submit", handleSubmit);
 restoreSession();
