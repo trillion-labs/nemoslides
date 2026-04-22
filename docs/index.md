@@ -66,7 +66,7 @@ Rendered slides from the finetuned model on held-out test prompts — layouts sp
 ![](assets/gallery/seed_00010_05.png)
 </div>
 
-See the full side-by-side comparison of all 5 models on all 30 SlidevBench prompts in the [**SlidevBench gallery →**](gallery/){ target=_blank }
+See the full side-by-side comparison of all 5 models on all 30 SlidevBench prompts in the [**SlidevBench gallery →**](../gallery/){ target=_blank }
 
 ## Documentation
 

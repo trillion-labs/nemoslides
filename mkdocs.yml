@@ -1,12 +1,12 @@
 site_name: NemoSlides
 site_description: Fine-tuning Nemotron-3-Nano-30B-A3B on synthetic Slidev decks. NVIDIA Nemotron Hackathon 2026, Track B.
-site_url: https://trillion-labs.github.io/nemoslides/
+site_url: https://trillion-labs.github.io/nemoslides/docs/
 repo_url: https://github.com/trillion-labs/nemoslides
 repo_name: trillion-labs/nemoslides
 edit_uri: edit/main/docs/
 
 docs_dir: docs
-site_dir: site
+site_dir: site/docs
 
 theme:
   name: material
