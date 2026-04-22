@@ -53,7 +53,7 @@ class GenerateRequest(BaseModel):
     slide_count: int = Field(default=DEFAULT_SLIDE_COUNT)
 
 
-_DEFAULT_MODEL = "openai/gpt-5.4"
+_DEFAULT_MODEL = "trillionlabs/nemotron-slide"
 
 
 def _generation_client() -> tuple[OpenAI, str]:
