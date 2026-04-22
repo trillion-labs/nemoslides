@@ -16,13 +16,17 @@ RUN ln -sf /usr/bin/python3 /usr/local/bin/python \
 
 WORKDIR /app
 
+# Cache dependency resolution (re-runs only when lock changes).
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev
+RUN uv sync --frozen --no-dev --no-install-project
 
+# Renderer npm deps (re-runs only when package-lock changes).
 COPY assets/renderer/package.json assets/renderer/package-lock.json ./assets/renderer/
 RUN cd assets/renderer && npm ci
 
+# Copy full source and install the project itself.
 COPY . .
+RUN uv sync --frozen --no-dev
 
 EXPOSE 8080
 
