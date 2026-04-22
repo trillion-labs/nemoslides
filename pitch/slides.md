@@ -42,9 +42,9 @@ class: text-center
 </div>
 
 <div class="mt-12 flex flex-col items-center gap-2">
-  <QrCode value="https://nemoslides.up.railway.app" :size="200" />
+  <QrCode value="https://nemoslides-production.up.railway.app" :size="200" />
   <div class="text-sm font-mono opacity-70 mt-2">scan → live demo</div>
-  <div class="text-xs font-mono opacity-40">nemoslides.up.railway.app</div>
+  <div class="text-xs font-mono opacity-40">nemoslides-production.up.railway.app</div>
 </div>
 
 <div class="absolute bottom-6 right-8 text-xs opacity-55 font-mono">
@@ -156,7 +156,7 @@ class: px-16
 
 # The first open model<br/><span class="text-[#aaff4f]">SFT'd for slide generation.</span>
 
-<div class="mt-10 grid grid-cols-4 gap-5 text-left">
+<div class="mt-10 grid grid-cols-3 gap-5 text-left">
 
 <div>
   <div class="text-xs font-mono opacity-50 uppercase mb-1">base</div>
@@ -167,7 +167,7 @@ class: px-16
 <div>
   <div class="text-xs font-mono opacity-50 uppercase mb-1">data</div>
   <div class="text-2xl font-semibold leading-tight">705<br/>synthetic decks</div>
-  <div class="mt-2 text-xs font-mono opacity-60">Slidev · Codex pipeline</div>
+  <div class="mt-2 text-xs font-mono opacity-60">NeMo Data Designer</div>
 </div>
 
 <div>
@@ -176,16 +176,10 @@ class: px-16
   <div class="mt-2 text-xs font-mono opacity-60">FSDP2</div>
 </div>
 
-<div>
-  <div class="text-xs font-mono opacity-50 uppercase mb-1">effort</div>
-  <div class="text-2xl font-semibold leading-tight">2 days<br/>solo</div>
-  <div class="mt-2 text-xs font-mono opacity-60">one practitioner</div>
-</div>
-
 </div>
 
 <div class="mt-12 text-center opacity-85">
-  No RL. No DPO. Just the right data and <code>run_sft.py</code>.
+  No RL. No DPO. Just the right data and training on the Nemotron stack.
 </div>
 
 <div class="mt-6 flex flex-col items-center gap-1.5 text-sm font-mono">
@@ -378,6 +372,61 @@ Verifiable rewards straight from the renderer + VLM judge:
 
 ---
 layout: center
+class: px-16
+---
+
+# Everything is open.
+
+<div class="text-center text-sm opacity-70 -mt-2 mb-8">
+  model · dataset · code · gallery · demo — all public, all reproducible
+</div>
+
+<div class="grid grid-cols-5 gap-6 justify-items-center">
+
+<div class="flex flex-col items-center gap-2">
+  <div class="bg-white p-2 rounded">
+    <QrCode value="https://nemoslides-production.up.railway.app" :size="130" />
+  </div>
+  <div class="text-xs font-mono uppercase opacity-55 mt-1">demo</div>
+  <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">nemoslides-production<wbr/>.up.railway.app</div>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <div class="bg-white p-2 rounded">
+    <QrCode value="https://trillion-labs.github.io/nemoslides/gallery/" :size="130" />
+  </div>
+  <div class="text-xs font-mono uppercase opacity-55 mt-1">gallery</div>
+  <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">trillion-labs.github.io<wbr/>/nemoslides/gallery</div>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <div class="bg-white p-2 rounded">
+    <QrCode value="https://huggingface.co/trillionlabs/NemoSlides" :size="130" />
+  </div>
+  <div class="text-xs font-mono uppercase opacity-55 mt-1">hf · model</div>
+  <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">hf.co/trillionlabs<wbr/>/NemoSlides</div>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <div class="bg-white p-2 rounded">
+    <QrCode value="https://huggingface.co/datasets/trillionlabs/NemoSlides-SFT-mix-v1.0" :size="130" />
+  </div>
+  <div class="text-xs font-mono uppercase opacity-55 mt-1">hf · dataset</div>
+  <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">hf.co/datasets/trillionlabs<wbr/>/NemoSlides-SFT-mix-v1.0</div>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <div class="bg-white p-2 rounded">
+    <QrCode value="https://github.com/trillion-labs/nemoslides" :size="130" />
+  </div>
+  <div class="text-xs font-mono uppercase opacity-55 mt-1">github</div>
+  <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">github.com/trillion-labs<wbr/>/nemoslides</div>
+</div>
+
+</div>
+
+---
+layout: center
 class: text-center
 ---
 
@@ -385,13 +434,15 @@ class: text-center
 
 <div class="mt-10 flex items-center justify-center gap-10">
 
-<QrCode value="https://nemoslides.up.railway.app" :size="200" />
+<div class="bg-white p-3 rounded">
+  <QrCode value="https://github.com/trillion-labs/nemoslides" :size="200" />
+</div>
 
 <div class="text-left">
-  <div class="text-xl font-semibold">Try it now.</div>
-  <div class="mt-1 text-sm font-mono opacity-70">nemoslides.up.railway.app</div>
-  <div class="mt-4 text-sm font-mono opacity-65">github.com/trillion-labs/nemoslides</div>
-  <div class="mt-1 text-sm font-mono opacity-65">hf.co/trillion-labs/nemoslides-30b-a3b</div>
+  <div class="text-xl font-semibold">See the code.</div>
+  <div class="mt-1 text-sm font-mono opacity-70">github.com/trillion-labs/nemoslides</div>
+  <div class="mt-4 text-sm font-mono opacity-65">hf.co/trillionlabs/NemoSlides</div>
+  <div class="mt-1 text-sm font-mono opacity-65">nemoslides-production.up.railway.app</div>
 </div>
 
 </div>
