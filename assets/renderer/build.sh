@@ -32,3 +32,8 @@ trap 'rm -f "$STAGED"' EXIT
 
 cd "$RENDERER_DIR"
 npx slidev build "$(basename "$STAGED")" --out "$OUTPUT_ABS" --base "$BASE_PATH"
+
+# Hide Slidev's goto-dialog (slide title list in upper-right corner).
+if [[ -f "$OUTPUT_ABS/index.html" ]]; then
+  sed -i '' 's|</head>|<style>#slidev-goto-dialog{display:none!important}</style></head>|' "$OUTPUT_ABS/index.html"
+fi

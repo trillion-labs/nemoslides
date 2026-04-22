@@ -1,0 +1,4 @@
+/* Hide Slidev's built-in navigation bar in demo/embedded context. */
+nav {
+  display: none !important;
+}
