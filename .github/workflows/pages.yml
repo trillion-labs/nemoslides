@@ -1,4 +1,4 @@
-name: Deploy docs to GitHub Pages
+name: Deploy docs + pitch to GitHub Pages
 
 on:
   push:
@@ -8,7 +8,8 @@ on:
       - "mkdocs.yml"
       - "pyproject.toml"
       - "uv.lock"
-      - ".github/workflows/docs.yml"
+      - "pitch/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -36,8 +37,30 @@ jobs:
       - name: Install Python
         run: uv python install
 
-      - name: Build site
+      - name: Build mkdocs site
         run: uv run --only-group docs mkdocs build --strict
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pitch/pnpm-lock.yaml
+
+      - name: Build pitch deck
+        working-directory: pitch
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build-ghpages
+
+      - name: Merge pitch into site/
+        run: |
+          rm -rf site/pitch
+          mkdir -p site/pitch
+          cp -r pitch/dist/* site/pitch/
 
       - uses: actions/configure-pages@v5
 
