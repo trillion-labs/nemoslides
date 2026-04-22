@@ -24,6 +24,6 @@ RUN cd assets/renderer && npm ci
 
 COPY . .
 
-EXPOSE ${PORT}
+EXPOSE 8080
 
 CMD /app/.venv/bin/uvicorn nemoslides.demo.app:app --host 0.0.0.0 --port ${PORT:-8080}
