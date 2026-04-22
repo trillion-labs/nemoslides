@@ -173,45 +173,36 @@ class: px-16
 
 ---
 layout: center
-class: px-10
+class: px-8
 ---
 
-# Same prompt. Three models.
+# This is what our model produces.
 
 <div class="text-center text-xs font-mono opacity-60 -mt-2 mb-4">
-  "ClientHub — case study · 30% faster onboarding"
+  one prompt → one deck → no human edits · cover, image-right, section, dark statement
 </div>
 
-<div class="grid grid-cols-3 gap-4 text-left">
-
-<div>
-  <div class="text-xs font-mono opacity-60 uppercase mb-2">nemotron-nano · base</div>
-  <img src="/comparisons/seed_00008_nemotron-nano.png" class="w-full rounded border border-white/10" />
-  <div class="mt-2 text-xs opacity-65">
-    emits literal "Slide 1 – Title" placeholder.
-  </div>
+<div class="grid grid-cols-4 gap-3">
+  <img src="/showcase/ours_cover.png" class="w-full rounded border border-white/10 shadow-lg" />
+  <img src="/showcase/ours_image1.png" class="w-full rounded border border-white/10 shadow-lg" />
+  <img src="/showcase/ours_image2.png" class="w-full rounded border border-white/10 shadow-lg" />
+  <img src="/showcase/ours_dark.png" class="w-full rounded border-2 border-[#aaff4f]/50 shadow-lg" />
 </div>
 
-<div>
-  <div class="text-xs font-mono opacity-60 uppercase mb-2">gpt-5.4</div>
-  <img src="/comparisons/seed_00008_gpt-5.4.png" class="w-full rounded border border-white/10" />
-  <div class="mt-2 text-xs opacity-65">
-    generalist, competent, not deck-literate.
-  </div>
+<div class="mt-8 grid grid-cols-[1fr_auto_1.5fr] gap-6 items-center">
+
+<div class="text-right">
+  <div class="text-xs font-mono opacity-60 uppercase mb-1">base model · same prompt</div>
+  <div class="text-xs opacity-60 italic">emits literal "Slide 1 – Title" placeholder</div>
 </div>
 
-<div>
-  <div class="text-xs font-mono opacity-60 uppercase mb-2 text-[#aaff4f]">nemoslides-30b · ours</div>
-  <img src="/comparisons/seed_00008_nano-local.png" class="w-full rounded border-2 border-[#aaff4f]/60" />
-  <div class="mt-2 text-xs opacity-85">
-    <span class="text-[#aaff4f]">same 30B weights</span>, post-SFT.
-  </div>
+<img src="/showcase/base_broken.png" class="w-48 rounded border border-[#ff6b6b]/40 opacity-75" />
+
+<div class="text-left">
+  <div class="text-sm font-semibold text-[#aaff4f]">+48% overall · same 30B weights</div>
+  <div class="text-xs opacity-70">the gap is the dataset, not the parameter count</div>
 </div>
 
-</div>
-
-<div class="mt-6 text-center text-sm opacity-75">
-  → the gap is the dataset, not the parameter count
 </div>
 
 ---
