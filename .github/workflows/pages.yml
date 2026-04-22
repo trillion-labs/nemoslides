@@ -9,6 +9,10 @@ on:
       - "pyproject.toml"
       - "uv.lock"
       - "pitch/**"
+      - "src/nemoslides/gallery/**"
+      - "assets/gallery/thumbs/**"
+      - "results/eval/*_results.json"
+      - "data/hf/slides-sft-v0.test.jsonl"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -61,6 +65,9 @@ jobs:
           rm -rf site/pitch
           mkdir -p site/pitch
           cp -r pitch/dist/* site/pitch/
+
+      - name: Build SlidevBench gallery
+        run: uv run python -m nemoslides.gallery.build --out site/gallery
 
       - uses: actions/configure-pages@v5
 
