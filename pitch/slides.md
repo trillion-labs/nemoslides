@@ -5,6 +5,7 @@ title: NemoSlides
 info: NemoSlides — an open model specialized for slide generation.
 transition: fade
 mdc: true
+routerMode: hash
 drawings:
   persist: false
 layout: center
