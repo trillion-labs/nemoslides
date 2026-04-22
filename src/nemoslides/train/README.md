@@ -3,7 +3,7 @@
 SFT the `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16` post-trained checkpoint
 on the packed chat-JSONL corpus (`trillionlabs/slides-sft-v0`) using
 [Automodel](https://github.com/NVIDIA-NeMo/Automodel)'s `automodel finetune llm`
-with full-parameter fine-tuning (no LoRA).
+with full-parameter fine-tuning. Then we ran DPO using [NeMo-RL](https://github.com/NVIDIA-NeMo/RL).
 
 ## Layout
 
@@ -18,6 +18,6 @@ train/
 ## Run
 
 ```bash
-# One-shot: clones Automodel (if missing), syncs deps, launches SFT.
+# One-shot: clones Automodel (if missing), syncs deps, launches SFT and DPO.
 ./src/nemoslides/train/launch.sh
 ```
