@@ -85,10 +85,11 @@ def strip_think(text: str) -> str:
     reasoning directly in the content field before the deck frontmatter.
     """
     after = _THINK_RE.sub("", text, count=1).lstrip()
-    if after.startswith("---") or after.startswith("#") or after.startswith("```"):
+    if after.startswith("---"):
         return after
-    # No <think> tags matched (or residual reasoning before frontmatter).
-    # Find the first --- line that starts the Slidev YAML frontmatter.
+    # No <think> tags or reasoning precedes the frontmatter (common with
+    # vLLM chat templates that strip <think> tags). Find the first ---
+    # line that starts the Slidev YAML frontmatter.
     m = _FRONTMATTER_RE.search(after)
     if m:
         return after[m.start():]
