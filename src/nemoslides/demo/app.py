@@ -171,6 +171,7 @@ def _generate_deck_markdown(payload: GenerateRequest) -> str:
         "messages": messages,
         "max_tokens": MAX_COMPLETION_TOKENS,
         "extra_headers": OPENROUTER_EXTRA_HEADERS,
+        "extra_body": {"chat_template_kwargs": {"reasoning_budget": 16384}},
     }
 
     response = chat_with_retry(client, **kwargs)
