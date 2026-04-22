@@ -156,7 +156,7 @@ class: px-16
 <div>
   <div class="text-xs font-mono opacity-50 uppercase mb-1">training</div>
   <div class="text-2xl font-semibold leading-tight">NeMo-RL<br/>SFT</div>
-  <div class="mt-2 text-xs font-mono opacity-60">LoRA · FSDP2</div>
+  <div class="mt-2 text-xs font-mono opacity-60">FSDP2</div>
 </div>
 
 <div>
