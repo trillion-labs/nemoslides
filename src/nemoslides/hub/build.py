@@ -88,6 +88,33 @@ HTML_TEMPLATE = """<!doctype html>
     </div>
   </section>
 
+  <!-- live demo CTA -->
+  <section class="mb-10">
+    <a href="https://nemoslides-production.up.railway.app/" target="_blank" rel="noopener"
+       class="block rounded-xl overflow-hidden border border-slate-900 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white hover:shadow-xl transition group">
+      <div class="px-6 py-5 md:px-8 md:py-6 flex flex-col md:flex-row md:items-center gap-4">
+        <div class="flex items-center gap-3 md:flex-1">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+          </span>
+          <div>
+            <div class="text-[10px] uppercase tracking-widest text-emerald-300 font-mono font-semibold">Live demo</div>
+            <div class="text-xl md:text-2xl font-semibold">Try NemoSlides on your own prompt</div>
+            <div class="text-sm text-slate-300 mt-0.5">Served over vLLM — type a prompt, watch the model write a Slidev deck, render it in-browser.</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 shrink-0">
+          <code class="text-xs text-slate-400 font-mono hidden md:inline">nemoslides-production.up.railway.app</code>
+          <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-white text-slate-900 font-semibold text-sm group-hover:bg-emerald-300 transition">
+            Open demo
+            <span>↗</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </section>
+
   <!-- primary tiles -->
   <section class="mb-10">
     <h2 class="text-xs uppercase tracking-wider text-slate-500 font-semibold mb-4">Explore</h2>
