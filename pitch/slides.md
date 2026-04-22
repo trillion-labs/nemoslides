@@ -285,5 +285,5 @@ class: text-center
 </div>
 
 <div class="mt-10 text-xs font-mono opacity-45">
-  Nemotron Nano · NeMo-RL · 705 decks · 2 days
+  Nemotron Nano · NeMo Automodel · 705 decks · 2 days
 </div>
