@@ -106,23 +106,10 @@ def template_context() -> dict[str, object]:
 
 
 def build_system_prompt() -> str:
-    demo_rules = dedent(
-        f"""
-        # Demo-specific rules
-
-        - Produce a polished Slidev deck for a live browser presentation.
-        - Use theme `{DEFAULT_THEME}` for a consistent visual identity.
-        - Prefer a strong slide rhythm: vary layouts intentionally instead of repeating
-          the same shape slide after slide.
-        - Keep copy tight. Most slides should be glanceable in under 10 seconds.
-        - When a prompt is under-specified, make reasonable presentational assumptions
-          instead of asking follow-up questions inside the deck.
-        - Do not spend a slide on an agenda, outline, or table of contents unless the user
-          explicitly asks for one.
-        - Do not wrap the deck in markdown fences.
-        """
-    ).strip()
-    return f"{TASK_INSTRUCTIONS}\n\n{demo_rules}"
+    return (
+        "You are an expert presentation designer. Given the user's deck request,"
+        " produce a complete, renderable Slidev markdown file."
+    )
 
 
 def build_user_prompt(
