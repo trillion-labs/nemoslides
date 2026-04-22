@@ -66,7 +66,7 @@ SLIDE_COUNT_CHOICES: tuple[int, ...] = (6, 8, 10)
 DEFAULT_AUDIENCE = AUDIENCE_CHOICES[0].value
 DEFAULT_TONE = TONE_CHOICES[0].value
 DEFAULT_SLIDE_COUNT = 8
-DEFAULT_THEME = "geist"
+DEFAULT_THEME = "default"
 
 _AUDIENCE_MAP = {choice.value: choice for choice in AUDIENCE_CHOICES}
 _TONE_MAP = {choice.value: choice for choice in TONE_CHOICES}

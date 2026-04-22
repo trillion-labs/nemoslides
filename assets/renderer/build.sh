@@ -35,7 +35,7 @@ npx slidev build "$(basename "$STAGED")" --out "$OUTPUT_ABS" --base "$BASE_PATH"
 
 # Hide Slidev's goto-dialog (slide title list in upper-right corner).
 if [[ -f "$OUTPUT_ABS/index.html" ]]; then
-  sed 's|</head>|<style>#slidev-goto-dialog{display:none!important}</style></head>|' \
+  sed 's|</head>|<style>#slidev-goto-dialog{display:none!important}div:has(>nav){opacity:1!important}</style></head>|' \
     "$OUTPUT_ABS/index.html" > "$OUTPUT_ABS/index.html.tmp" \
     && mv "$OUTPUT_ABS/index.html.tmp" "$OUTPUT_ABS/index.html"
 fi
