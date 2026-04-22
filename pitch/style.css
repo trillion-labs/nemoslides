@@ -103,3 +103,45 @@ h6 {
   visibility: visible;
   transition: visibility 0s 0s;
 }
+
+.flow-border {
+  position: relative;
+  border-radius: 0.45rem;
+  padding: 2px;
+  background: linear-gradient(
+    180deg,
+    #aaff4f 0%,
+    #5ee7ff 25%,
+    #b98aff 50%,
+    #ff7ad0 75%,
+    #aaff4f 100%
+  );
+  background-size: 100% 300%;
+  animation: flow-border-shift 7s linear infinite;
+  box-shadow: 0 0 22px -4px rgba(170, 255, 79, 0.45);
+}
+
+.flow-border > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(0.45rem - 2px);
+}
+
+@keyframes flow-border-shift {
+  0%   { background-position: 50%   0%; }
+  100% { background-position: 50% 300%; }
+}
+
+.flow-row-cell {
+  background: linear-gradient(
+    180deg,
+    rgba(170, 255, 79, 0.22) 0%,
+    rgba(94, 231, 255, 0.22) 25%,
+    rgba(185, 138, 255, 0.22) 50%,
+    rgba(255, 122, 208, 0.22) 75%,
+    rgba(170, 255, 79, 0.22) 100%
+  );
+  background-size: 100% 300%;
+  animation: flow-border-shift 7s linear infinite;
+}

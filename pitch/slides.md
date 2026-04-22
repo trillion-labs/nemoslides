@@ -12,6 +12,22 @@ layout: center
 class: text-center
 ---
 
+<div class="text-6xl font-semibold tracking-tight">
+  Slides are <span class="text-[#aaff4f]">NeMo</span>.
+</div>
+<div class="mt-6 text-lg italic opacity-70">
+  NeMo means 'rectangle' in Korean.
+</div>
+
+<div class="mt-16 text-base font-mono opacity-80">
+  Juyoung · Wonsuk · Hyungguk · Hongjoon
+</div>
+
+---
+layout: center
+class: text-center
+---
+
 <div class="text-xs font-mono opacity-60 mb-6">
   NVIDIA Nemotron Hackathon 2026 · Track B
 </div>
@@ -172,6 +188,15 @@ class: px-16
   No RL. No DPO. Just the right data and <code>run_sft.py</code>.
 </div>
 
+<div class="mt-6 flex flex-col items-center gap-1.5 text-sm font-mono">
+  <a href="https://huggingface.co/datasets/trillionlabs/NemoSlides-SFT-mix-v1.0" target="_blank" class="flex items-center gap-2 opacity-75 hover:opacity-100 hover:text-[#aaff4f] no-underline">
+    <logos-hugging-face-icon /> Dataset: trillionlabs/NemoSlides-SFT-mix-v1.0
+  </a>
+  <a href="https://huggingface.co/trillionlabs/nemotron-slide" target="_blank" class="flex items-center gap-2 opacity-75 hover:opacity-100 hover:text-[#aaff4f] no-underline">
+    <logos-hugging-face-icon /> Model: trillionlabs/nemotron-slide
+  </a>
+</div>
+
 ---
 layout: center
 class: px-6
@@ -203,10 +228,10 @@ class: px-6
 </div>
 
 <div class="grid grid-cols-4 gap-3">
-  <img src="/showcase/ours_cover.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
-  <img src="/showcase/ours_image1.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
-  <img src="/showcase/ours_image2.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
-  <img src="/showcase/ours_dark.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
+  <div class="flow-border"><img src="/showcase/ours_cover.png" /></div>
+  <div class="flow-border"><img src="/showcase/ours_image1.png" /></div>
+  <div class="flow-border"><img src="/showcase/ours_image2.png" /></div>
+  <div class="flow-border"><img src="/showcase/ours_dark.png" /></div>
 </div>
 
 </div>
@@ -234,13 +259,42 @@ class: px-16
 
 <div class="font-mono text-sm">
 
-| model | render | overall |
-|---|---:|---:|
-| **nemoslides-30b** | 93% | **3.69** |
-| gpt-5.4 | 100% | 3.62 |
-| glm-5.1 | 100% | 3.26 |
-| nemotron-super (120B) | 100% | 2.83 |
-| nemotron-nano (base) | 87% | 2.50 |
+<table class="w-full border-collapse">
+  <thead>
+    <tr class="opacity-60 text-xs uppercase">
+      <th class="text-left font-normal pb-2">model</th>
+      <th class="text-right font-normal pb-2">render</th>
+      <th class="text-right font-normal pb-2">overall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="py-1.5 px-2 flow-row-cell font-semibold rounded-l">nemoslides-30b</td>
+      <td class="py-1.5 px-2 flow-row-cell text-right">93%</td>
+      <td class="py-1.5 px-2 flow-row-cell text-right font-semibold rounded-r">3.69</td>
+    </tr>
+    <tr>
+      <td class="py-1.5 px-2">nemotron-nano (base)</td>
+      <td class="py-1.5 px-2 text-right">87%</td>
+      <td class="py-1.5 px-2 text-right">2.50</td>
+    </tr>
+    <tr>
+      <td class="py-1.5 px-2">nemotron-super (120B)</td>
+      <td class="py-1.5 px-2 text-right">100%</td>
+      <td class="py-1.5 px-2 text-right">2.83</td>
+    </tr>
+    <tr>
+      <td class="py-1.5 px-2">gpt-5.4</td>
+      <td class="py-1.5 px-2 text-right">100%</td>
+      <td class="py-1.5 px-2 text-right">3.62</td>
+    </tr>
+    <tr>
+      <td class="py-1.5 px-2">glm-5.1</td>
+      <td class="py-1.5 px-2 text-right">100%</td>
+      <td class="py-1.5 px-2 text-right">3.26</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
@@ -259,6 +313,63 @@ class: px-16
 <div>
   <div class="text-5xl font-semibold text-[#aaff4f] leading-none">#1</div>
   <div class="text-sm opacity-80 mt-1">overall on SlidevBench</div>
+</div>
+
+</div>
+
+</div>
+
+---
+layout: center
+class: px-16
+---
+
+# Room for improvement.
+
+<div class="mt-10 grid grid-cols-3 gap-8 text-left">
+
+<div>
+
+<div class="text-xs font-mono opacity-50 uppercase mb-2">next · 1</div>
+
+### DPO data pipeline
+
+<div class="text-sm opacity-80 mt-2">
+
+571 preference pairs from SlidesGen-Bench rankings, images shared across both sides so only presentation quality varies. Gemini 3.1 Flash Lite writes deep `<think>` for chosen, hurried for rejected.
+
+</div>
+
+</div>
+
+<div>
+
+<div class="text-xs font-mono opacity-50 uppercase mb-2">next · 2</div>
+
+### Apply DPO
+
+<div class="text-sm opacity-80 mt-2">
+
+Close the failure modes the judge already catches — overflow, cramped layouts, broken KaTeX — without training a reward model.
+
+</div>
+
+</div>
+
+<div>
+
+<div class="text-xs font-mono opacity-50 uppercase mb-2">next · 3</div>
+
+### RLVR
+
+<div class="text-sm opacity-80 mt-2">
+
+Verifiable rewards straight from the renderer + VLM judge:
+
+- <span class="font-mono">renderable?</span> — binary, zero-cost
+- <span class="font-mono">overlap?</span> — VLM checks the screenshot
+- rubric dims → VLM-as-judge dense reward
+
 </div>
 
 </div>
