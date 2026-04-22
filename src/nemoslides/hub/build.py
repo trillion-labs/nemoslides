@@ -134,7 +134,7 @@ HTML_TEMPLATE = """<!doctype html>
   <footer class="mt-16 pt-8 border-t border-slate-200 text-xs text-slate-500 flex flex-wrap gap-x-6 gap-y-2">
     <span>© 2026 · Hackathon submission</span>
     <span>Base model: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16 (Apache-2.0)</span>
-    <span>Training framework: NVIDIA-NeMo/RL</span>
+    <span>Training framework: NVIDIA-NeMo/Automodel</span>
   </footer>
 
 </main>
@@ -261,9 +261,9 @@ def build_hub(out: Path) -> None:
             icon="📊",
         ),
         _secondary_tile(
-            href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-            title="Base model",
-            sub="nvidia/Nemotron-3-Nano-30B-A3B",
+            href="https://huggingface.co/trillionlabs/NemoSlides",
+            title="Model",
+            sub="trillionlabs/NemoSlides",
             icon="🧠",
         ),
         _secondary_tile(
