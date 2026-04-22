@@ -192,8 +192,8 @@ class: px-16
   <a href="https://huggingface.co/datasets/trillionlabs/NemoSlides-SFT-mix-v1.0" target="_blank" class="flex items-center gap-2 opacity-75 hover:opacity-100 hover:text-[#aaff4f] no-underline">
     <logos-hugging-face-icon /> Dataset: trillionlabs/NemoSlides-SFT-mix-v1.0
   </a>
-  <a href="https://huggingface.co/trillionlabs/nemotron-slide" target="_blank" class="flex items-center gap-2 opacity-75 hover:opacity-100 hover:text-[#aaff4f] no-underline">
-    <logos-hugging-face-icon /> Model: trillionlabs/nemotron-slide
+  <a href="https://huggingface.co/trillionlabs/NemoSlides" target="_blank" class="flex items-center gap-2 opacity-75 hover:opacity-100 hover:text-[#aaff4f] no-underline">
+    <logos-hugging-face-icon /> Model: trillionlabs/NemoSlides
   </a>
 </div>
 
