@@ -16,10 +16,13 @@ __pycache__/
 # data / artifacts
 data/raw/
 data/**/*.jsonl
-data/hf/
 data/gallery_*/
 data/seeds.d.archive-*/
 data/query_cache.json
+# data/hf/ is ignored except for the test split, which the gallery
+# builder needs in CI (the full dataset is public on HF).
+data/hf/*
+!data/hf/slides-sft-v0.test.jsonl
 
 # runtime results (generated; comparison_table.md + *_results.json are committed)
 results/eval/runs/
