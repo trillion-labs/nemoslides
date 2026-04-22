@@ -91,3 +91,15 @@ h6 {
   opacity: 0.75;
   text-transform: uppercase;
 }
+
+/* Slidev's "Go to slide" autocomplete dropdown leaks into the top-right
+   because the parent is translated off-screen but the list child overflows
+   into view. Hide unless the dialog is actually active (class "top-5"). */
+#slidev-goto-dialog {
+  visibility: hidden;
+  transition: visibility 0s 0.2s;
+}
+#slidev-goto-dialog.top-5 {
+  visibility: visible;
+  transition: visibility 0s 0s;
+}
