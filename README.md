@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="NemoSlides" width="360" />
+  <img src="docs/assets/banner.png" alt="NemoSlides" />
 </p>
 
 <h3 align="center">Open-weight slide generation, fine-tuned on Nemotron.</h3>
