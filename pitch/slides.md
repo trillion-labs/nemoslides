@@ -31,7 +31,7 @@ class: text-center
 </div>
 
 <div class="absolute bottom-6 right-8 text-xs opacity-55 font-mono">
-  Scott Suk · Trillion Labs
+  Trillion Labs
 </div>
 
 ---
@@ -212,8 +212,11 @@ class: px-16
 
 # On par with GPT-5.4. Ahead of 120B.
 
-<div class="text-center text-xs font-mono opacity-60 -mt-2 mb-6">
-  SlidevBench · 30-row test · vision-judge · floor-scored
+<div class="text-center text-sm opacity-80 -mt-2 mb-1">
+  We built <span class="text-[#aaff4f] font-semibold">SlidevBench</span> — 30 prompts, rendered decks, a vision model judges each on content, design, coherence, and visual craft.
+</div>
+<div class="text-center text-xs font-mono opacity-55 mb-6">
+  floor-scored · unrenderable = 1/5 across all dims
 </div>
 
 <div class="grid grid-cols-2 gap-10 items-center">
