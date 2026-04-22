@@ -173,36 +173,46 @@ class: px-16
 
 ---
 layout: center
-class: px-8
+class: px-6
 ---
 
-# This is what our model produces.
+# Same prompt. Same 30B weights.
 
-<div class="text-center text-xs font-mono opacity-60 -mt-2 mb-4">
-  one prompt → one deck → no human edits · cover, image-right, section, dark statement
+<div class="text-center text-xs font-mono opacity-60 -mt-2 mb-5">
+  one Slidev prompt → both models → rendered as-is, no edits
+</div>
+
+<div class="grid grid-cols-[auto_1fr] gap-4 items-center">
+
+<div class="text-right pr-2">
+  <div class="text-[11px] font-mono uppercase opacity-55 leading-tight">base</div>
+  <div class="text-xs opacity-60 leading-tight mt-0.5">nemotron-nano 30B</div>
 </div>
 
 <div class="grid grid-cols-4 gap-3">
-  <img src="/showcase/ours_cover.png" class="w-full rounded border border-white/10 shadow-lg" />
-  <img src="/showcase/ours_image1.png" class="w-full rounded border border-white/10 shadow-lg" />
-  <img src="/showcase/ours_image2.png" class="w-full rounded border border-white/10 shadow-lg" />
-  <img src="/showcase/ours_dark.png" class="w-full rounded border-2 border-[#aaff4f]/50 shadow-lg" />
+  <img src="/showcase/base_cover.png" class="w-full rounded border border-[#ff6b6b]/30 opacity-65" />
+  <img src="/showcase/base_image1.png" class="w-full rounded border border-white/10 opacity-65" />
+  <img src="/showcase/base_image2.png" class="w-full rounded border border-white/10 opacity-65" />
+  <img src="/showcase/base_dark.png" class="w-full rounded border border-white/10 opacity-65" />
 </div>
 
-<div class="mt-8 grid grid-cols-[1fr_auto_1.5fr] gap-6 items-center">
-
-<div class="text-right">
-  <div class="text-xs font-mono opacity-60 uppercase mb-1">base model · same prompt</div>
-  <div class="text-xs opacity-60 italic">emits literal "Slide 1 – Title" placeholder</div>
+<div class="text-right pr-2">
+  <div class="text-[11px] font-mono uppercase text-[#aaff4f] leading-tight">ours</div>
+  <div class="text-xs opacity-80 leading-tight mt-0.5">nemoslides-30b-a3b</div>
 </div>
 
-<img src="/showcase/base_broken.png" class="w-48 rounded border border-[#ff6b6b]/40 opacity-75" />
-
-<div class="text-left">
-  <div class="text-sm font-semibold text-[#aaff4f]">+48% overall · same 30B weights</div>
-  <div class="text-xs opacity-70">the gap is the dataset, not the parameter count</div>
+<div class="grid grid-cols-4 gap-3">
+  <img src="/showcase/ours_cover.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
+  <img src="/showcase/ours_image1.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
+  <img src="/showcase/ours_image2.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
+  <img src="/showcase/ours_dark.png" class="w-full rounded border-2 border-[#aaff4f]/40 shadow-lg" />
 </div>
 
+</div>
+
+<div class="mt-6 text-center text-sm opacity-85">
+  base leaks <span class="font-mono text-[#ff6b6b]/80">frontmatter as body text</span>, produces wall-of-bullets.
+  <span class="text-[#aaff4f]">the gap is the dataset, not the parameter count.</span>
 </div>
 
 ---
