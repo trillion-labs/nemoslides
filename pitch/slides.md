@@ -42,7 +42,7 @@ class: text-center
 </div>
 
 <div class="mt-12 flex flex-col items-center gap-2">
-  <QrCode value="https://nemoslides-production.up.railway.app" :size="200" />
+  <img src="/qr-demo.png" class="w-50 h-50" />
   <div class="text-sm font-mono opacity-70 mt-2">scan → live demo</div>
   <div class="text-xs font-mono opacity-40">nemoslides-production.up.railway.app</div>
 </div>
@@ -384,41 +384,31 @@ class: px-16
 <div class="grid grid-cols-5 gap-6 justify-items-center">
 
 <div class="flex flex-col items-center gap-2">
-  <div class="bg-white p-2 rounded">
-    <QrCode value="https://nemoslides-production.up.railway.app" :size="130" />
-  </div>
+  <img src="/qr-demo.png" class="w-32 h-32" />
   <div class="text-xs font-mono uppercase opacity-55 mt-1">demo</div>
   <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">nemoslides-production<wbr/>.up.railway.app</div>
 </div>
 
 <div class="flex flex-col items-center gap-2">
-  <div class="bg-white p-2 rounded">
-    <QrCode value="https://trillion-labs.github.io/nemoslides/gallery/" :size="130" />
-  </div>
+  <img src="/qr-gallery.png" class="w-32 h-32" />
   <div class="text-xs font-mono uppercase opacity-55 mt-1">gallery</div>
   <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">trillion-labs.github.io<wbr/>/nemoslides/gallery</div>
 </div>
 
 <div class="flex flex-col items-center gap-2">
-  <div class="bg-white p-2 rounded">
-    <QrCode value="https://huggingface.co/trillionlabs/NemoSlides" :size="130" />
-  </div>
+  <img src="/qr-hf-model.png" class="w-32 h-32" />
   <div class="text-xs font-mono uppercase opacity-55 mt-1">hf · model</div>
   <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">hf.co/trillionlabs<wbr/>/NemoSlides</div>
 </div>
 
 <div class="flex flex-col items-center gap-2">
-  <div class="bg-white p-2 rounded">
-    <QrCode value="https://huggingface.co/datasets/trillionlabs/NemoSlides-SFT-mix-v1.0" :size="130" />
-  </div>
+  <img src="/qr-hf-dataset.png" class="w-32 h-32" />
   <div class="text-xs font-mono uppercase opacity-55 mt-1">hf · dataset</div>
   <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">hf.co/datasets/trillionlabs<wbr/>/NemoSlides-SFT-mix-v1.0</div>
 </div>
 
 <div class="flex flex-col items-center gap-2">
-  <div class="bg-white p-2 rounded">
-    <QrCode value="https://github.com/trillion-labs/nemoslides" :size="130" />
-  </div>
+  <img src="/qr-github.png" class="w-32 h-32" />
   <div class="text-xs font-mono uppercase opacity-55 mt-1">github</div>
   <div class="text-[10px] font-mono opacity-45 break-all text-center max-w-[140px]">github.com/trillion-labs<wbr/>/nemoslides</div>
 </div>
@@ -434,9 +424,7 @@ class: text-center
 
 <div class="mt-10 flex items-center justify-center gap-10">
 
-<div class="bg-white p-3 rounded">
-  <QrCode value="https://github.com/trillion-labs/nemoslides" :size="200" />
-</div>
+<img src="/qr-github.png" class="w-50 h-50" />
 
 <div class="text-left">
   <div class="text-xl font-semibold">See the code.</div>
