@@ -9,6 +9,7 @@
   <a href="https://github.com/NVIDIA-NeMo/RL"><img alt="NeMo-RL" src="https://img.shields.io/badge/Built%20with-NeMo--RL-76B900"></a>
   <a href="https://sli.dev"><img alt="Slidev" src="https://img.shields.io/badge/format-Slidev-06b6d4"></a>
   <a href="https://huggingface.co/datasets/trillionlabs/slides-sft-v0"><img alt="HF dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20dataset-slides--sft--v0-FFD21F"></a>
+  <a href="https://huggingface.co/trillionlabs/nemotron-slide"><img alt="HF model" src="https://img.shields.io/badge/%F0%9F%A4%97%20model-nemotron--slide-FFD21F"></a>
   <a href="https://ai.google.dev/gemini-api/docs"><img alt="Gemini judge" src="https://img.shields.io/badge/judge-Gemini%203%20Flash-4285F4"></a>
   <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white"></a>
   <a href="https://docs.astral.sh/uv/"><img alt="uv" src="https://img.shields.io/badge/managed%20by-uv-261230"></a>
