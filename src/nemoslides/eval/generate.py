@@ -74,11 +74,25 @@ _THINK_RE = re.compile(r"<think>.*?</think>\s*", re.DOTALL)
 _FENCE_BLOCK_RE = re.compile(
     r"```(?:markdown|md|slidev)?[ \t]*\n(.*?)```", re.DOTALL
 )
+# Matches the first YAML frontmatter opener on its own line (Slidev deck start).
+_FRONTMATTER_RE = re.compile(r"^---[ \t]*$", re.MULTILINE)
 
 
 def strip_think(text: str) -> str:
-    """Remove leading <think>...</think> block(s). Returns the deck body."""
-    return _THINK_RE.sub("", text, count=1).lstrip()
+    """Remove leading <think>...</think> block(s). Returns the deck body.
+
+    Also handles vLLM chat templates that strip <think> tags and place
+    reasoning directly in the content field before the deck frontmatter.
+    """
+    after = _THINK_RE.sub("", text, count=1).lstrip()
+    if after.startswith("---") or after.startswith("#") or after.startswith("```"):
+        return after
+    # No <think> tags matched (or residual reasoning before frontmatter).
+    # Find the first --- line that starts the Slidev YAML frontmatter.
+    m = _FRONTMATTER_RE.search(after)
+    if m:
+        return after[m.start():]
+    return after
 
 
 def unwrap_fence(text: str) -> str:
